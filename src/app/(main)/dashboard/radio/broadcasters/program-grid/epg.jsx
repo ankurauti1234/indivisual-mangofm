@@ -11,6 +11,7 @@ import DownloadDialog from "./download-dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { useRouter, useSearchParams } from "next/navigation";
+import ReportsDialog from "./reports-dailog";
 
 const MINUTES_IN_DAY = 24 * 60;
 const FIXED_WIDTH = 9600;
@@ -304,6 +305,7 @@ const EPG = () => {
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100">Radio Program Guide</h1>
           <div className="flex items-center gap-4">
+            <ReportsDialog channels={channels} selectedDate={selectedDate}/>
             <DownloadDialog channels={channels} selectedDate={selectedDate} />
             <div className="flex items-center gap-2 bg-white/80 dark:bg-zinc-800/80 rounded-xl p-2 shadow-md">
               <Button onClick={handlePrevDate} size="icon" className="bg-white dark:bg-zinc-900 hover:bg-zinc-100 dark:hover:bg-zinc-700">
