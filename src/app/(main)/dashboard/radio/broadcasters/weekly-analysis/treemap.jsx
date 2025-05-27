@@ -14,11 +14,11 @@ import { club as clubWeek2, mango as mangoWeek2, redfm as redfmWeek2, mirchi as 
 
 // Define colors based on percentage ranges
 const getColorByRange = (percentage) => {
-  if (percentage/100 >= 10) return "#FF3B30"; // Red for highest range
-  if (percentage/100 >= 5) return "#007AFF"; // Blue for high range
-  if (percentage/100 >= 3) return "#34C759"; // Green for medium range
-  if (percentage/100 >= 1) return "#5856D6";  // Purple for lower range
-  return "#FFCC00";                      // Yellow for lowest range
+  if (percentage / 100 >= 10) return "#FF3B30"; // Red for highest range
+  if (percentage / 100 >= 5) return "#007AFF"; // Blue for high range
+  if (percentage / 100 >= 3) return "#34C759"; // Green for medium range
+  if (percentage / 100 >= 1) return "#5856D6"; // Purple for lower range
+  return "#FFCC00"; // Yellow for lowest range
 };
 
 // Aggregate data to combine duplicate categories and their brands
@@ -104,6 +104,19 @@ const SectorTreemap = () => {
     const { x, y, width, height, name, size, fill } = props;
     const isHovered = hoveredItem === name;
 
+    // Truncate long category names
+    const truncateText = (text, maxLength) => {
+      if (text?.length <= maxLength) return text;
+      return text?.substring(0, maxLength - 3) + "...";
+    };
+
+    // Calculate dynamic font size based on rectangle dimensions
+    const fontSize = Math.min(width, height) > 100 ? 14 : Math.min(width, height) > 60 ? 12 : 10;
+    const maxTextLength = Math.floor(width / (fontSize * 0.6)); // Approximate characters based on font size
+
+    // Only render text if the rectangle is large enough
+    const shouldRenderText = width > 40 && height > 40;
+
     return (
       <g
         onMouseEnter={() => setHoveredItem(name)}
@@ -126,33 +139,37 @@ const SectorTreemap = () => {
           stroke="white"
           strokeWidth={3}
         />
-        {width > 50 && height > 50 && (
+        {shouldRenderText && (
           <text
             x={x + width / 2}
             y={y + height / 2}
             textAnchor="middle"
             fill="#FFFFFF"
             style={{
-              fontSize: width > 100 ? "16px" : "12px",
+              fontSize: `${fontSize}px`,
               fontWeight: "500",
               textShadow: "0 1px 2px rgba(0,0,0,0.2)",
               transition: "all 0.3s ease",
               opacity: isHovered ? 1 : 0.9,
+              pointerEvents: "none", // Prevent text from capturing mouse events
             }}
+            clipPath={`inset(0 ${width * 0.05}px)`} // Clip text to stay within rectangle
           >
-            <tspan x={x + width / 2} dy="-0.5em">
-              {name}
+            <tspan x={x + width / 2} dy={height > 60 ? "-0.6em" : "0em"}>
+              {truncateText(name, maxTextLength)}
             </tspan>
-            <tspan
-              x={x + width / 2}
-              dy="1.5em"
-              style={{
-                fontSize: width > 100 ? "14px" : "11px",
-                fontWeight: "400",
-              }}
-            >
-              {`${(size/100)?.toFixed(2)}%`}
-            </tspan>
+            {height > 60 && (
+              <tspan
+                x={x + width / 2}
+                dy="1.2em"
+                style={{
+                  fontSize: `${fontSize * 0.85}px`,
+                  fontWeight: "400",
+                }}
+              >
+                {(size / 100)?.toFixed(2)}%
+              </tspan>
+            )}
           </text>
         )}
       </g>
@@ -160,7 +177,7 @@ const SectorTreemap = () => {
   };
 
   const CustomTooltip = ({ active, payload }) => {
-    if (active && payload && payload.length) {
+    if (active && payload && payload?.length) {
       const industry = payload[0].payload;
       return (
         <div className="backdrop-blur-xl bg-white/90 p-4 rounded-2xl shadow-lg border border-gray-200">
@@ -172,9 +189,9 @@ const SectorTreemap = () => {
             <h3 className="font-semibold text-lg">{industry.name}</h3>
           </div>
           <p className="text-sm text-gray-600 mb-3">
-            Percentage: {(industry.size/100)?.toFixed(2)}%
+            Percentage: {(industry.size / 100)?.toFixed(2)}%
           </p>
-          {industry.brands.length > 0 && (
+          {industry.brands?.length > 0 && (
             <div className="space-y-2">
               <p className="font-medium text-sm">Top Brands:</p>
               <div className="grid grid-cols-2 gap-2">
@@ -276,7 +293,7 @@ const SectorTreemap = () => {
               <Info className="w-4 h-4 text-gray-400" />
             </div>
             <div className="px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
-              {currentStation.children.length} Categories
+              {currentStation.children?.length} Categories
             </div>
           </div>
           <div className="h-[500px] rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
