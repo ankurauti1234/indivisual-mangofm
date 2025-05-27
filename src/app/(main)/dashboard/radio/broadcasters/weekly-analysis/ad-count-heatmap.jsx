@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { Radio, Clock, Info } from "lucide-react";
 import {
@@ -8,175 +9,50 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
+import { week1, week2 } from "./heatmap-data.js";
 
 const RadioAdHeatmap = () => {
+  const [selectedWeek, setSelectedWeek] = useState("Week 1");
   const [hoveredCell, setHoveredCell] = useState(null);
   const [hoveredRow, setHoveredRow] = useState(null);
 
-  // Sample data structure - replace with your actual data
-const data = {
-  adFrequency: [
-    { station: "RADIO CITY FM", hour: "00:00", frequency: 14 },
-    { station: "RADIO CITY FM", hour: "01:00", frequency: 17 },
-    { station: "RADIO CITY FM", hour: "02:00", frequency: 11 },
-    { station: "RADIO CITY FM", hour: "03:00", frequency: 10 },
-    { station: "RADIO CITY FM", hour: "04:00", frequency: 19 },
-    { station: "RADIO CITY FM", hour: "05:00", frequency: 23 },
-    { station: "RADIO CITY FM", hour: "06:00", frequency: 25 },
-    { station: "RADIO CITY FM", hour: "07:00", frequency: 22 },
-    { station: "RADIO CITY FM", hour: "08:00", frequency: 24 },
-    { station: "RADIO CITY FM", hour: "09:00", frequency: 21 },
-    { station: "RADIO CITY FM", hour: "10:00", frequency: 16 },
-    { station: "RADIO CITY FM", hour: "11:00", frequency: 18 },
-    { station: "RADIO CITY FM", hour: "12:00", frequency: 20 },
-    { station: "RADIO CITY FM", hour: "13:00", frequency: 15 },
-    { station: "RADIO CITY FM", hour: "14:00", frequency: 14 },
-    { station: "RADIO CITY FM", hour: "15:00", frequency: 19 },
-    { station: "RADIO CITY FM", hour: "16:00", frequency: 23 },
-    { station: "RADIO CITY FM", hour: "17:00", frequency: 25 },
-    { station: "RADIO CITY FM", hour: "18:00", frequency: 20 },
-    { station: "RADIO CITY FM", hour: "19:00", frequency: 17 },
-    { station: "RADIO CITY FM", hour: "20:00", frequency: 14 },
-    { station: "RADIO CITY FM", hour: "21:00", frequency: 12 },
-    { station: "RADIO CITY FM", hour: "22:00", frequency: 10 },
-    { station: "RADIO CITY FM", hour: "23:00", frequency: 13 },
-    { station: "RED FM", hour: "00:00", frequency: 15 },
-    { station: "RED FM", hour: "01:00", frequency: 18 },
-    { station: "RED FM", hour: "02:00", frequency: 12 },
-    { station: "RED FM", hour: "03:00", frequency: 10 },
-    { station: "RED FM", hour: "04:00", frequency: 14 },
-    { station: "RED FM", hour: "05:00", frequency: 19 },
-    { station: "RED FM", hour: "06:00", frequency: 25 },
-    { station: "RED FM", hour: "07:00", frequency: 23 },
-    { station: "RED FM", hour: "08:00", frequency: 22 },
-    { station: "RED FM", hour: "09:00", frequency: 20 },
-    { station: "RED FM", hour: "10:00", frequency: 17 },
-    { station: "RED FM", hour: "11:00", frequency: 19 },
-    { station: "RED FM", hour: "12:00", frequency: 16 },
-    { station: "RED FM", hour: "13:00", frequency: 14 },
-    { station: "RED FM", hour: "14:00", frequency: 15 },
-    { station: "RED FM", hour: "15:00", frequency: 20 },
-    { station: "RED FM", hour: "16:00", frequency: 24 },
-    { station: "RED FM", hour: "17:00", frequency: 25 },
-    { station: "RED FM", hour: "18:00", frequency: 18 },
-    { station: "RED FM", hour: "19:00", frequency: 17 },
-    { station: "RED FM", hour: "20:00", frequency: 13 },
-    { station: "RED FM", hour: "21:00", frequency: 11 },
-    { station: "RED FM", hour: "22:00", frequency: 10 },
-    { station: "RED FM", hour: "23:00", frequency: 14 },
-    { station: "RADIO MIRCHI FM", hour: "00:00", frequency: 13 },
-    { station: "RADIO MIRCHI FM", hour: "01:00", frequency: 11 },
-    { station: "RADIO MIRCHI FM", hour: "02:00", frequency: 10 },
-    { station: "RADIO MIRCHI FM", hour: "03:00", frequency: 12 },
-    { station: "RADIO MIRCHI FM", hour: "04:00", frequency: 14 },
-    { station: "RADIO MIRCHI FM", hour: "05:00", frequency: 15 },
-    { station: "RADIO MIRCHI FM", hour: "06:00", frequency: 20 },
-    { station: "RADIO MIRCHI FM", hour: "07:00", frequency: 23 },
-    { station: "RADIO MIRCHI FM", hour: "08:00", frequency: 25 },
-    { station: "RADIO MIRCHI FM", hour: "09:00", frequency: 21 },
-    { station: "RADIO MIRCHI FM", hour: "10:00", frequency: 16 },
-    { station: "RADIO MIRCHI FM", hour: "11:00", frequency: 18 },
-    { station: "RADIO MIRCHI FM", hour: "12:00", frequency: 19 },
-    { station: "RADIO MIRCHI FM", hour: "13:00", frequency: 15 },
-    { station: "RADIO MIRCHI FM", hour: "14:00", frequency: 14 },
-    { station: "RADIO MIRCHI FM", hour: "15:00", frequency: 17 },
-    { station: "RADIO MIRCHI FM", hour: "16:00", frequency: 23 },
-    { station: "RADIO MIRCHI FM", hour: "17:00", frequency: 25 },
-    { station: "RADIO MIRCHI FM", hour: "18:00", frequency: 20 },
-    { station: "RADIO MIRCHI FM", hour: "19:00", frequency: 15 },
-    { station: "RADIO MIRCHI FM", hour: "20:00", frequency: 12 },
-    { station: "RADIO MIRCHI FM", hour: "21:00", frequency: 11 },
-    { station: "RADIO MIRCHI FM", hour: "22:00", frequency: 10 },
-    { station: "RADIO MIRCHI FM", hour: "23:00", frequency: 14 },
-    { station: "BIG FM", hour: "00:00", frequency: 15 },
-    { station: "BIG FM", hour: "01:00", frequency: 11 },
-    { station: "BIG FM", hour: "02:00", frequency: 10 },
-    { station: "BIG FM", hour: "03:00", frequency: 12 },
-    { station: "BIG FM", hour: "04:00", frequency: 13 },
-    { station: "BIG FM", hour: "05:00", frequency: 14 },
-    { station: "BIG FM", hour: "06:00", frequency: 18 },
-    { station: "BIG FM", hour: "07:00", frequency: 22 },
-    { station: "BIG FM", hour: "08:00", frequency: 24 },
-    { station: "BIG FM", hour: "09:00", frequency: 20 },
-    { station: "BIG FM", hour: "10:00", frequency: 17 },
-    { station: "BIG FM", hour: "11:00", frequency: 18 },
-    { station: "BIG FM", hour: "12:00", frequency: 19 },
-    { station: "BIG FM", hour: "13:00", frequency: 15 },
-    { station: "BIG FM", hour: "14:00", frequency: 14 },
-    { station: "BIG FM", hour: "15:00", frequency: 20 },
-    { station: "BIG FM", hour: "16:00", frequency: 24 },
-    { station: "BIG FM", hour: "17:00", frequency: 25 },
-    { station: "BIG FM", hour: "18:00", frequency: 18 },
-    { station: "BIG FM", hour: "19:00", frequency: 15 },
-    { station: "BIG FM", hour: "20:00", frequency: 12 },
-    { station: "BIG FM", hour: "21:00", frequency: 11 },
-    { station: "BIG FM", hour: "22:00", frequency: 10 },
-    { station: "BIG FM", hour: "23:00", frequency: 14 },
-    { station: "RAINBOW FM", hour: "00:00", frequency: 20 },
-    { station: "RAINBOW FM", hour: "01:00", frequency: 18 },
-    { station: "RAINBOW FM", hour: "02:00", frequency: 17 },
-    { station: "RAINBOW FM", hour: "03:00", frequency: 15 },
-    { station: "RAINBOW FM", hour: "04:00", frequency: 16 },
-    { station: "RAINBOW FM", hour: "05:00", frequency: 19 },
-    { station: "RAINBOW FM", hour: "06:00", frequency: 23 },
-    { station: "RAINBOW FM", hour: "07:00", frequency: 25 },
-    { station: "RAINBOW FM", hour: "08:00", frequency: 24 },
-    { station: "RAINBOW FM", hour: "09:00", frequency: 22 },
-    { station: "RAINBOW FM", hour: "10:00", frequency: 21 },
-    { station: "RAINBOW FM", hour: "11:00", frequency: 18 },
-    { station: "RAINBOW FM", hour: "12:00", frequency: 19 },
-    { station: "RAINBOW FM", hour: "13:00", frequency: 15 },
-    { station: "RAINBOW FM", hour: "14:00", frequency: 14 },
-    { station: "RAINBOW FM", hour: "15:00", frequency: 20 },
-    { station: "RAINBOW FM", hour: "16:00", frequency: 24 },
-    { station: "RAINBOW FM", hour: "17:00", frequency: 25 },
-    { station: "RAINBOW FM", hour: "18:00", frequency: 23 },
-    { station: "RAINBOW FM", hour: "19:00", frequency: 20 },
-    { station: "RAINBOW FM", hour: "20:00", frequency: 18 },
-    { station: "RAINBOW FM", hour: "21:00", frequency: 17 },
-    { station: "RAINBOW FM", hour: "22:00", frequency: 15 },
-    { station: "RAINBOW FM", hour: "23:00", frequency: 14 },
-  ],
-};
-
+  const data = selectedWeek === "Week 1" ? week1 : week2;
 
   const processData = (data) => {
-    const hours = Array.from(
-      { length: 24 },
-      (_, i) => `${String(i).padStart(2, "0")}:00`
-    );
-    const stations = [...new Set(data.map((item) => item.station))];
+    // Match data's hour format: "0:00", "1:00", ..., "23:00"
+    const hours = Array.from({ length: 24 }, (_, i) => `${i}:00`);
+    const stations = ["RED FM", "Club FM", "Mango", "Mirchi"];
+
+    console.log("Selected data:", data); // Debug: Log input data
 
     const matrix = stations.map((station) => {
       const stationData = { station };
       hours.forEach((hour) => {
-        const match = data.find(
-          (d) => d.station === station && d.hour === hour
-        );
-        stationData[hour] = match ? match.frequency : 0;
+        const match = data.find((d) => d.hour === hour);
+        stationData[hour] = match ? match.stations[station]?.minutes || 0 : 0;
       });
       return stationData;
     });
 
+    console.log("Matrix:", matrix); // Debug: Log processed matrix
     return matrix;
   };
 
-  const matrix = processData(data.adFrequency);
-  const { min, max } = {
-    min: 0,
-    max: 15, // Adjust based on your actual data
-  };
+  const matrix = processData(data);
+
+  const values = matrix.flatMap((row) =>
+    Object.values(row).filter((val) => typeof val === "number")
+  );
+  const min = Math.min(...values);
+  const max = Math.max(...values); // Remove hardcoded 15 to handle large values (e.g., 286.5)
 
   const getColor = (value) => {
     if (!value) return "rgb(244, 245, 247)";
     const normalizedValue = (value - min) / (max - min);
-    return `rgba(242, 100, 50, ${0.2 + normalizedValue * 0.5})`; // Apple Blue with variable opacity
+    return `rgba(242, 100, 50, ${0.2 + normalizedValue * 0.5})`;
   };
 
-  const hours = Array.from(
-    { length: 24 },
-    (_, i) => `${String(i).padStart(2, "0")}:00`
-  );
+  const hours = Array.from({ length: 24 }, (_, i) => `${i}:00`);
 
   const getTimeOfDay = (hour) => {
     const hourNum = parseInt(hour);
@@ -196,14 +72,36 @@ const data = {
             </div>
             <div>
               <CardTitle className="text-2xl font-semibold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent mb-1">
-                Ad Airplay time Distribution Heatmap
+                Ad Airplay Time Distribution Heatmap
               </CardTitle>
               <CardDescription className="text-gray-500">
-                24-hour advertisement duration analysis
+                24-hour advertisement duration analysis ({selectedWeek})
               </CardDescription>
             </div>
           </div>
           <Clock className="h-6 w-6 text-primary/60" />
+        </div>
+        <div className="flex justify-center mt-4">
+          <button
+            className={`px-4 py-2 mx-2 rounded-md ${
+              selectedWeek === "Week 1"
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+            onClick={() => setSelectedWeek("Week 1")}
+          >
+            Week 1
+          </button>
+          <button
+            className={`px-4 py-2 mx-2 rounded-md ${
+              selectedWeek === "Week 2"
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-700"
+            }`}
+            onClick={() => setSelectedWeek("Week 2")}
+          >
+            Week 2
+          </button>
         </div>
       </CardHeader>
 
@@ -264,10 +162,12 @@ const data = {
                     <div
                       className={`w-full h-full p-2 text-center transition-all duration-200`}
                     >
-                      <span className="text-xs font-medium">{row[hour]}</span>
+                      <span className="text-xs font-medium">
+                        {row[hour].toFixed(1)}
+                      </span>
                     </div>
-                    <div className="absolute -top-8 left-1/2  w-20 h-fit z-50 -translate-x-1/2 bg-gray-800 text-white text-xs py-1 px-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
-                      {`${row.station}: ${row[hour]} mins`}
+                    <div className="absolute -top-8 left-1/2 w-20 h-fit z-50 -translate-x-1/2 bg-gray-800 text-white text-xs py-1 px-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity">
+                      {`${row.station}: ${row[hour].toFixed(1)} mins`}
                     </div>
                   </div>
                 ))}
@@ -278,7 +178,7 @@ const data = {
           <div className="mt-8 flex items-center justify-center gap-6">
             <div className="flex items-center gap-3 bg-gray-50/50 rounded-xl p-3">
               <div className="flex items-center gap-2">
-                <div className="text-sm text-gray-600">Frequency:</div>
+                <div className="text-sm text-gray-600">Duration:</div>
                 <div className="h-4 w-96 rounded-md bg-gradient-to-r from-[#F2643022] to-[#F26430]" />
                 <div className="text-sm text-gray-600">Higher</div>
               </div>
@@ -295,7 +195,7 @@ const data = {
         <div className="flex items-center gap-2">
           <Clock className="h-4 w-4" />
           <span>
-            Advertisement frequency analysis across 24-hour broadcast period
+            Advertisement duration analysis across 24-hour broadcast period
           </span>
         </div>
       </CardFooter>
