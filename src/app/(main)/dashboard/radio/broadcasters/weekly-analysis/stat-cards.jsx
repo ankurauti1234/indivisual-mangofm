@@ -118,7 +118,7 @@ const StatCards = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4">
+      <div className="grid grid-cols-1">
         {/* Left side: 2x2 grid */}
         <div className="grid grid-cols-2 lg:col-span-2">
           {summaryCards.slice(0, 4).map((card, index) => (
@@ -139,34 +139,6 @@ const StatCards = () => {
           ))}
         </div>
 
-        {/* Right side: Popular Songs and Popular Program */}
-        <div className="grid grid-cols-2 lg:col-span-2">
-          {summaryCards.slice(4).map((card, index) => (
-            <Card key={index} className="rounded-none shadow-sm">
-              <CardContent className="p-6">
-                <div className="flex justify-between items-start">
-                  <div>
-                    <p className="text-sm font-medium text-muted-foreground">
-                      {card.title}
-                    </p>
-                    <ul className="mt-2 space-y-1">
-                      {card.items.map((item, idx) => (
-                        <li
-                          key={idx}
-                          className="text-sm text-muted-foreground font-medium"
-                        >
-                          {idx + 1}. {item}
-                        </li>
-                      ))}
-                    </ul>
-                    {renderTrend(card.trend, card.isPositive)}
-                  </div>
-                  <div className="p-2 bg-accent rounded-lg">{card.icon}</div>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
       </div>
     </div>
   );
