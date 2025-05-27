@@ -10,7 +10,7 @@ import TopSongsChart from './top-songs-bar'
 import AdPlacementFrequencyChart from './ad-placement-frequency'
 import DetailedAdAnalysis from './derailedAdAnalysis'
 import PlatformComparison from './platform-comparison'
-import AppleStyleTreemap from './treemap'
+import SectorTreemap from './treemap'
 import RadioSectorAnalysis from './comperative-bar'
 import RJDashboard from './rj-dashboard'
 
@@ -29,7 +29,7 @@ const RadioDashboard = () => {
       <RJDashboard />
       <RadioAdHeatmap />
       <RadioSectorAnalysis />
-      <AppleStyleTreemap />
+      <SectorTreemap />
       {/* <div className='flex gap-4'>
         <TopProgramsChart />
         <TopSongsChart />

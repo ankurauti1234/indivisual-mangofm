@@ -9,203 +9,68 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Radio, Info } from "lucide-react";
+import { club, mango, redfm, mirchi } from "./treemap-data.js";
 
-const AppleStyleTreemap = () => {
-  const [selectedStation, setSelectedStation] = useState("1");
+// Define colors based on percentage ranges
+const getColorByRange = (percentage) => {
+  if (percentage/100 >= 10) return "#FF3B30"; // Red for highest range
+  if (percentage/100 >= 5) return "#007AFF"; // Blue for high range
+  if (percentage/100 >= 3) return "#34C759"; // Green for medium range
+  if (percentage/100 >= 1) return "#5856D6";  // Purple for lower range
+  return "#FFCC00";                      // Yellow for lowest range
+};
+
+// Aggregate data to combine duplicate categories and their brands
+const aggregateData = (data) => {
+  const categoryMap = data.reduce((acc, item) => {
+    const { Category, Percentage, "Brand Name/Parent Comany": brand } = item;
+    if (!acc[Category]) {
+      acc[Category] = { size: 0, brands: new Set() };
+    }
+    acc[Category].size += Percentage;
+    if (brand) {
+      acc[Category].brands.add(brand);
+    }
+    return acc;
+  }, {});
+
+  return Object.entries(categoryMap).map(([name, { size, brands }]) => ({
+    name,
+    size,
+    brands: Array.from(brands),
+    fill: getColorByRange(size),
+  }));
+};
+
+const SectorTreemap = () => {
+  const [selectedStation, setSelectedStation] = useState("club");
   const [hoveredItem, setHoveredItem] = useState(null);
 
-  // Define colors based on ad count ranges
-  const getColorByRange = (size) => {
-    if (size >= 31 && size <= 35) return "#FF3B30";      // Red for highest range
-    if (size >= 26 && size <= 30) return "#007AFF";      // Blue for high range
-    if (size >= 21 && size <= 25) return "#34C759";      // Green for medium range
-    if (size >= 15 && size <= 20) return "#5856D6";      // Purple for lower range
-    return "#FFCC00";                                    // Yellow for outliers
-  };
-
   const stations = [
-    { id: "1", name: "Radio City FM" },
-    { id: "2", name: "Radio Mirchi" },
-    { id: "3", name: "Red FM" },
-    { id: "4", name: "Big FM" },
-    { id: "5", name: "Rainbow FM" },
+    { id: "club", name: "Club FM" },
+    { id: "mango", name: "Mango FM" },
+    { id: "redfm", name: "Red FM" },
+    { id: "mirchi", name: "Mirchi FM" },
   ];
 
-  // Enhanced station data with dynamic colors based on size
+  // Map station data with aggregated categories
   const stationData = {
-    1: {
-      name: "Radio City FM",
-      children: [
-          { name: "Medicinal Products", size: 30, brands: ["Cipla", "Sun Pharma", "Pfizer", "Dr. Reddy's"] },
-          { name: "Travel & Tourism", size: 28, brands: ["MakeMyTrip", "Goibibo", "Yatra", "Expedia"] },
-          { name: "Automobile - Car", size: 32, brands: ["Maruti Suzuki", "Hyundai", "Tata Motors", "Honda"] },
-          { name: "Dairy Products", size: 25, brands: ["Amul", "Mother Dairy", "Nestle", "Britannia"] },
-          { name: "Finance - Loans", size: 27, brands: ["HDFC", "ICICI", "Bajaj Finance", "SBI"] },
-          { name: "Public Service Ads", size: 15, brands: ["Ministry of Health", "WHO", "UNICEF", "NITI Aayog"] },
-          { name: "Automobile - Dealers", size: 20, brands: ["True Value", "Mahindra First Choice", "Spinny", "Cars24"] },
-          { name: "Finance - Bank", size: 30, brands: ["HDFC Bank", "ICICI Bank", "SBI", "Axis Bank"] },
-          { name: "Fast Food", size: 26, brands: ["McDonald's", "KFC", "Domino's", "Burger King"] },
-          { name: "Building Materials", size: 22, brands: ["Ultratech Cement", "ACC Cement", "Ambuja Cement", "Shree Cement"] },
-          { name: "Finance - Insurance", size: 23, brands: ["LIC", "Max Life", "HDFC Life", "Bajaj Allianz"] },
-          { name: "Personal Care", size: 25, brands: ["Dove", "Nivea", "Himalaya", "Patanjali"] },
-          { name: "Textile and Apparels", size: 21, brands: ["Raymond", "Allen Solly", "Levi's", "Van Heusen"] },
-          { name: "Hotel & Restaurants", size: 30, brands: ["Taj Hotels", "Oberoi", "Hyatt", "ITC Hotels"] },
-          { name: "Building Material", size: 28, brands: ["L&T", "Godrej Interio", "Asian Paints", "Berger Paints"] },
-          { name: "Entertainment", size: 32, brands: ["Netflix", "Amazon Prime", "Disney+", "Sony Liv"] },
-          { name: "Accessory - Jewellery", size: 19, brands: ["Tanishq", "Malabar Gold", "Kalyan Jewellers", "CaratLane"] },
-          { name: "Healthcare", size: 29, brands: ["Apollo", "Fortis", "Medanta", "Max Healthcare"] },
-          { name: "Education", size: 22, brands: ["Byju's", "Unacademy", "Coursera", "Udemy"] },
-          { name: "Insurance", size: 27, brands: ["ICICI Prudential", "HDFC Life", "SBI Life", "Tata AIA"] },
-          { name: "Fashion", size: 21, brands: ["H&M", "Zara", "Nike", "Adidas"] },
-          { name: "Food & Beverage", size: 30, brands: ["Coca-Cola", "PepsiCo", "McDonald's", "KFC"] },
-          { name: "Banking", size: 25, brands: ["SBI", "HDFC Bank", "ICICI Bank", "Axis Bank"] },
-          { name: "Chemical", size: 22, brands: ["Tata Chemicals", "Reliance Chemicals", "UPL", "BASF"] },
-          { name: "Construction", size: 28, brands: ["L&T", "Shapoorji Pallonji", "GMR", "HCC"] },
-          { name: "Public Works", size: 24, brands: ["NHAI", "PWD", "Indian Railways", "Metro Projects"] },
-          { name: "FMCG", size: 27, brands: ["Hindustan Unilever", "Nestle", "ITC", "Dabur"] },
-          { name: "Government", size: 20, brands: ["Ministry of Tourism", "Swachh Bharat", "Make in India", "Skill India"] },
-          { name: "Real Estate", size: 30, brands: ["DLF", "Godrej Properties", "Prestige", "Lodha"] },
-          { name: "Jewellery", size: 19, brands: ["Tanishq", "Kalyan Jewellers", "Malabar Gold", "CaratLane"] },
-          { name: "Travel", size: 29, brands: ["IRCTC", "Airbnb", "Expedia", "Yatra"] },
-          { name: "Automobile", size: 32, brands: ["Maruti Suzuki", "Hyundai", "Tata Motors", "Mahindra"] }
-      ].map(item => ({ ...item, fill: getColorByRange(item.size) }))
-  },
-  2: {
-    name: "Capital Radio",
-    children: [
-      {
-        name: "Entertainment",
-        size: 30,
-        brands: ["Netflix", "Amazon Prime", "Disney+", "Sony"],
-      },
-      {
-        name: "Fashion",
-        size: 25,
-        // fill: vibrantColors[1],
-        brands: ["H&M", "Zara", "Uniqlo", "Nike"],
-      },
-      {
-        name: "Food & Beverage",
-        size: 20,
-        // fill: vibrantColors[2],
-        brands: ["Coca-Cola", "PepsiCo", "McDonald's", "KFC"],
-      },
-      {
-        name: "Technology",
-        size: 15,
-        // fill: vibrantColors[3],
-        brands: ["Apple", "Samsung", "OnePlus", "Dell"],
-      },
-      {
-        name: "Insurance",
-        size: 10,
-        // fill: vibrantColors[4],
-        brands: ["LIC", "HDFC Life", "Max Life", "SBI Life"],
-      },
-    ].map(item => ({ ...item, fill: getColorByRange(item.size) })),
-  },
-  3: {
-    name: "Wave FM",
-    children: [
-      {
-        name: "Sports",
-        size: 28,
-        brands: ["Nike", "Adidas", "Puma", "Under Armour"],
-      },
-      {
-        name: "Beauty",
-        size: 22,
-        // fill: vibrantColors[1],
-        brands: ["L'Oreal", "Maybelline", "MAC", "Lakme"],
-      },
-      {
-        name: "Healthcare",
-        size: 18,
-        // fill: vibrantColors[2],
-        brands: ["Apollo", "Fortis", "Max Healthcare", "Cipla"],
-      },
-      {
-        name: "Education",
-        size: 20,
-        // fill: vibrantColors[3],
-        brands: ["Byju's", "Unacademy", "Coursera", "Udemy"],
-      },
-      {
-        name: "Real Estate",
-        size: 12,
-        // fill: vibrantColors[4],
-        brands: ["DLF", "Godrej Properties", "Prestige", "Lodha"],
-      },
-    ].map(item => ({ ...item, fill: getColorByRange(item.size) })),
-  },
-  4: {
-    name: "Melody 90.4",
-    children: [
-      {
-        name: "Travel",
-        size: 25,
-        brands: ["MakeMyTrip", "Yatra", "Airbnb", "IRCTC"],
-      },
-      {
-        name: "Jewelry",
-        size: 20,
-        // fill: vibrantColors[1],
-        brands: ["Tanishq", "Kalyan", "CaratLane", "Malabar Gold"],
-      },
-      {
-        name: "Home Decor",
-        size: 15,
-        // fill: vibrantColors[2],
-        brands: ["IKEA", "Home Centre", "Urban Ladder", "Pepperfry"],
-      },
-      {
-        name: "Electronics",
-        size: 22,
-        // fill: vibrantColors[3],
-        brands: ["Croma", "Reliance Digital", "Vijay Sales", "Amazon"],
-      },
-      {
-        name: "Fitness",
-        size: 18,
-        // fill: vibrantColors[4],
-        brands: ["Cult.fit", "Decathlon", "Gold's Gym", "Fitbit"],
-      },
-    ].map(item => ({ ...item, fill: getColorByRange(item.size) })),
-  },
-  5: {
-    name: "Rhythm Radio",
-    children: [
-      {
-        name: "Gaming",
-        size: 24,
-        brands: ["PlayStation", "Xbox", "Nintendo", "EA Sports"],
-      },
-      {
-        name: "Streaming",
-        size: 28,
-        // fill: vibrantColors[1],
-        brands: ["Spotify", "Gaana", "JioSaavn", "Amazon Music"],
-      },
-      {
-        name: "Food Delivery",
-        size: 20,
-        // fill: vibrantColors[2],
-        brands: ["Zomato", "Swiggy", "Domino's", "Pizza Hut"],
-      },
-      {
-        name: "Airlines",
-        size: 16,
-        // fill: vibrantColors[3],
-        brands: ["IndiGo", "Air India", "SpiceJet", "Vistara"],
-      },
-      {
-        name: "Digital Payments",
-        size: 12,
-        // fill: vibrantColors[4],
-        brands: ["Paytm", "PhonePe", "Google Pay", "Amazon Pay"],
-      },
-    ].map(item => ({ ...item, fill: getColorByRange(item.size) })),
-  },
+    club: {
+      name: "Club FM",
+      children: aggregateData(club),
+    },
+    mango: {
+      name: "Mango FM",
+      children: aggregateData(mango),
+    },
+    redfm: {
+      name: "Red FM",
+      children: aggregateData(redfm),
+    },
+    mirchi: {
+      name: "Mirchi FM",
+      children: aggregateData(mirchi),
+    },
   };
 
   const CustomizedContent = (props) => {
@@ -259,7 +124,7 @@ const AppleStyleTreemap = () => {
                 fontWeight: "400",
               }}
             >
-              {`${size} Ads`}
+              {`${size?.toFixed(2)/100}%`}
             </tspan>
           </text>
         )}
@@ -280,21 +145,23 @@ const AppleStyleTreemap = () => {
             <h3 className="font-semibold text-lg">{industry.name}</h3>
           </div>
           <p className="text-sm text-gray-600 mb-3">
-            Number of Ads: {industry.size}
+            Percentage: {industry.size?.toFixed(2)/100}%
           </p>
-          <div className="space-y-2">
-            <p className="font-medium text-sm">Top Brands:</p>
-            <div className="grid grid-cols-2 gap-2">
-              {industry.brands.map((brand, index) => (
-                <div
-                  key={index}
-                  className="bg-gray-50/80 px-3 py-2 rounded-xl text-sm"
-                >
-                  {brand}
-                </div>
-              ))}
+          {industry.brands.length > 0 && (
+            <div className="space-y-2">
+              <p className="font-medium text-sm">Top Brands:</p>
+              <div className="grid grid-cols-2 gap-2">
+                {industry.brands.map((brand, index) => (
+                  <div
+                    key={index}
+                    className="bg-gray-50/80 px-3 py-2 rounded-xl text-sm"
+                  >
+                    {brand}
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       );
     }
@@ -314,27 +181,31 @@ const AppleStyleTreemap = () => {
                 Radio Ads Distribution
               </h2>
               <p className="text-sm text-gray-500 font-normal mt-1">
-                Advertisement Distribution by Count Range
+                Advertisement Distribution by Percentage
               </p>
             </div>
           </CardTitle>
           <div className="flex items-center gap-4">
             <div className="flex gap-2 text-sm">
               <div className="flex items-center gap-1">
+                <div className="w-3 h-3 rounded-full bg-[#FFCC00]" />
+                <span>0-1%</span>
+              </div>
+              <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#5856D6]" />
-                <span>15-20</span>
+                <span>0-3%</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#34C759]" />
-                <span>21-25</span>
+                <span>0-5%</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#007AFF]" />
-                <span>26-30</span>
+                <span>0-10%</span>
               </div>
               <div className="flex items-center gap-1">
                 <div className="w-3 h-3 rounded-full bg-[#FF3B30]" />
-                <span>31-35</span>
+                <span>10%+</span>
               </div>
             </div>
             <div className="w-72">
@@ -362,7 +233,7 @@ const AppleStyleTreemap = () => {
               <Info className="w-4 h-4 text-gray-400" />
             </div>
             <div className="px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
-              {currentStation.children.length} Industries
+              {currentStation.children.length} Categories
             </div>
           </div>
           <div className="h-[500px] rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
@@ -389,4 +260,4 @@ const AppleStyleTreemap = () => {
   );
 };
 
-export default AppleStyleTreemap;
+export default SectorTreemap;
