@@ -295,7 +295,7 @@ const sectors = {
                           <div className="relative h-8 w-full">
                             <div className="absolute inset-y-0 w-full bg-gray-200/50 rounded-full" />
                             <div
-                              className="relative h-full rounded-full flex overflow-hidden shadow-sm"
+                              className="relative h-full rounded-full flex shadow-sm"
                               style={{
                                 width: `${Math.min(
                                   (totalWeekPercentage / maxTotalPercentage) *
