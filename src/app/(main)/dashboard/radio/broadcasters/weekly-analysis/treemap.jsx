@@ -9,7 +9,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Radio, Info } from "lucide-react";
-import { club, mango, redfm, mirchi } from "./treemap-data.js";
+import { club as clubWeek1, mango as mangoWeek1, redfm as redfmWeek1, mirchi as mirchiWeek1 } from "./treemap-data.js";
+import { club as clubWeek2, mango as mangoWeek2, redfm as redfmWeek2, mirchi as mirchiWeek2 } from "./treemap-data_2.js";
 
 // Define colors based on percentage ranges
 const getColorByRange = (percentage) => {
@@ -44,6 +45,7 @@ const aggregateData = (data) => {
 
 const SectorTreemap = () => {
   const [selectedStation, setSelectedStation] = useState("club");
+  const [selectedWeek, setSelectedWeek] = useState("week1");
   const [hoveredItem, setHoveredItem] = useState(null);
 
   const stations = [
@@ -53,23 +55,48 @@ const SectorTreemap = () => {
     { id: "mirchi", name: "Mirchi FM" },
   ];
 
-  // Map station data with aggregated categories
+  const weeks = [
+    { id: "week1", name: "Week 1" },
+    { id: "week2", name: "Week 2" },
+  ];
+
+  // Map station and week data with aggregated categories
   const stationData = {
-    club: {
-      name: "Club FM",
-      children: aggregateData(club),
+    week1: {
+      club: {
+        name: "Club FM",
+        children: aggregateData(clubWeek1),
+      },
+      mango: {
+        name: "Mango FM",
+        children: aggregateData(mangoWeek1),
+      },
+      redfm: {
+        name: "Red FM",
+        children: aggregateData(redfmWeek1),
+      },
+      mirchi: {
+        name: "Mirchi FM",
+        children: aggregateData(mirchiWeek1),
+      },
     },
-    mango: {
-      name: "Mango FM",
-      children: aggregateData(mango),
-    },
-    redfm: {
-      name: "Red FM",
-      children: aggregateData(redfm),
-    },
-    mirchi: {
-      name: "Mirchi FM",
-      children: aggregateData(mirchi),
+    week2: {
+      club: {
+        name: "Club FM",
+        children: aggregateData(clubWeek2),
+      },
+      mango: {
+        name: "Mango FM",
+        children: aggregateData(mangoWeek2),
+      },
+      redfm: {
+        name: "Red FM",
+        children: aggregateData(redfmWeek2),
+      },
+      mirchi: {
+        name: "Mirchi FM",
+        children: aggregateData(mirchiWeek2),
+      },
     },
   };
 
@@ -124,7 +151,7 @@ const SectorTreemap = () => {
                 fontWeight: "400",
               }}
             >
-              {`${size?.toFixed(2)/100}%`}
+              {`${(size/100)?.toFixed(2)}%`}
             </tspan>
           </text>
         )}
@@ -145,7 +172,7 @@ const SectorTreemap = () => {
             <h3 className="font-semibold text-lg">{industry.name}</h3>
           </div>
           <p className="text-sm text-gray-600 mb-3">
-            Percentage: {industry.size?.toFixed(2)/100}%
+            Percentage: {(industry.size/100)?.toFixed(2)}%
           </p>
           {industry.brands.length > 0 && (
             <div className="space-y-2">
@@ -168,7 +195,7 @@ const SectorTreemap = () => {
     return null;
   };
 
-  const currentStation = stationData[selectedStation];
+  const currentStation = stationData[selectedWeek][selectedStation];
 
   return (
     <Card className="w-full bg-gradient-to-br from-gray-50 to-gray-100">
@@ -208,19 +235,35 @@ const SectorTreemap = () => {
                 <span>10%+</span>
               </div>
             </div>
-            <div className="w-72">
-              <Select value={selectedStation} onValueChange={setSelectedStation}>
-                <SelectTrigger className="w-full h-11 rounded-xl">
-                  <SelectValue placeholder="Select a station" />
-                </SelectTrigger>
-                <SelectContent>
-                  {stations.map((station) => (
-                    <SelectItem key={station.id} value={station.id}>
-                      {station.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+            <div className="flex gap-4">
+              <div className="w-36">
+                <Select value={selectedWeek} onValueChange={setSelectedWeek}>
+                  <SelectTrigger className="w-full h-11 rounded-xl">
+                    <SelectValue placeholder="Select a week" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {weeks.map((week) => (
+                      <SelectItem key={week.id} value={week.id}>
+                        {week.name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+              <div className="w-36">
+                <Select value={selectedStation} onValueChange={setSelectedStation}>
+                  <SelectTrigger className="w-full h-11 rounded-xl">
+                    <SelectValue placeholder="Select a station" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {stations.map((station) => (
+                      <SelectItem key={station.id} value={station.id}>
+                        {station.name}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
             </div>
           </div>
         </div>
@@ -229,7 +272,7 @@ const SectorTreemap = () => {
         <div className="space-y-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <h3 className="text-lg font-medium">{currentStation.name}</h3>
+              <h3 className="text-lg font-medium">{currentStation.name} - {weeks.find(w => w.id === selectedWeek).name}</h3>
               <Info className="w-4 h-4 text-gray-400" />
             </div>
             <div className="px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
