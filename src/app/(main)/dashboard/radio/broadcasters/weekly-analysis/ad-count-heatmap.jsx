@@ -100,7 +100,7 @@ const RadioAdHeatmap = () => {
             }`}
             onClick={() => setSelectedWeek("Week 2")}
           >
-            Week 1 (23-30 April 2025)
+            Week 2 (23-30 April 2025)
           </button>
         </div>
       </CardHeader>

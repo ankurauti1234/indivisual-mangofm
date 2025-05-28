@@ -114,7 +114,7 @@ const StatCards = () => {
           }`}
           onClick={() => setSelectedWeek("Week 2")}
         >
-         Week 1 (23-30 April)
+         Week 2 (23-30 April)
         </button>
       </div>
 
