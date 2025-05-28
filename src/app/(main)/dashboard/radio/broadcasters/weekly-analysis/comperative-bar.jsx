@@ -27,7 +27,6 @@ const RadioSectorAnalysis = () => {
     Automobile: { name: "Automobile", color: "#EF4444" },
     BuildingMaterials: { name: "Building Materials", color: "#8B5CF6" },
     Constructions: { name: "Constructions", color: "#F59E0B" },
-    ConsumerDurables: { name: "Consumer Durables", color: "#EC4899" },
     Education: { name: "Education", color: "#06B6D4" },
     Entertainment: { name: "Entertainment", color: "#8B5CF6" },
     FMCG: { name: "FMCG", color: "#84CC16" },
@@ -39,7 +38,7 @@ const RadioSectorAnalysis = () => {
     Property: { name: "Property", color: "#F97316" },
     Retail: { name: "Retail", color: "#6366F1" },
     Services: { name: "Services", color: "#EF4444" },
-    "Consumer Durables": { name: "Aduthaduthu Moonu Pattu", color: "#F59E0B" },
+    "Consumer Durables": { name: "Consumer Durables", color: "#F59E0B" },
     Hospitality: { name: "Hospitality", color: "#10B981" },
   };
 
