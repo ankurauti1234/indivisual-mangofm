@@ -12,13 +12,13 @@ import { Radio, Info } from "lucide-react";
 import { club as clubWeek1, mango as mangoWeek1, redfm as redfmWeek1, mirchi as mirchiWeek1 } from "./treemap-data.js";
 import { club as clubWeek2, mango as mangoWeek2, redfm as redfmWeek2, mirchi as mirchiWeek2 } from "./treemap-data_2.js";
 
-// Define colors based on percentage ranges
+// Define colors based on percentage ranges (accessible palette)
 const getColorByRange = (percentage) => {
-  if (percentage / 100 >= 10) return "#FF3B30"; // Red for highest range
-  if (percentage / 100 >= 5) return "#007AFF"; // Blue for high range
-  if (percentage / 100 >= 3) return "#34C759"; // Green for medium range
-  if (percentage / 100 >= 1) return "#5856D6"; // Purple for lower range
-  return "#FFCC00"; // Yellow for lowest range
+  if (percentage / 100 >= 10) return "#D32F2F"; // Red (accessible)
+  if (percentage / 100 >= 5) return "#1976D2"; // Blue
+  if (percentage / 100 >= 3) return "#388E3C"; // Green
+  if (percentage / 100 >= 1) return "#7B1FA2"; // Purple
+  return "#FBC02D"; // Yellow
 };
 
 // Aggregate data to combine duplicate categories and their brands
@@ -63,40 +63,16 @@ const SectorTreemap = () => {
   // Map station and week data with aggregated categories
   const stationData = {
     week1: {
-      club: {
-        name: "Club FM",
-        children: aggregateData(clubWeek1),
-      },
-      mango: {
-        name: "Mango FM",
-        children: aggregateData(mangoWeek1),
-      },
-      redfm: {
-        name: "Red FM",
-        children: aggregateData(redfmWeek1),
-      },
-      mirchi: {
-        name: "Mirchi FM",
-        children: aggregateData(mirchiWeek1),
-      },
+      club: { name: "Club FM", children: aggregateData(clubWeek1) },
+      mango: { name: "Mango FM", children: aggregateData(mangoWeek1) },
+      redfm: { name: "Red FM", children: aggregateData(redfmWeek1) },
+      mirchi: { name: "Mirchi FM", children: aggregateData(mirchiWeek1) },
     },
     week2: {
-      club: {
-        name: "Club FM",
-        children: aggregateData(clubWeek2),
-      },
-      mango: {
-        name: "Mango FM",
-        children: aggregateData(mangoWeek2),
-      },
-      redfm: {
-        name: "Red FM",
-        children: aggregateData(redfmWeek2),
-      },
-      mirchi: {
-        name: "Mirchi FM",
-        children: aggregateData(mirchiWeek2),
-      },
+      club: { name: "Club FM", children: aggregateData(clubWeek2) },
+      mango: { name: "Mango FM", children: aggregateData(mangoWeek2) },
+      redfm: { name: "Red FM", children: aggregateData(redfmWeek2) },
+      mirchi: { name: "Mirchi FM", children: aggregateData(mirchiWeek2) },
     },
   };
 
@@ -104,15 +80,27 @@ const SectorTreemap = () => {
     const { x, y, width, height, name, size, fill } = props;
     const isHovered = hoveredItem === name;
 
-    // Truncate long category names
-    const truncateText = (text, maxLength) => {
-      if (text?.length <= maxLength) return text;
-      return text?.substring(0, maxLength - 3) + "...";
-    };
-
-    // Calculate dynamic font size based on rectangle dimensions
+    // Calculate dynamic font size and line height
     const fontSize = Math.min(width, height) > 100 ? 14 : Math.min(width, height) > 60 ? 12 : 10;
-    const maxTextLength = Math.floor(width / (fontSize * 0.6)); // Approximate characters based on font size
+    const lineHeight = fontSize * 1.2;
+    const maxWidth = width * 0.9; // 90% of rectangle width for padding
+    const words = name?.split(" ") || [];
+    let lines = [];
+    let currentLine = "";
+    const maxLines = Math.floor(height / lineHeight) - 1; // Reserve space for percentage
+
+    // Wrap text
+    words.forEach((word) => {
+      const testLine = currentLine ? `${currentLine} ${word}` : word;
+      const testWidth = testLine.length * (fontSize * 0.6); // Approximate width
+      if (testWidth <= maxWidth && lines.length < maxLines) {
+        currentLine = testLine;
+      } else {
+        if (currentLine) lines.push(currentLine);
+        currentLine = word;
+      }
+    });
+    if (currentLine && lines.length < maxLines) lines.push(currentLine);
 
     // Only render text if the rectangle is large enough
     const shouldRenderText = width > 40 && height > 40;
@@ -132,44 +120,47 @@ const SectorTreemap = () => {
           style={{
             transition: "all 0.3s ease",
             cursor: "pointer",
-            filter: isHovered ? "brightness(1.1)" : "none",
+            filter: isHovered ? "drop-shadow(0 2px 4px rgba(0,0,0,0.2))" : "none",
           }}
           rx={8}
           ry={8}
           stroke="white"
-          strokeWidth={3}
+          strokeWidth={2}
         />
         {shouldRenderText && (
           <text
             x={x + width / 2}
-            y={y + height / 2}
+            y={y + height / 2 - (lines.length * lineHeight) / 2}
             textAnchor="middle"
             fill="#FFFFFF"
             style={{
               fontSize: `${fontSize}px`,
               fontWeight: "500",
-              textShadow: "0 1px 2px rgba(0,0,0,0.2)",
+              textShadow: "0 1px 2px rgba(0,0,0,0.3)",
               transition: "all 0.3s ease",
               opacity: isHovered ? 1 : 0.9,
-              pointerEvents: "none", // Prevent text from capturing mouse events
+              pointerEvents: "none",
             }}
-            clipPath={`inset(0 ${width * 0.05}px)`} // Clip text to stay within rectangle
           >
-            <tspan x={x + width / 2} dy={height > 60 ? "-0.6em" : "0em"}>
-              {truncateText(name, maxTextLength)}
-            </tspan>
-            {height > 60 && (
+            {lines.map((line, index) => (
               <tspan
+                key={index}
                 x={x + width / 2}
-                dy="1.2em"
-                style={{
-                  fontSize: `${fontSize * 0.85}px`,
-                  fontWeight: "400",
-                }}
+                dy={index === 0 ? 0 : lineHeight}
               >
-                {(size / 100)?.toFixed(2)}%
+                {line}
               </tspan>
-            )}
+            ))}
+            <tspan
+              x={x + width / 2}
+              dy={lineHeight}
+              style={{
+                fontSize: `${fontSize * 0.85}px`,
+                fontWeight: "400",
+              }}
+            >
+              {(size / 100)?.toFixed(2)}%
+            </tspan>
           </text>
         )}
       </g>
@@ -180,30 +171,28 @@ const SectorTreemap = () => {
     if (active && payload && payload?.length) {
       const industry = payload[0].payload;
       return (
-        <div className="backdrop-blur-xl bg-white/90 p-4 rounded-2xl shadow-lg border border-gray-200">
+        <div className="backdrop-blur-xl bg-white/95 p-4 rounded-xl shadow-xl border border-gray-100">
           <div className="flex items-center gap-2 mb-2">
             <div
-              className="w-3 h-3 rounded-full"
+              className="w-4 h-4 rounded-full"
               style={{ backgroundColor: industry.fill }}
             />
-            <h3 className="font-semibold text-lg">{industry.name}</h3>
+            <h3 className="font-semibold text-base text-gray-800">{industry.name}</h3>
           </div>
-          <p className="text-sm text-gray-600 mb-3">
+          <p className="text-sm text-gray-600 mb-2">
             Percentage: {(industry.size / 100)?.toFixed(2)}%
           </p>
           {industry.brands?.length > 0 && (
-            <div className="space-y-2">
-              <p className="font-medium text-sm">Top Brands:</p>
-              <div className="grid grid-cols-2 gap-2">
-                {industry.brands.map((brand, index) => (
-                  <div
-                    key={index}
-                    className="bg-gray-50/80 px-3 py-2 rounded-xl text-sm"
-                  >
-                    {brand}
-                  </div>
-                ))}
-              </div>
+            <div className="space-y-1">
+              <p className="font-medium text-sm text-gray-700">Top Brands:</p>
+              {industry.brands.map((brand, index) => (
+                <div
+                  key={index}
+                  className="text-sm text-gray-600 truncate max-w-[200px]"
+                >
+                  {brand}
+                </div>
+              ))}
             </div>
           )}
         </div>
@@ -215,7 +204,7 @@ const SectorTreemap = () => {
   const currentStation = stationData[selectedWeek][selectedStation];
 
   return (
-    <Card className="w-full bg-gradient-to-br from-gray-50 to-gray-100">
+    <Card className="w-full bg-gradient-to-br from-gray-50 to-gray-100 shadow-lg">
       <CardHeader className="pb-4">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <CardTitle className="flex items-center gap-3">
@@ -230,32 +219,32 @@ const SectorTreemap = () => {
             </div>
           </CardTitle>
           <div className="flex items-center gap-4">
-            <div className="flex gap-2 text-sm">
+            <div className="flex flex-wrap gap-3 text-sm">
               <div className="flex items-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-[#FFCC00]" />
+                <div className="w-3 h-3 rounded-full bg-[#FBC02D]" />
                 <span>0-1%</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-[#5856D6]" />
-                <span>0-3%</span>
+                <div className="w-3 h-3 rounded-full bg-[#7B1FA2]" />
+                <span>1-3%</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-[#34C759]" />
-                <span>0-5%</span>
+                <div className="w-3 h-3 rounded-full bg-[#388E3C]" />
+                <span>3-5%</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-[#007AFF]" />
-                <span>0-10%</span>
+                <div className="w-3 h-3 rounded-full bg-[#1976D2]" />
+                <span>5-10%</span>
               </div>
               <div className="flex items-center gap-1">
-                <div className="w-3 h-3 rounded-full bg-[#FF3B30]" />
+                <div className="w-3 h-3 rounded-full bg-[#D32F2F]" />
                 <span>10%+</span>
               </div>
             </div>
             <div className="flex gap-4">
               <div className="w-36">
                 <Select value={selectedWeek} onValueChange={setSelectedWeek}>
-                  <SelectTrigger className="w-full h-11 rounded-xl">
+                  <SelectTrigger className="w-full h-11 rounded-xl hover:bg-gray-100 transition-colors">
                     <SelectValue placeholder="Select a week" />
                   </SelectTrigger>
                   <SelectContent>
@@ -269,7 +258,7 @@ const SectorTreemap = () => {
               </div>
               <div className="w-36">
                 <Select value={selectedStation} onValueChange={setSelectedStation}>
-                  <SelectTrigger className="w-full h-11 rounded-xl">
+                  <SelectTrigger className="w-full h-11 rounded-xl hover:bg-gray-100 transition-colors">
                     <SelectValue placeholder="Select a station" />
                   </SelectTrigger>
                   <SelectContent>
@@ -289,23 +278,25 @@ const SectorTreemap = () => {
         <div className="space-y-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <h3 className="text-lg font-medium">{currentStation.name} - {weeks.find(w => w.id === selectedWeek).name}</h3>
+              <h3 className="text-lg font-medium text-gray-800">
+                {currentStation.name} - {weeks.find((w) => w.id === selectedWeek).name}
+              </h3>
               <Info className="w-4 h-4 text-gray-400" />
             </div>
             <div className="px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
               {currentStation.children?.length} Categories
             </div>
           </div>
-          <div className="h-[500px] rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
+          <div className="h-[550px] rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
             <ResponsiveContainer width="100%" height="100%">
               <Treemap
                 data={currentStation.children}
                 dataKey="size"
-                aspectRatio={16 / 9}
+                aspectRatio={4 / 3} // Adjusted for better layout
                 stroke="#fff"
                 content={<CustomizedContent />}
-                animationDuration={450}
-                animationEasing="ease-out"
+                animationDuration={600}
+                animationEasing="ease-in-out"
               >
                 <Tooltip
                   content={<CustomTooltip />}

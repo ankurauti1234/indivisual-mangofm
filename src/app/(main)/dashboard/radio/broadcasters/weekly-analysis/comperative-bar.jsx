@@ -18,33 +18,30 @@ import { MangoSerctorData, RedSerctorData, ClubSerctorData, MirchiSerctorData } 
 
 const RadioSectorAnalysis = () => {
   const [selectedWeeks, setSelectedWeeks] = useState(["week_1"]);
-  const [selectedStation, setSelectedStation] = useState("all");
+  const [selectedStations, setSelectedStations] = useState(["all"]);
 
   // Define sectors with colors
-const sectors = {
-    Accessories: { name: "Accessories", color: "#10B981" }, // Emerald
-    Airlines: { name: "Airlines", color: "#3B82F6" }, // Blue
-    Automobile: { name: "Automobile", color: "#EF4444" }, // Red
-    BuildingMaterials: { name: "Building Materials", color: "#8B5CF6" }, // Violet
-    Constructions: { name: "Constructions", color: "#F59E0B" }, // Amber
-    ConsumerDurables: { name: "Consumer Durables", color: "#EC4899" }, // Pink
-    Education: { name: "Education", color: "#06B6D4" }, // Cyan
-    Entertainment: { name: "Entertainment", color: "#8B5CF6" }, // Purple
-    FMCG: { name: "FMCG", color: "#84CC16" }, // Lime
-    Finance: { name: "Finance", color: "#059669" }, // Emerald Dark
-    Government: { name: "Government", color: "#DC2626" }, // Red Dark
-    HomeFurnishing: { name: "Home Furnishing", color: "#7C3AED" }, // Violet Dark
-    Manufacturing: { name: "Manufacturing", color: "#1F2937" }, // Gray Dark
-    Medicine: { name: "Medicine", color: "#14B8A6" }, // Teal
-    Property: { name: "Property", color: "#F97316" }, // Orange
-    Retail: { name: "Retail", color: "#6366F1" }, // Indigo
-    Services: { name: "Services", color: "#EF4444" }, // Red
-    "Consumer Durables": {
-      name: "Aduthaduthu Moonu Pattu",
-      color: "#F59E0B", // Amber
-    },
-    Hospitality: { name: "Hospitality", color: "#10B981" }, // Emerald
-};
+  const sectors = {
+    Accessories: { name: "Accessories", color: "#10B981" },
+    Airlines: { name: "Airlines", color: "#3B82F6" },
+    Automobile: { name: "Automobile", color: "#EF4444" },
+    BuildingMaterials: { name: "Building Materials", color: "#8B5CF6" },
+    Constructions: { name: "Constructions", color: "#F59E0B" },
+    ConsumerDurables: { name: "Consumer Durables", color: "#EC4899" },
+    Education: { name: "Education", color: "#06B6D4" },
+    Entertainment: { name: "Entertainment", color: "#8B5CF6" },
+    FMCG: { name: "FMCG", color: "#84CC16" },
+    Finance: { name: "Finance", color: "#059669" },
+    Government: { name: "Government", color: "#DC2626" },
+    HomeFurnishing: { name: "Home Furnishing", color: "#7C3AED" },
+    Manufacturing: { name: "Manufacturing", color: "#1F2937" },
+    Medicine: { name: "Medicine", color: "#14B8A6" },
+    Property: { name: "Property", color: "#F97316" },
+    Retail: { name: "Retail", color: "#6366F1" },
+    Services: { name: "Services", color: "#EF4444" },
+    "Consumer Durables": { name: "Aduthaduthu Moonu Pattu", color: "#F59E0B" },
+    Hospitality: { name: "Hospitality", color: "#10B981" },
+  };
 
   // Define weeks
   const weeks = [
@@ -77,7 +74,7 @@ const sectors = {
         RedSerctorData.map(({ week, data }) => [week, data])
       ),
     },
-    ClubFm: {
+    ClubFM: {
       region: "Kochi",
       language: "malayalam",
       weekly: Object.fromEntries(
@@ -99,13 +96,15 @@ const sectors = {
     ...data,
   }));
 
-  // Filter data based on selected station and weeks
+  // Filter data based on selected stations and weeks
   const filteredData = useMemo(() => {
+    // Handle "all" stations case
+    const isAllSelected = selectedStations.includes("all");
     return flattenedData
       .filter((stationData) => {
         return (
-          selectedStation === "all" ||
-          stationData.station.toLowerCase() === selectedStation
+          isAllSelected ||
+          selectedStations.includes(stationData.station.toLowerCase())
         );
       })
       .map((stationData) => ({
@@ -117,7 +116,7 @@ const sectors = {
         region: stationData.region,
         language: stationData.language,
       }));
-  }, [selectedWeeks, selectedStation]);
+  }, [selectedWeeks, selectedStations]);
 
   // Calculate maximum total percentage for scaling
   const maxTotalPercentage = useMemo(() => {
@@ -131,15 +130,14 @@ const sectors = {
           return Math.max(sum, total);
         }, 0)
       ),
-      100 // Ensure max is at least 100 for percentage scaling
+      100
     );
-    console.log("maxTotalPercentage:", max); // Debug
+    console.log("maxTotalPercentage:", max);
     return max;
   }, [filteredData]);
 
   const formatSelectedWeeks = (selected) => {
     if (selected.length === 0) return "Select weeks";
-    if (selected.length === 2) return "Weeks 1-2";
     return selected
       .map((week) => weeks.find((w) => w.value === week)?.shortLabel)
       .sort(
@@ -147,14 +145,38 @@ const sectors = {
           weeks.findIndex((w) => w.shortLabel === a) -
           weeks.findIndex((w) => w.shortLabel === b)
       )
-      .join("-");
+      .join(", ");
+  };
+
+  const formatSelectedStations = (selected) => {
+    if (selected.length === 0) return "Select stations";
+    if (selected.includes("all")) return "All Stations";
+    return selected
+      .map(
+        (station) =>
+          stations.find((s) => s.value === station)?.label || station
+      )
+      .join(", ");
   };
 
   const handleWeekSelection = (value) => {
-    if (selectedWeeks.includes(value)) {
-      setSelectedWeeks(selectedWeeks.filter((week) => week !== value));
+    setSelectedWeeks((prev) =>
+      prev.includes(value)
+        ? prev.filter((week) => week !== value)
+        : [...prev, value]
+    );
+  };
+
+  const handleStationSelection = (value) => {
+    if (value === "all") {
+      setSelectedStations(["all"]);
     } else {
-      setSelectedWeeks([...selectedWeeks, value]);
+      setSelectedStations((prev) => {
+        const newSelection = prev.includes(value)
+          ? prev.filter((station) => station !== value)
+          : [...prev.filter((station) => station !== "all"), value];
+        return newSelection.length === 0 ? ["all"] : newSelection;
+      });
     }
   };
 
@@ -172,7 +194,7 @@ const sectors = {
                   Sector-wise Ad Distribution
                 </CardTitle>
                 <CardDescription className="text-sm text-gray-600 mt-1">
-                  Analyze sector performance for Suriyan and HelloFM
+                  Analyze sector performance for selected stations
                 </CardDescription>
               </div>
             </div>
@@ -180,13 +202,11 @@ const sectors = {
               <Filter className="h-5 w-5 text-gray-500" />
               <div className="flex gap-2">
                 <Select
-                  value={selectedWeeks[0]}
+                  value=""
                   onValueChange={handleWeekSelection}
                 >
                   <SelectTrigger className="w-40 bg-white shadow-sm border-gray-200">
-                    <SelectValue>
-                      {formatSelectedWeeks(selectedWeeks)}
-                    </SelectValue>
+                    <SelectValue placeholder={formatSelectedWeeks(selectedWeeks)} />
                   </SelectTrigger>
                   <SelectContent>
                     {weeks.map((week) => (
@@ -198,7 +218,7 @@ const sectors = {
                         <input
                           type="checkbox"
                           checked={selectedWeeks.includes(week.value)}
-                          onChange={() => {}}
+                          onChange={() => handleWeekSelection(week.value)}
                           className="mr-2"
                         />
                         {week.label}
@@ -207,15 +227,25 @@ const sectors = {
                   </SelectContent>
                 </Select>
                 <Select
-                  value={selectedStation}
-                  onValueChange={setSelectedStation}
+                  value=""
+                  onValueChange={handleStationSelection}
                 >
-                  <SelectTrigger className="w-36 bg-white shadow-sm border-gray-200">
-                    <SelectValue placeholder="Select station" />
+                  <SelectTrigger className="w-48 bg-white shadow-sm border-gray-200">
+                    <SelectValue placeholder={formatSelectedStations(selectedStations)} />
                   </SelectTrigger>
                   <SelectContent>
                     {stations.map((station) => (
-                      <SelectItem key={station.value} value={station.value}>
+                      <SelectItem
+                        key={station.value}
+                        value={station.value}
+                        className="flex items-center gap-2"
+                      >
+                        <input
+                          type="checkbox"
+                          checked={selectedStations.includes(station.value)}
+                          onChange={() => handleStationSelection(station.value)}
+                          className="mr-2"
+                        />
                         {station.label}
                       </SelectItem>
                     ))}
@@ -254,8 +284,8 @@ const sectors = {
                   <div className="text-sm font-semibold text-gray-800">
                     {station.station}
                   </div>
-                  <div className="text-xs text-gray-500 mt-1">Chennai</div>
-                  <div className="text-xs text-gray-500">Tamil</div>
+                  <div className="text-xs text-gray-500 mt-1">{station.region}</div>
+                  <div className="text-xs text-gray-500">{station.language}</div>
                 </div>
                 <div className="flex-1">
                   <div className="space-y-3">
@@ -268,7 +298,7 @@ const sectors = {
                       );
                       console.log(
                         `Station: ${station.station}, Week: ${weekData.week}, Total: ${totalWeekPercentage}`
-                      ); // Debug
+                      );
                       if (totalWeekPercentage === 0) {
                         return (
                           <div key={weekData.week} className="relative">
@@ -308,7 +338,7 @@ const sectors = {
                                 ([sectorKey, sectorData]) => {
                                   const percentage =
                                     sectorData.total_percentage || 0;
-                                  if (percentage === 0) return null; // Skip zero percentages
+                                  if (percentage === 0) return null;
                                   const barWidth =
                                     (percentage / totalWeekPercentage) * 100;
                                   return (
@@ -321,7 +351,7 @@ const sectors = {
                                           sectors[sectorKey]?.color ||
                                           "#CCCCCC",
                                         minWidth:
-                                          percentage > 0 ? "20px" : "0px", // Ensure visibility for small percentages
+                                          percentage > 0 ? "20px" : "0px",
                                       }}
                                     >
                                       <div className="text-xs font-medium text-white px-1 truncate">
