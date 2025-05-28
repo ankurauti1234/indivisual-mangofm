@@ -81,7 +81,7 @@ const RadioAdHeatmap = () => {
           </div>
           <Clock className="h-6 w-6 text-primary/60" />
         </div>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-end mt-4">
           <button
             className={`px-4 py-2 mx-2 rounded-md ${
               selectedWeek === "Week 1"
@@ -90,7 +90,7 @@ const RadioAdHeatmap = () => {
             }`}
             onClick={() => setSelectedWeek("Week 1")}
           >
-            Week 1
+            Week 1 (16-22 April 2025)
           </button>
           <button
             className={`px-4 py-2 mx-2 rounded-md ${
@@ -100,7 +100,7 @@ const RadioAdHeatmap = () => {
             }`}
             onClick={() => setSelectedWeek("Week 2")}
           >
-            Week 2
+            Week 1 (23-30 April 2025)
           </button>
         </div>
       </CardHeader>
