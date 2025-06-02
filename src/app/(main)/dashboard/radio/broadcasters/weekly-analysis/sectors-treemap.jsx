@@ -42,48 +42,77 @@ const TVChannelTreemap = () => {
 
   const getData = () => {
     const mockData = dataType === "plays" ? sectorData : sectorSecondsData;
-    const data = mockData[selectedWeek][selectedStation];
+    const data = mockData[selectedWeek]?.[selectedStation] || {};
+
+    // Debug: Log the data being accessed
+    // console.log("getData:", { selectedWeek, selectedStation, selectedChannel, selectedCategory, data });
+
     if (selectedBrand) {
-      return data[selectedChannel].categories[selectedCategory].brands[
-        selectedBrand
-      ].products.map((product) => ({
-        name: product.name,
-        size: product.sum,
-        color: data[selectedChannel].categories[selectedCategory].color,
-      }));
+      if (
+        data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[
+          selectedBrand
+        ]?.products
+      ) {
+        return data[selectedChannel].categories[selectedCategory].brands[
+          selectedBrand
+        ].products.map((product) => ({
+          name: product.name,
+          size: product.sum,
+          color: data[selectedChannel].categories[selectedCategory].color || "#cccccc",
+        }));
+      }
+      return [];
     }
     if (selectedCategory) {
-      return Object.entries(
-        data[selectedChannel].categories[selectedCategory].brands
-      ).map(([name, data]) => ({
-        name,
-        size: data.sum,
-        color: data[selectedChannel].categories[selectedCategory].color,
-      }));
-    }
-    if (selectedChannel) {
-      return Object.entries(data[selectedChannel].categories).map(
-        ([name, data]) => ({
+      if (data[selectedChannel]?.categories?.[selectedCategory]?.brands) {
+        return Object.entries(
+          data[selectedChannel].categories[selectedCategory].brands
+        ).map(([name, data]) => ({
           name,
           size: data.sum,
-          color: data.color,
-        })
-      );
+          color: data[selectedChannel]?.categories?.[selectedCategory]?.color || "#cccccc",
+        }));
+      }
+      return [];
+    }
+    if (selectedChannel) {
+      if (data[selectedChannel]?.categories) {
+        return Object.entries(data[selectedChannel].categories).map(
+          ([name, data]) => ({
+            name,
+            size: data.sum,
+            color: data.color || "#cccccc",
+          })
+        );
+      }
+      return [];
     }
     return Object.entries(data).map(([name, data]) => ({
       name,
-      size: data.sum,
-      color: data.color,
+      size: data.sum || 0,
+      color: data.color || "#cccccc",
     }));
   };
 
   const handleClick = (name) => {
     const level = getCurrentLevel();
-    if (level === "channels") {
+    const mockData = dataType === "plays" ? sectorData : sectorSecondsData;
+    const data = mockData[selectedWeek]?.[selectedStation] || {};
+
+    // Debug: Log click details
+    // console.log("handleClick:", { level, name, selectedChannel, selectedCategory });
+
+    if (level === "channels" && data[name]?.categories) {
       setSelectedChannel(name);
-    } else if (level === "categories") {
+    } else if (
+      level === "categories" &&
+      data[selectedChannel]?.categories?.[name]?.brands
+    ) {
       setSelectedCategory(name);
-    } else if (level === "brands") {
+    } else if (
+      level === "brands" &&
+      data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[name]?.products
+    ) {
       setSelectedBrand(name);
     }
   };
@@ -182,6 +211,8 @@ const TVChannelTreemap = () => {
     return null;
   };
 
+  const data = getData();
+
   return (
     <ChartCard
       icon={<Tv className="w-6 h-6" />}
@@ -248,21 +279,27 @@ const TVChannelTreemap = () => {
         </div>
       }
       chart={
-        <ResponsiveContainer width="100%" height={600}>
-          <Treemap
-            data={getData()}
-            dataKey="size"
-            aspectRatio={16 / 9}
-            stroke="#fff"
-            content={<CustomizedContent />}
-            animationEasing="ease-out"
-          >
-            <Tooltip
-              content={<CustomTooltip />}
-              cursor={{ stroke: "white", strokeWidth: 2 }}
-            />
-          </Treemap>
-        </ResponsiveContainer>
+        data.length === 0 ? (
+          <div className="flex items-center justify-center h-[600px] text-gray-500">
+            No data available for the selected {getCurrentLevel()}.
+          </div>
+        ) : (
+          <ResponsiveContainer width="100%" height={600}>
+            <Treemap
+              data={data}
+              dataKey="size"
+              aspectRatio={16 / 9}
+              stroke="#fff"
+              content={<CustomizedContent />}
+              animationEasing="ease-out"
+            >
+              <Tooltip
+                content={<CustomTooltip />}
+                cursor={{ stroke: "white", strokeWidth: 2 }}
+              />
+            </Treemap>
+          </ResponsiveContainer>
+        )
       }
       footer={
         <div className="mt-4 flex items-center gap-2 text-sm text-gray-500">
