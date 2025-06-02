@@ -1,221 +1,23 @@
-export const RedSerctorData = [
+export const RedSectorData = [
   {
     week: "week_1",
     data: {
-      Accessories: {
-        total_percentage: 19.47,
-        categories: [
-          {
-            Category: "Accessories - Jewellery",
-            Percentage: 19.47,
-          },
-        ],
-      },
-      "Consumer Durables": {
-        total_percentage: 18.5,
-        categories: [
-          {
-            Category: "Consumer Durables",
-            Percentage: 6.35,
-          },
-          {
-            Category: "Electrical Equipments",
-            Percentage: 4.48,
-          },
-          {
-            Category: "Consumer durables - Solar Panels",
-            Percentage: 1.68,
-          },
-          {
-            Category: "Consumer Durables - Refrigerator",
-            Percentage: 1.61,
-          },
-          {
-            Category: "Consumer Durables - Smart Phone",
-            Percentage: 1.45,
-          },
-          {
-            Category: "Consumer Durables - Air Conditioner",
-            Percentage: 1.1,
-          },
-          {
-            Category: "Consumer durables - Air Conditioner",
-            Percentage: 0.99,
-          },
-          {
-            Category: "Consumer Durables - Air Conditioner & Fan",
-            Percentage: 0.7,
-          },
-          {
-            Category: "Consumer Durables - LED TV",
-            Percentage: 0.14,
-          },
-        ],
-      },
-      Entertainment: {
-        total_percentage: 9.18,
-        categories: [
-          {
-            Category: "Entertainment",
-            Percentage: 3.69,
-          },
-          {
-            Category: "Entertainment - Amusement Park",
-            Percentage: 2.99,
-          },
-          {
-            Category: "Play Areas",
-            Percentage: 0.9,
-          },
-          {
-            Category: "Lottery Ticket",
-            Percentage: 0.7,
-          },
-          {
-            Category: "Amusement Park",
-            Percentage: 0.3,
-          },
-          {
-            Category: "Entertainment - Movie",
-            Percentage: 0.29,
-          },
-          {
-            Category: "Art Promotion",
-            Percentage: 0.16,
-          },
-          {
-            Category: "Radio Broadcasting",
-            Percentage: 0.08,
-          },
-          {
-            Category: "Entertainment",
-            Percentage: 0.03,
-          },
-          {
-            Category: "Podcast",
-            Percentage: 0.02,
-          },
-          {
-            Category: "Ref FM",
-            Percentage: 0.02,
-          },
-        ],
-      },
-      FMCG: {
-        total_percentage: 8.6,
-        categories: [
-          {
-            Category: "Food&Beverages",
-            Percentage: 8.6,
-          },
-        ],
-      },
-      Manufacturing: {
-        total_percentage: 7.510000000000001,
-        categories: [
-          {
-            Category: "Industrial & Manufacturing Services\n\n",
-            Percentage: 7.4,
-          },
-          {
-            Category: "Industrial & Manufacturing Services",
-            Percentage: 0.11,
-          },
-        ],
-      },
-    },
-  },
-  {
-    week: "week_2",
-    data: {
-      Accessories: {
-        total_percentage: 23.86,
-        categories: [
-          {
-            Category: "Accessories - Jewellery",
-            Percentage: 23.86,
-          },
-        ],
-      },
-      "Consumer Durables": {
-        total_percentage: 12.5,
-        categories: [
-          {
-            Category: "Consumer Durables",
-            Percentage: 6.38,
-          },
-          {
-            Category: "Consumer durables - Solar Panels",
-            Percentage: 1.89,
-          },
-          {
-            Category: "Consumer Durables - Air Conditioner & Fan",
-            Percentage: 1.79,
-          },
-          {
-            Category: "Consumer durables - Air Conditioner",
-            Percentage: 1.65,
-          },
-          {
-            Category: "Consumer Durables - Air Conditioner",
-            Percentage: 0.79,
-          },
-        ],
-      },
-      Entertainment: {
-        total_percentage: 10.2,
-        categories: [
-          {
-            Category: "Entertainment",
-            Percentage: 5.38,
-          },
-          {
-            Category: "Entertainment - Amusement Park",
-            Percentage: 3.65,
-          },
-          {
-            Category: "Television",
-            Percentage: 0.69,
-          },
-          {
-            Category: "Radio Broadcasting",
-            Percentage: 0.16,
-          },
-          {
-            Category: "Art Promotion",
-            Percentage: 0.16,
-          },
-          {
-            Category: "Entertainment-Amusement Park",
-            Percentage: 0.13,
-          },
-          {
-            Category: "Amusement Park",
-            Percentage: 0.03,
-          },
-        ],
-      },
-      FMCG: {
-        total_percentage: 9.81,
-        categories: [
-          {
-            Category: "Food&Beverages",
-            Percentage: 9.81,
-          },
-        ],
-      },
-      "Manufacturing ": {
-        total_percentage: 8.7,
-        categories: [
-          {
-            Category: "Industrial & Manufacturing Services\n\n",
-            Percentage: 8.7,
-          },
-        ],
-      },
-    },
-  },
+      "Consumer Durables": 23.81,
+      "Public Interest": 20.4,
+      "Accessories": 14.78,
+      "Entertainment": 10.4,
+      "Medicine": 7.57,
+      "Retail": 5.16,
+      "Education": 3.82,
+      "Automobile": 3.3,
+      "FMCG": 3.01,
+      "Manufacturing": 2.97,
+      "Internet Services": 2.5,
+      "Home Furnishing": 2.28
+    }
+  }
 ];
+
 
 export const MirchiSerctorData = [
   {

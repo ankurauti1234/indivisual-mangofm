@@ -56,8 +56,8 @@ const SectorTreemap = () => {
   ];
 
   const weeks = [
-    { id: "week1", name: "Week 1" },
-    { id: "week2", name: "Week 2" },
+    { id: "week1", name: "Week 16" },
+    { id: "week2", name: "Week 17" },
   ];
 
   // Map station and week data with aggregated categories
