@@ -2,25 +2,25 @@ export const week1 = [
     {
         "hour": "0:00",
         "total": {
-            "seconds": 35,
-            "minutes": 0.5833333333
+            "seconds": 16,
+            "minutes": 0.2666666667
         },
         "stations": {
+            "Mango": {
+                "seconds": 16,
+                "minutes": 0.2666666667
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 35.0,
-                "minutes": 0.5833333333
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -31,21 +31,21 @@ export const week1 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -56,21 +56,21 @@ export const week1 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -81,21 +81,21 @@ export const week1 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -106,525 +106,524 @@ export const week1 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
     {
         "hour": "5:00",
         "total": {
-            "seconds": 6,
-            "minutes": 0.1
+            "seconds": 0,
+            "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
-                "seconds": 6,
-                "minutes": 0.1
+                "seconds": 0,
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
     {
         "hour": "6:00",
         "total": {
-            "seconds": 1172,
-            "minutes": 19.53333333
+            "seconds": 477,
+            "minutes": 7.95
         },
         "stations": {
-            "RED FM": {
-                "seconds": 327,
-                "minutes": 5.45
-            },
-            "Club FM": {
-                "seconds": 210,
-                "minutes": 3.5
+            "Mango": {
+                "seconds": 181,
+                "minutes": 3.016666667
             },
             "Mirchi": {
-                "seconds": 635.0,
-                "minutes": 10.58333333
+                "seconds": 226,
+                "minutes": 3.766666667
             },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+            "RED FM": {
+                "seconds": 70,
+                "minutes": 1.166666667
+            },
+            "Club FM": {
+                "seconds": 0,
+                "minutes": 0
             }
         }
     },
     {
         "hour": "7:00",
         "total": {
-            "seconds": 14810,
-            "minutes": 246.8333333
+            "seconds": 4503,
+            "minutes": 75.05
         },
         "stations": {
-            "RED FM": {
-                "seconds": 6074,
-                "minutes": 101.2333333
-            },
-            "Club FM": {
-                "seconds": 3501,
-                "minutes": 58.35
+            "Mango": {
+                "seconds": 1179,
+                "minutes": 19.65
             },
             "Mirchi": {
-                "seconds": 2960.0,
-                "minutes": 49.33333333
+                "seconds": 1566,
+                "minutes": 26.1
             },
-            "Mango": {
-                "seconds": 2275.0,
-                "minutes": 37.91666667
+            "RED FM": {
+                "seconds": 916,
+                "minutes": 15.26666667
+            },
+            "Club FM": {
+                "seconds": 842,
+                "minutes": 14.03333333
             }
         }
     },
     {
         "hour": "8:00",
         "total": {
-            "seconds": 17190,
-            "minutes": 286.5
+            "seconds": 5316,
+            "minutes": 88.6
         },
         "stations": {
-            "RED FM": {
-                "seconds": 8118,
-                "minutes": 135.3
-            },
-            "Club FM": {
-                "seconds": 4036,
-                "minutes": 67.26666667
+            "Mango": {
+                "seconds": 1292,
+                "minutes": 21.53333333
             },
             "Mirchi": {
-                "seconds": 2806.0,
-                "minutes": 46.76666667
+                "seconds": 1986,
+                "minutes": 33.1
             },
-            "Mango": {
-                "seconds": 2230.0,
-                "minutes": 37.16666667
+            "RED FM": {
+                "seconds": 978,
+                "minutes": 16.3
+            },
+            "Club FM": {
+                "seconds": 1060,
+                "minutes": 17.66666667
             }
         }
     },
     {
         "hour": "9:00",
         "total": {
-            "seconds": 17094,
-            "minutes": 284.9
+            "seconds": 5373,
+            "minutes": 89.55
         },
         "stations": {
-            "RED FM": {
-                "seconds": 7623,
-                "minutes": 127.05
-            },
-            "Club FM": {
-                "seconds": 4333,
-                "minutes": 72.21666667
+            "Mango": {
+                "seconds": 1210,
+                "minutes": 20.16666667
             },
             "Mirchi": {
-                "seconds": 2798.0,
-                "minutes": 46.63333333
+                "seconds": 1844,
+                "minutes": 30.73333333
             },
-            "Mango": {
-                "seconds": 2340.0,
-                "minutes": 39.0
+            "RED FM": {
+                "seconds": 1279,
+                "minutes": 21.31666667
+            },
+            "Club FM": {
+                "seconds": 1040,
+                "minutes": 17.33333333
             }
         }
     },
     {
         "hour": "10:00",
         "total": {
-            "seconds": 16558,
-            "minutes": 275.9666667
+            "seconds": 5034,
+            "minutes": 83.9
         },
         "stations": {
-            "RED FM": {
-                "seconds": 7622,
-                "minutes": 127.0333333
-            },
-            "Club FM": {
-                "seconds": 3796,
-                "minutes": 63.26666667
+            "Mango": {
+                "seconds": 1320,
+                "minutes": 22
             },
             "Mirchi": {
-                "seconds": 2705.0,
-                "minutes": 45.08333333
+                "seconds": 1961,
+                "minutes": 32.68333333
             },
-            "Mango": {
-                "seconds": 2435.0,
-                "minutes": 40.58333333
+            "RED FM": {
+                "seconds": 948,
+                "minutes": 15.8
+            },
+            "Club FM": {
+                "seconds": 805,
+                "minutes": 13.41666667
             }
         }
     },
     {
         "hour": "11:00",
         "total": {
-            "seconds": 12181,
-            "minutes": 203.0166667
+            "seconds": 3682,
+            "minutes": 61.36666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 5752,
-                "minutes": 95.86666667
-            },
-            "Club FM": {
-                "seconds": 2658,
-                "minutes": 44.3
+            "Mango": {
+                "seconds": 965,
+                "minutes": 16.08333333
             },
             "Mirchi": {
-                "seconds": 1861.0,
-                "minutes": 31.01666667
+                "seconds": 1397,
+                "minutes": 23.28333333
             },
-            "Mango": {
-                "seconds": 1910.0,
-                "minutes": 31.83333333
+            "RED FM": {
+                "seconds": 690,
+                "minutes": 11.5
+            },
+            "Club FM": {
+                "seconds": 630,
+                "minutes": 10.5
             }
         }
     },
     {
         "hour": "12:00",
         "total": {
-            "seconds": 9762,
-            "minutes": 162.7
+            "seconds": 2953,
+            "minutes": 49.21666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3574,
-                "minutes": 59.56666667
-            },
-            "Club FM": {
-                "seconds": 2433,
-                "minutes": 40.55
+            "Mango": {
+                "seconds": 694,
+                "minutes": 11.56666667
             },
             "Mirchi": {
-                "seconds": 1790.0,
-                "minutes": 29.83333333
+                "seconds": 844,
+                "minutes": 14.06666667
             },
-            "Mango": {
-                "seconds": 1965.0,
-                "minutes": 32.75
+            "RED FM": {
+                "seconds": 700,
+                "minutes": 11.66666667
+            },
+            "Club FM": {
+                "seconds": 715,
+                "minutes": 11.91666667
             }
         }
     },
     {
         "hour": "13:00",
         "total": {
-            "seconds": 10983,
-            "minutes": 183.05
+            "seconds": 3436,
+            "minutes": 57.26666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 4682,
-                "minutes": 78.03333333
-            },
-            "Club FM": {
-                "seconds": 2738,
-                "minutes": 45.63333333
+            "Mango": {
+                "seconds": 904,
+                "minutes": 15.06666667
             },
             "Mirchi": {
-                "seconds": 1973.0,
-                "minutes": 32.88333333
+                "seconds": 1139,
+                "minutes": 18.98333333
             },
-            "Mango": {
-                "seconds": 1590.0,
-                "minutes": 26.5
+            "RED FM": {
+                "seconds": 883,
+                "minutes": 14.71666667
+            },
+            "Club FM": {
+                "seconds": 510,
+                "minutes": 8.5
             }
         }
     },
     {
         "hour": "14:00",
         "total": {
-            "seconds": 9793,
-            "minutes": 163.2166667
+            "seconds": 3275,
+            "minutes": 54.58333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3891,
-                "minutes": 64.85
-            },
-            "Club FM": {
-                "seconds": 2363,
-                "minutes": 39.38333333
+            "Mango": {
+                "seconds": 747,
+                "minutes": 12.45
             },
             "Mirchi": {
-                "seconds": 1733.0,
-                "minutes": 28.88333333
+                "seconds": 1163,
+                "minutes": 19.38333333
             },
-            "Mango": {
-                "seconds": 1806.0,
-                "minutes": 30.1
+            "RED FM": {
+                "seconds": 835,
+                "minutes": 13.91666667
+            },
+            "Club FM": {
+                "seconds": 530,
+                "minutes": 8.833333333
             }
         }
     },
     {
         "hour": "15:00",
         "total": {
-            "seconds": 10372,
-            "minutes": 172.8666667
+            "seconds": 3154,
+            "minutes": 52.56666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 4061,
-                "minutes": 67.68333333
-            },
-            "Club FM": {
-                "seconds": 2589,
-                "minutes": 43.15
+            "Mango": {
+                "seconds": 818,
+                "minutes": 13.63333333
             },
             "Mirchi": {
-                "seconds": 1901.0,
-                "minutes": 31.68333333
+                "seconds": 1041,
+                "minutes": 17.35
             },
-            "Mango": {
-                "seconds": 1821.0,
-                "minutes": 30.35
+            "RED FM": {
+                "seconds": 765,
+                "minutes": 12.75
+            },
+            "Club FM": {
+                "seconds": 530,
+                "minutes": 8.833333333
             }
         }
     },
     {
         "hour": "16:00",
         "total": {
-            "seconds": 11174,
-            "minutes": 186.2333333
+            "seconds": 3401,
+            "minutes": 56.68333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 4288,
-                "minutes": 71.46666667
-            },
-            "Club FM": {
-                "seconds": 2971,
-                "minutes": 49.51666667
+            "Mango": {
+                "seconds": 861,
+                "minutes": 14.35
             },
             "Mirchi": {
-                "seconds": 2254.0,
-                "minutes": 37.56666667
+                "seconds": 1168,
+                "minutes": 19.46666667
             },
-            "Mango": {
-                "seconds": 1661.0,
-                "minutes": 27.68333333
+            "RED FM": {
+                "seconds": 947,
+                "minutes": 15.78333333
+            },
+            "Club FM": {
+                "seconds": 425,
+                "minutes": 7.083333333
             }
         }
     },
     {
         "hour": "17:00",
         "total": {
-            "seconds": 16324,
-            "minutes": 272.0666667
+            "seconds": 5263,
+            "minutes": 87.71666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 7015,
-                "minutes": 116.9166667
-            },
-            "Club FM": {
-                "seconds": 3975,
-                "minutes": 66.25
+            "Mango": {
+                "seconds": 1281,
+                "minutes": 21.35
             },
             "Mirchi": {
-                "seconds": 2558.0,
-                "minutes": 42.63333333
+                "seconds": 2010,
+                "minutes": 33.5
             },
-            "Mango": {
-                "seconds": 2776.0,
-                "minutes": 46.26666667
+            "RED FM": {
+                "seconds": 1097,
+                "minutes": 18.28333333
+            },
+            "Club FM": {
+                "seconds": 875,
+                "minutes": 14.58333333
             }
         }
     },
     {
         "hour": "18:00",
         "total": {
-            "seconds": 17165,
-            "minutes": 286.0833333
+            "seconds": 5693,
+            "minutes": 94.88333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 7824,
-                "minutes": 130.4
-            },
-            "Club FM": {
-                "seconds": 4128,
-                "minutes": 68.8
+            "Mango": {
+                "seconds": 1339,
+                "minutes": 22.31666667
             },
             "Mirchi": {
-                "seconds": 2687.0,
-                "minutes": 44.78333333
+                "seconds": 2326,
+                "minutes": 38.76666667
             },
-            "Mango": {
-                "seconds": 2526.0,
-                "minutes": 42.1
+            "RED FM": {
+                "seconds": 1198,
+                "minutes": 19.96666667
+            },
+            "Club FM": {
+                "seconds": 830,
+                "minutes": 13.83333333
             }
         }
     },
     {
         "hour": "19:00",
         "total": {
-            "seconds": 14795,
-            "minutes": 246.5833333
+            "seconds": 4990,
+            "minutes": 83.16666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 5465,
-                "minutes": 91.08333333
-            },
-            "Club FM": {
-                "seconds": 4099,
-                "minutes": 68.31666667
+            "Mango": {
+                "seconds": 1260,
+                "minutes": 21
             },
             "Mirchi": {
-                "seconds": 2475.0,
-                "minutes": 41.25
+                "seconds": 1571,
+                "minutes": 26.18333333
             },
-            "Mango": {
-                "seconds": 2756.0,
-                "minutes": 45.93333333
+            "RED FM": {
+                "seconds": 1114,
+                "minutes": 18.56666667
+            },
+            "Club FM": {
+                "seconds": 1045,
+                "minutes": 17.41666667
             }
         }
     },
     {
         "hour": "20:00",
         "total": {
-            "seconds": 14822,
-            "minutes": 247.0333333
+            "seconds": 4983,
+            "minutes": 83.05
         },
         "stations": {
-            "RED FM": {
-                "seconds": 5987,
-                "minutes": 99.78333333
-            },
-            "Club FM": {
-                "seconds": 3742,
-                "minutes": 62.36666667
+            "Mango": {
+                "seconds": 1343,
+                "minutes": 22.38333333
             },
             "Mirchi": {
-                "seconds": 2613.0,
-                "minutes": 43.55
+                "seconds": 1569,
+                "minutes": 26.15
             },
-            "Mango": {
-                "seconds": 2480.0,
-                "minutes": 41.33333333
+            "RED FM": {
+                "seconds": 1071,
+                "minutes": 17.85
+            },
+            "Club FM": {
+                "seconds": 1000,
+                "minutes": 16.66666667
             }
         }
     },
     {
         "hour": "21:00",
         "total": {
-            "seconds": 9416,
-            "minutes": 156.9333333
+            "seconds": 3336,
+            "minutes": 55.6
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3176,
-                "minutes": 52.93333333
-            },
-            "Club FM": {
-                "seconds": 1619,
-                "minutes": 26.98333333
+            "Mango": {
+                "seconds": 1048,
+                "minutes": 17.46666667
             },
             "Mirchi": {
-                "seconds": 2476.0,
-                "minutes": 41.26666667
+                "seconds": 918,
+                "minutes": 15.3
             },
-            "Mango": {
-                "seconds": 2145.0,
-                "minutes": 35.75
+            "RED FM": {
+                "seconds": 600,
+                "minutes": 10
+            },
+            "Club FM": {
+                "seconds": 770,
+                "minutes": 12.83333333
             }
         }
     },
     {
         "hour": "22:00",
         "total": {
-            "seconds": 509,
-            "minutes": 8.483333333
+            "seconds": 357,
+            "minutes": 5.95
         },
         "stations": {
-            "RED FM": {
-                "seconds": 139,
-                "minutes": 2.316666667
-            },
-            "Club FM": {
-                "seconds": 0,
-                "minutes": 0.0
+            "Mango": {
+                "seconds": 132,
+                "minutes": 2.2
             },
             "Mirchi": {
-                "seconds": 40.0,
-                "minutes": 0.6666666667
+                "seconds": 50,
+                "minutes": 0.8333333333
             },
-            "Mango": {
-                "seconds": 330.0,
-                "minutes": 5.5
+            "RED FM": {
+                "seconds": 20,
+                "minutes": 0.3333333333
+            },
+            "Club FM": {
+                "seconds": 155,
+                "minutes": 2.583333333
             }
         }
     },
     {
         "hour": "23:00",
         "total": {
-            "seconds": 60,
-            "minutes": 1.0
+            "seconds": 26,
+            "minutes": 0.4333333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 0,
-                "minutes": 0.0
-            },
-            "Club FM": {
-                "seconds": 0,
-                "minutes": 0.0
+            "Mango": {
+                "seconds": 16,
+                "minutes": 0.2666666667
             },
             "Mirchi": {
-                "seconds": 40.0,
-                "minutes": 0.6666666667
+                "seconds": 0,
+                "minutes": 0
             },
-            "Mango": {
-                "seconds": 20.0,
-                "minutes": 0.3333333333
+            "RED FM": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Club FM": {
+                "seconds": 10,
+                "minutes": 0.1666666667
             }
         }
-    },
-    
+    }
 ]
 
 export const week2 = [
     {
         "hour": "0:00",
         "total": {
-            "seconds": 117,
-            "minutes": 1.95
+            "seconds": 82,
+            "minutes": 1.366666667
         },
         "stations": {
+            "Mango": {
+                "seconds": 82,
+                "minutes": 1.366666667
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 117.0,
-                "minutes": 1.95
+                "minutes": 0
             }
         }
     },
@@ -635,21 +634,21 @@ export const week2 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -660,21 +659,21 @@ export const week2 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -685,21 +684,21 @@ export const week2 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -710,21 +709,21 @@ export const week2 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
@@ -735,471 +734,471 @@ export const week2 = [
             "minutes": 0.0
         },
         "stations": {
+            "Mango": {
+                "seconds": 0,
+                "minutes": 0
+            },
+            "Mirchi": {
+                "seconds": 0,
+                "minutes": 0
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 0.0,
-                "minutes": 0.0
-            },
-            "Mango": {
-                "seconds": 0.0,
-                "minutes": 0.0
+                "minutes": 0
             }
         }
     },
     {
         "hour": "6:00",
         "total": {
-            "seconds": 1322,
-            "minutes": 22.03333333
+            "seconds": 493,
+            "minutes": 8.216666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 497,
-                "minutes": 8.283333333
-            },
-            "Club FM": {
-                "seconds": 336,
-                "minutes": 5.6
+            "Mango": {
+                "seconds": 150,
+                "minutes": 2.5
             },
             "Mirchi": {
-                "seconds": 10.0,
-                "minutes": 0.1666666667
+                "seconds": 0,
+                "minutes": 0
             },
-            "Mango": {
-                "seconds": 479.0,
-                "minutes": 7.983333333
+            "RED FM": {
+                "seconds": 198,
+                "minutes": 3.3
+            },
+            "Club FM": {
+                "seconds": 145,
+                "minutes": 2.416666667
             }
         }
     },
     {
         "hour": "7:00",
         "total": {
-            "seconds": 12405,
-            "minutes": 206.75
+            "seconds": 2700,
+            "minutes": 45.0
         },
         "stations": {
-            "RED FM": {
-                "seconds": 4091,
-                "minutes": 68.18333333
-            },
-            "Club FM": {
-                "seconds": 3269,
-                "minutes": 54.48333333
+            "Mango": {
+                "seconds": 878,
+                "minutes": 14.63333333
             },
             "Mirchi": {
-                "seconds": 1592.0,
-                "minutes": 26.53333333
+                "seconds": 435,
+                "minutes": 7.25
             },
-            "Mango": {
-                "seconds": 3453.0,
-                "minutes": 57.55
+            "RED FM": {
+                "seconds": 783,
+                "minutes": 13.05
+            },
+            "Club FM": {
+                "seconds": 604,
+                "minutes": 10.06666667
             }
         }
     },
     {
         "hour": "8:00",
         "total": {
-            "seconds": 14412,
-            "minutes": 240.2
+            "seconds": 3046,
+            "minutes": 50.76666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 6425,
-                "minutes": 107.0833333
-            },
-            "Club FM": {
-                "seconds": 3648,
-                "minutes": 60.8
+            "Mango": {
+                "seconds": 811,
+                "minutes": 13.51666667
             },
             "Mirchi": {
-                "seconds": 1308.0,
-                "minutes": 21.8
+                "seconds": 354,
+                "minutes": 5.9
             },
-            "Mango": {
-                "seconds": 3031.0,
-                "minutes": 50.51666667
+            "RED FM": {
+                "seconds": 1214,
+                "minutes": 20.23333333
+            },
+            "Club FM": {
+                "seconds": 667,
+                "minutes": 11.11666667
             }
         }
     },
     {
         "hour": "9:00",
         "total": {
-            "seconds": 17335,
-            "minutes": 288.9166667
+            "seconds": 3412,
+            "minutes": 56.86666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 7612,
-                "minutes": 126.8666667
-            },
-            "Club FM": {
-                "seconds": 4432,
-                "minutes": 73.86666667
+            "Mango": {
+                "seconds": 844,
+                "minutes": 14.06666667
             },
             "Mirchi": {
-                "seconds": 1750.0,
-                "minutes": 29.16666667
+                "seconds": 500,
+                "minutes": 8.333333333
             },
-            "Mango": {
-                "seconds": 3541.0,
-                "minutes": 59.01666667
+            "RED FM": {
+                "seconds": 1423,
+                "minutes": 23.71666667
+            },
+            "Club FM": {
+                "seconds": 645,
+                "minutes": 10.75
             }
         }
     },
     {
         "hour": "10:00",
         "total": {
-            "seconds": 16024,
-            "minutes": 267.0666667
+            "seconds": 3213,
+            "minutes": 53.55
         },
         "stations": {
-            "RED FM": {
-                "seconds": 6966,
-                "minutes": 116.1
-            },
-            "Club FM": {
-                "seconds": 3853,
-                "minutes": 64.21666667
+            "Mango": {
+                "seconds": 832,
+                "minutes": 13.86666667
             },
             "Mirchi": {
-                "seconds": 1630.0,
-                "minutes": 27.16666667
+                "seconds": 425,
+                "minutes": 7.083333333
             },
-            "Mango": {
-                "seconds": 3575.0,
-                "minutes": 59.58333333
+            "RED FM": {
+                "seconds": 1323,
+                "minutes": 22.05
+            },
+            "Club FM": {
+                "seconds": 633,
+                "minutes": 10.55
             }
         }
     },
     {
         "hour": "11:00",
         "total": {
-            "seconds": 13049,
-            "minutes": 217.4833333
+            "seconds": 2906,
+            "minutes": 48.43333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 6281,
-                "minutes": 104.6833333
-            },
-            "Club FM": {
-                "seconds": 2822,
-                "minutes": 47.03333333
+            "Mango": {
+                "seconds": 610,
+                "minutes": 10.16666667
             },
             "Mirchi": {
-                "seconds": 1340.0,
-                "minutes": 22.33333333
+                "seconds": 390,
+                "minutes": 6.5
             },
-            "Mango": {
-                "seconds": 2606.0,
-                "minutes": 43.43333333
+            "RED FM": {
+                "seconds": 1285,
+                "minutes": 21.41666667
+            },
+            "Club FM": {
+                "seconds": 621,
+                "minutes": 10.35
             }
         }
     },
     {
         "hour": "12:00",
         "total": {
-            "seconds": 9033,
-            "minutes": 150.55
+            "seconds": 1996,
+            "minutes": 33.26666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3258,
-                "minutes": 54.3
-            },
-            "Club FM": {
-                "seconds": 2511,
-                "minutes": 41.85
+            "Mango": {
+                "seconds": 492,
+                "minutes": 8.2
             },
             "Mirchi": {
-                "seconds": 1415.0,
-                "minutes": 23.58333333
+                "seconds": 415,
+                "minutes": 6.916666667
             },
-            "Mango": {
-                "seconds": 1849.0,
-                "minutes": 30.81666667
+            "RED FM": {
+                "seconds": 685,
+                "minutes": 11.41666667
+            },
+            "Club FM": {
+                "seconds": 404,
+                "minutes": 6.733333333
             }
         }
     },
     {
         "hour": "13:00",
         "total": {
-            "seconds": 9588,
-            "minutes": 159.8
+            "seconds": 2089,
+            "minutes": 34.81666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3825,
-                "minutes": 63.75
-            },
-            "Club FM": {
-                "seconds": 2771,
-                "minutes": 46.18333333
+            "Mango": {
+                "seconds": 552,
+                "minutes": 9.2
             },
             "Mirchi": {
-                "seconds": 585.0,
-                "minutes": 9.75
+                "seconds": 125,
+                "minutes": 2.083333333
             },
-            "Mango": {
-                "seconds": 2407.0,
-                "minutes": 40.11666667
+            "RED FM": {
+                "seconds": 791,
+                "minutes": 13.18333333
+            },
+            "Club FM": {
+                "seconds": 621,
+                "minutes": 10.35
             }
         }
     },
     {
         "hour": "14:00",
         "total": {
-            "seconds": 9761,
-            "minutes": 162.6833333
+            "seconds": 2180,
+            "minutes": 36.33333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3640,
-                "minutes": 60.66666667
-            },
-            "Club FM": {
-                "seconds": 2875,
-                "minutes": 47.91666667
+            "Mango": {
+                "seconds": 661,
+                "minutes": 11.01666667
             },
             "Mirchi": {
-                "seconds": 805.0,
-                "minutes": 13.41666667
+                "seconds": 180,
+                "minutes": 3
             },
-            "Mango": {
-                "seconds": 2441.0,
-                "minutes": 40.68333333
+            "RED FM": {
+                "seconds": 876,
+                "minutes": 14.6
+            },
+            "Club FM": {
+                "seconds": 463,
+                "minutes": 7.716666667
             }
         }
     },
     {
         "hour": "15:00",
         "total": {
-            "seconds": 8814,
-            "minutes": 146.9
+            "seconds": 1976,
+            "minutes": 32.93333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3625,
-                "minutes": 60.41666667
-            },
-            "Club FM": {
-                "seconds": 2301,
-                "minutes": 38.35
+            "Mango": {
+                "seconds": 602,
+                "minutes": 10.03333333
             },
             "Mirchi": {
-                "seconds": 844.0,
-                "minutes": 14.06666667
+                "seconds": 245,
+                "minutes": 4.083333333
             },
-            "Mango": {
-                "seconds": 2044.0,
-                "minutes": 34.06666667
+            "RED FM": {
+                "seconds": 739,
+                "minutes": 12.31666667
+            },
+            "Club FM": {
+                "seconds": 390,
+                "minutes": 6.5
             }
         }
     },
     {
         "hour": "16:00",
         "total": {
-            "seconds": 10809,
-            "minutes": 180.15
+            "seconds": 2537,
+            "minutes": 42.28333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 3988,
-                "minutes": 66.46666667
-            },
-            "Club FM": {
-                "seconds": 3316,
-                "minutes": 55.26666667
+            "Mango": {
+                "seconds": 690,
+                "minutes": 11.5
             },
             "Mirchi": {
-                "seconds": 740.0,
-                "minutes": 12.33333333
+                "seconds": 265,
+                "minutes": 4.416666667
             },
-            "Mango": {
-                "seconds": 2765.0,
-                "minutes": 46.08333333
+            "RED FM": {
+                "seconds": 1068,
+                "minutes": 17.8
+            },
+            "Club FM": {
+                "seconds": 514,
+                "minutes": 8.566666667
             }
         }
     },
     {
         "hour": "17:00",
         "total": {
-            "seconds": 16417,
-            "minutes": 273.6166667
+            "seconds": 3586,
+            "minutes": 59.76666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 6788,
-                "minutes": 113.1333333
-            },
-            "Club FM": {
-                "seconds": 4313,
-                "minutes": 71.88333333
+            "Mango": {
+                "seconds": 987,
+                "minutes": 16.45
             },
             "Mirchi": {
-                "seconds": 1433.0,
-                "minutes": 23.88333333
+                "seconds": 329,
+                "minutes": 5.483333333
             },
-            "Mango": {
-                "seconds": 3883.0,
-                "minutes": 64.71666667
+            "RED FM": {
+                "seconds": 1383,
+                "minutes": 23.05
+            },
+            "Club FM": {
+                "seconds": 887,
+                "minutes": 14.78333333
             }
         }
     },
     {
         "hour": "18:00",
         "total": {
-            "seconds": 17449,
-            "minutes": 290.8166667
+            "seconds": 3870,
+            "minutes": 64.5
         },
         "stations": {
-            "RED FM": {
-                "seconds": 7624,
-                "minutes": 127.0666667
-            },
-            "Club FM": {
-                "seconds": 4621,
-                "minutes": 77.01666667
+            "Mango": {
+                "seconds": 951,
+                "minutes": 15.85
             },
             "Mirchi": {
-                "seconds": 1484.0,
-                "minutes": 24.73333333
+                "seconds": 344,
+                "minutes": 5.733333333
             },
-            "Mango": {
-                "seconds": 3720.0,
-                "minutes": 62.0
+            "RED FM": {
+                "seconds": 1589,
+                "minutes": 26.48333333
+            },
+            "Club FM": {
+                "seconds": 986,
+                "minutes": 16.43333333
             }
         }
     },
     {
         "hour": "19:00",
         "total": {
-            "seconds": 15068,
-            "minutes": 251.1333333
+            "seconds": 3186,
+            "minutes": 53.1
         },
         "stations": {
-            "RED FM": {
-                "seconds": 5312,
-                "minutes": 88.53333333
-            },
-            "Club FM": {
-                "seconds": 4123,
-                "minutes": 68.71666667
+            "Mango": {
+                "seconds": 970,
+                "minutes": 16.16666667
             },
             "Mirchi": {
-                "seconds": 1930.0,
-                "minutes": 32.16666667
+                "seconds": 500,
+                "minutes": 8.333333333
             },
-            "Mango": {
-                "seconds": 3703.0,
-                "minutes": 61.71666667
+            "RED FM": {
+                "seconds": 1075,
+                "minutes": 17.91666667
+            },
+            "Club FM": {
+                "seconds": 641,
+                "minutes": 10.68333333
             }
         }
     },
     {
         "hour": "20:00",
         "total": {
-            "seconds": 13634,
-            "minutes": 227.2333333
+            "seconds": 2968,
+            "minutes": 49.46666667
         },
         "stations": {
-            "RED FM": {
-                "seconds": 5140,
-                "minutes": 85.66666667
-            },
-            "Club FM": {
-                "seconds": 3163,
-                "minutes": 52.71666667
+            "Mango": {
+                "seconds": 957,
+                "minutes": 15.95
             },
             "Mirchi": {
-                "seconds": 1755.0,
-                "minutes": 29.25
+                "seconds": 485,
+                "minutes": 8.083333333
             },
-            "Mango": {
-                "seconds": 3576.0,
-                "minutes": 59.6
+            "RED FM": {
+                "seconds": 950,
+                "minutes": 15.83333333
+            },
+            "Club FM": {
+                "seconds": 576,
+                "minutes": 9.6
             }
         }
     },
     {
         "hour": "21:00",
         "total": {
-            "seconds": 9154,
-            "minutes": 152.5666667
+            "seconds": 2303,
+            "minutes": 38.38333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 2536,
-                "minutes": 42.26666667
-            },
-            "Club FM": {
-                "seconds": 2280,
-                "minutes": 38.0
+            "Mango": {
+                "seconds": 942,
+                "minutes": 15.7
             },
             "Mirchi": {
-                "seconds": 1025.0,
-                "minutes": 17.08333333
+                "seconds": 315,
+                "minutes": 5.25
             },
-            "Mango": {
-                "seconds": 3313.0,
-                "minutes": 55.21666667
+            "RED FM": {
+                "seconds": 510,
+                "minutes": 8.5
+            },
+            "Club FM": {
+                "seconds": 536,
+                "minutes": 8.933333333
             }
         }
     },
     {
         "hour": "22:00",
         "total": {
-            "seconds": 953,
-            "minutes": 15.88333333
+            "seconds": 248,
+            "minutes": 4.133333333
         },
         "stations": {
-            "RED FM": {
-                "seconds": 183,
-                "minutes": 3.05
-            },
-            "Club FM": {
-                "seconds": 130,
-                "minutes": 2.166666667
+            "Mango": {
+                "seconds": 48,
+                "minutes": 0.8
             },
             "Mirchi": {
-                "seconds": 540.0,
-                "minutes": 9.0
+                "seconds": 180,
+                "minutes": 3
             },
-            "Mango": {
-                "seconds": 100.0,
-                "minutes": 1.666666667
+            "RED FM": {
+                "seconds": 20,
+                "minutes": 0.3333333333
+            },
+            "Club FM": {
+                "seconds": 0,
+                "minutes": 0
             }
         }
     },
     {
         "hour": "23:00",
         "total": {
-            "seconds": 130,
-            "minutes": 2.166666667
+            "seconds": 63,
+            "minutes": 1.05
         },
         "stations": {
+            "Mango": {
+                "seconds": 48,
+                "minutes": 0.8
+            },
+            "Mirchi": {
+                "seconds": 15,
+                "minutes": 0.25
+            },
             "RED FM": {
                 "seconds": 0,
-                "minutes": 0.0
+                "minutes": 0
             },
             "Club FM": {
                 "seconds": 0,
-                "minutes": 0.0
-            },
-            "Mirchi": {
-                "seconds": 30.0,
-                "minutes": 0.5
-            },
-            "Mango": {
-                "seconds": 100.0,
-                "minutes": 1.666666667
+                "minutes": 0
             }
         }
     }
