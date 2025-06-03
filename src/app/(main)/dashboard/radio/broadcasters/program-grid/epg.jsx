@@ -6,7 +6,7 @@ import CustomRangeSlider from "./custom-range-slider";
 import { ChevronLeft, ChevronRight, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ProgramDialog from "./program-dialog";
-import DownloadDialog from "./download-dialog";
+import ExportDialog from "./export-dialog";
 import {
   Select,
   SelectContent,
@@ -23,7 +23,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useRouter, useSearchParams } from "next/navigation";
-import ReportsDialog from "./reports-dailog";
 import { availableData } from "@/data/available_data";
 
 const MINUTES_IN_DAY = 24 * 60;
@@ -105,7 +104,6 @@ const TimelineRuler = ({ timeRange }) => {
   );
   const minutesInRange = timeRange[1] - timeRange[0];
   const pixelsPerMinute = FIXED_WIDTH / minutesInRange;
-
 
   const isVeryZoomedIn = pixelsPerMinute > 15;
   const isZoomedIn = pixelsPerMinute > 8;
@@ -488,9 +486,9 @@ const EPG = () => {
   };
 
   const minutesInRange = timeRange[1] - timeRange[0];
-const pixelsPerMinute = FIXED_WIDTH / minutesInRange;
-const adjustedEndTime = Math.ceil(timeRange[1] / 60) * 60;
-const dynamicWidth = (adjustedEndTime - timeRange[0]) * pixelsPerMinute;
+  const pixelsPerMinute = FIXED_WIDTH / minutesInRange;
+  const adjustedEndTime = Math.ceil(timeRange[1] / 60) * 60;
+  const dynamicWidth = (adjustedEndTime - timeRange[0]) * pixelsPerMinute;
 
   return (
     <div className="flex flex-col bg-white dark:bg-zinc-900 rounded-2xl shadow-2xl border border-zinc-200/50 dark:border-zinc-800/50 overflow-hidden">
@@ -500,8 +498,11 @@ const dynamicWidth = (adjustedEndTime - timeRange[0]) * pixelsPerMinute;
             Radio Program Guide
           </h1>
           <div className="flex items-center gap-4">
-            <ReportsDialog channels={channels} selectedDate={selectedDate} />
-            <DownloadDialog channels={channels} selectedDate={selectedDate} />
+            <ExportDialog
+              selectedDate={selectedDate}
+              epgData={epgData}
+              availableData={availableData}
+            />
             <div className="flex items-center gap-2 bg-white/80 dark:bg-zinc-800/80 rounded-xl p-2 shadow-md">
               <Button
                 onClick={handlePrevDate}
@@ -590,7 +591,7 @@ const dynamicWidth = (adjustedEndTime - timeRange[0]) * pixelsPerMinute;
                     <SelectItem value="all">All Radio Stations</SelectItem>
                     {Object.keys(availableData).map((station) => (
                       <SelectItem key={station} value={station}>
-                        {station}
+                        {station.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}
                       </SelectItem>
                     ))}
                   </SelectContent>

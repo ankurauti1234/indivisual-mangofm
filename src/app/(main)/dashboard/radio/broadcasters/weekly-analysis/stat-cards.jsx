@@ -79,7 +79,7 @@ const StatCards = () => {
       description: "Advertisers with the highest number of ad plays",
       icon: <ScrollText className="text-gray-600" size={20} />,
       formatValue: (value) => `${value} plays`,
-      trend: selectedWeek === "week_16" ? "+2.1%" : "+2.5%",
+      // trend: selectedWeek === "week_16" ? "+2.1%" : "+2.5%",
       isPositive: true,
     },
     {
@@ -88,7 +88,7 @@ const StatCards = () => {
       description: "Advertisers with the most accumulated ad seconds",
       icon: <BarChart className="text-gray-600" size={20} />,
       formatValue: (value) => `${Math.round(value / 60)} mins`,
-      trend: selectedWeek === "week_16" ? "+1.5%" : "-0.8%",
+      // trend: selectedWeek === "week_16" ? "+1.5%" : "-0.8%",
       isPositive: selectedWeek === "week_16",
     },
     {
@@ -97,7 +97,7 @@ const StatCards = () => {
       description: "Radio stations with the highest number of ad plays",
       icon: <CheckSquare className="text-gray-600" size={20} />,
       formatValue: (value) => `${value} plays`,
-      trend: selectedWeek === "week_16" ? "+1.8%" : "+2.3%",
+      // trend: selectedWeek === "week_16" ? "+1.8%" : "+2.3%",
       isPositive: true,
     },
     {
@@ -106,7 +106,7 @@ const StatCards = () => {
       description: "Radio stations with the most accumulated ad seconds",
       icon: <Users className="text-gray-600" size={20} />,
       formatValue: (value) => `${Math.round(value / 60)} mins`,
-      trend: selectedWeek === "week_16" ? "+1.2%" : "-0.5%",
+      // trend: selectedWeek === "week_16" ? "+1.2%" : "-0.5%",
       isPositive: selectedWeek === "week_16",
     },
   ];
