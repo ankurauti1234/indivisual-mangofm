@@ -26,69 +26,132 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import ChartCard from "@/components/card/charts-card";
 
-// Sample data for top advertisers across stations
-const advertiserData = {
-  mangofm: {
-    name: "Mango FM",
-    data: [
-      { advertiser: "BrandA", spend: 1200000 },
-      { advertiser: "BrandB", spend: 1000000 },
-      { advertiser: "BrandC", spend: 800000 },
-      { advertiser: "BrandD", spend: 600000 },
-      { advertiser: "BrandE", spend: 500000 },
-      { advertiser: "BrandF", spend: 400000 },
-      { advertiser: "BrandG", spend: 350000 },
-      { advertiser: "BrandH", spend: 300000 },
-      { advertiser: "BrandI", spend: 250000 },
-      { advertiser: "BrandJ", spend: 200000 },
-    ],
+// Sample data for top advertisers across stations for different weeks
+const advertiserDataByWeek = {
+  week16: {
+    mangofm: {
+      name: "Mango FM",
+      data: [
+        { advertiser: "BrandA", spend: 1200000 },
+        { advertiser: "BrandB", spend: 1000000 },
+        { advertiser: "BrandC", spend: 800000 },
+        { advertiser: "BrandD", spend: 600000 },
+        { advertiser: "BrandE", spend: 500000 },
+        { advertiser: "BrandF", spend: 400000 },
+        { advertiser: "BrandG", spend: 350000 },
+        { advertiser: "BrandH", spend: 300000 },
+        { advertiser: "BrandI", spend: 250000 },
+        { advertiser: "BrandJ", spend: 200000 },
+      ],
+    },
+    redfm: {
+      name: "Red FM",
+      data: [
+        { advertiser: "BrandA", spend: 1400000 },
+        { advertiser: "BrandB", spend: 1100000 },
+        { advertiser: "BrandC", spend: 900000 },
+        { advertiser: "BrandD", spend: 700000 },
+        { advertiser: "BrandE", spend: 600000 },
+        { advertiser: "BrandF", spend: 450000 },
+        { advertiser: "BrandG", spend: 400000 },
+        { advertiser: "BrandH", spend: 350000 },
+        { advertiser: "BrandI", spend: 300000 },
+        { advertiser: "BrandJ", spend: 250000 },
+      ],
+    },
+    clubfm: {
+      name: "Club FM",
+      data: [
+        { advertiser: "BrandA", spend: 1000000 },
+        { advertiser: "BrandB", spend: 900000 },
+        { advertiser: "BrandC", spend: 700000 },
+        { advertiser: "BrandD", spend: 500000 },
+        { advertiser: "BrandE", spend: 400000 },
+        { advertiser: "BrandF", spend: 350000 },
+        { advertiser: "BrandG", spend: 300000 },
+        { advertiser: "BrandH", spend: 250000 },
+        { advertiser: "BrandI", spend: 200000 },
+        { advertiser: "BrandJ", spend: 150000 },
+      ],
+    },
+    radiomirchi: {
+      name: "Radio Mirchi",
+      data: [
+        { advertiser: "BrandA", spend: 1600000 },
+        { advertiser: "BrandB", spend: 1300000 },
+        { advertiser: "BrandC", spend: 1000000 },
+        { advertiser: "BrandD", spend: 800000 },
+        { advertiser: "BrandE", spend: 700000 },
+        { advertiser: "BrandF", spend: 600000 },
+        { advertiser: "BrandG", spend: 500000 },
+        { advertiser: "BrandH", spend: 450000 },
+        { advertiser: "BrandI", spend: 400000 },
+        { advertiser: "BrandJ", spend: 350000 },
+      ],
+    },
   },
-  redfm: {
-    name: "Red FM",
-    data: [
-      { advertiser: "BrandA", spend: 1400000 },
-      { advertiser: "BrandB", spend: 1100000 },
-      { advertiser: "BrandC", spend: 900000 },
-      { advertiser: "BrandD", spend: 700000 },
-      { advertiser: "BrandE", spend: 600000 },
-      { advertiser: "BrandF", spend: 450000 },
-      { advertiser: "BrandG", spend: 400000 },
-      { advertiser: "BrandH", spend: 350000 },
-      { advertiser: "BrandI", spend: 300000 },
-      { advertiser: "BrandJ", spend: 250000 },
-    ],
-  },
-  clubfm: {
-    name: "Club FM",
-    data: [
-      { advertiser: "BrandA", spend: 1000000 },
-      { advertiser: "BrandB", spend: 900000 },
-      { advertiser: "BrandC", spend: 700000 },
-      { advertiser: "BrandD", spend: 500000 },
-      { advertiser: "BrandE", spend: 400000 },
-      { advertiser: "BrandF", spend: 350000 },
-      { advertiser: "BrandG", spend: 300000 },
-      { advertiser: "BrandH", spend: 250000 },
-      { advertiser: "BrandI", spend: 200000 },
-      { advertiser: "BrandJ", spend: 150000 },
-    ],
-  },
-  radiomirchi: {
-    name: "Radio Mirchi",
-    data: [
-      { advertiser: "BrandA", spend: 1600000 },
-      { advertiser: "BrandB", spend: 1300000 },
-      { advertiser: "BrandC", spend: 1000000 },
-      { advertiser: "BrandD", spend: 800000 },
-      { advertiser: "BrandE", spend: 700000 },
-      { advertiser: "BrandF", spend: 600000 },
-      { advertiser: "BrandG", spend: 500000 },
-      { advertiser: "BrandH", spend: 450000 },
-      { advertiser: "BrandI", spend: 400000 },
-      { advertiser: "BrandJ", spend: 350000 },
-    ],
+  week17: {
+    mangofm: {
+      name: "Mango FM",
+      data: [
+        { advertiser: "BrandA", spend: 1350000 },
+        { advertiser: "BrandB", spend: 1150000 },
+        { advertiser: "BrandC", spend: 850000 },
+        { advertiser: "BrandD", spend: 650000 },
+        { advertiser: "BrandE", spend: 550000 },
+        { advertiser: "BrandF", spend: 420000 },
+        { advertiser: "BrandG", spend: 380000 },
+        { advertiser: "BrandH", spend: 320000 },
+        { advertiser: "BrandI", spend: 270000 },
+        { advertiser: "BrandJ", spend: 220000 },
+      ],
+    },
+    redfm: {
+      name: "Red FM",
+      data: [
+        { advertiser: "BrandA", spend: 1500000 },
+        { advertiser: "BrandB", spend: 1200000 },
+        { advertiser: "BrandC", spend: 950000 },
+        { advertiser: "BrandD", spend: 750000 },
+        { advertiser: "BrandE", spend: 650000 },
+        { advertiser: "BrandF", spend: 480000 },
+        { advertiser: "BrandG", spend: 430000 },
+        { advertiser: "BrandH", spend: 370000 },
+        { advertiser: "BrandI", spend: 320000 },
+        { advertiser: "BrandJ", spend: 280000 },
+      ],
+    },
+    clubfm: {
+      name: "Club FM",
+      data: [
+        { advertiser: "BrandA", spend: 1100000 },
+        { advertiser: "BrandB", spend: 980000 },
+        { advertiser: "BrandC", spend: 750000 },
+        { advertiser: "BrandD", spend: 550000 },
+        { advertiser: "BrandE", spend: 450000 },
+        { advertiser: "BrandF", spend: 380000 },
+        { advertiser: "BrandG", spend: 330000 },
+        { advertiser: "BrandH", spend: 280000 },
+        { advertiser: "BrandI", spend: 230000 },
+        { advertiser: "BrandJ", spend: 180000 },
+      ],
+    },
+    radiomirchi: {
+      name: "Radio Mirchi",
+      data: [
+        { advertiser: "BrandA", spend: 1750000 },
+        { advertiser: "BrandB", spend: 1400000 },
+        { advertiser: "BrandC", spend: 1100000 },
+        { advertiser: "BrandD", spend: 850000 },
+        { advertiser: "BrandE", spend: 750000 },
+        { advertiser: "BrandF", spend: 650000 },
+        { advertiser: "BrandG", spend: 550000 },
+        { advertiser: "BrandH", spend: 480000 },
+        { advertiser: "BrandI", spend: 430000 },
+        { advertiser: "BrandJ", spend: 380000 },
+      ],
+    },
   },
 };
 
@@ -123,8 +186,35 @@ const chartConfig = {
   radiomirchi: { label: "Radio Mirchi" },
 };
 
+function ChartCard({ icon, title, description, action, chart, footer }) {
+  return (
+    <Card className="w-full">
+      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+        <div className="flex items-center space-x-2">
+          {icon}
+          <div>
+            <CardTitle className="text-base font-medium">{title}</CardTitle>
+            <CardDescription className="text-sm text-muted-foreground">
+              {description}
+            </CardDescription>
+          </div>
+        </div>
+        {action}
+      </CardHeader>
+      <CardContent>
+        {chart}
+        {footer && <div className="mt-4">{footer}</div>}
+      </CardContent>
+    </Card>
+  );
+}
+
 export default function TopAdvertisersComparison() {
   const [selectedAdvertisers, setSelectedAdvertisers] = useState(["BrandA"]);
+  const [selectedWeek, setSelectedWeek] = useState("week16");
+
+  // Get current week's data
+  const currentWeekData = advertiserDataByWeek[selectedWeek];
 
   // Prepare data for horizontal stacked chart
   const chartData = [
@@ -134,7 +224,7 @@ export default function TopAdvertisersComparison() {
         topAdvertisers.map((adv) => [
           adv,
           selectedAdvertisers.includes(adv)
-            ? advertiserData["mangofm"].data.find((d) => d.advertiser === adv)
+            ? currentWeekData["mangofm"].data.find((d) => d.advertiser === adv)
                 ?.spend || 0
             : 0,
         ])
@@ -146,7 +236,7 @@ export default function TopAdvertisersComparison() {
         topAdvertisers.map((adv) => [
           adv,
           selectedAdvertisers.includes(adv)
-            ? advertiserData["redfm"].data.find((d) => d.advertiser === adv)
+            ? currentWeekData["redfm"].data.find((d) => d.advertiser === adv)
                 ?.spend || 0
             : 0,
         ])
@@ -158,7 +248,7 @@ export default function TopAdvertisersComparison() {
         topAdvertisers.map((adv) => [
           adv,
           selectedAdvertisers.includes(adv)
-            ? advertiserData["clubfm"].data.find((d) => d.advertiser === adv)
+            ? currentWeekData["clubfm"].data.find((d) => d.advertiser === adv)
                 ?.spend || 0
             : 0,
         ])
@@ -170,7 +260,7 @@ export default function TopAdvertisersComparison() {
         topAdvertisers.map((adv) => [
           adv,
           selectedAdvertisers.includes(adv)
-            ? advertiserData["radiomirchi"].data.find(
+            ? currentWeekData["radiomirchi"].data.find(
                 (d) => d.advertiser === adv
               )?.spend || 0
             : 0,
@@ -183,7 +273,7 @@ export default function TopAdvertisersComparison() {
     return `INR ${(value / 1000000).toFixed(2)}M`;
   };
 
-  const handleSelectChange = (value) => {
+  const handleAdvertiserSelectChange = (value) => {
     if (value === "all") {
       setSelectedAdvertisers(topAdvertisers);
     } else {
@@ -191,14 +281,27 @@ export default function TopAdvertisersComparison() {
     }
   };
 
+  const handleWeekSelectChange = (value) => {
+    setSelectedWeek(value);
+  };
+
   return (
     <ChartCard
       icon={<BarChart2 className="w-6 h-6" />}
       title="Top Advertisers Comparison"
-      description="Your Station vs. Competitors 2024"
+      description={`Your Station vs. Competitors - ${selectedWeek === 'week16' ? 'Week 16' : 'Week 17'} 2024`}
       action={
-        <div className="flex justify-end">
-          <Select onValueChange={handleSelectChange} defaultValue="BrandA">
+        <div className="flex gap-2">
+          <Select onValueChange={handleWeekSelectChange} defaultValue="week16">
+            <SelectTrigger className="w-32">
+              <SelectValue placeholder="Select week" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="week16">Week 16</SelectItem>
+              <SelectItem value="week17">Week 17</SelectItem>
+            </SelectContent>
+          </Select>
+          <Select onValueChange={handleAdvertiserSelectChange} defaultValue="BrandA">
             <SelectTrigger className="w-48">
               <SelectValue placeholder="Select advertiser(s)" />
             </SelectTrigger>
@@ -270,7 +373,8 @@ export default function TopAdvertisersComparison() {
           Showing ad spend distribution for{" "}
           {selectedAdvertisers.length === topAdvertisers.length
             ? "all advertisers"
-            : selectedAdvertisers.map((a) => chartConfig[a].label).join(", ")}
+            : selectedAdvertisers.map((a) => chartConfig[a].label).join(", ")}{" "}
+          in {selectedWeek === 'week16' ? 'Week 16' : 'Week 17'}
         </p>
       }
     />

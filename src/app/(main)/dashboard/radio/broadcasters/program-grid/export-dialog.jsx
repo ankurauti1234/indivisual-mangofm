@@ -142,14 +142,13 @@ const ExportDialog = ({ selectedDate, epgData, availableData }) => {
         }
 
         const exportData = filteredData.map((item) => ({
-          Channel: item.channel,
           Date: item.date,
-          Start: item.start,
-          End: item.end,
+          Channel: item.channel,
+          Region: item.region || "",
           Type: item.type,
           Program: item.program,
-          Region: item.region || "",
-          GIF: item.GIF || "",
+          Start: item.start,
+          End: item.end,
         }));
 
         const channelPart = station === "all" || !station ? "all-channels" : station.toLowerCase().replace(/\s+/g, "-");

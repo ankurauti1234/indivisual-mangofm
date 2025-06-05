@@ -1,17 +1,18 @@
 'use client'
 import React from 'react'
-import { Button } from "@/components/ui/button"
-import { Table } from "lucide-react"
-import Link from "next/link"
 import StatCards from './stat-cards'
 import RadioAdHeatmap from './ad-count-heatmap'
-import SectorTreemap from './treemap'
 import RadioSectorAnalysis from './comperative-bar'
 import IndustryAdSpend from './industry-ad-spend'
 import TopAdvertisersComparison from './top-advertisers-comparison'
 import AdDurationAnalysis from './ad-duration-analysis'
 import AdvertiserChurn from './advertiser-chrun'
 import TVChannelTreemap from './sectors-treemap'
+import NewAdvertisersAlerts from './new-advertisers-alerts'
+import SharedAdvertisers from './shared-advertizers'
+import WhyUsBattleCards from './whu-us-battle-cards'
+import UntappedLeads from './untapped-leads'
+import DailyAdsLineChart from './daily-ads-line-chart'
 
 const RadioDashboard = () => {
   return (
@@ -25,22 +26,21 @@ const RadioDashboard = () => {
         </Link>
       </div> */}
       <StatCards />
-      {/* <RJDashboard /> */}
       <RadioAdHeatmap />
       <RadioSectorAnalysis />
-      {/* <SectorTreemap /> */}
       <TVChannelTreemap />
+
+
       <IndustryAdSpend/>
+      <DailyAdsLineChart/>
       <TopAdvertisersComparison />
-      {/* <AdDurationAnalysis />
-      <AdvertiserChurn /> */}
-      {/* <div className='flex gap-4'>
-        <TopProgramsChart />
-        <TopSongsChart />
-      </div>
-      <AdPlacementFrequencyChart />
-      <DetailedAdAnalysis />
-      <PlatformComparison /> */}
+      <UntappedLeads />
+      <AdDurationAnalysis />
+      <SharedAdvertisers />
+      <NewAdvertisersAlerts />
+      <AdvertiserChurn />
+      <WhyUsBattleCards/>
+  
     </div>
   );
 }

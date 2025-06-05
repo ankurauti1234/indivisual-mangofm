@@ -28,99 +28,195 @@ import {
 } from "@/components/ui/chart";
 import ChartCard from "@/components/card/charts-card";
 
-// Sample data for ad durations and top advertisers across stations
+// Sample data for ad durations and top advertisers across stations and weeks
 const durationData = {
-  mangofm: {
-    name: "Mango FM",
-    data: [
-      {
-        duration: "15s",
-        value: 40,
-        fill: "hsl(var(--chart-1))",
-        topAdvertisers: ["BrandA", "BrandB", "BrandC"],
-      },
-      {
-        duration: "30s",
-        value: 35,
-        fill: "hsl(var(--chart-2))",
-        topAdvertisers: ["BrandD", "BrandE", "BrandF"],
-      },
-      {
-        duration: "60s",
-        value: 25,
-        fill: "hsl(var(--chart-3))",
-        topAdvertisers: ["BrandG", "BrandH", "BrandI"],
-      },
-    ],
+  week16: {
+    mangofm: {
+      name: "Mango FM",
+      data: [
+        {
+          duration: "15s",
+          value: 40,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandA", "BrandB", "BrandC"],
+        },
+        {
+          duration: "30s",
+          value: 35,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandD", "BrandE", "BrandF"],
+        },
+        {
+          duration: "60s",
+          value: 25,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandG", "BrandH", "BrandI"],
+        },
+      ],
+    },
+    redfm: {
+      name: "Red FM",
+      data: [
+        {
+          duration: "15s",
+          value: 45,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandA", "BrandC", "BrandJ"],
+        },
+        {
+          duration: "30s",
+          value: 30,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandB", "BrandE", "BrandG"],
+        },
+        {
+          duration: "60s",
+          value: 25,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandF", "BrandH", "BrandI"],
+        },
+      ],
+    },
+    clubfm: {
+      name: "Club FM",
+      data: [
+        {
+          duration: "15s",
+          value: 50,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandB", "BrandD", "BrandI"],
+        },
+        {
+          duration: "30s",
+          value: 30,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandA", "BrandC", "BrandF"],
+        },
+        {
+          duration: "60s",
+          value: 20,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandE", "BrandG", "BrandJ"],
+        },
+      ],
+    },
+    radiomirchi: {
+      name: "Radio Mirchi",
+      data: [
+        {
+          duration: "15s",
+          value: 35,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandA", "BrandE", "BrandH"],
+        },
+        {
+          duration: "30s",
+          value: 40,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandB", "BrandD", "BrandI"],
+        },
+        {
+          duration: "60s",
+          value: 25,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandC", "BrandF", "BrandJ"],
+        },
+      ],
+    },
   },
-  redfm: {
-    name: "Red FM",
-    data: [
-      {
-        duration: "15s",
-        value: 45,
-        fill: "hsl(var(--chart-1))",
-        topAdvertisers: ["BrandA", "BrandC", "BrandJ"],
-      },
-      {
-        duration: "30s",
-        value: 30,
-        fill: "hsl(var(--chart-2))",
-        topAdvertisers: ["BrandB", "BrandE", "BrandG"],
-      },
-      {
-        duration: "60s",
-        value: 25,
-        fill: "hsl(var(--chart-3))",
-        topAdvertisers: ["BrandF", "BrandH", "BrandI"],
-      },
-    ],
-  },
-  clubfm: {
-    name: "Club FM",
-    data: [
-      {
-        duration: "15s",
-        value: 50,
-        fill: "hsl(var(--chart-1))",
-        topAdvertisers: ["BrandB", "BrandD", "BrandI"],
-      },
-      {
-        duration: "30s",
-        value: 30,
-        fill: "hsl(var(--chart-2))",
-        topAdvertisers: ["BrandA", "BrandC", "BrandF"],
-      },
-      {
-        duration: "60s",
-        value: 20,
-        fill: "hsl(var(--chart-3))",
-        topAdvertisers: ["BrandE", "BrandG", "BrandJ"],
-      },
-    ],
-  },
-  radiomirchi: {
-    name: "Radio Mirchi",
-    data: [
-      {
-        duration: "15s",
-        value: 35,
-        fill: "hsl(var(--chart-1))",
-        topAdvertisers: ["BrandA", "BrandE", "BrandH"],
-      },
-      {
-        duration: "30s",
-        value: 40,
-        fill: "hsl(var(--chart-2))",
-        topAdvertisers: ["BrandB", "BrandD", "BrandI"],
-      },
-      {
-        duration: "60s",
-        value: 25,
-        fill: "hsl(var(--chart-3))",
-        topAdvertisers: ["BrandC", "BrandF", "BrandJ"],
-      },
-    ],
+  week17: {
+    mangofm: {
+      name: "Mango FM",
+      data: [
+        {
+          duration: "15s",
+          value: 42,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandB", "BrandA", "BrandD"],
+        },
+        {
+          duration: "30s",
+          value: 33,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandE", "BrandF", "BrandC"],
+        },
+        {
+          duration: "60s",
+          value: 25,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandH", "BrandI", "BrandG"],
+        },
+      ],
+    },
+    redfm: {
+      name: "Red FM",
+      data: [
+        {
+          duration: "15s",
+          value: 47,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandC", "BrandJ", "BrandA"],
+        },
+        {
+          duration: "30s",
+          value: 28,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandE", "BrandG", "BrandB"],
+        },
+        {
+          duration: "60s",
+          value: 25,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandH", "BrandI", "BrandF"],
+        },
+      ],
+    },
+    clubfm: {
+      name: "Club FM",
+      data: [
+        {
+          duration: "15s",
+          value: 52,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandD", "BrandI", "BrandB"],
+        },
+        {
+          duration: "30s",
+          value: 28,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandC", "BrandF", "BrandA"],
+        },
+        {
+          duration: "60s",
+          value: 20,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandG", "BrandJ", "BrandE"],
+        },
+      ],
+    },
+    radiomirchi: {
+      name: "Radio Mirchi",
+      data: [
+        {
+          duration: "15s",
+          value: 37,
+          fill: "hsl(var(--chart-1))",
+          topAdvertisers: ["BrandE", "BrandH", "BrandA"],
+        },
+        {
+          duration: "30s",
+          value: 38,
+          fill: "hsl(var(--chart-2))",
+          topAdvertisers: ["BrandD", "BrandI", "BrandB"],
+        },
+        {
+          duration: "60s",
+          value: 25,
+          fill: "hsl(var(--chart-3))",
+          topAdvertisers: ["BrandF", "BrandJ", "BrandC"],
+        },
+      ],
+    },
   },
 };
 
@@ -152,7 +248,8 @@ const chartConfig = {
 };
 
 export default function AdDurationAnalysis() {
-  const [selectedStation, setSelectedStation] = useState("all");
+  const [selectedStation, setSelectedStation] = useState("mangofm");
+  const [selectedWeek, setSelectedWeek] = useState("week16");
 
   const formatPercentage = (value) => {
     return `${value}%`;
@@ -163,15 +260,15 @@ export default function AdDurationAnalysis() {
     ? [
         {
           duration: "15s",
-          value: Object.values(durationData).reduce(
+          value: Object.values(durationData[selectedWeek]).reduce(
             (sum, station) =>
               sum + station.data.find((d) => d.duration === "15s").value,
             0
-          ) / Object.keys(durationData).length,
+          ) / Object.keys(durationData[selectedWeek]).length,
           fill: chartConfig["15s"].color,
           topAdvertisers: [
             ...new Set(
-              Object.values(durationData)
+              Object.values(durationData[selectedWeek])
                 .flatMap((station) =>
                   station.data.find((d) => d.duration === "15s").topAdvertisers
                 )
@@ -181,15 +278,15 @@ export default function AdDurationAnalysis() {
         },
         {
           duration: "30s",
-          value: Object.values(durationData).reduce(
+          value: Object.values(durationData[selectedWeek]).reduce(
             (sum, station) =>
               sum + station.data.find((d) => d.duration === "30s").value,
             0
-          ) / Object.keys(durationData).length,
+          ) / Object.keys(durationData[selectedWeek]).length,
           fill: chartConfig["30s"].color,
           topAdvertisers: [
             ...new Set(
-              Object.values(durationData)
+              Object.values(durationData[selectedWeek])
                 .flatMap((station) =>
                   station.data.find((d) => d.duration === "30s").topAdvertisers
                 )
@@ -199,15 +296,15 @@ export default function AdDurationAnalysis() {
         },
         {
           duration: "60s",
-          value: Object.values(durationData).reduce(
+          value: Object.values(durationData[selectedWeek]).reduce(
             (sum, station) =>
               sum + station.data.find((d) => d.duration === "60s").value,
             0
-          ) / Object.keys(durationData).length,
+          ) / Object.keys(durationData[selectedWeek]).length,
           fill: chartConfig["60s"].color,
           topAdvertisers: [
             ...new Set(
-              Object.values(durationData)
+              Object.values(durationData[selectedWeek])
                 .flatMap((station) =>
                   station.data.find((d) => d.duration === "60s").topAdvertisers
                 )
@@ -216,15 +313,24 @@ export default function AdDurationAnalysis() {
           ],
         },
       ]
-    : durationData[selectedStation].data;
+    : durationData[selectedWeek][selectedStation].data;
 
   return (
     <ChartCard
       icon={<PieChartIcon className="w-6 h-6" />}
       title="Ad Duration Analysis"
-      description="Who’s Running Longer Spots? 2024"
+      description={`Who’s Running Longer Spots? 2024 - ${selectedWeek === "week16" ? "Week 16" : "Week 17"}`}
       action={
-        <div className="flex justify-end">
+        <div className="flex justify-end space-x-4">
+          <Select onValueChange={setSelectedWeek} defaultValue="week16">
+            <SelectTrigger className="w-32">
+              <SelectValue placeholder="Select week" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="week16">Week 16</SelectItem>
+              <SelectItem value="week17">Week 17</SelectItem>
+            </SelectContent>
+          </Select>
           <Select
             onValueChange={setSelectedStation}
             defaultValue="mangofm"
@@ -283,7 +389,7 @@ export default function AdDurationAnalysis() {
           Showing ad duration distribution for{" "}
           {selectedStation === "all"
             ? "all stations"
-            : durationData[selectedStation].name}
+            : durationData[selectedWeek][selectedStation].name} in {selectedWeek === "week16" ? "Week 16" : "Week 17"}
         </p>
       }
     />
