@@ -109,28 +109,8 @@ const stationOptions = [
   { value: "radiomirchi", label: "Radio Mirchi" },
 ];
 
-function ChartCard({ icon, title, description, action, chart, footer }) {
-  return (
-    <Card className="w-full">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-        <div className="flex items-center space-x-2">
-          {icon}
-          <div>
-            <CardTitle className="text-base font-medium">{title}</CardTitle>
-            <CardDescription className="text-sm text-muted-foreground">
-              {description}
-            </CardDescription>
-          </div>
-        </div>
-        {action}
-      </CardHeader>
-      <CardContent>
-        {chart}
-        {footer && <div className="mt-4">{footer}</div>}
-      </CardContent>
-    </Card>
-  );
-}
+
+import ChartCard from "@/components/card/charts-card";
 
 export default function UntappedLeads() {
   const [selectedStation, setSelectedStation] = useState("mangofm");
@@ -185,7 +165,7 @@ export default function UntappedLeads() {
       title="Competitor Advertisers NOT on Your Station"
       description={`Untapped Leads Advertising on Competitors - ${selectedWeek === 'week16' ? 'Week 16' : 'Week 17'} (2024)`}
       action={
-        <div className="flex gap-2">
+        <div className="flex justify-end gap-2">
           <Select onValueChange={handleWeekChange} defaultValue="week16">
             <SelectTrigger className="w-32">
               <SelectValue placeholder="Select week" />

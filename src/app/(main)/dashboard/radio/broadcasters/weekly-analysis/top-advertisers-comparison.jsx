@@ -27,6 +27,8 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 
+import ChartCard from "@/components/card/charts-card";
+
 // Sample data for top advertisers across stations for different weeks
 const advertiserDataByWeek = {
   week16: {
@@ -186,28 +188,7 @@ const chartConfig = {
   radiomirchi: { label: "Radio Mirchi" },
 };
 
-function ChartCard({ icon, title, description, action, chart, footer }) {
-  return (
-    <Card className="w-full">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-        <div className="flex items-center space-x-2">
-          {icon}
-          <div>
-            <CardTitle className="text-base font-medium">{title}</CardTitle>
-            <CardDescription className="text-sm text-muted-foreground">
-              {description}
-            </CardDescription>
-          </div>
-        </div>
-        {action}
-      </CardHeader>
-      <CardContent>
-        {chart}
-        {footer && <div className="mt-4">{footer}</div>}
-      </CardContent>
-    </Card>
-  );
-}
+
 
 export default function TopAdvertisersComparison() {
   const [selectedAdvertisers, setSelectedAdvertisers] = useState(["BrandA"]);
@@ -317,7 +298,7 @@ export default function TopAdvertisersComparison() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={chartConfig} className="h-96 w-full">
           <BarChart
             accessibilityLayer
             data={chartData}

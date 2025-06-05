@@ -204,7 +204,7 @@ export default function IndustryAdSpend() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={chartConfig} className="h-96 w-full">
           <BarChart
             accessibilityLayer
             data={chartData}
@@ -214,7 +214,6 @@ export default function IndustryAdSpend() {
               bottom: 16,
               left: 16,
             }}
-            height={300}
           >
             <CartesianGrid vertical={false} />
             <XAxis

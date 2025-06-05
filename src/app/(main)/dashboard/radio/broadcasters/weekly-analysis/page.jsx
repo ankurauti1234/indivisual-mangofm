@@ -13,6 +13,7 @@ import SharedAdvertisers from './shared-advertizers'
 import WhyUsBattleCards from './whu-us-battle-cards'
 import UntappedLeads from './untapped-leads'
 import DailyAdsLineChart from './daily-ads-line-chart'
+import DailyAdCount from './daily-ad-count'
 
 const RadioDashboard = () => {
   return (
@@ -35,6 +36,7 @@ const RadioDashboard = () => {
       <DailyAdsLineChart/>
       <TopAdvertisersComparison />
       <UntappedLeads />
+      <DailyAdCount/>
       <AdDurationAnalysis />
       <SharedAdvertisers />
       <NewAdvertisersAlerts />

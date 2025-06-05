@@ -210,7 +210,7 @@ export default function WhyUsBattleCards() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={chartConfig} className="h-96 w-full">
           <RadarChart
             data={chartData}
             margin={{

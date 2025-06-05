@@ -349,7 +349,7 @@ export default function AdDurationAnalysis() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig} height={600}>
+        <ChartContainer config={chartConfig}  className="h-96 w-full">
           <PieChart
             accessibilityLayer
             margin={{
@@ -358,7 +358,7 @@ export default function AdDurationAnalysis() {
               bottom: 16,
               left: 16,
             }}
-            height={500}
+            height={200}
           >
             <Pie
               data={chartData}
@@ -366,7 +366,7 @@ export default function AdDurationAnalysis() {
               nameKey="duration"
               cx="50%"
               cy="50%"
-              outerRadius={240}
+              outerRadius={160}
               label={({ name }) => chartConfig[name]?.label}
               labelLine={false}
             />

@@ -125,7 +125,7 @@ export default function DailyAdsLineChart() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={chartConfig} className="h-96 w-full">
           <LineChart
             accessibilityLayer
             data={chartData}
@@ -147,7 +147,6 @@ export default function DailyAdsLineChart() {
               tickLine={false}
               axisLine={false}
               tickMargin={8}
-              angle={-45}
               textAnchor="end"
               height={60}
               fontSize={12}

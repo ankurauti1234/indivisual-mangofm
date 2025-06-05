@@ -304,7 +304,7 @@ export default function AdvertiserChurn() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={chartConfig} className="h-96 w-full">
           <BarChart
             accessibilityLayer
             data={chartData}
