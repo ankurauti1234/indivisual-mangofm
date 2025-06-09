@@ -1,6 +1,6 @@
 [
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chori+Chori.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chori+Chori.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:02:50",
@@ -44,7 +44,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ninnodenikkulla.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ninnodenikkulla.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:08:36",
@@ -66,7 +66,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Iyengaaru+Veettu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Iyengaaru+Veettu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:13:06",
@@ -88,7 +88,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Panimalarum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Panimalarum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:18:44",
@@ -110,7 +110,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Tu+Mere+Samne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Tu+Mere+Samne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:24:27",
@@ -132,7 +132,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oh+Mridule.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oh+Mridule.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:28:59",
@@ -154,7 +154,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Yaarumilla.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Yaarumilla.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:32:57",
@@ -176,7 +176,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sakhiye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sakhiye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:35:55",
@@ -198,7 +198,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kismat+Se+tum+Hum+Ko+Mile.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kismat+Se+tum+Hum+Ko+Mile.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:42:04",
@@ -220,7 +220,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ennodenthinee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ennodenthinee.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:46:01",
@@ -242,7 +242,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vaa+Vaathi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vaa+Vaathi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:49:32",
@@ -275,7 +275,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Onnu+Thodaanullil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Onnu+Thodaanullil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:53:55",
@@ -297,7 +297,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Guzarish.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Guzarish.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "00:58:48",
@@ -319,7 +319,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pattupettikara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pattupettikara.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:00:00",
@@ -330,7 +330,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pattupettikara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pattupettikara.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:02:40",
@@ -352,7 +352,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Kari+Mukilinu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Kari+Mukilinu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:06:41",
@@ -374,7 +374,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Innariyathe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Innariyathe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:09:19",
@@ -396,7 +396,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kadukumanikkoru+Kannundu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kadukumanikkoru+Kannundu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:10:55",
@@ -418,7 +418,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nadiye+Nila+Nadiye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nadiye+Nila+Nadiye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:13:33",
@@ -440,7 +440,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Minungum+Minnaminuge.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Minungum+Minnaminuge.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:16:43",
@@ -462,7 +462,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Achamillai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Achamillai.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:19:49",
@@ -484,7 +484,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannin+Vaathil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannin+Vaathil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:22:35",
@@ -506,7 +506,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Tharangal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Tharangal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:25:40",
@@ -528,7 +528,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aankh+Marey.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aankh+Marey.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:28:19",
@@ -550,7 +550,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pavizha+Mazha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pavizha+Mazha.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:31:24",
@@ -572,7 +572,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kandu+Kandu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kandu+Kandu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:33:40",
@@ -594,7 +594,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nee+Naan+Nee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nee+Naan+Nee.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:36:10",
@@ -616,7 +616,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kanakkannil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kanakkannil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:39:20",
@@ -638,7 +638,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Zaalima+Coaca+Cola.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Zaalima+Coaca+Cola.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:42:07",
@@ -660,7 +660,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nilaavum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nilaavum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:44:43",
@@ -682,7 +682,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ayisha+Ayisha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ayisha+Ayisha.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:47:50",
@@ -704,7 +704,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kathayoraavarthanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kathayoraavarthanam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:50:17",
@@ -726,7 +726,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaalam+Kettu+Poyi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaalam+Kettu+Poyi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:52:27",
@@ -748,7 +748,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Melle+Melle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Melle+Melle.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:55:39",
@@ -770,7 +770,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Karineela+Kayalukondu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Karineela+Kayalukondu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "01:58:50",
@@ -792,7 +792,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manohari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manohari.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:00:00",
@@ -803,7 +803,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manohari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manohari.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:02:00",
@@ -825,7 +825,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kolussu+Thenni+Thenni.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kolussu+Thenni+Thenni.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:05:16",
@@ -847,7 +847,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aalum+Kolum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aalum+Kolum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:07:41",
@@ -869,7 +869,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chembavu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chembavu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:10:50",
@@ -891,7 +891,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mandaarame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mandaarame.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:14:01",
@@ -913,7 +913,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nee+Muttham+Onru.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nee+Muttham+Onru.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:16:49",
@@ -935,7 +935,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vaaleduthal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vaaleduthal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:19:44",
@@ -957,7 +957,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Illathalam+Kaimarumbol.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Illathalam+Kaimarumbol.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:22:18",
@@ -979,7 +979,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Haan+Main+Galat.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Haan+Main+Galat.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:25:11",
@@ -1001,7 +1001,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mathalathen+Malaralle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mathalathen+Malaralle.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:27:33",
@@ -1023,7 +1023,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhamekha+Chelin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhamekha+Chelin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:30:39",
@@ -1045,7 +1045,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Annatthe+Annatthe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Annatthe+Annatthe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:33:46",
@@ -1067,7 +1067,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Minnal+Kaivala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Minnal+Kaivala.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:36:09",
@@ -1089,7 +1089,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dholida.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dholida.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:38:55",
@@ -1111,7 +1111,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ambalakkara+Thechikkavile.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ambalakkara+Thechikkavile.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:42:02",
@@ -1133,7 +1133,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ilaveyil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ilaveyil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:44:46",
@@ -1155,7 +1155,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhaneer+Thullikal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhaneer+Thullikal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:47:15",
@@ -1177,7 +1177,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neelambalin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neelambalin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:50:08",
@@ -1199,7 +1199,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Amruthamayi+Abhayamai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Amruthamayi+Abhayamai.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:53:11",
@@ -1221,7 +1221,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ee+Thalavara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ee+Thalavara.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:56:04",
@@ -1243,7 +1243,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aatmavin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aatmavin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "02:59:15",
@@ -1276,7 +1276,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manjaadum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manjaadum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:03:09",
@@ -1298,7 +1298,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pathinezhinte+Poonkaralil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pathinezhinte+Poonkaralil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:06:25",
@@ -1320,7 +1320,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ponthaarame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ponthaarame.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:09:25",
@@ -1342,7 +1342,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thotturumi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thotturumi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:12:11",
@@ -1364,7 +1364,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Veyil+Chilla.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Veyil+Chilla.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:14:55",
@@ -1386,7 +1386,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pathala+Pathala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pathala+Pathala.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:18:08",
@@ -1408,7 +1408,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Lajjavathiye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Lajjavathiye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:21:00",
@@ -1430,7 +1430,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannimalare+Kanninazhake.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannimalare+Kanninazhake.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:23:46",
@@ -1452,7 +1452,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Tum+Hi+Ho.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Tum+Hi+Ho.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:26:34",
@@ -1474,7 +1474,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Alare.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Alare.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:29:41",
@@ -1496,7 +1496,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Koovaram+Kili.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Koovaram+Kili.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:32:39",
@@ -1518,7 +1518,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Bullet+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Bullet+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:35:28",
@@ -1540,7 +1540,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kilikal+Parannatho.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kilikal+Parannatho.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:38:07",
@@ -1562,7 +1562,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aashiqui+Aa+Gayi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aashiqui+Aa+Gayi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:41:02",
@@ -1584,7 +1584,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Olenjali+Kuruvi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Olenjali+Kuruvi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:43:55",
@@ -1606,7 +1606,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vaanavillen.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vaanavillen.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:46:41",
@@ -1628,7 +1628,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aararum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aararum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:49:10",
@@ -1650,7 +1650,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Fish+Rock.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Fish+Rock.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:50:56",
@@ -1672,7 +1672,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thamara+Kuruvikku.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thamara+Kuruvikku.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:53:56",
@@ -1694,7 +1694,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Raavoram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Raavoram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:56:34",
@@ -1716,7 +1716,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Hridayathin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Hridayathin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "03:58:47",
@@ -1738,7 +1738,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhaye+Mazhaye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhaye+Mazhaye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:00:00",
@@ -1749,7 +1749,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhaye+Mazhaye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhaye+Mazhaye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:01:10",
@@ -1771,7 +1771,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Mozhi+Parayam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Mozhi+Parayam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:04:43",
@@ -1793,7 +1793,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Subah+Subah.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Subah+Subah.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:07:24",
@@ -1815,7 +1815,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ponnaavanippadam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ponnaavanippadam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:09:58",
@@ -1837,7 +1837,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ingattu+Nokku.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ingattu+Nokku.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:12:53",
@@ -1859,7 +1859,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mizhikalil+Naanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mizhikalil+Naanam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:15:24",
@@ -1881,7 +1881,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thaazhvaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thaazhvaram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:18:44",
@@ -1903,7 +1903,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sodakku.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sodakku.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:21:37",
@@ -1925,7 +1925,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Junile+Nilamazhayil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Junile+Nilamazhayil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:24:11",
@@ -1947,7 +1947,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Poonkattey.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Poonkattey.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:26:39",
@@ -1969,7 +1969,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Garda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Garda.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:29:47",
@@ -1991,7 +1991,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Uyire.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Uyire.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:32:59",
@@ -2013,7 +2013,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manikuyile.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manikuyile.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:35:52",
@@ -2035,7 +2035,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Un+Pere+Theriyadhu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Un+Pere+Theriyadhu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:38:29",
@@ -2057,7 +2057,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Azhage+Azhage+Nanunane.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Azhage+Azhage+Nanunane.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:41:11",
@@ -2079,7 +2079,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kalle+Kalle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kalle+Kalle.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:44:24",
@@ -2101,7 +2101,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Marivil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Marivil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:46:51",
@@ -2123,7 +2123,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kalakkatha+Sandana+Meram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kalakkatha+Sandana+Meram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:48:47",
@@ -2145,7 +2145,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neeyam+Thanalinu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neeyam+Thanalinu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:51:43",
@@ -2167,7 +2167,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ambaazham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ambaazham.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:54:26",
@@ -2189,7 +2189,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kolakuzhal+Villi+Ketto.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kolakuzhal+Villi+Ketto.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "04:57:11",
@@ -2211,7 +2211,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Empurane.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Empurane.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:00:00",
@@ -2222,7 +2222,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Empurane.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Empurane.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:00:09",
@@ -2244,7 +2244,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannanthalikaavil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannanthalikaavil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:03:19",
@@ -2266,7 +2266,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Wow+Ponnin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Wow+Ponnin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:06:21",
@@ -2288,7 +2288,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Najaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Najaa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:09:21",
@@ -2310,7 +2310,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dwaadashiyil+Mani+Deepika.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dwaadashiyil+Mani+Deepika.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:12:12",
@@ -2332,7 +2332,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Adyam+Thammil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Adyam+Thammil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:15:32",
@@ -2354,7 +2354,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Alliyambal+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Alliyambal+.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:17:35",
@@ -2376,7 +2376,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aaro+Aaro+Chare.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aaro+Aaro+Chare.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:20:42",
@@ -2398,7 +2398,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Singapenney.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Singapenney.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:23:48",
@@ -2420,7 +2420,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Then+Thulli.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Then+Thulli.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:26:16",
@@ -2442,7 +2442,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannondu+Chollanu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannondu+Chollanu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:28:56",
@@ -2464,7 +2464,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chita+Ta+Ta+Chita+Chita.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chita+Ta+Ta+Chita+Chita.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:31:52",
@@ -2486,7 +2486,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Njaanum+Neeyum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Njaanum+Neeyum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:34:27",
@@ -2508,7 +2508,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Rumaal+Ambili.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Rumaal+Ambili.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:37:24",
@@ -2530,7 +2530,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thattan+Thattaan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thattan+Thattaan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:40:27",
@@ -2552,7 +2552,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sundaree+Onnu+Parayoo+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sundaree+Onnu+Parayoo+.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:43:10",
@@ -2574,7 +2574,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Isaaqbaazi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Isaaqbaazi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:45:57",
@@ -2596,7 +2596,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pularikalo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pularikalo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:48:52",
@@ -2618,7 +2618,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Theerame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Theerame.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:51:48",
@@ -2640,7 +2640,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Moolipaattum+Paadi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Moolipaattum+Paadi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:54:46",
@@ -2662,7 +2662,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kunkumanira+Sooryan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kunkumanira+Sooryan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "05:57:43",
@@ -2684,7 +2684,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Shaarike+Ninne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Shaarike+Ninne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:00:00",
@@ -2695,7 +2695,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Shaarike+Ninne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Shaarike+Ninne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:00:24",
@@ -2739,7 +2739,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Orunaal+Orunaal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Orunaal+Orunaal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:05:18",
@@ -2761,7 +2761,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Idukki.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Idukki.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:08:15",
@@ -2783,7 +2783,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neon+Ride.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neon+Ride.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:12:44",
@@ -2816,7 +2816,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thumbi+Penne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thumbi+Penne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:15:17",
@@ -2838,7 +2838,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Do+You+Love+Me.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Do+You+Love+Me.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:19:15",
@@ -2860,7 +2860,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mele+Meghakkombil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mele+Meghakkombil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:21:27",
@@ -2904,7 +2904,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Malare.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Malare.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:24:13",
@@ -2926,7 +2926,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Delta+Kalyanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Delta+Kalyanam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:27:03",
@@ -2959,7 +2959,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Phir+Zinda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Phir+Zinda.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:31:08",
@@ -2981,7 +2981,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Rangisari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Rangisari.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:34:14",
@@ -3025,7 +3025,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Run+It+Up.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Run+It+Up.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:37:23",
@@ -3047,7 +3047,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Payye+Veeshum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Payye+Veeshum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:39:43",
@@ -3069,7 +3069,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaanumbol+Ninne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaanumbol+Ninne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:43:16",
@@ -3113,7 +3113,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Jaya+Hey+Theme+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Jaya+Hey+Theme+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:45:17",
@@ -3135,7 +3135,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chingamasam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chingamasam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:48:02",
@@ -3157,7 +3157,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kili+Poyi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kili+Poyi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:50:54",
@@ -3179,7 +3179,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Rowdy+Baby.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Rowdy+Baby.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:53:55",
@@ -3201,7 +3201,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Akasham+Pole.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Akasham+Pole.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:56:51",
@@ -3223,7 +3223,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Venal+Puzhayil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Venal+Puzhayil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "06:59:27",
@@ -3278,7 +3278,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Everyday.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Everyday.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:03:25",
@@ -3300,7 +3300,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Omana+Komala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Omana+Komala.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:06:01",
@@ -3322,7 +3322,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Penny.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Penny.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:10:50",
@@ -3432,7 +3432,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thottal+Pookkum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thottal+Pookkum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:14:56",
@@ -3454,7 +3454,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Konji+Konji+Chirichal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Konji+Konji+Chirichal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:20:15",
@@ -3476,7 +3476,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ghoomar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ghoomar.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:23:13",
@@ -3575,7 +3575,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannum+Kannum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannum+Kannum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:28:13",
@@ -3597,7 +3597,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Maamadura.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Maamadura.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:30:53",
@@ -3630,7 +3630,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Braidaathi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Braidaathi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:36:47",
@@ -3652,7 +3652,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chenthalire.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chenthalire.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:39:08",
@@ -3740,7 +3740,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Tatta+Tattara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Tatta+Tattara.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:44:56",
@@ -3762,7 +3762,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/What+Jhumka?.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/What+Jhumka?.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:49:42",
@@ -3850,7 +3850,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Espresso.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Espresso.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:54:17",
@@ -3872,7 +3872,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aararo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aararo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "07:57:35",
@@ -3894,7 +3894,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Omanichumma.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Omanichumma.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:00:00",
@@ -3905,7 +3905,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Omanichumma.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Omanichumma.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:00:49",
@@ -3949,7 +3949,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thanne+Thanne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thanne+Thanne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:05:03",
@@ -3971,7 +3971,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thalatherichavar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thalatherichavar.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:07:44",
@@ -3993,7 +3993,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Veyilu+Chaayum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Veyilu+Chaayum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:12:45",
@@ -4092,7 +4092,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/God+Bless+U.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/God+Bless+U.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:17:01",
@@ -4114,7 +4114,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaana+Mullal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaana+Mullal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:21:37",
@@ -4136,7 +4136,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Lailakame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Lailakame.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:24:49",
@@ -4224,7 +4224,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Raataan+Lambiyan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Raataan+Lambiyan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:29:37",
@@ -4246,7 +4246,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazha+Paadum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazha+Paadum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:32:49",
@@ -4279,7 +4279,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Vaakku+Mindaathe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Vaakku+Mindaathe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:37:04",
@@ -4301,7 +4301,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhayil+Nirayum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhayil+Nirayum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:39:43",
@@ -4378,7 +4378,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ordinary+Person.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ordinary+Person.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:43:55",
@@ -4400,7 +4400,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Minnalvala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Minnalvala.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:48:31",
@@ -4499,7 +4499,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Deva+Deva.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Deva+Deva.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:52:44",
@@ -4510,7 +4510,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Night+Changes.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Night+Changes.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:55:46",
@@ -4532,7 +4532,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Naal+Annorunaal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Naal+Annorunaal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "08:58:23",
@@ -4554,7 +4554,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Puthiyoru+Lokam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Puthiyoru+Lokam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:00:00",
@@ -4565,7 +4565,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Puthiyoru+Lokam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Puthiyoru+Lokam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:01:38",
@@ -4609,7 +4609,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Maname+Aalolam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Maname+Aalolam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:06:23",
@@ -4631,7 +4631,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Maayaathe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Maayaathe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:09:07",
@@ -4653,7 +4653,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Muthuchippi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Muthuchippi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:13:02",
@@ -4752,7 +4752,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Poomaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Poomaram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:17:59",
@@ -4774,7 +4774,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Private+Party.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Private+Party.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:22:18",
@@ -4796,7 +4796,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mele+Vellithinkal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mele+Vellithinkal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:25:21",
@@ -4906,7 +4906,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Muthumani+Mazhayaai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Muthumani+Mazhayaai.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:31:40",
@@ -4928,7 +4928,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nasha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nasha.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:34:39",
@@ -4961,7 +4961,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Heart+Attack.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Heart+Attack.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:38:46",
@@ -4983,7 +4983,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thazhvaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thazhvaram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:40:52",
@@ -5093,7 +5093,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Madhumathi+Poovirinjuvo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Madhumathi+Poovirinjuvo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:46:05",
@@ -5115,7 +5115,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Naracha+Mudi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Naracha+Mudi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:50:04",
@@ -5192,7 +5192,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nin+Koode+Njan+Illayo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nin+Koode+Njan+Illayo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:54:57",
@@ -5214,7 +5214,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Cupid.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Cupid.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "09:57:20",
@@ -5236,7 +5236,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aap+Jaisa+Koi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aap+Jaisa+Koi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:00:00",
@@ -5247,7 +5247,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aap+Jaisa+Koi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aap+Jaisa+Koi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:00:13",
@@ -5280,7 +5280,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kondal+Vedan+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kondal+Vedan+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:05:27",
@@ -5302,7 +5302,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kollam+Pattu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kollam+Pattu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:10:20",
@@ -5412,7 +5412,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaadaniyum+Kaalchilambe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaadaniyum+Kaalchilambe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:14:44",
@@ -5434,7 +5434,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kanninima+Neele.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kanninima+Neele.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:19:26",
@@ -5456,7 +5456,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Yedi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Yedi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:22:33",
@@ -5555,7 +5555,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pacha+Panamthathe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pacha+Panamthathe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:27:12",
@@ -5577,7 +5577,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pularoli.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pularoli.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:30:16",
@@ -5599,7 +5599,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Odhani.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Odhani.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:34:21",
@@ -5621,7 +5621,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thaimani+Kunju.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thaimani+Kunju.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:36:45",
@@ -5709,7 +5709,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kurrah.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kurrah.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:41:32",
@@ -5731,7 +5731,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Flip+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Flip+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:46:50",
@@ -5830,7 +5830,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Namma+Satham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Namma+Satham.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:51:28",
@@ -5852,7 +5852,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Maambulli+KAavil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Maambulli+KAavil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:53:56",
@@ -5874,7 +5874,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Agar+Ho+Tum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Agar+Ho+Tum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:57:17",
@@ -5896,7 +5896,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/What+Are+You+Waiting+For.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/What+Are+You+Waiting+For.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "10:59:42",
@@ -5940,7 +5940,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thattathil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thattathil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:05:50",
@@ -5962,7 +5962,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/LUNCH.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/LUNCH.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:10:17",
@@ -6039,7 +6039,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaanaatheeram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaanaatheeram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:13:26",
@@ -6061,7 +6061,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aluva+Puzha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aluva+Puzha.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:15:36",
@@ -6083,7 +6083,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Allippove+Mallippoove.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Allippove+Mallippoove.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:21:08",
@@ -6182,7 +6182,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Verithanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Verithanam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:25:56",
@@ -6204,7 +6204,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/K+For+Kurukku.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/K+For+Kurukku.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:29:16",
@@ -6226,7 +6226,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dubai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dubai.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:33:44",
@@ -6248,7 +6248,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aralippoongadugal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aralippoongadugal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:37:03",
@@ -6336,7 +6336,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chaar+Kadam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chaar+Kadam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:40:59",
@@ -6358,7 +6358,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Resamale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Resamale.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:45:44",
@@ -6435,7 +6435,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vathilil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vathilil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:50:44",
@@ -6457,7 +6457,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Unakku+Thaan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Unakku+Thaan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:54:07",
@@ -6479,7 +6479,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Scene+Mone.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Scene+Mone.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "11:57:20",
@@ -6501,7 +6501,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Satyanaas.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Satyanaas.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:00:00",
@@ -6512,7 +6512,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Satyanaas.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Satyanaas.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:00:27",
@@ -6545,7 +6545,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chor+Bazari+Phir+Se.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chor+Bazari+Phir+Se.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:04:44",
@@ -6567,7 +6567,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Parudeesa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Parudeesa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:07:46",
@@ -6589,7 +6589,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Edakochi+Ishq.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Edakochi+Ishq.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:12:37",
@@ -6655,7 +6655,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sorry.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sorry.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:17:13",
@@ -6677,7 +6677,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kanimaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kanimaa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:20:53",
@@ -6710,7 +6710,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Poomkaatte+Poyichollamo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Poomkaatte+Poyichollamo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:24:38",
@@ -6798,7 +6798,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kuthanthram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kuthanthram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:29:26",
@@ -6820,7 +6820,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mini+Maharani.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mini+Maharani.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:32:13",
@@ -6842,7 +6842,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Hatja.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Hatja.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:36:54",
@@ -6930,7 +6930,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pularipoopenne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pularipoopenne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:41:24",
@@ -6952,7 +6952,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Param+Sundari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Param+Sundari.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:45:42",
@@ -7018,7 +7018,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Madhu+Pole.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Madhu+Pole.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:49:43",
@@ -7040,7 +7040,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Onnaanaam+Kunninmele.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Onnaanaam+Kunninmele.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:52:46",
@@ -7062,7 +7062,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Swagathaanjali.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Swagathaanjali.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:55:47",
@@ -7084,7 +7084,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ente+Thenkasi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ente+Thenkasi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "12:58:38",
@@ -7106,7 +7106,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannilu+Kannilu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannilu+Kannilu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:00:00",
@@ -7117,7 +7117,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannilu+Kannilu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannilu+Kannilu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:01:34",
@@ -7150,7 +7150,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Cheth+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Cheth+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:06:49",
@@ -7172,7 +7172,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manne+Nambi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manne+Nambi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:13:15",
@@ -7249,7 +7249,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Not+Ramaiya+Vastavaiya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Not+Ramaiya+Vastavaiya.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:17:17",
@@ -7271,7 +7271,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Too+Sweet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Too+Sweet.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:25:34",
@@ -7293,7 +7293,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thorappan+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thorappan+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:27:59",
@@ -7370,7 +7370,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pookkal+Panineer.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pookkal+Panineer.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:33:00",
@@ -7392,7 +7392,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thanne+Thanne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thanne+Thanne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:35:43",
@@ -7414,7 +7414,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Jinguchaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Jinguchaa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:41:52",
@@ -7436,7 +7436,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vezhambal+Kezhum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vezhambal+Kezhum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:45:14",
@@ -7502,7 +7502,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhathullikal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhathullikal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:49:02",
@@ -7524,7 +7524,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Baby+Baby.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Baby+Baby.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:55:32",
@@ -7590,7 +7590,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Baby+Doll.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Baby+Doll.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "13:59:41",
@@ -7645,7 +7645,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Arbhadam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Arbhadam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:04:36",
@@ -7667,7 +7667,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mamboo+Manamithaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mamboo+Manamithaa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:09:05",
@@ -7744,7 +7744,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Meri+Jaan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Meri+Jaan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:13:01",
@@ -7766,7 +7766,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Some+Type+Of+Skin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Some+Type+Of+Skin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:17:26",
@@ -7788,7 +7788,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mizhiyil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mizhiyil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:20:43",
@@ -7865,7 +7865,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dooreyo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dooreyo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:25:13",
@@ -7887,7 +7887,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chinnamma+adi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chinnamma+adi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:28:19",
@@ -7920,7 +7920,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannai+Vittu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannai+Vittu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:32:26",
@@ -7942,7 +7942,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Olichirikkaan+Vallikkudilonnorukki+Vechille.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Olichirikkaan+Vallikkudilonnorukki+Vechille.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:34:44",
@@ -8008,7 +8008,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kudamullakkadavil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kudamullakkadavil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:39:31",
@@ -8030,7 +8030,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neon+Ride.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neon+Ride.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:44:54",
@@ -8096,7 +8096,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kamariya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kamariya.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:48:48",
@@ -8118,7 +8118,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Peyyum+Nilaavu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Peyyum+Nilaavu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:51:03",
@@ -8140,7 +8140,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kunnathae.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kunnathae.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:53:37",
@@ -8162,7 +8162,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manasilaayo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manasilaayo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:56:42",
@@ -8184,7 +8184,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Choolamadikkada.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Choolamadikkada.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "14:59:43",
@@ -8239,7 +8239,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Phir+Zinda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Phir+Zinda.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:04:13",
@@ -8261,7 +8261,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Njan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Njan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:09:08",
@@ -8338,7 +8338,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kalloorum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kalloorum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:13:33",
@@ -8360,7 +8360,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vennila+Kanyake.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vennila+Kanyake.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:18:42",
@@ -8382,7 +8382,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Koi+Naa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Koi+Naa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:22:11",
@@ -8448,7 +8448,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Let+Me+Down+Slowly.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Let+Me+Down+Slowly.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:26:19",
@@ -8470,7 +8470,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nee+Mazhavillu+Polen.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nee+Mazhavillu+Polen.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:29:20",
@@ -8503,7 +8503,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Katte+Katte.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Katte+Katte.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:34:56",
@@ -8525,7 +8525,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pramadhavanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pramadhavanam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:38:16",
@@ -8602,7 +8602,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Marudhaani.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Marudhaani.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:41:47",
@@ -8624,7 +8624,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Everyday.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Everyday.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:43:56",
@@ -8690,7 +8690,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neeyoru+Puzhayayi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neeyoru+Puzhayayi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:49:41",
@@ -8712,7 +8712,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Manogatham+Bhavan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Manogatham+Bhavan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:52:04",
@@ -8734,7 +8734,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nazrein+Milaana+Nazrein+Churaana.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nazrein+Milaana+Nazrein+Churaana.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:55:13",
@@ -8756,7 +8756,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Allah+Avalente+Pennakane.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Allah+Avalente+Pennakane.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "15:58:23",
@@ -8778,7 +8778,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Johny+Mone+Johnee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Johny+Mone+Johnee.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:00:00",
@@ -8789,7 +8789,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Johny+Mone+Johnee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Johny+Mone+Johnee.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:00:45",
@@ -8833,7 +8833,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Jeevithagaaadhakale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Jeevithagaaadhakale.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:05:18",
@@ -8855,7 +8855,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Braidaathi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Braidaathi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:10:07",
@@ -8932,7 +8932,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Shilayilninnum+Unaru+Nee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Shilayilninnum+Unaru+Nee.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:14:10",
@@ -8954,7 +8954,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thenkizhakku.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thenkizhakku.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:19:22",
@@ -8976,7 +8976,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Raftaara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Raftaara.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:22:34",
@@ -9064,7 +9064,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Naran.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Naran.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:26:30",
@@ -9086,7 +9086,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Cold+Heart.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Cold+Heart.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:29:43",
@@ -9130,7 +9130,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thenum+Vayambum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thenum+Vayambum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:35:35",
@@ -9152,7 +9152,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Taub+atAuba.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Taub+atAuba.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:39:00",
@@ -9240,7 +9240,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thaane+Pookjum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thaane+Pookjum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:42:46",
@@ -9262,7 +9262,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Veyilu+Chaayum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Veyilu+Chaayum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:47:55",
@@ -9339,7 +9339,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Adada+Adada.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Adada+Adada.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:52:04",
@@ -9361,7 +9361,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Poo+Mathram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Poo+Mathram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:54:33",
@@ -9383,7 +9383,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Tharangal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Tharangal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "16:57:37",
@@ -9405,7 +9405,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dil+Meit+Karda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dil+Meit+Karda.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:00:00",
@@ -9416,7 +9416,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dil+Meit+Karda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dil+Meit+Karda.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:00:38",
@@ -9460,7 +9460,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Minnalvala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Minnalvala.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:05:20",
@@ -9482,7 +9482,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ek+Do+Teen.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ek+Do+Teen.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:11:13",
@@ -9581,7 +9581,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ivalaro.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ivalaro.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:16:27",
@@ -9603,7 +9603,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nenjodu+Cherthu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nenjodu+Cherthu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:20:45",
@@ -9625,7 +9625,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Whistle+Podu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Whistle+Podu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:23:55",
@@ -9735,7 +9735,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kutty+Kudiye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kutty+Kudiye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:29:16",
@@ -9757,7 +9757,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Doobey.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Doobey.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:32:11",
@@ -9790,7 +9790,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Calm+Down.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Calm+Down.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:37:02",
@@ -9812,7 +9812,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Maanasanilayil+Ponnolangal+Manjeera+Dwaniyunarthi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Maanasanilayil+Ponnolangal+Manjeera+Dwaniyunarthi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:40:22",
@@ -9933,7 +9933,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kannil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kannil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:46:11",
@@ -9955,7 +9955,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Maname+Aalolam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Maname+Aalolam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:50:45",
@@ -10054,7 +10054,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Wahida+Duet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Wahida+Duet.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:55:50",
@@ -10076,7 +10076,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Yavvana.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Yavvana.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "17:59:00",
@@ -10131,7 +10131,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mouna+Sundari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mouna+Sundari.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:03:23",
@@ -10153,7 +10153,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Enthaanu+Khalbe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Enthaanu+Khalbe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:06:27",
@@ -10175,7 +10175,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kasavu+Njoriyumoru+Pulari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kasavu+Njoriyumoru+Pulari.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:10:45",
@@ -10263,7 +10263,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chashni.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chashni.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:15:34",
@@ -10285,7 +10285,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Heart+Attack.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Heart+Attack.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:19:57",
@@ -10307,7 +10307,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chundari+Penne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chundari+Penne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:23:01",
@@ -10384,7 +10384,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ayalaa+Ayalaaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ayalaa+Ayalaaa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:27:52",
@@ -10406,7 +10406,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Halaballo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Halaballo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:31:10",
@@ -10439,7 +10439,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aayilyam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aayilyam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:35:17",
@@ -10527,7 +10527,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Summertime.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Summertime.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:40:28",
@@ -10549,7 +10549,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kollam+Pattu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kollam+Pattu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:45:13",
@@ -10615,7 +10615,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vijanathayil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vijanathayil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:49:58",
@@ -10637,7 +10637,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thennal+Nilavinte.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thennal+Nilavinte.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:53:04",
@@ -10659,7 +10659,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aadungada+Enna+Suthi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aadungada+Enna+Suthi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:56:01",
@@ -10681,7 +10681,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Karale+Karalinte.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Karale+Karalinte.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "18:59:02",
@@ -10736,7 +10736,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Flip+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Flip+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:03:55",
@@ -10758,7 +10758,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vinnile+Tharakam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vinnile+Tharakam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:06:29",
@@ -10780,7 +10780,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Hijabi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Hijabi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:11:00",
@@ -10857,7 +10857,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nokki+Nokki.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nokki+Nokki.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:15:34",
@@ -10879,7 +10879,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Akh+Lad+Jaave.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Akh+Lad+Jaave.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:21:05",
@@ -10901,7 +10901,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aaro+Kude.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aaro+Kude.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:23:15",
@@ -10989,7 +10989,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aathi+Adi+Aathi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aathi+Adi+Aathi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:27:35",
@@ -11011,7 +11011,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chilamboli+Kaatte.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chilamboli+Kaatte.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:30:41",
@@ -11044,7 +11044,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thattathil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thattathil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:35:14",
@@ -11066,7 +11066,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ponnara+Kattile+Poovanatthil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ponnara+Kattile+Poovanatthil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:37:57",
@@ -11154,7 +11154,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aayi+Nai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aayi+Nai.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:43:24",
@@ -11176,7 +11176,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/TakeTwo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/TakeTwo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:49:07",
@@ -11286,7 +11286,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Elampadi+Elelelo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Elampadi+Elelelo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:54:46",
@@ -11308,7 +11308,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Changaayi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Changaayi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "19:57:34",
@@ -11330,7 +11330,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neelambalin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neelambalin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:00:00",
@@ -11341,7 +11341,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neelambalin.mp4",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neelambalin.mp4",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:00:27",
@@ -11385,7 +11385,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Midukki+Midukki.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Midukki+Midukki.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:06:34",
@@ -11407,7 +11407,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pranayame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pranayame.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:09:41",
@@ -11429,7 +11429,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Yedi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Yedi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:13:51",
@@ -11506,7 +11506,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chimmi+Chimmi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chimmi+Chimmi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:18:16",
@@ -11528,7 +11528,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Resamale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Resamale.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:23:00",
@@ -11550,7 +11550,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nasha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nasha.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:25:58",
@@ -11627,7 +11627,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Yentharu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Yentharu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:30:53",
@@ -11649,7 +11649,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aaro+Padum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aaro+Padum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:33:59",
@@ -11682,7 +11682,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Neelorpam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Neelorpam.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:38:40",
@@ -11704,7 +11704,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Aashichavan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Aashichavan.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:41:32",
@@ -11781,7 +11781,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sher+Khul+Gaye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sher+Khul+Gaye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:45:53",
@@ -11803,7 +11803,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Edakochi+Ishq.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Edakochi+Ishq.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:51:43",
@@ -11869,7 +11869,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Side+Effects.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Side+Effects.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:55:54",
@@ -11891,7 +11891,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kanne+Kanne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kanne+Kanne.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "20:59:00",
@@ -11946,7 +11946,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Hatja.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Hatja.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:03:55",
@@ -11968,7 +11968,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sharadambaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sharadambaram.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:06:25",
@@ -11990,7 +11990,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chandrabimbathin+Chantham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chandrabimbathin+Chantham.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:10:05",
@@ -12067,7 +12067,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Song:God+Bless+U.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Song:God+Bless+U.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:15:23",
@@ -12089,7 +12089,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dhum+Dhum+Dhum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dhum+Dhum+Dhum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:20:16",
@@ -12111,7 +12111,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Hridayathin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Hridayathin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:22:30",
@@ -12177,7 +12177,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chor+Bazari+Phir+Se.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chor+Bazari+Phir+Se.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:26:37",
@@ -12199,7 +12199,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Vennilave.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Vennilave.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:29:01",
@@ -12232,7 +12232,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Pookkale+Vaanile.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Pookkale+Vaanile.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:33:30",
@@ -12254,7 +12254,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Mezhuthiriyude.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Mezhuthiriyude.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:36:28",
@@ -12320,7 +12320,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Jinguchaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Jinguchaa.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:40:57",
@@ -12342,7 +12342,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Cheth+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Cheth+Song.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:45:17",
@@ -12386,7 +12386,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/In+Raahon+Mein.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/In+Raahon+Mein.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:49:25",
@@ -12408,7 +12408,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Run+It.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Run+It.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:51:46",
@@ -12430,7 +12430,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oruthi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oruthi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:54:42",
@@ -12452,7 +12452,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kavithapol.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kavithapol.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "21:57:35",
@@ -12474,7 +12474,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thiruvaavaniraavu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thiruvaavaniraavu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:00:00",
@@ -12485,7 +12485,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Thiruvaavaniraavu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Thiruvaavaniraavu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:00:30",
@@ -12529,7 +12529,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaattil+Veezha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaattil+Veezha.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:07:20",
@@ -12551,7 +12551,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Dil+Beparwah.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Dil+Beparwah.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:11:36",
@@ -12573,7 +12573,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Mazhaneer+Thullikal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Mazhaneer+Thullikal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:15:26",
@@ -12595,7 +12595,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Paartha+Mudhal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Paartha+Mudhal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:21:41",
@@ -12617,7 +12617,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Njan+Thaniye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Njan+Thaniye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:23:42",
@@ -12639,7 +12639,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Bekhayali.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Bekhayali.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:26:33",
@@ -12661,7 +12661,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Nee+Manimukhilaadakal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Nee+Manimukhilaadakal.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:31:11",
@@ -12694,7 +12694,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Suttum+Vizhi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Suttum+Vizhi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:37:01",
@@ -12716,7 +12716,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Khulke+Jeene+Ka.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Khulke+Jeene+Ka.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:40:43",
@@ -12738,7 +12738,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Karimizhi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Karimizhi.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:45:12",
@@ -12760,7 +12760,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kadalenum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kadalenum.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:50:15",
@@ -12782,7 +12782,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Eadanin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Eadanin.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:53:31",
@@ -12804,7 +12804,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Yeh+Haseen+Vadiyan+Yeh+Khula+Aasman.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Yeh+Haseen+Vadiyan+Yeh+Khula+Aasman.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "22:58:04",
@@ -12826,7 +12826,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Njaano+Raavoo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Njaano+Raavoo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:00:00",
@@ -12837,7 +12837,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Njaano+Raavoo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Njaano+Raavoo.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:02:30",
@@ -12881,7 +12881,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Arikil+Pathiye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Arikil+Pathiye.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:08:29",
@@ -12903,7 +12903,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ishq+Mein+Hum+Tumhein+Kya+Batayein.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ishq+Mein+Hum+Tumhein+Kya+Batayein.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:12:45",
@@ -12925,7 +12925,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Chiragengu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Chiragengu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:16:41",
@@ -12947,7 +12947,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Naan+Nee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Naan+Nee.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:20:49",
@@ -12969,7 +12969,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Oru+Kunju+Poovinte.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Oru+Kunju+Poovinte.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:24:48",
@@ -12991,7 +12991,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sanam+Re+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sanam+Re+.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:29:26",
@@ -13013,7 +13013,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Marakkumo+Neeyente.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Marakkumo+Neeyente.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:34:07",
@@ -13035,7 +13035,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Sara+Sara+Saara+Kathu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Sara+Sara+Saara+Kathu.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:38:58",
@@ -13057,7 +13057,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Adyam+Thammil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Adyam+Thammil.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:43:29",
@@ -13090,7 +13090,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Kaun+Tujhe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Kaun+Tujhe.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:47:56",
@@ -13112,7 +13112,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Devasangeetham+Neeyalle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Devasangeetham+Neeyalle.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:54:30",
@@ -13134,7 +13134,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/song/2025-04-30/Ennai+Thalatta+Varuvala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mango/songs/2025-04-30/Ennai+Thalatta+Varuvala.mp3",
     "channel": "radio-mango ",
     "date": "2025-04-30",
     "end": "23:59:02",
