@@ -5195,7 +5195,7 @@
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-25/Image+Mobiles+&+Computers.mp3",
     "channel": "club-fm",
     "date": "2025-04-25",
-    "end": "14:56:59",
+    "end": "14:55:59",
     "id": "ITEM-0893DBDB",
     "program": "AD: IMAGE\n MOBILES&COMPUTERS, ELECTRONICS, CONSUMER DURABLES - ELECTRONICS, CONSUMER DURABLES",
     "region": "kochi",
@@ -5210,7 +5210,7 @@
     "id": "ITEM-73EAF68B",
     "program": "AD: GOVT OF KERALA, VISHU BUMPER, LOTTERY TICKET, ENTERTAINMENT",
     "region": "kochi",
-    "start": "14:56:59",
+    "start": "14:55:59",
     "type": "advertisement"
   },
   {
@@ -7542,7 +7542,7 @@
     "id": "ITEM-16996989",
     "program": "JINGLE",
     "region": "kochi",
-    "start": "19:27:57",
+    "start": "19:29:57",
     "type": "jingle"
   },
   {
