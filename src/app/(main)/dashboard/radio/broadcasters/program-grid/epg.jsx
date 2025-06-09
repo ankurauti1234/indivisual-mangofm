@@ -242,7 +242,7 @@ const LoadingState = () => (
 const EPG = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const initialDate =
+const initialDate =
     searchParams.get("date") || new Date().toISOString().split("T")[0];
   const initialStart = parseTimeToMinutes(searchParams.get("start")) || 0;
   const initialEnd =
@@ -257,7 +257,10 @@ const EPG = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [epgData, setEpgData] = useState([]);
   const [error, setError] = useState(null);
-  const [calendarDate, setCalendarDate] = useState(new Date(initialDate));
+const [calendarDate, setCalendarDate] = useState(() => {
+    const date = new Date(initialDate + 'T00:00:00Z'); // Explicitly set to UTC midnight
+    return date;
+  });
 
   const datesWithData = getDatesWithData();
   const channels = getUniqueChannels(epgData);
@@ -360,29 +363,31 @@ const EPG = () => {
     return matchesContentType && matchesRadioStation && matchesRegion;
   });
 
-  const handlePrevDate = () => {
+const handlePrevDate = () => {
     setSelectedDate((prevDate) => {
-      const newDate = new Date(prevDate);
-      newDate.setDate(newDate.getDate() - 1);
-      setCalendarDate(newDate);
+      const newDate = new Date(prevDate + 'T00:00:00Z');
+      newDate.setUTCDate(newDate.getUTCDate() - 1);
+      setCalendarDate(new Date(Date.UTC(newDate.getUTCFullYear(), newDate.getUTCMonth(), newDate.getUTCDate())));
       return newDate.toISOString().split("T")[0];
     });
   };
 
   const handleNextDate = () => {
     setSelectedDate((prevDate) => {
-      const newDate = new Date(prevDate);
-      newDate.setDate(newDate.getDate() + 1);
-      setCalendarDate(newDate);
+      const newDate = new Date(prevDate + 'T00:00:00Z');
+      newDate.setUTCDate(newDate.getUTCDate() + 1);
+      setCalendarDate(new Date(Date.UTC(newDate.getUTCFullYear(), newDate.getUTCMonth(), newDate.getUTCDate())));
       return newDate.toISOString().split("T")[0];
     });
   };
 
   const handleCalendarSelect = (date) => {
     if (date) {
-      const formattedDate = date.toISOString().split("T")[0];
+      // Normalize selected date to UTC midnight
+      const utcDate = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      const formattedDate = utcDate.toISOString().split("T")[0];
       setSelectedDate(formattedDate);
-      setCalendarDate(date);
+      setCalendarDate(utcDate);
     }
   };
 
@@ -390,7 +395,8 @@ const EPG = () => {
     const nearestDate = findNearestDateWithData(selectedDate, datesWithData);
     if (nearestDate) {
       setSelectedDate(nearestDate);
-      setCalendarDate(new Date(nearestDate));
+      const utcDate = new Date(nearestDate + 'T00:00:00Z');
+      setCalendarDate(new Date(Date.UTC(utcDate.getUTCFullYear(), utcDate.getUTCMonth(), utcDate.getUTCDate())));
     }
   };
 
