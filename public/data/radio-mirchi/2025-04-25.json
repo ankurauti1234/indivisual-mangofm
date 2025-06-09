@@ -22,7 +22,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Doore+Doore.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Doore+Doore.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:04:13",
@@ -44,7 +44,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vietjet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vietjet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:07:29",
@@ -66,7 +66,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pinneyum+Ninnle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pinneyum+Ninnle.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:11:47",
@@ -88,7 +88,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Uyi+Amma.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Uyi+Amma.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:15:44",
@@ -110,7 +110,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Muqabala+Muqabala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Muqabala+Muqabala.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:21:14",
@@ -132,7 +132,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nenjukkul+Peidhidum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nenjukkul+Peidhidum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:27:25",
@@ -154,7 +154,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Saat+Sammunder+Paar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Saat+Sammunder+Paar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:31:35",
@@ -176,7 +176,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Do+Do+Do.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Do+Do+Do.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:36:55",
@@ -198,7 +198,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Radha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Radha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:41:59",
@@ -220,7 +220,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Columbus+Columbus.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Columbus+Columbus.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:46:23",
@@ -242,7 +242,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kathayamama.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kathayamama.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:49:25",
@@ -264,7 +264,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kim+Kim.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kim+Kim.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:52:12",
@@ -286,7 +286,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Iktara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Iktara.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:56:00",
@@ -308,7 +308,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Braidaathi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Braidaathi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:59:50",
@@ -319,7 +319,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Poy+Maranjo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Poy+Maranjo.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "00:59:57",
@@ -363,7 +363,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Neer+Palunkukal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Neer+Palunkukal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:05:19",
@@ -385,7 +385,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kanimaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kanimaa.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:09:30",
@@ -407,7 +407,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mandaarame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mandaarame.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:12:58",
@@ -429,7 +429,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Bhasad+Macha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Bhasad+Macha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:16:21",
@@ -451,7 +451,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Girlfriend.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Girlfriend.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:21:23",
@@ -473,7 +473,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ek+Ho+Gaye+Hum+Aur+Tum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ek+Ho+Gaye+Hum+Aur+Tum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:26:38",
@@ -506,7 +506,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaana+Mullal-Duet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaana+Mullal-Duet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:31:14",
@@ -528,7 +528,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Bang+Bang.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Bang+Bang.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:34:38",
@@ -550,7 +550,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Tera+Ghata.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Tera+Ghata.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:38:55",
@@ -572,7 +572,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Andha+Arabi+Kadaloram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Andha+Arabi+Kadaloram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:43:23",
@@ -594,7 +594,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vanil+Chandrika.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vanil+Chandrika.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:48:49",
@@ -616,7 +616,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Manpaatha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Manpaatha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:53:01",
@@ -638,7 +638,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nagada+Sang+Dhol.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nagada+Sang+Dhol.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:57:35",
@@ -660,7 +660,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Everyday.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Everyday.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "01:59:52",
@@ -693,7 +693,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Onakka+Munthiri.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Onakka+Munthiri.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:02:21",
@@ -715,7 +715,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kandukondai+Kandukondian.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kandukondai+Kandukondian.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:07:40",
@@ -737,7 +737,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Tere+Bina.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Tere+Bina.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:12:47",
@@ -759,7 +759,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nee+Varumbodhu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nee+Varumbodhu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:17:00",
@@ -781,7 +781,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Secret+Of+Success.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Secret+Of+Success.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:23:09",
@@ -803,7 +803,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jalebi+Baby.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jalebi+Baby.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:26:04",
@@ -825,7 +825,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nee+Mukilo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nee+Mukilo.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:29:23",
@@ -847,7 +847,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Enna+Sona.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Enna+Sona.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:32:50",
@@ -869,7 +869,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Enthaanu+Khalbe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Enthaanu+Khalbe.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:36:13",
@@ -891,7 +891,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kadhal+Aasai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kadhal+Aasai.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:39:37",
@@ -913,7 +913,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thalatherichavar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thalatherichavar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:43:55",
@@ -935,7 +935,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Oru+Mezhuthiriyude.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Oru+Mezhuthiriyude.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:49:59",
@@ -957,7 +957,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Bole+Chudiyan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Bole+Chudiyan.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:55:02",
@@ -979,7 +979,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Akele+Hum+Akele+Tum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Akele+Hum+Akele+Tum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "02:59:51",
@@ -1012,7 +1012,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thankamanassin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thankamanassin.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:04:55",
@@ -1034,7 +1034,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Oru+Kal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Oru+Kal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:09:51",
@@ -1056,7 +1056,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chakkara+Maavin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chakkara+Maavin.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:13:28",
@@ -1078,7 +1078,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Tarkeebein.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Tarkeebein.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:16:10",
@@ -1100,7 +1100,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Azhagu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Azhagu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:20:27",
@@ -1122,7 +1122,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jolly+O+Gymkhana.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jolly+O+Gymkhana.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:23:34",
@@ -1144,7 +1144,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Boraboro.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Boraboro.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:26:43",
@@ -1166,7 +1166,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Dingiri+Dingale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Dingiri+Dingale.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:29:48",
@@ -1188,7 +1188,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Gerua.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Gerua.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:34:49",
@@ -1210,7 +1210,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Anuragakiliathil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Anuragakiliathil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:39:12",
@@ -1232,7 +1232,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Netru+lllatha+Maatram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Netru+lllatha+Maatram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:44:20",
@@ -1254,7 +1254,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Manassu+Mayakki.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Manassu+Mayakki.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:48:55",
@@ -1276,7 +1276,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Manikya+Malaraya+Poovi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Manikya+Malaraya+Poovi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:52:08",
@@ -1298,7 +1298,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pareshaan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pareshaan.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:56:50",
@@ -1320,7 +1320,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Humnava.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Humnava.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "03:59:47",
@@ -1353,7 +1353,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Tupathu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Tupathu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:03:58",
@@ -1375,7 +1375,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jaavamshamayi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jaavamshamayi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:07:08",
@@ -1397,7 +1397,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aaraadhike.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aaraadhike.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:12:16",
@@ -1419,7 +1419,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Naruchiriyude+Mannayam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Naruchiriyude+Mannayam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:16:05",
@@ -1441,7 +1441,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pularaan+Neram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pularaan+Neram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:19:20",
@@ -1463,7 +1463,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aigiri+Nandini+Eye+For+An+Eye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aigiri+Nandini+Eye+For+An+Eye.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:22:08",
@@ -1485,7 +1485,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thaanaro+Thannaro.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thaanaro+Thannaro.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:26:10",
@@ -1507,7 +1507,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Alliyambal-Remix.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Alliyambal-Remix.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:30:12",
@@ -1529,7 +1529,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Koodu+Vittu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Koodu+Vittu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:32:52",
@@ -1551,7 +1551,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Shyamambaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Shyamambaram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:36:22",
@@ -1573,7 +1573,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Qalbee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Qalbee.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:38:05",
@@ -1595,7 +1595,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Johny+Mone+Johnee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Johny+Mone+Johnee.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:42:43",
@@ -1617,7 +1617,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ennalakalle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ennalakalle.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:46:50",
@@ -1639,7 +1639,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Swapnam+Oru+Chak.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Swapnam+Oru+Chak.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:51:04",
@@ -1661,7 +1661,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaliyoonjaal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaliyoonjaal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:56:09",
@@ -1683,7 +1683,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ninnil+Nizhalay.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ninnil+Nizhalay.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "05:59:23",
@@ -1705,7 +1705,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Raftaara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Raftaara.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:00:00",
@@ -1716,7 +1716,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Raftaara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Raftaara.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:03:01",
@@ -1738,7 +1738,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vaanam+Thilathilakkanu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vaanam+Thilathilakkanu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:06:28",
@@ -1760,7 +1760,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Flip+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Flip+Song.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:09:29",
@@ -1782,7 +1782,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mazhathulli+Palunkukal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mazhathulli+Palunkukal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:13:24",
@@ -1804,7 +1804,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aalolam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aalolam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:17:47",
@@ -1826,7 +1826,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thiruvaavaniraavu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thiruvaavaniraavu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:21:36",
@@ -1848,7 +1848,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Rathipushpam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Rathipushpam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:24:21",
@@ -1870,7 +1870,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Innariyathe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Innariyathe.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:28:25",
@@ -1892,7 +1892,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Munnale+Ponaale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Munnale+Ponaale.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:31:49",
@@ -1914,7 +1914,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kalyana+Penne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kalyana+Penne.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:35:03",
@@ -1936,7 +1936,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aadharanjali.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aadharanjali.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:37:37",
@@ -1958,7 +1958,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kilikal+Paadum+Duet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kilikal+Paadum+Duet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:41:37",
@@ -1980,7 +1980,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chenthamara+Chundil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chenthamara+Chundil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:45:58",
@@ -2002,7 +2002,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/En+Kanimalare.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/En+Kanimalare.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:49:45",
@@ -2024,7 +2024,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Oh+Mumbai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Oh+Mumbai.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:54:26",
@@ -2046,7 +2046,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Makkasai+Makkasai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Makkasai+Makkasai.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "06:59:25",
@@ -2068,7 +2068,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:00:00",
@@ -2079,7 +2079,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:00:03",
@@ -2101,7 +2101,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ithiri+Chakkara+Nulli.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ithiri+Chakkara+Nulli.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:05:35",
@@ -2123,7 +2123,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:07:17",
@@ -2134,7 +2134,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:07:42",
@@ -2145,7 +2145,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellers.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellers.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:08:02",
@@ -2156,7 +2156,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:08:12",
@@ -2167,7 +2167,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:08:32",
@@ -2178,7 +2178,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:08:47",
@@ -2200,7 +2200,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Uyiril+Thodum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Uyiril+Thodum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:12:28",
@@ -2222,7 +2222,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Dooriyan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Dooriyan.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:16:34",
@@ -2244,7 +2244,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nilamanaltharikalil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nilamanaltharikalil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:21:17",
@@ -2266,7 +2266,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:21:34",
@@ -2277,7 +2277,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:21:54",
@@ -2288,7 +2288,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:22:24",
@@ -2299,7 +2299,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:22:44",
@@ -2310,7 +2310,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:23:05",
@@ -2332,7 +2332,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pacha+Parishkari.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pacha+Parishkari.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:25:56",
@@ -2354,7 +2354,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Adipoli.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Adipoli.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:28:55",
@@ -2376,7 +2376,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mental+Manadhil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mental+Manadhil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:33:25",
@@ -2398,7 +2398,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thaamarappoovil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thaamarappoovil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:40:24",
@@ -2420,7 +2420,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:40:58",
@@ -2431,7 +2431,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:41:08",
@@ -2442,7 +2442,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:41:23",
@@ -2453,7 +2453,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellers.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellers.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:41:43",
@@ -2475,7 +2475,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thomkiya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thomkiya.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:44:26",
@@ -2497,7 +2497,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Zaalima.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Zaalima.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:49:27",
@@ -2519,7 +2519,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ooh+Mama.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ooh+Mama.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:53:58",
@@ -2541,7 +2541,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:55:00",
@@ -2552,7 +2552,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:55:30",
@@ -2574,7 +2574,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaadaniyum+Kaalchilambe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaadaniyum+Kaalchilambe.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "07:59:25",
@@ -2607,7 +2607,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Changaathi+Nannaayaal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Changaathi+Nannaayaal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:04:37",
@@ -2629,7 +2629,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:05:57",
@@ -2640,7 +2640,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:06:04",
@@ -2651,7 +2651,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:06:29",
@@ -2662,7 +2662,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:06:59",
@@ -2673,7 +2673,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:07:09",
@@ -2684,7 +2684,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:07:19",
@@ -2695,7 +2695,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:07:34",
@@ -2706,7 +2706,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/1",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/1",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:07:49",
@@ -2728,7 +2728,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thalatherichavar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thalatherichavar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:12:04",
@@ -2750,7 +2750,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chinta+Ta+Ta+Chita+Chita.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chinta+Ta+Ta+Chita+Chita.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:16:33",
@@ -2772,7 +2772,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aatmavin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aatmavin.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:20:29",
@@ -2794,7 +2794,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:20:44",
@@ -2816,7 +2816,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:21:11",
@@ -2827,7 +2827,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/KYC+Update.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/KYC+Update.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:21:36",
@@ -2838,7 +2838,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:21:56",
@@ -2849,7 +2849,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:22:16",
@@ -2860,7 +2860,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:22:26",
@@ -2871,7 +2871,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Vietjet+SkyBoss.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Vietjet+SkyBoss.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:22:56",
@@ -2893,7 +2893,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Heart+Attack.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Heart+Attack.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:27:17",
@@ -2915,7 +2915,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vikram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vikram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:30:48",
@@ -2937,7 +2937,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nenjukkule.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nenjukkule.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:34:04",
@@ -2959,7 +2959,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Shivadam+Shivanaamam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Shivadam+Shivanaamam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:41:03",
@@ -2981,7 +2981,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:42:03",
@@ -2992,7 +2992,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:42:14",
@@ -3003,7 +3003,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:42:44",
@@ -3014,7 +3014,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:43:14",
@@ -3025,7 +3025,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:43:24",
@@ -3036,7 +3036,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Vietjet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Vietjet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:43:54",
@@ -3058,7 +3058,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nasha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nasha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:46:52",
@@ -3080,7 +3080,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Do+Ghoont.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Do+Ghoont.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:51:17",
@@ -3102,7 +3102,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:52:32",
@@ -3113,7 +3113,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:52:53",
@@ -3135,7 +3135,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaadhal+Rojave.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaadhal+Rojave.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:56:10",
@@ -3157,7 +3157,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Innaleyolam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Innaleyolam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "09:59:19",
@@ -3201,7 +3201,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chembavu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chembavu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:04:50",
@@ -3223,7 +3223,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:06:12",
@@ -3234,7 +3234,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:06:22",
@@ -3245,7 +3245,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:06:32",
@@ -3256,7 +3256,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:06:57",
@@ -3267,7 +3267,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/KYC+Update.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/KYC+Update.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:07:22",
@@ -3289,7 +3289,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Theerame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Theerame.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:11:38",
@@ -3311,7 +3311,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Golden+Sparrow.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Golden+Sparrow.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:15:35",
@@ -3333,7 +3333,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Omal+Chiriyo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Omal+Chiriyo.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:19:49",
@@ -3355,7 +3355,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:20:04",
@@ -3377,7 +3377,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:20:41",
@@ -3388,7 +3388,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:20:52",
@@ -3399,7 +3399,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:21:11",
@@ -3410,7 +3410,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:21:26",
@@ -3421,7 +3421,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:21:41",
@@ -3443,7 +3443,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Paka.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Paka.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:26:08",
@@ -3465,7 +3465,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thala+Kodhum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thala+Kodhum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:29:26",
@@ -3487,7 +3487,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Innum+Konjam+Naeram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Innum+Konjam+Naeram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:34:04",
@@ -3509,7 +3509,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Maanthalirin+Pattu+Chuttiya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Maanthalirin+Pattu+Chuttiya.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:39:00",
@@ -3531,7 +3531,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:40:05",
@@ -3542,7 +3542,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:40:25",
@@ -3553,7 +3553,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:40:55",
@@ -3564,7 +3564,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:41:05",
@@ -3575,7 +3575,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:41:09",
@@ -3586,7 +3586,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:41:14",
@@ -3597,7 +3597,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:41:20",
@@ -3630,7 +3630,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Dil+Diyan+Gallan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Dil+Diyan+Gallan.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:44:19",
@@ -3652,7 +3652,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Raatan+Lambiyan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Raatan+Lambiyan.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:47:24",
@@ -3674,7 +3674,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kal+Ho+Naa+Ho.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kal+Ho+Naa+Ho.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:50:38",
@@ -3696,7 +3696,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:51:36",
@@ -3707,7 +3707,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:51:41",
@@ -3718,7 +3718,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:51:46",
@@ -3740,7 +3740,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:52:24",
@@ -3751,7 +3751,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:52:34",
@@ -3762,7 +3762,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:52:59",
@@ -3784,7 +3784,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Paalthira+Paadum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Paalthira+Paadum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "10:59:24",
@@ -3828,7 +3828,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ethra+Naal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ethra+Naal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:04:51",
@@ -3850,7 +3850,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:06:13",
@@ -3861,7 +3861,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:06:19",
@@ -3872,7 +3872,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:06:44",
@@ -3883,7 +3883,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:06:54",
@@ -3894,7 +3894,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellers.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellers.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:07:14",
@@ -3905,7 +3905,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:07:39",
@@ -3927,7 +3927,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chithirathira.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chithirathira.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:14:20",
@@ -3949,7 +3949,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nenjukkul+Peidhidum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nenjukkul+Peidhidum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:20:27",
@@ -3971,7 +3971,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:20:44",
@@ -3982,7 +3982,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:21:15",
@@ -3993,7 +3993,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:21:25",
@@ -4015,7 +4015,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jaadu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jaadu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:25:47",
@@ -4037,7 +4037,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ennodu+Nee+Irundhaal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ennodu+Nee+Irundhaal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:30:44",
@@ -4059,7 +4059,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mozhikalum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mozhikalum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:35:35",
@@ -4081,7 +4081,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Baby+Baby.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Baby+Baby.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:39:18",
@@ -4103,7 +4103,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:39:38",
@@ -4114,7 +4114,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:40:08",
@@ -4125,7 +4125,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery\n.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery\n.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:40:28",
@@ -4136,7 +4136,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:40:53",
@@ -4158,7 +4158,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ollulleru.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ollulleru.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:46:29",
@@ -4180,7 +4180,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kochiloru+Kappaladuthe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kochiloru+Kappaladuthe.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:49:17",
@@ -4202,7 +4202,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:50:19",
@@ -4213,7 +4213,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:50:39",
@@ -4224,7 +4224,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:51:04",
@@ -4246,7 +4246,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Hungama+Ho+Gaya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Hungama+Ho+Gaya.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:55:30",
@@ -4268,7 +4268,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mitwa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mitwa.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "11:59:22",
@@ -4323,7 +4323,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/PaniPaali.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/PaniPaali.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:04:26",
@@ -4345,7 +4345,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:05:46",
@@ -4356,7 +4356,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:06:11",
@@ -4367,7 +4367,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:06:35",
@@ -4378,7 +4378,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:06:46",
@@ -4389,7 +4389,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:07:16",
@@ -4422,7 +4422,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kurumbathi+Chundari+Nee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kurumbathi+Chundari+Nee.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:11:18",
@@ -4444,7 +4444,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/NaDiyon+Paar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/NaDiyon+Paar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:14:08",
@@ -4466,7 +4466,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:14:48",
@@ -4477,7 +4477,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:14:08",
@@ -4488,7 +4488,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:15:18",
@@ -4499,7 +4499,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:15:38",
@@ -4532,7 +4532,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chill+Maga.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chill+Maga.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:19:57",
@@ -4554,7 +4554,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vazhithunaiye.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vazhithunaiye.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:23:38",
@@ -4576,7 +4576,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Marudaani.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Marudaani.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:28:59",
@@ -4598,7 +4598,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/En+Idhayam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/En+Idhayam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:32:59",
@@ -4620,7 +4620,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Danga+Maari+Oodhri.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Danga+Maari+Oodhri.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:36:10",
@@ -4642,7 +4642,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:36:58",
@@ -4653,7 +4653,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:37:12",
@@ -4664,7 +4664,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:37:29",
@@ -4697,7 +4697,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jee+Karda+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jee+Karda+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:41:05",
@@ -4719,7 +4719,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ishaqzaade.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ishaqzaade.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:44:59",
@@ -4741,7 +4741,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pularikalo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pularikalo.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:49:09",
@@ -4763,7 +4763,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:50:12",
@@ -4774,7 +4774,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:50:32",
@@ -4796,7 +4796,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pannodu+Poovayi+chithra.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pannodu+Poovayi+chithra.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:53:58",
@@ -4818,7 +4818,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kanmanipoove.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kanmanipoove.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "12:59:13",
@@ -4862,7 +4862,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nee+Himamazhayayi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nee+Himamazhayayi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:05:20",
@@ -4884,7 +4884,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:06:40",
@@ -4895,7 +4895,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:06:50",
@@ -4906,7 +4906,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:07:10",
@@ -4939,7 +4939,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ee+Puzhayum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ee+Puzhayum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:13:01",
@@ -4961,7 +4961,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kannu+Rendum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kannu+Rendum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:17:54",
@@ -4983,7 +4983,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:18:10",
@@ -5005,7 +5005,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:19:05",
@@ -5016,7 +5016,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:19:20",
@@ -5049,7 +5049,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Uyi+Amma.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Uyi+Amma.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:24:22",
@@ -5071,7 +5071,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mazhai+Kuruvi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mazhai+Kuruvi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:30:14",
@@ -5093,7 +5093,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Cham+Cham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Cham+Cham.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:34:54",
@@ -5115,7 +5115,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thattathil+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thattathil+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:38:53",
@@ -5137,7 +5137,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:39:44",
@@ -5148,7 +5148,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:39:54",
@@ -5181,7 +5181,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pavizha+Mazha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pavizha+Mazha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:43:58",
@@ -5203,7 +5203,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mandaarame.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mandaarame.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:47:25",
@@ -5225,7 +5225,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kadhaippoma.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kadhaippoma.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:50:45",
@@ -5258,7 +5258,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nachde+Ne+Saare.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nachde+Ne+Saare.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:54:50",
@@ -5280,7 +5280,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jaane+Kyun.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jaane+Kyun.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "13:59:26",
@@ -5324,7 +5324,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Gandharaajan+Poovidarnnu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Gandharaajan+Poovidarnnu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:06:48",
@@ -5346,7 +5346,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:08:10",
@@ -5357,7 +5357,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:08:35",
@@ -5368,7 +5368,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:08:45",
@@ -5379,7 +5379,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:09:05",
@@ -5412,7 +5412,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chemboove+Poove.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chemboove+Poove.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:16:21",
@@ -5434,7 +5434,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Urvashi+Uravashi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Urvashi+Uravashi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:19:37",
@@ -5456,7 +5456,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:20:07",
@@ -5467,7 +5467,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:20:22",
@@ -5478,7 +5478,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:20:42",
@@ -5511,7 +5511,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ettappam+Chudanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ettappam+Chudanam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:26:54",
@@ -5533,7 +5533,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thumbi+Penne+Vaa+Vaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thumbi+Penne+Vaa+Vaa.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:32:12",
@@ -5555,7 +5555,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Sunta+Hai+Mera+Khuda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Sunta+Hai+Mera+Khuda.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:36:10",
@@ -5577,7 +5577,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:36:26",
@@ -5588,7 +5588,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:36:35",
@@ -5599,7 +5599,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:37:06",
@@ -5621,7 +5621,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ek+Din+Aap.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ek+Din+Aap.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:43:10",
@@ -5643,7 +5643,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kulichaa+Kuthaalam-Duet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kulichaa+Kuthaalam-Duet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:48:00",
@@ -5665,7 +5665,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:49:14",
@@ -5676,7 +5676,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:49:28",
@@ -5698,7 +5698,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Naadodi+Theyyavum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Naadodi+Theyyavum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:54:25",
@@ -5720,7 +5720,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Samayamithapoorva.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Samayamithapoorva.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "14:59:18",
@@ -5764,7 +5764,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aatmavil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aatmavil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:07:11",
@@ -5786,7 +5786,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:08:33",
@@ -5797,7 +5797,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:08:39",
@@ -5808,7 +5808,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:08:48",
@@ -5819,7 +5819,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:09:05",
@@ -5830,7 +5830,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:09:24",
@@ -5863,7 +5863,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Dil+To+Pagal+Hai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Dil+To+Pagal+Hai.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:14:33",
@@ -5885,7 +5885,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vellai+Pookkal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vellai+Pookkal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:19:45",
@@ -5907,7 +5907,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:20:02",
@@ -5929,7 +5929,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:20:57",
@@ -5940,7 +5940,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:21:27",
@@ -5973,7 +5973,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kitaben+Bahut+Si.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kitaben+Bahut+Si.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:28:00",
@@ -5995,7 +5995,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vannaathippuzhayude.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vannaathippuzhayude.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:33:22",
@@ -6017,7 +6017,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/AA+Bhi+Ja+Aa+Bhi+Ja.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/AA+Bhi+Ja+Aa+Bhi+Ja.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:38:50",
@@ -6039,7 +6039,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:39:20",
@@ -6050,7 +6050,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:39:30",
@@ -6061,7 +6061,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:39:45",
@@ -6094,7 +6094,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Poovay+Virinju.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Poovay+Virinju.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:45:19",
@@ -6116,7 +6116,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Bahut+Pyar+Karte+Hain.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Bahut+Pyar+Karte+Hain.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:49:48",
@@ -6149,7 +6149,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Azagiya+Laila.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Azagiya+Laila.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:55:24",
@@ -6171,7 +6171,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vattolakkuda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vattolakkuda.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "15:59:39",
@@ -6215,7 +6215,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aalilamanjalil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aalilamanjalil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:08:19",
@@ -6237,7 +6237,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:09:38",
@@ -6259,7 +6259,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:10:28",
@@ -6270,7 +6270,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:10:43",
@@ -6303,7 +6303,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jo+Haal+dil+Ka.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jo+Haal+dil+Ka.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:18:47",
@@ -6325,7 +6325,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kilukil+Pambaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kilukil+Pambaram.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:23:29",
@@ -6347,7 +6347,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:24:05",
@@ -6358,7 +6358,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:24:15",
@@ -6391,7 +6391,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mayilaai+Parannu+Vaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mayilaai+Parannu+Vaa.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:31:57",
@@ -6413,7 +6413,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chikku+Bukku+Raile+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chikku+Bukku+Raile+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:35:42",
@@ -6435,7 +6435,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:36:12",
@@ -6446,7 +6446,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:36:32",
@@ -6490,7 +6490,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mele+Mele++Maanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mele+Mele++Maanam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:44:36",
@@ -6512,7 +6512,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aaja+Nachle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aaja+Nachle.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:49:35",
@@ -6545,7 +6545,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Sarakku+Vechirukken.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Sarakku+Vechirukken.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:54:35",
@@ -6567,7 +6567,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Oru+Chik+Chil+Chik+Chik+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Oru+Chik+Chil+Chik+Chik+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "16:59:50",
@@ -6611,7 +6611,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kollam+Pattu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kollam+Pattu.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:07:02",
@@ -6633,7 +6633,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:08:23",
@@ -6644,7 +6644,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:08:28",
@@ -6655,7 +6655,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:08:53",
@@ -6666,7 +6666,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:09:13",
@@ -6677,7 +6677,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Road+Safety+is+Life+Safety.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:09:44",
@@ -6688,7 +6688,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:10:08",
@@ -6699,7 +6699,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:10:19",
@@ -6732,7 +6732,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaattil+Veezha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaattil+Veezha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:18:22",
@@ -6754,7 +6754,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Puliyankakkolam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Puliyankakkolam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:21:39",
@@ -6776,7 +6776,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:21:55",
@@ -6798,7 +6798,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:22:38",
@@ -6809,7 +6809,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellers.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jewellers.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:22:58",
@@ -6820,7 +6820,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:23:18",
@@ -6831,7 +6831,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Saiborn.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:23:34",
@@ -6842,7 +6842,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:23:49",
@@ -6875,7 +6875,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaattu+Payale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaattu+Payale.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:31:05",
@@ -6897,7 +6897,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Og+Sambavam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Og+Sambavam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:34:24",
@@ -6919,7 +6919,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Aankhein+Khuli.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Aankhein+Khuli.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:38:02",
@@ -6941,7 +6941,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:38:37",
@@ -6952,7 +6952,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:38:47",
@@ -6963,7 +6963,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:39:02",
@@ -6974,7 +6974,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:39:22",
@@ -7007,7 +7007,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Majha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Majha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:45:37",
@@ -7029,7 +7029,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Enna+SonaA.R.Rahman&Arijit+Singh.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Enna+SonaA.R.Rahman&Arijit+Singh.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:49:07",
@@ -7051,7 +7051,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:50:10",
@@ -7062,7 +7062,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:50:20",
@@ -7084,7 +7084,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vizhi+Moodi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vizhi+Moodi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:55:11",
@@ -7106,7 +7106,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kaayalinarike.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kaayalinarike.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "17:59:58",
@@ -7150,7 +7150,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Braidaathi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Braidaathi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:05:23",
@@ -7172,7 +7172,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:06:45",
@@ -7183,7 +7183,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:07:10",
@@ -7194,7 +7194,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:07:41",
@@ -7205,7 +7205,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:08:01",
@@ -7216,7 +7216,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:08:10",
@@ -7227,7 +7227,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:08:31",
@@ -7249,7 +7249,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vanil+Chandrika.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vanil+Chandrika.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:12:24",
@@ -7271,7 +7271,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kakkaala+Kannamma.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kakkaala+Kannamma.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:17:21",
@@ -7293,7 +7293,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:17:42",
@@ -7304,7 +7304,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:18:12",
@@ -7315,7 +7315,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:18:22",
@@ -7326,7 +7326,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:18:48",
@@ -7348,7 +7348,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Maruvaarthai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Maruvaarthai.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:25:11",
@@ -7370,7 +7370,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Paranne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Paranne.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:29:20",
@@ -7392,7 +7392,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Neeyum+Naanum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Neeyum+Naanum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:34:07",
@@ -7414,7 +7414,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kajra+Re-Remix.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kajra+Re-Remix.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:38:47",
@@ -7436,7 +7436,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:39:18",
@@ -7447,7 +7447,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jwellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jwellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:39:38",
@@ -7458,7 +7458,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:39:49",
@@ -7469,7 +7469,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:40:19",
@@ -7491,7 +7491,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Suno+Na+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Suno+Na+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:44:48",
@@ -7513,7 +7513,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kanninullil+Nee.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kanninullil+Nee.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:49:09",
@@ -7535,7 +7535,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:50:13",
@@ -7546,7 +7546,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:50:37",
@@ -7568,7 +7568,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Bhasad+Macha+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Bhasad+Macha+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:54:00",
@@ -7590,7 +7590,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mustafa+Mustafa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mustafa+Mustafa.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "18:59:45",
@@ -7634,7 +7634,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Everyday.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Everyday.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:03:20",
@@ -7656,7 +7656,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Nakshathra+Gold+and+Diamond.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:04:43",
@@ -7667,7 +7667,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:04:48",
@@ -7678,7 +7678,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIMA+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:05:07",
@@ -7689,7 +7689,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:05:18",
@@ -7700,7 +7700,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:05:43",
@@ -7722,7 +7722,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:05:54",
@@ -7733,7 +7733,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:05:59",
@@ -7744,7 +7744,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:06:05",
@@ -7755,7 +7755,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Rathipushpam+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Rathipushpam+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:08:43",
@@ -7777,7 +7777,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Minnal+Kaivale+Chaarthi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Minnal+Kaivale+Chaarthi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:13:38",
@@ -7799,7 +7799,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:13:58",
@@ -7821,7 +7821,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:14:45",
@@ -7832,7 +7832,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:15:14",
@@ -7843,7 +7843,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Chungath+Jewellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:15:33",
@@ -7854,7 +7854,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rajagiri+Hospital.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:15:49",
@@ -7876,7 +7876,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Tum+Tum+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Tum+Tum+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:20:19",
@@ -7898,7 +7898,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kanimaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kanimaa.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:24:30",
@@ -7920,7 +7920,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:25:35",
@@ -7931,7 +7931,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:25:39",
@@ -7942,7 +7942,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:25:43",
@@ -7953,7 +7953,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:25:49",
@@ -7964,7 +7964,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:25:54",
@@ -7975,7 +7975,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vellil+Paravakalai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vellil+Paravakalai.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:30:25",
@@ -7997,7 +7997,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ranjha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ranjha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:33:54",
@@ -8030,7 +8030,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:35:05",
@@ -8041,7 +8041,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:35:09",
@@ -8052,7 +8052,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:35:14",
@@ -8063,7 +8063,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LIC+Jeevan+Labh.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LIC+Jeevan+Labh.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:35:18",
@@ -8074,7 +8074,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:35:24",
@@ -8085,7 +8085,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:35:48",
@@ -8096,7 +8096,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:36:02",
@@ -8107,7 +8107,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:36:13",
@@ -8118,7 +8118,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:36:23",
@@ -8140,7 +8140,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Radha+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Radha+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:42:33",
@@ -8162,7 +8162,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Jaadu+hai+Nasha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Jaadu+hai+Nasha.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:45:42",
@@ -8195,7 +8195,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:47:50",
@@ -8206,7 +8206,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:47:53",
@@ -8217,7 +8217,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:47:58",
@@ -8228,7 +8228,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:48:03",
@@ -8239,7 +8239,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:48:08",
@@ -8250,7 +8250,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:48:33",
@@ -8261,7 +8261,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:48:43",
@@ -8283,7 +8283,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Taxi+Taxi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Taxi+Taxi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:54:31",
@@ -8305,7 +8305,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Njaano+Raavoo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Njaano+Raavoo.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "19:59:26",
@@ -8349,7 +8349,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Zara+Zara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Zara+Zara.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:06:05",
@@ -8371,7 +8371,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:07:21",
@@ -8382,7 +8382,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:07:24",
@@ -8393,7 +8393,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:07:28",
@@ -8404,7 +8404,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:07:34",
@@ -8415,7 +8415,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:07:39",
@@ -8426,7 +8426,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:08:04",
@@ -8437,7 +8437,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:08:14",
@@ -8448,7 +8448,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:08:44",
@@ -8459,7 +8459,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Vietjet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Vietjet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:08:59",
@@ -8481,7 +8481,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kasavinte+Thattamittu+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kasavinte+Thattamittu+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:13:12",
@@ -8503,7 +8503,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Melliname.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Melliname.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:18:42",
@@ -8525,7 +8525,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Bumbro.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Bumbro.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:21:42",
@@ -8547,7 +8547,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:22:33",
@@ -8558,7 +8558,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:22:36",
@@ -8569,7 +8569,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:22:41",
@@ -8580,7 +8580,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:22:46",
@@ -8591,7 +8591,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:22:51",
@@ -8602,7 +8602,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Alankaara+Puthukkangal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Alankaara+Puthukkangal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:23:49",
@@ -8624,7 +8624,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Malabar+Gold+&+Diamonds.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:24:24",
@@ -8635,7 +8635,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:24:55",
@@ -8646,7 +8646,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Bhima+Jwellery.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Bhima+Jwellery.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:25:15",
@@ -8657,7 +8657,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:25:25",
@@ -8679,7 +8679,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:26:05",
@@ -8690,7 +8690,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:26:07",
@@ -8701,7 +8701,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:26:12",
@@ -8712,7 +8712,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:26:17",
@@ -8723,7 +8723,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:26:23",
@@ -8745,7 +8745,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Pazhamthamizh.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Pazhamthamizh.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:32:25",
@@ -8767,7 +8767,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mera+Mann.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mera+Mann.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:37:00",
@@ -8789,7 +8789,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Parimatch.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:38:05",
@@ -8800,7 +8800,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Canara+Bank.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:38:09",
@@ -8811,7 +8811,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/BHIM.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:38:13",
@@ -8822,7 +8822,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Life+Insurance+Corporation+of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:38:19",
@@ -8833,7 +8833,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Pittappillil+Agencies.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:38:23",
@@ -8844,7 +8844,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Panasonic.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:38:43",
@@ -8855,7 +8855,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:39:03",
@@ -8866,7 +8866,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kia+Motors.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:39:28",
@@ -8877,7 +8877,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Vietjet.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Vietjet.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:39:44",
@@ -8899,7 +8899,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Indraneelimayolum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Indraneelimayolum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:46:39",
@@ -8921,7 +8921,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mazhathullikal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mazhathullikal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:51:08",
@@ -8943,7 +8943,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Euro+Guard.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:51:27",
@@ -8954,7 +8954,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Kelvinator.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:51:38",
@@ -8976,7 +8976,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/En+Veettu+Thottathil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/En+Veettu+Thottathil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:55:21",
@@ -8998,7 +8998,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vaalittezhuthiya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vaalittezhuthiya.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "20:59:25",
@@ -9042,7 +9042,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Soldier+Soldier+Meethi+Baaten.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Soldier+Soldier+Meethi+Baaten.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:04:50",
@@ -9064,7 +9064,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/SBI.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:05:28",
@@ -9075,7 +9075,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Rayzon+Solar.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:05:38",
@@ -9086,7 +9086,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/Reserve+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:06:08",
@@ -9119,7 +9119,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kanaka+Nivaave+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kanaka+Nivaave+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:12:15",
@@ -9141,7 +9141,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Kurukku+Siruthavale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Kurukku+Siruthavale.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:18:59",
@@ -9163,7 +9163,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Palavattom+Pookkalam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Palavattom+Pookkalam.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:21:00",
@@ -9185,7 +9185,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Piya+Bole.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Piya+Bole.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:25:24",
@@ -9207,7 +9207,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/LG.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:25:53",
@@ -9218,7 +9218,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/State+Bank+Of+India.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:26:18",
@@ -9240,7 +9240,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Dhoore+Malamarakkombil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Dhoore+Malamarakkombil.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:30:57",
@@ -9262,7 +9262,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Barsaat.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Barsaat.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:36:55",
@@ -9284,7 +9284,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Mohikkum+Neermizhiyode+S.P.Venkatesh&K.J.Yesudas.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Mohikkum+Neermizhiyode+S.P.Venkatesh&K.J.Yesudas.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:42:41",
@@ -9317,7 +9317,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ennavale+Adi+Ennavale.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ennavale+Adi+Ennavale.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:48:59",
@@ -9339,7 +9339,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Maaleye+Lola.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Maaleye+Lola.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:53:41",
@@ -9361,7 +9361,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Anjali+Anjali.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Anjali+Anjali.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "22:59:16",
@@ -9405,7 +9405,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Ethra+Naal.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Ethra+Naal.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:03:34",
@@ -9427,7 +9427,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/God+Bless+U+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/God+Bless+U+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:06:57",
@@ -9449,7 +9449,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/ads/2025-04-25/ORS.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:07:20",
@@ -9471,7 +9471,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thaane+Pookum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thaane+Pookum.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:11:12",
@@ -9493,7 +9493,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Thomkiya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Thomkiya.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:14:02",
@@ -9515,7 +9515,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Nagarathey.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Nagarathey.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:17:30",
@@ -9537,7 +9537,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Oh+Mariya.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Oh+Mariya.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:23:24",
@@ -9559,7 +9559,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Abhi+Mujh+Me+Kahin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Abhi+Mujh+Me+Kahin.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:30:36",
@@ -9581,7 +9581,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Doore+Doore+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Doore+Doore+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:34:14",
@@ -9603,7 +9603,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Tune++Maari++Entriyaan+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Tune++Maari++Entriyaan+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:39:02",
@@ -9625,7 +9625,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Amruthamayi+Abhayamai-Hariharan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Amruthamayi+Abhayamai-Hariharan.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:44:04",
@@ -9647,7 +9647,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Vizhi+Moodi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Vizhi+Moodi.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:48:54",
@@ -9669,7 +9669,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Koode+.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Koode+.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:52:18",
@@ -9691,7 +9691,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Chand+Tare.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Chand+Tare.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:56:20",
@@ -9713,7 +9713,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/radio-mirchi/songs/2025-04-25/Flip+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/radio-mirchi/songs/2025-04-25/Flip+Song.mp3",
     "channel": "radio-mirchi",
     "date": "2025-04-25",
     "end": "23:59:20",

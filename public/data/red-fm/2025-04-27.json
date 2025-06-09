@@ -1,6 +1,6 @@
 [
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Hindi+Song+Remix.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Hindi+Song+Remix.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:00:00",
@@ -11,7 +11,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Besabriyaan.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Besabriyaan.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:03:37",
@@ -33,7 +33,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Innale+Mellane.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Innale+Mellane.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:08:15",
@@ -55,7 +55,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Dhekha+Hazaro+Dafaa.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Dhekha+Hazaro+Dafaa.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:11:40",
@@ -77,7 +77,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Kaatrai+Konjam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Kaatrai+Konjam.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:17:01",
@@ -99,7 +99,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Mazhanila.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Mazhanila.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:21:01",
@@ -121,7 +121,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Bonding+Song.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Bonding+Song.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:25:34",
@@ -143,7 +143,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Oru+Manam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Oru+Manam.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:30:56",
@@ -165,7 +165,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Koodilla+Kuyilamme.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Koodilla+Kuyilamme.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:35:41",
@@ -187,7 +187,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Ayisha+Ayisha.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Ayisha+Ayisha.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:39:31",
@@ -209,7 +209,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Aathadi+Aathadi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Aathadi+Aathadi.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:44:50",
@@ -231,7 +231,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Dheere+Dheere.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Dheere+Dheere.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:48:22",
@@ -253,7 +253,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Shyama+Mohini.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Shyama+Mohini.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:52:40",
@@ -275,7 +275,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Chithirathira.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Chithirathira.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "01:56:54",
@@ -297,7 +297,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/O+Bekhabar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/O+Bekhabar.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:00:00",
@@ -308,7 +308,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/O+Bekhabar.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/O+Bekhabar.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:00:31",
@@ -330,7 +330,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Maavilakudil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Maavilakudil.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:05:20",
@@ -352,7 +352,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Man+Lafanga.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Man+Lafanga.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:10:04",
@@ -374,7 +374,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Azhagho+Azhaghu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Azhagho+Azhaghu.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:14:58",
@@ -396,7 +396,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Varmukile+Marivillin.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Varmukile+Marivillin.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:19:44",
@@ -418,7 +418,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Poomuthole.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Poomuthole.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:24:05",
@@ -440,7 +440,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Thee+Illai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Thee+Illai.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:29:11",
@@ -462,7 +462,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Odathanil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Odathanil.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:33:50",
@@ -484,7 +484,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Chilathunaam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Chilathunaam.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:38:36",
@@ -506,7 +506,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Ennamo+Yeadho.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Ennamo+Yeadho.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:44:06",
@@ -528,7 +528,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Banjaara.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Banjaara.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:48:09",
@@ -550,7 +550,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Iniyendhu+Nalkanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Iniyendhu+Nalkanam.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:52:29",
@@ -572,7 +572,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Oru+Naalaikkul.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Oru+Naalaikkul.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "02:58:01",
@@ -594,7 +594,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Oru+Nodi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Oru+Nodi.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:00:00",
@@ -605,7 +605,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Oru+Nodi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Oru+Nodi.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:02:08",
@@ -627,7 +627,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Malayalipenne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Malayalipenne.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:07:26",
@@ -649,7 +649,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Jhalla+Wallah.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Jhalla+Wallah.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:12:15",
@@ -671,7 +671,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Yaaro+Ivalo.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Yaaro+Ivalo.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:15:52",
@@ -693,7 +693,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Parayathe+Vannen.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Parayathe+Vannen.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:20:10",
@@ -715,7 +715,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Gerua.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Gerua.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:25:18",
@@ -737,7 +737,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Poovamkurunninu.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Poovamkurunninu.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:29:45",
@@ -759,7 +759,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Nenjukkule.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Nenjukkule.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:34:36",
@@ -781,7 +781,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Kando+Kando.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Kando+Kando.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:38:48",
@@ -803,7 +803,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Aval.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Aval.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:43:25",
@@ -825,7 +825,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Thoomanju.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Thoomanju.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:47:40",
@@ -847,7 +847,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Nenjil+Nenjil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Nenjil+Nenjil.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:52:54",
@@ -869,7 +869,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Anthimaanam.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Anthimaanam.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:57:14",
@@ -891,7 +891,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Srivalli.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Srivalli.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "03:59:29",
@@ -913,7 +913,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Sugandha+Neerala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Sugandha+Neerala.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:00:00",
@@ -935,7 +935,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Poomaram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Poomaram.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:04:37",
@@ -957,7 +957,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Dekho+Na.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Dekho+Na.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:09:48",
@@ -979,7 +979,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Anbe+Anbe.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Anbe+Anbe.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:15:11",
@@ -1001,7 +1001,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Thumbi+Penne.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Thumbi+Penne.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:20:02",
@@ -1023,7 +1023,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Jugni.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Jugni.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:24:45",
@@ -1045,7 +1045,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Oru+Kaathilola.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Oru+Kaathilola.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:29:35",
@@ -1067,7 +1067,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Sollitaley+Ava+Kaadhala.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Sollitaley+Ava+Kaadhala.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:34:16",
@@ -1089,7 +1089,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Pandu+Paadavarambathiloode.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Pandu+Paadavarambathiloode.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:37:33",
@@ -1111,7 +1111,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Swagathaanjali.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Swagathaanjali.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:41:35",
@@ -1133,7 +1133,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Walking+In+The+Moonlight.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Walking+In+The+Moonlight.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:47:19",
@@ -1155,7 +1155,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Netru+Varai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Netru+Varai.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:52:00",
@@ -1177,7 +1177,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Paathiravaayi+Neram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Paathiravaayi+Neram.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "04:56:15",
@@ -1199,7 +1199,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Humdard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Humdard.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:00:00",
@@ -1210,7 +1210,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Humdard.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Humdard.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:00:03",
@@ -1243,7 +1243,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Sri+Venkateshwara+Suprabhatham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Sri+Venkateshwara+Suprabhatham.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:22:10",
@@ -1276,7 +1276,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Mayilpeeli+Kannante.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Mayilpeeli+Kannante.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:28:43",
@@ -1298,7 +1298,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Gopala+Govinda.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Gopala+Govinda.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:33:14",
@@ -1320,7 +1320,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Anandamegunna.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Anandamegunna.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:37:55",
@@ -1342,7 +1342,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Ram+Bhajan+Kar+Man.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Ram+Bhajan+Kar+Man.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:45:30",
@@ -1364,7 +1364,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Aakaasham+Thannoru+Ponmuthalle.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Aakaasham+Thannoru+Ponmuthalle.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "05:50:34",
@@ -1386,7 +1386,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Sree+Chakkulathu+Suprabhatham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Sree+Chakkulathu+Suprabhatham.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:00:00",
@@ -1397,7 +1397,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Sree+Chakkulathu+Suprabhatham.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Sree+Chakkulathu+Suprabhatham.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:03:32",
@@ -1419,7 +1419,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Vagdathangalil.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Vagdathangalil.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:09:32",
@@ -1441,7 +1441,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Sri+Padmanabhante.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Sri+Padmanabhante.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:15:42",
@@ -1463,7 +1463,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Thiruvanna+Malai.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Thiruvanna+Malai.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:20:58",
@@ -1485,7 +1485,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Rakshakane.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Rakshakane.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:24:39",
@@ -1507,7 +1507,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Radhayude.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Radhayude.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:30:23",
@@ -1540,7 +1540,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Ponnodu+Poovayi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Ponnodu+Poovayi.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:35:30",
@@ -1562,7 +1562,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Chirakaattykkili.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Chirakaattykkili.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:40:37",
@@ -1584,7 +1584,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Minnaayam+Minnum.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Minnaayam+Minnum.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:44:53",
@@ -1617,7 +1617,7 @@
     "type": "program"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Kanaka+Mayilanchi.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Kanaka+Mayilanchi.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:50:27",
@@ -1639,7 +1639,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Kannodu+Kannoram.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Kannodu+Kannoram.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "06:55:11",
@@ -1661,7 +1661,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Maargazhi+Poovea.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Maargazhi+Poovea.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "07:00:00",
@@ -1672,7 +1672,7 @@
     "type": "song"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/Kochi/red-fm/songs/2025-04-27/Maargazhi+Poovea.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/red-fm/songs/2025-04-27/Maargazhi+Poovea.mp3",
     "channel": "red-fm",
     "date": "2025-04-27",
     "end": "07:00:03",
