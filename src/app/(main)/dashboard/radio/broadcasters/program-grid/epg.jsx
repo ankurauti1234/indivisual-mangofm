@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import CustomRangeSlider from "./custom-range-slider";
-import { ChevronLeft, ChevronRight, Calendar } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ProgramDialog from "./program-dialog";
 import ExportDialog from "./export-dialog";
@@ -22,6 +22,13 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { Calendar } from "@/components/ui/calendar";
+import { format } from "date-fns";
 import { useRouter, useSearchParams } from "next/navigation";
 import { availableData } from "@/data/available_data";
 
@@ -247,10 +254,10 @@ const EPG = () => {
   const [selectedContentType, setSelectedContentType] = useState("all");
   const [selectedRadioStation, setSelectedRadioStation] = useState("all");
   const [selectedRegion, setSelectedRegion] = useState("all");
-  const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [epgData, setEpgData] = useState([]);
   const [error, setError] = useState(null);
+  const [calendarDate, setCalendarDate] = useState(new Date(initialDate));
 
   const datesWithData = getDatesWithData();
   const channels = getUniqueChannels(epgData);
@@ -357,6 +364,7 @@ const EPG = () => {
     setSelectedDate((prevDate) => {
       const newDate = new Date(prevDate);
       newDate.setDate(newDate.getDate() - 1);
+      setCalendarDate(newDate);
       return newDate.toISOString().split("T")[0];
     });
   };
@@ -365,15 +373,16 @@ const EPG = () => {
     setSelectedDate((prevDate) => {
       const newDate = new Date(prevDate);
       newDate.setDate(newDate.getDate() + 1);
+      setCalendarDate(newDate);
       return newDate.toISOString().split("T")[0];
     });
   };
 
-  const handleDatePickerChange = (e) => {
-    const newDate = e.target.value;
-    if (newDate) {
-      setSelectedDate(newDate);
-      setIsDatePickerOpen(false);
+  const handleCalendarSelect = (date) => {
+    if (date) {
+      const formattedDate = date.toISOString().split("T")[0];
+      setSelectedDate(formattedDate);
+      setCalendarDate(date);
     }
   };
 
@@ -381,6 +390,7 @@ const EPG = () => {
     const nearestDate = findNearestDateWithData(selectedDate, datesWithData);
     if (nearestDate) {
       setSelectedDate(nearestDate);
+      setCalendarDate(new Date(nearestDate));
     }
   };
 
@@ -511,13 +521,29 @@ const EPG = () => {
               >
                 <ChevronLeft className="h-5 w-5" />
               </Button>
-              <span className="text-lg font-medium text-zinc-800 dark:text-zinc-100 px-4">
-                {new Date(selectedDate).toLocaleDateString("en-US", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </span>
+              <Popover>
+                <PopoverTrigger asChild>
+                  <Button
+                    variant="outline"
+                    className="w-[200px] justify-start text-left font-medium bg-white dark:bg-zinc-900 border-none hover:bg-zinc-100 dark:hover:bg-zinc-700"
+                  >
+                    {format(calendarDate, "PPP")}
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent className="w-auto p-0 bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700">
+                  <Calendar
+                    mode="single"
+                    selected={calendarDate}
+                    onSelect={handleCalendarSelect}
+                    initialFocus
+                    disabled={(date) =>
+                      !datesWithData.includes(
+                        date.toISOString().split("T")[0]
+                      )
+                    }
+                  />
+                </PopoverContent>
+              </Popover>
               <Button
                 onClick={handleNextDate}
                 size="icon"
@@ -525,23 +551,6 @@ const EPG = () => {
               >
                 <ChevronRight className="h-5 w-5" />
               </Button>
-              <Button
-                onClick={() => setIsDatePickerOpen(true)}
-                size="icon"
-                className="bg-white dark:bg-zinc-900 hover:bg-zinc-100 dark:hover:bg-zinc-700"
-              >
-                <Calendar className="h-5 w-5" />
-              </Button>
-              {isDatePickerOpen && (
-                <input
-                  type="date"
-                  value={selectedDate}
-                  onChange={handleDatePickerChange}
-                  onBlur={() => setIsDatePickerOpen(false)}
-                  className="absolute mt-2 p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-zinc-800 dark:text-zinc-100"
-                  autoFocus
-                />
-              )}
             </div>
           </div>
         </div>
@@ -654,11 +663,18 @@ const EPG = () => {
                 className="h-12 w-12 rounded-lg shadow-md mr-3"
                 style={{ clipPath: `polygon(${squircleClipPath(48, 48, 4)})` }}
               />
-              <span className="text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                {channel.replace(/-/g, " ").replace(/\b\w/g, (c) =>
-                  c.toUpperCase()
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-zinc-800 dark:text-zinc-200 uppercase">
+                  {channel.replace(/-/g, " ").replace(/\b\w/g, (c) =>
+                    c.toUpperCase()
+                  )}
+                </span>
+                {regions && (
+                  <span className="text-sm text-muted-foreground">
+                    {regions[0]}
+                  </span>
                 )}
-              </span>
+              </div>
             </div>
           ))}
         </div>
