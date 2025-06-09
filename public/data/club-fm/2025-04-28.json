@@ -1477,7 +1477,7 @@
     "audio": "",
     "channel": "club-fm",
     "date": "2025-04-28",
-    "end": "04:35:32",
+    "end": "04:45:32",
     "id": "ITEM-9091BBC7",
     "program": "JINGLE",
     "region": "kochi",
@@ -1492,7 +1492,7 @@
     "id": "ITEM-1451464A",
     "program": "SONG: THAZHAMPOO MUDIMUDICHU, M.M.KEERAVANI, SUJATHA & SINDHU, DEVARAGAM, JOHNY SAGARIGA, 1996, MALAYALAM",
     "region": "kochi",
-    "start": "04:35:32",
+    "start": "04:45:32",
     "type": "song"
   },
   {
@@ -6660,10 +6660,10 @@
     "date": "2025-04-28",
     "end": "15:42:53",
     "id": "ITEM-F4EFDAFD",
-    "program": "JINGLE:CLOSE TO ME, \nELLIE GOULDING, DIPLO & SWAE LEE, \nBRIGHTEST BLUE, \nPOLYDOR RECORDS, 2018, ENGLISH",
+    "program": "SONG:CLOSE TO ME, \nELLIE GOULDING, DIPLO & SWAE LEE, \nBRIGHTEST BLUE, \nPOLYDOR RECORDS, 2018, ENGLISH",
     "region": "kochi",
     "start": "15:39:55",
-    "type": "jingle"
+    "type": "song"
   },
   {
     "audio": "",
@@ -7549,7 +7549,7 @@
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/songs/2025-04-28/Kireedam.mp3",
     "channel": "club-fm",
     "date": "2025-04-28",
-    "end": "17:21:33",
+    "end": "17:24:33",
     "id": "ITEM-D5CBF0AD",
     "program": "SONG: KIREEDAM, \nYAKZAN GARY PEREIRA, NEHA NAIR & MC COUPER, \nNADIKAR, \nTHINK MUSIC, 2024, MALAYALAM",
     "region": "kochi",
@@ -7564,7 +7564,7 @@
     "id": "ITEM-41CC849F",
     "program": "JINGLE",
     "region": "kochi",
-    "start": "17:21:33",
+    "start": "17:24:33",
     "type": "jingle"
   },
   {

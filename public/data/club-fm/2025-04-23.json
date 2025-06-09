@@ -5613,7 +5613,7 @@
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/songs/2025-04-23/Anchakkallakokkan.mp3",
     "channel": "club-fm",
     "date": "2025-04-23",
-    "end": "13:00:09",
+    "end": "13:02:10",
     "id": "ITEM-F172F1E2",
     "program": "SONG: ANCHAKKALLAKOKKAN, \nNIRANJ SURESH & NANNIYOD KANAKAN, \nANCHAKKALLAKOKKAN, \nTHINK MUSIC, 2024, MALAYALAM",
     "region": "kochi",
@@ -5628,7 +5628,7 @@
     "id": "ITEM-A724FC52",
     "program": "JINGLE",
     "region": "kochi",
-    "start": "13:00:09",
+    "start": "13:02:10",
     "type": "jingle"
   },
   {
@@ -7650,10 +7650,10 @@
     "date": "2025-04-23",
     "end": "16:37:00",
     "id": "ITEM-1DDD4BD4",
-    "program": "JINGLE",
+    "program": "PROGRAM",
     "region": "kochi",
     "start": "16:31:53",
-    "type": "jingle"
+    "type": "program"
   },
   {
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/songs/2025-04-23/Panjara+Punch.mp3",

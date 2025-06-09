@@ -6262,7 +6262,7 @@
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/songs/2025-04-20/O+Dilruba.mp3",
     "channel": "club-fm",
     "date": "2025-04-20",
-    "end": "13:37:19",
+    "end": "13:41:34",
     "id": "ITEM-8A16FEB2",
     "program": "SONG: O DILRUBA, \nVIDYASAGAR & HARIHARAN, \nAZHAKIYARAVANAN, \nSATYAM AUDIOS, 2003, MALAYALAM",
     "region": "kochi",
@@ -6273,11 +6273,11 @@
     "audio": "",
     "channel": "club-fm",
     "date": "2025-04-20",
-    "end": "13:41:33",
+    "end": "13:41:38",
     "id": "ITEM-D166AA15",
     "program": "JINGLE",
     "region": "kochi",
-    "start": "13:37:19",
+    "start": "13:41:34",
     "type": "jingle"
   },
   {
@@ -6288,7 +6288,7 @@
     "id": "ITEM-F1B5A9F3",
     "program": "SONG: KONCHI KARAYALLE MIZHIKAL NANAYALLE, \nK. J. YESUDAS & S. JANAK\u0130, \nPOOMUKHAPADIYIL NINNEYUM KAATHU, \nMILLENNIUM\u00a0AUDIOS, 1986, MALAYALAM",
     "region": "kochi",
-    "start": "13:41:33",
+    "start": "13:41:38",
     "type": "song"
   },
   {
@@ -7870,10 +7870,10 @@
     "date": "2025-04-20",
     "end": "16:20:44",
     "id": "ITEM-FFD7520B",
-    "program": "JINGLE:STAR JAM, \nCLUBFM, \nPODCAST, \nENTERTAINMENT",
+    "program": "PROGRAM:STAR JAM, \nCLUBFM, \nPODCAST, \nENTERTAINMENT",
     "region": "kochi",
     "start": "16:17:40",
-    "type": "jingle"
+    "type": "program"
   },
   {
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/songs/2025-04-20/Ariyathe.mp3",
@@ -11685,7 +11685,7 @@
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/songs/2025-04-20/Orikkal+Nee+Paranju.mp3",
     "channel": "club-fm",
     "date": "2025-04-20",
-    "end": "23:20:58",
+    "end": "23:23:58",
     "id": "ITEM-9C7A8F14",
     "program": "SONG: ORIKKAL NEE PARANJU, \nVENUGOPAL, \nPOSITIVE, \nSPEED MUSIC VIDEOS, 2008, MALAYALAM",
     "region": "kochi",
@@ -11700,7 +11700,7 @@
     "id": "ITEM-D2CBB24A",
     "program": "JINGLE",
     "region": "kochi",
-    "start": "23:20:58",
+    "start": "23:23:58",
     "type": "jingle"
   },
   {
