@@ -3,7 +3,6 @@
 import { Users } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, Legend, XAxis, YAxis } from "recharts";
 import { useState } from "react";
-
 import {
   Select,
   SelectContent,
@@ -11,7 +10,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-
 import {
   ChartConfig,
   ChartContainer,
@@ -19,107 +17,60 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 import ChartCard from "@/components/card/charts-card";
+import { week16, week17 } from "./top-ad-data"; // Import the JSON data
 
-// Sample data for shared advertisers across stations and weeks
-const sharedAdvertiserData = {
-  week16: {
-    BrandA: {
-      name: "Brand A",
-      data: [
-        { station: "Mango FM", percentage: 30 },
-        { station: "Red FM", percentage: 40 },
-        { station: "Club FM", percentage: 20 },
-        { station: "Radio Mirchi", percentage: 10 },
-      ],
-    },
-    BrandB: {
-      name: "Brand B",
-      data: [
-        { station: "Mango FM", percentage: 25 },
-        { station: "Red FM", percentage: 35 },
-        { station: "Club FM", percentage: 30 },
-        { station: "Radio Mirchi", percentage: 10 },
-      ],
-    },
-    BrandC: {
-      name: "Brand C",
-      data: [
-        { station: "Mango FM", percentage: 15 },
-        { station: "Red FM", percentage: 45 },
-        { station: "Club FM", percentage: 25 },
-        { station: "Radio Mirchi", percentage: 15 },
-      ],
-    },
-    BrandD: {
-      name: "Brand D",
-      data: [
-        { station: "Mango FM", percentage: 20 },
-        { station: "Red FM", percentage: 30 },
-        { station: "Club FM", percentage: 35 },
-        { station: "Radio Mirchi", percentage: 15 },
-      ],
-    },
-    BrandE: {
-      name: "Brand E",
-      data: [
-        { station: "Mango FM", percentage: 40 },
-        { station: "Red FM", percentage: 20 },
-        { station: "Club FM", percentage: 20 },
-        { station: "Radio Mirchi", percentage: 20 },
-      ],
-    },
-  },
-  week17: {
-    BrandA: {
-      name: "Brand A",
-      data: [
-        { station: "Mango FM", percentage: 32 },
-        { station: "Red FM", percentage: 38 },
-        { station: "Club FM", percentage: 22 },
-        { station: "Radio Mirchi", percentage: 8 },
-      ],
-    },
-    BrandB: {
-      name: "Brand B",
-      data: [
-        { station: "Mango FM", percentage: 27 },
-        { station: "Red FM", percentage: 33 },
-        { station: "Club FM", percentage: 32 },
-        { station: "Radio Mirchi", percentage: 8 },
-      ],
-    },
-    BrandC: {
-      name: "Brand C",
-      data: [
-        { station: "Mango FM", percentage: 17 },
-        { station: "Red FM", percentage: 43 },
-        { station: "Club FM", percentage: 27 },
-        { station: "Radio Mirchi", percentage: 13 },
-      ],
-    },
-    BrandD: {
-      name: "Brand D",
-      data: [
-        { station: "Mango FM", percentage: 22 },
-        { station: "Red FM", percentage: 28 },
-        { station: "Club FM", percentage: 37 },
-        { station: "Radio Mirchi", percentage: 13 },
-      ],
-    },
-    BrandE: {
-      name: "Brand E",
-      data: [
-        { station: "Mango FM", percentage: 42 },
-        { station: "Red FM", percentage: 18 },
-        { station: "Club FM", percentage: 22 },
-        { station: "Radio Mirchi", percentage: 18 },
-      ],
-    },
-  },
+// Derive shared advertiser data from week16 and week17
+const deriveSharedAdvertiserData = (weekData) => {
+  const brands = new Set(weekData.map((item) => item.Brand));
+  const sharedData = {};
+
+  brands.forEach((brand) => {
+    const brandData = weekData.find((item) => item.Brand === brand);
+    const stations = [
+      { name: "Mango FM", key: "Mango FM" },
+      { name: "Red FM", key: "Red FM" },
+      { name: "Club FM", key: "Club FM" },
+      { name: "Radio Mirchi", key: "Radio Mirchi" },
+    ];
+
+    // Calculate total spend across all stations
+    const totalSpend = stations.reduce(
+      (sum, station) => sum + (brandData[station.key] || 0),
+      0
+    );
+
+    // Only include brands with spend on at least two stations
+    const activeStations = stations.filter(
+      (station) => (brandData[station.key] || 0) > 0
+    ).length;
+
+    if (activeStations >= 2 && totalSpend > 0) {
+      sharedData[brand] = {
+        name: brand,
+        data: stations.map((station) => ({
+          station: station.name,
+          percentage:
+            totalSpend > 0
+              ? Math.round(((brandData[station.key] || 0) / totalSpend) * 100)
+              : 0,
+        })),
+      };
+    }
+  });
+
+  return sharedData;
 };
 
-// List of major advertisers
-const majorAdvertisers = ["BrandA", "BrandB", "BrandC", "BrandD", "BrandE"];
+// Prepare shared advertiser data
+const sharedAdvertiserData = {
+  week16: deriveSharedAdvertiserData(week16),
+  week17: deriveSharedAdvertiserData(week17),
+};
+
+// List of major advertisers (brands advertising on at least two stations)
+const majorAdvertisers = Object.keys(sharedAdvertiserData.week16).filter(
+  (brand) => brand in sharedAdvertiserData.week17
+);
 
 // Chart configuration with distinct colors for each station
 const chartConfig = {
@@ -139,7 +90,10 @@ export default function SharedAdvertisers() {
     .map((adv) => ({
       advertiser: adv,
       ...Object.fromEntries(
-        sharedAdvertiserData[selectedWeek][adv].data.map((d) => [d.station.toLowerCase().replace(" ", ""), d.percentage])
+        sharedAdvertiserData[selectedWeek][adv].data.map((d) => [
+          d.station.toLowerCase().replace(" ", ""),
+          d.percentage,
+        ])
       ),
     }));
 
@@ -163,7 +117,9 @@ export default function SharedAdvertisers() {
     <ChartCard
       icon={<Users className="w-6 h-6" />}
       title="Shared Advertisers"
-      description={`Advertisers Running Spots Across Multiple Stations (2024) - ${selectedWeek === "week16" ? "Week 16" : "Week 17"}`}
+      description={`Advertisers Running Spots Across Multiple Stations (2024) - ${
+        selectedWeek === "week16" ? "Week 16" : "Week 17"
+      }`}
       action={
         <div className="flex justify-end space-x-4">
           <Select onValueChange={handleWeekChange} defaultValue="week16">
@@ -191,7 +147,7 @@ export default function SharedAdvertisers() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig} className="h-96 w-full">
+        <ChartContainer config={chartConfig} className="min-h-64 h-[600px] w-full">
           <BarChart
             accessibilityLayer
             data={chartData}
@@ -200,16 +156,15 @@ export default function SharedAdvertisers() {
               top: 16,
               right: 16,
               bottom: 16,
-              left: 16,
+              left: 66,
             }}
-            height={300}
           >
             <CartesianGrid horizontal={false} />
             <YAxis
               dataKey="advertiser"
               type="category"
               tickLine={false}
-              tickMargin={10}
+              tickMargin={1}
               axisLine={false}
               tickFormatter={(value) => sharedAdvertiserData[selectedWeek][value].name}
             />
@@ -225,25 +180,56 @@ export default function SharedAdvertisers() {
             <ChartTooltip
               content={
                 <ChartTooltipContent
-                  hideLabel
+                  // hideLabel
                   valueFormatter={formatPercentage}
+                  formatter={(value, name) => [
+                    formatPercentage(value),
+                    `Station: ${chartConfig[name]?.label || name}`,
+                  ]}
                 />
               }
             />
             <Legend />
-            <Bar dataKey="mangofm" stackId="a" fill={chartConfig.mangofm.color} name={chartConfig.mangofm.label} />
-            <Bar dataKey="redfm" stackId="a" fill={chartConfig.redfm.color} name={chartConfig.redfm.label} />
-            <Bar dataKey="clubfm" stackId="a" fill={chartConfig.clubfm.color} name={chartConfig.clubfm.label} />
-            <Bar dataKey="radiomirchi" stackId="a" fill={chartConfig.radiomirchi.color} name={chartConfig.radiomirchi.label} radius={[0, 4, 4, 0]} />
+            <Bar
+            barSize={180}
+              dataKey="mangofm"
+              stackId="a"
+              fill={chartConfig.mangofm.color}
+              name={chartConfig.mangofm.label}
+            />
+            <Bar
+            barSize={180}
+              dataKey="redfm"
+              stackId="a"
+              fill={chartConfig.redfm.color}
+              name={chartConfig.redfm.label}
+            />
+            <Bar
+            barSize={180}
+              dataKey="clubfm"
+              stackId="a"
+              fill={chartConfig.clubfm.color}
+              name={chartConfig.clubfm.label}
+            />
+            <Bar
+            barSize={180}
+              dataKey="radiomirchi"
+              stackId="a"
+              fill={chartConfig.radiomirchi.color}
+              name={chartConfig.radiomirchi.label}
+            />
           </BarChart>
         </ChartContainer>
       }
       footer={
         <p className="text-sm text-gray-500">
-          Showing ad spot distribution for{" "}
+          Showing ad spend distribution for{" "}
           {selectedAdvertisers.length === majorAdvertisers.length
-            ? "all advertisers"
-            : selectedAdvertisers.map((a) => sharedAdvertiserData[selectedWeek][a].name).join(", ")} in {selectedWeek === "week16" ? "Week 16" : "Week 17"}
+            ? "all shared advertisers"
+            : selectedAdvertisers
+                .map((a) => sharedAdvertiserData[selectedWeek][a].name)
+                .join(", ")}{" "}
+          in {selectedWeek === "week16" ? "Week 16" : "Week 17"}
         </p>
       }
     />

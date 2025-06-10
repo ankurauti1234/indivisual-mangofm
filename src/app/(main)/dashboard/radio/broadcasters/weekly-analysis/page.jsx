@@ -25,16 +25,16 @@ const RadioDashboard = () => {
       <TVChannelTreemap />
 
 
-      <IndustryAdSpend/>
+      {/* <IndustryAdSpend/> */}
       <DailyAdsLineChart/>
       <TopAdvertisersComparison />
       <UntappedLeads />
       <DailyAdCount/>
-      <AdDurationAnalysis />
+      {/* <AdDurationAnalysis /> */}
       <SharedAdvertisers />
       <NewAdvertisersAlerts />
-      <AdvertiserChurn />
-      <WhyUsBattleCards/>
+      {/* <AdvertiserChurn />
+      <WhyUsBattleCards/> */}
   
     </div>
   );

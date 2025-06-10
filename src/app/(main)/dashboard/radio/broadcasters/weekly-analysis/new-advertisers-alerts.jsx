@@ -20,166 +20,90 @@ import {
 } from "@/components/ui/chart";
 import ChartCard from "@/components/card/charts-card";
 
-// Sample data for new advertisers across weeks for different months, years, and stations
+// New advertiser data for each station (16-04-2025 to 30-04-2025)
 const newAdvertiserData = {
-  "mangofm_2025-05": {
-    name: "Mango FM - May 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 5 },
-      { week: "Week 2", newAdvertisers: 8 },
-      { week: "Week 3", newAdvertisers: 6 },
-      { week: "Week 4", newAdvertisers: 7 },
-    ],
+  clubfm: {
+    name: "Club FM",
+    advertisers: [
+      "AQUA STAR",
+      "BPL",
+      "Euro Guard",
+      "INTER SQUARE MALL",
+      "KCG COLLEGE OF TECHNOLOGY",
+      "KELVINATOR",
+      "MATHRUBHUMI BOOKS",
+      "NOLTA",
+      "RAJAGIRI HOSPITAL",
+      "SBI"
+    ]
   },
-  "mangofm_2025-04": {
-    name: "Mango FM - April 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 4 },
-      { week: "Week 2", newAdvertisers: 6 },
-      { week: "Week 3", newAdvertisers: 5 },
-      { week: "Week 4", newAdvertisers: 8 },
-    ],
+  mangofm: {
+    name: "Mango FM",
+    advertisers: [
+      "AQUA STAR",
+      "BPL",
+      "CENTER SQURE MALL",
+      "FUTUREACE HOSPITAL",
+      "KELVINATOR",
+      "MUTHOOT FINANCE",
+      "NISAU & EDROOTS",
+      "VANITHA JEWELLERY",
+      "WELCARE HOSPITAL"
+    ]
   },
-  "mangofm_2024-12": {
-    name: "Mango FM - December 2024",
-    data: [
-      { week: "Week 1", newAdvertisers: 3 },
-      { week: "Week 2", newAdvertisers: 7 },
-      { week: "Week 3", newAdvertisers: 4 },
-      { week: "Week 4", newAdvertisers: 6 },
-    ],
+  radiomirchi: {
+    name: "Radio Mirchi",
+    advertisers: [
+      "GOVT OF UTTARAKHAND",
+      "KELVINATOR",
+      "ORS",
+      "RAJAGIRI HOSPITAL",
+      "VETO",
+      "WHF"
+    ]
   },
-  "redfm_2025-05": {
-    name: "Red FM - May 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 6 },
-      { week: "Week 2", newAdvertisers: 9 },
-      { week: "Week 3", newAdvertisers: 7 },
-      { week: "Week 4", newAdvertisers: 8 },
-    ],
-  },
-  "redfm_2025-04": {
-    name: "Red FM - April 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 5 },
-      { week: "Week 2", newAdvertisers: 7 },
-      { week: "Week 3", newAdvertisers: 6 },
-      { week: "Week 4", newAdvertisers: 9 },
-    ],
-  },
-  "redfm_2024-12": {
-    name: "Red FM - December 2024",
-    data: [
-      { week: "Week 1", newAdvertisers: 4 },
-      { week: "Week 2", newAdvertisers: 8 },
-      { week: "Week 3", newAdvertisers: 5 },
-      { week: "Week 4", newAdvertisers: 7 },
-    ],
-  },
-  "clubfm_2025-05": {
-    name: "Club FM - May 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 3 },
-      { week: "Week 2", newAdvertisers: 6 },
-      { week: "Week 3", newAdvertisers: 4 },
-      { week: "Week 4", newAdvertisers: 5 },
-    ],
-  },
-  "clubfm_2025-04": {
-    name: "Club FM - April 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 2 },
-      { week: "Week 2", newAdvertisers: 5 },
-      { week: "Week 3", newAdvertisers: 3 },
-      { week: "Week 4", newAdvertisers: 6 },
-    ],
-  },
-  "clubfm_2024-12": {
-    name: "Club FM - December 2024",
-    data: [
-      { week: "Week 1", newAdvertisers: 2 },
-      { week: "Week 2", newAdvertisers: 4 },
-      { week: "Week 3", newAdvertisers: 3 },
-      { week: "Week 4", newAdvertisers: 5 },
-    ],
-  },
-  "radiomirchi_2025-05": {
-    name: "Radio Mirchi - May 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 7 },
-      { week: "Week 2", newAdvertisers: 10 },
-      { week: "Week 3", newAdvertisers: 8 },
-      { week: "Week 4", newAdvertisers: 9 },
-    ],
-  },
-  "radiomirchi_2025-04": {
-    name: "Radio Mirchi - April 2025",
-    data: [
-      { week: "Week 1", newAdvertisers: 6 },
-      { week: "Week 2", newAdvertisers: 8 },
-      { week: "Week 3", newAdvertisers: 7 },
-      { week: "Week 4", newAdvertisers: 10 },
-    ],
-  },
-  "radiomirchi_2024-12": {
-    name: "Radio Mirchi - December 2024",
-    data: [
-      { week: "Week 1", newAdvertisers: 5 },
-      { week: "Week 2", newAdvertisers: 9 },
-      { week: "Week 3", newAdvertisers: 6 },
-      { week: "Week 4", newAdvertisers: 8 },
-    ],
-  },
+  redfm: {
+    name: "Red FM",
+    advertisers: [
+      "AQUA STAR",
+      "BPL",
+      "CENTER SQURE MALL",
+      "FEDARAL BANK",
+      "KELVINATOR",
+      "NISAU & EDROOTS",
+      "PITTAPPILLIL AGENCIES",
+      "RAJAGIRI HOSPITAL",
+      "SURYA TV"
+    ]
+  }
 };
 
-// Available stations, months, and years
+// Available stations
 const stationOptions = [
-  { value: "mangofm", label: "Mango FM" },
-  { value: "redfm", label: "Red FM" },
   { value: "clubfm", label: "Club FM" },
+  { value: "mangofm", label: "Mango FM" },
   { value: "radiomirchi", label: "Radio Mirchi" },
+  { value: "redfm", label: "Red FM" }
 ];
-
-const monthYearOptions = [
-  { value: "2025-05", label: "May 2025" },
-  { value: "2025-04", label: "April 2025" },
-  { value: "2024-12", label: "December 2024" },
-];
-
-const chartConfig = {
-  newAdvertisers: {
-    label: "New Advertisers",
-    color: "hsl(var(--chart-1))",
-  },
-};
 
 export default function NewAdvertisersAlerts() {
-  const [selectedStation, setSelectedStation] = useState("mangofm");
-  const [selectedMonthYear, setSelectedMonthYear] = useState("2025-05");
+  const [selectedStation, setSelectedStation] = useState("clubfm");
 
-  // Get data for the selected station and month/year
-  const chartData = newAdvertiserData[`${selectedStation}_${selectedMonthYear}`].data;
-
-  const formatNumber = (value) => {
-    return `${value}`;
-  };
+  // Get data for the selected station
+  const selectedData = newAdvertiserData[selectedStation];
 
   const handleStationChange = (value) => {
     setSelectedStation(value);
-  };
-
-  const handleMonthYearChange = (value) => {
-    setSelectedMonthYear(value);
   };
 
   return (
     <ChartCard
       icon={<AlertCircle className="w-6 h-6" />}
       title="New Advertiser Alerts"
-      description="Brands Recently Appearing on Competitors (Last 30 Days)"
+      description="Brands Recently Appearing on Competitors (16-04-2025 to 30-04-2025)"
       action={
-        <div className="flex justify-end space-x-2">
-          <Select onValueChange={handleStationChange} defaultValue="mangofm">
+        <div className="flex justify-end">
+          <Select onValueChange={handleStationChange} defaultValue="clubfm">
             <SelectTrigger className="w-48">
               <SelectValue placeholder="Select station" />
             </SelectTrigger>
@@ -191,69 +115,39 @@ export default function NewAdvertisersAlerts() {
               ))}
             </SelectContent>
           </Select>
-          <Select onValueChange={handleMonthYearChange} defaultValue="2025-05">
-            <SelectTrigger className="w-48">
-              <SelectValue placeholder="Select month/year" />
-            </SelectTrigger>
-            <SelectContent>
-              {monthYearOptions.map((option) => (
-                <SelectItem key={option.value} value={option.value}>
-                  {option.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig} className="h-96 w-full">
-          <BarChart
-            accessibilityLayer
-            data={chartData}
-            margin={{
-              top: 16,
-              right: 16,
-              bottom: 16,
-              left: 16,
-            }}
-            height={300}
-          >
-            <CartesianGrid vertical={false} />
-            <XAxis
-              dataKey="week"
-              type="category"
-              tickLine={false}
-              tickMargin={10}
-              axisLine={false}
-            />
-            <YAxis
-              type="number"
-              tickLine={false}
-              axisLine={false}
-              tickMargin={8}
-              tickCount={6}
-              tickFormatter={formatNumber}
-            />
-            <ChartTooltip
-              content={
-                <ChartTooltipContent
-                  labelFormatter={(label) => `Week: ${label}`}
-                  valueFormatter={formatNumber}
-                />
-              }
-            />
-            <Legend />
-            <Bar
-              dataKey="newAdvertisers"
-              fill={chartConfig.newAdvertisers.color}
-              radius={[4, 4, 0, 0]}
-            />
-          </BarChart>
-        </ChartContainer>
+        <div className="w-full">
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b">
+                  <th className="text-left p-3 font-semibold">#</th>
+                  <th className="text-left p-3 font-semibold">New Advertiser</th>
+                  <th className="text-left p-3 font-semibold">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {selectedData.advertisers.map((advertiser, index) => (
+                  <tr key={advertiser} className="border-b hover:bg-gray-50">
+                    <td className="p-3 text-sm text-gray-600">{index + 1}</td>
+                    <td className="p-3 font-medium">{advertiser}</td>
+                    <td className="p-3">
+                      <span className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">
+                        New
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       }
       footer={
         <p className="text-sm text-gray-500">
-          Showing number of new advertisers for {newAdvertiserData[`${selectedStation}_${selectedMonthYear}`].name}
+          Total: {selectedData.advertisers.length} new advertisers for {selectedData.name}
         </p>
       }
     />

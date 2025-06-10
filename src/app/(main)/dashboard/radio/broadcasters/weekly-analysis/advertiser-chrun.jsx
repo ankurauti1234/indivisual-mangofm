@@ -3,15 +3,6 @@
 import { AlertTriangle } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, Legend, XAxis, YAxis, Cell } from "recharts";
 import { useState } from "react";
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
 import {
   Select,
   SelectContent,
@@ -19,7 +10,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-
 import {
   ChartConfig,
   ChartContainer,
@@ -27,214 +17,83 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 import ChartCard from "@/components/card/charts-card";
+import { week16, week17 } from "./top-ad-data"; // Import the JSON data
 
-// Sample data for advertiser churn across stations by week
-const churnData = {
-  week16: {
-    mangofm: {
-      name: "Mango FM",
+// Derive churn data from week16 and week17
+const deriveChurnData = () => {
+  const stations = ["mangofm", "redfm", "clubfm", "radiomirchi"];
+  const stationNames = {
+    mangofm: "Mango FM",
+    redfm: "Red FM",
+    clubfm: "Club FM",
+    radiomirchi: "Radio Mirchi",
+  };
+  const stationKeys = {
+    mangofm: "Mango FM",
+    redfm: "Red FM",
+    clubfm: "Club FM",
+    radiomirchi: "Radio Mirchi",
+  };
+
+  const getAdvertisers = (weekData, stationKey) =>
+    new Set(
+      weekData
+        .filter((item) => (item[stationKey] || 0) > 0)
+        .map((item) => item.Brand)
+    );
+
+  const churnData = {
+    week16: {},
+    week17: {},
+  };
+
+  stations.forEach((station) => {
+    // Week 16: Use week17 as "previous" week for initial/dropped
+    const week16Advertisers = getAdvertisers(week16, stationKeys[station]);
+    const week17Advertisers = getAdvertisers(week17, stationKeys[station]);
+
+    // Week 16 churn (assuming week17 as prior week for initial)
+    const week16New = [...week16Advertisers].filter(
+      (brand) => !week17Advertisers.has(brand)
+    );
+    const week16Dropped = [...week17Advertisers].filter(
+      (brand) => !week16Advertisers.has(brand)
+    );
+
+    churnData.week16[station] = {
+      name: stationNames[station],
       data: [
-        {
-          metric: "Initial",
-          count: 20,
-          advertisers: ["BrandA", "BrandB", "BrandC", "BrandD", "BrandE", "BrandF", "BrandG", "BrandH", "BrandI", "BrandJ", "BrandK", "BrandL", "BrandM", "BrandN", "BrandO", "BrandP", "BrandQ", "BrandR", "BrandS", "BrandT"],
-        },
-        {
-          metric: "New",
-          count: 5,
-          advertisers: ["BrandU", "BrandV", "BrandW", "BrandX", "BrandY"],
-        },
-        {
-          metric: "Dropped",
-          count: -7,
-          advertisers: ["BrandC", "BrandE", "BrandI", "BrandK", "BrandM", "BrandO", "BrandS"],
-        },
-        {
-          metric: "Final",
-          count: 18,
-          advertisers: ["BrandA", "BrandB", "BrandD", "BrandF", "BrandG", "BrandH", "BrandJ", "BrandL", "BrandN", "BrandP", "BrandQ", "BrandR", "BrandT", "BrandU", "BrandV", "BrandW", "BrandX", "BrandY"],
-        },
+        { metric: "Initial", count: week17Advertisers.size },
+        { metric: "New", count: week16New.length },
+        { metric: "Dropped", count: -week16Dropped.length },
+        { metric: "Final", count: week16Advertisers.size },
       ],
-    },
-    redfm: {
-      name: "Red FM",
+    };
+
+    // Week 17 churn (using week16 as prior week)
+    const week17New = [...week17Advertisers].filter(
+      (brand) => !week16Advertisers.has(brand)
+    );
+    const week17Dropped = [...week16Advertisers].filter(
+      (brand) => !week17Advertisers.has(brand)
+    );
+
+    churnData.week17[station] = {
+      name: stationNames[station],
       data: [
-        {
-          metric: "Initial",
-          count: 22,
-          advertisers: ["BrandA", "BrandB", "BrandC", "BrandD", "BrandE", "BrandF", "BrandG", "BrandH", "BrandI", "BrandJ", "BrandK", "BrandL", "BrandM", "BrandN", "BrandO", "BrandP", "BrandQ", "BrandR", "BrandS", "BrandT", "BrandU", "BrandV"],
-        },
-        {
-          metric: "New",
-          count: 6,
-          advertisers: ["BrandW", "BrandX", "BrandY", "BrandZ", "BrandAA", "BrandAB"],
-        },
-        {
-          metric: "Dropped",
-          count: -8,
-          advertisers: ["BrandB", "BrandD", "BrandF", "BrandI", "BrandK", "BrandN", "BrandQ", "BrandT"],
-        },
-        {
-          metric: "Final",
-          count: 20,
-          advertisers: ["BrandA", "BrandC", "BrandE", "BrandG", "BrandH", "BrandJ", "BrandL", "BrandM", "BrandO", "BrandP", "BrandR", "BrandS", "BrandU", "BrandV", "BrandW", "BrandX", "BrandY", "BrandZ", "BrandAA", "BrandAB"],
-        },
+        { metric: "Initial", count: week16Advertisers.size },
+        { metric: "New", count: week17New.length },
+        { metric: "Dropped", count: -week17Dropped.length },
+        { metric: "Final", count: week17Advertisers.size },
       ],
-    },
-    clubfm: {
-      name: "Club FM",
-      data: [
-        {
-          metric: "Initial",
-          count: 18,
-          advertisers: ["BrandA", "BrandB", "BrandC", "BrandD", "BrandE", "BrandF", "BrandG", "BrandH", "BrandI", "BrandJ", "BrandK", "BrandL", "BrandM", "BrandN", "BrandO", "BrandP", "BrandQ", "BrandR"],
-        },
-        {
-          metric: "New",
-          count: 4,
-          advertisers: ["BrandS", "BrandT", "BrandU", "BrandV"],
-        },
-        {
-          metric: "Dropped",
-          count: -6,
-          advertisers: ["BrandC", "BrandF", "BrandI", "BrandL", "BrandO", "BrandQ"],
-        },
-        {
-          metric: "Final",
-          count: 16,
-          advertisers: ["BrandA", "BrandB", "BrandD", "BrandE", "BrandG", "BrandH", "BrandJ", "BrandK", "BrandM", "BrandN", "BrandP", "BrandR", "BrandS", "BrandT", "BrandU", "BrandV"],
-        },
-      ],
-    },
-    radiomirchi: {
-      name: "Radio Mirchi",
-      data: [
-        {
-          metric: "Initial",
-          count: 25,
-          advertisers: ["BrandA", "BrandB", "BrandC", "BrandD", "BrandE", "BrandF", "BrandG", "BrandH", "BrandI", "BrandJ", "BrandK", "BrandL", "BrandM", "BrandN", "BrandO", "BrandP", "BrandQ", "BrandR", "BrandS", "BrandT", "BrandU", "BrandV", "BrandW", "BrandX", "BrandY"],
-        },
-        {
-          metric: "New",
-          count: 7,
-          advertisers: ["BrandZ", "BrandAA", "BrandAB", "BrandAC", "BrandAD", "BrandAE", "BrandAF"],
-        },
-        {
-          metric: "Dropped",
-          count: -9,
-          advertisers: ["BrandA", "BrandD", "BrandG", "BrandJ", "BrandM", "BrandP", "BrandS", "BrandV", "BrandX"],
-        },
-        {
-          metric: "Final",
-          count: 23,
-          advertisers: ["BrandB", "BrandC", "BrandE", "BrandF", "BrandH", "BrandI", "BrandK", "BrandL", "BrandN", "BrandO", "BrandQ", "BrandR", "BrandT", "BrandU", "BrandW", "BrandY", "BrandZ", "BrandAA", "BrandAB", "BrandAC", "BrandAD", "BrandAE", "BrandAF"],
-        },
-      ],
-    },
-  },
-  week17: {
-    mangofm: {
-      name: "Mango FM",
-      data: [
-        {
-          metric: "Initial",
-          count: 18,
-          advertisers: ["BrandA", "BrandB", "BrandD", "BrandF", "BrandG", "BrandH", "BrandJ", "BrandL", "BrandN", "BrandP", "BrandQ", "BrandR", "BrandT", "BrandU", "BrandV", "BrandW", "BrandX", "BrandY"],
-        },
-        {
-          metric: "New",
-          count: 6,
-          advertisers: ["BrandZ", "BrandAA", "BrandAB", "BrandAC", "BrandAD", "BrandAE"],
-        },
-        {
-          metric: "Dropped",
-          count: -5,
-          advertisers: ["BrandB", "BrandF", "BrandJ", "BrandQ", "BrandV"],
-        },
-        {
-          metric: "Final",
-          count: 19,
-          advertisers: ["BrandA", "BrandD", "BrandG", "BrandH", "BrandL", "BrandN", "BrandP", "BrandR", "BrandT", "BrandU", "BrandW", "BrandX", "BrandY", "BrandZ", "BrandAA", "BrandAB", "BrandAC", "BrandAD", "BrandAE"],
-        },
-      ],
-    },
-    redfm: {
-      name: "Red FM",
-      data: [
-        {
-          metric: "Initial",
-          count: 20,
-          advertisers: ["BrandA", "BrandC", "BrandE", "BrandG", "BrandH", "BrandJ", "BrandL", "BrandM", "BrandO", "BrandP", "BrandR", "BrandS", "BrandU", "BrandV", "BrandW", "BrandX", "BrandY", "BrandZ", "BrandAA", "BrandAB"],
-        },
-        {
-          metric: "New",
-          count: 7,
-          advertisers: ["BrandAC", "BrandAD", "BrandAE", "BrandAF", "BrandAG", "BrandAH", "BrandAI"],
-        },
-        {
-          metric: "Dropped",
-          count: -6,
-          advertisers: ["BrandC", "BrandG", "BrandL", "BrandO", "BrandS", "BrandW"],
-        },
-        {
-          metric: "Final",
-          count: 21,
-          advertisers: ["BrandA", "BrandE", "BrandH", "BrandJ", "BrandM", "BrandP", "BrandR", "BrandU", "BrandV", "BrandX", "BrandY", "BrandZ", "BrandAA", "BrandAB", "BrandAC", "BrandAD", "BrandAE", "BrandAF", "BrandAG", "BrandAH", "BrandAI"],
-        },
-      ],
-    },
-    clubfm: {
-      name: "Club FM",
-      data: [
-        {
-          metric: "Initial",
-          count: 16,
-          advertisers: ["BrandA", "BrandB", "BrandD", "BrandE", "BrandG", "BrandH", "BrandJ", "BrandK", "BrandM", "BrandN", "BrandP", "BrandR", "BrandS", "BrandT", "BrandU", "BrandV"],
-        },
-        {
-          metric: "New",
-          count: 5,
-          advertisers: ["BrandW", "BrandX", "BrandY", "BrandZ", "BrandAA"],
-        },
-        {
-          metric: "Dropped",
-          count: -4,
-          advertisers: ["BrandE", "BrandK", "BrandN", "BrandS"],
-        },
-        {
-          metric: "Final",
-          count: 17,
-          advertisers: ["BrandA", "BrandB", "BrandD", "BrandG", "BrandH", "BrandJ", "BrandM", "BrandP", "BrandR", "BrandT", "BrandU", "BrandV", "BrandW", "BrandX", "BrandY", "BrandZ", "BrandAA"],
-        },
-      ],
-    },
-    radiomirchi: {
-      name: "Radio Mirchi",
-      data: [
-        {
-          metric: "Initial",
-          count: 23,
-          advertisers: ["BrandB", "BrandC", "BrandE", "BrandF", "BrandH", "BrandI", "BrandK", "BrandL", "BrandN", "BrandO", "BrandQ", "BrandR", "BrandT", "BrandU", "BrandW", "BrandY", "BrandZ", "BrandAA", "BrandAB", "BrandAC", "BrandAD", "BrandAE", "BrandAF"],
-        },
-        {
-          metric: "New",
-          count: 8,
-          advertisers: ["BrandAG", "BrandAH", "BrandAI", "BrandAJ", "BrandAK", "BrandAL", "BrandAM", "BrandAN"],
-        },
-        {
-          metric: "Dropped",
-          count: -7,
-          advertisers: ["BrandC", "BrandF", "BrandI", "BrandL", "BrandQ", "BrandW", "BrandAB"],
-        },
-        {
-          metric: "Final",
-          count: 24,
-          advertisers: ["BrandB", "BrandE", "BrandH", "BrandK", "BrandN", "BrandO", "BrandR", "BrandT", "BrandU", "BrandY", "BrandZ", "BrandAA", "BrandAC", "BrandAD", "BrandAE", "BrandAF", "BrandAG", "BrandAH", "BrandAI", "BrandAJ", "BrandAK", "BrandAL", "BrandAM", "BrandAN"],
-        },
-      ],
-    },
-  },
+    };
+  });
+
+  return churnData;
 };
+
+// Prepare churn data
+const churnData = deriveChurnData();
 
 // Available stations
 const stationOptions = [
@@ -269,15 +128,15 @@ export default function AdvertiserChurn() {
 
   const handleWeekChange = (value) => {
     setSelectedWeek(value);
-    // Reset station selection to default when week changes
-    setSelectedStation("mangofm");
   };
 
   return (
     <ChartCard
       icon={<AlertTriangle className="w-6 h-6" />}
       title="Advertiser Churn"
-      description={`Brands That Stopped Advertising on Competitors - ${selectedWeek === "week16" ? "Week 16" : "Week 17"} (Last 30 Days)`}
+      description={`Brands That Stopped or Started Advertising - ${
+        selectedWeek === "week16" ? "Week 16" : "Week 17"
+      } (2024)`}
       action={
         <div className="flex justify-end space-x-4">
           <Select onValueChange={handleWeekChange} defaultValue="week16">
@@ -331,27 +190,18 @@ export default function AdvertiserChurn() {
               tickMargin={8}
               tickCount={6}
               tickFormatter={formatNumber}
-              domain={[-10, 'auto']} // Ensure negative values are visible
+              domain={[-10, "auto"]} // Ensure negative values are visible
             />
             <ChartTooltip
               content={
                 <ChartTooltipContent
                   labelFormatter={(label) => `Metric: ${label}`}
-                  valueFormatter={(value, name, props) => {
-                    const advertisers = props.payload.advertisers || [];
-                    const displayCount = advertisers.length > 5 
-                      ? `${advertisers.slice(0, 5).join(", ")} and ${advertisers.length - 5} more`
-                      : advertisers.join(", ");
-                    return `${Math.abs(value)} (${displayCount})`;
-                  }}
+                  valueFormatter={(value) => `${Math.abs(value)} advertisers`}
                 />
               }
             />
-            {/* <Legend /> */}
-            <Bar
-              dataKey="count"
-              radius={[4, 4, 0, 0]}
-            >
+            <Legend />
+            <Bar dataKey="count" radius={[4, 4, 0, 0]}>
               {chartData.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={chartConfig[entry.metric].color} />
               ))}

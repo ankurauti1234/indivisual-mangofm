@@ -1,17 +1,8 @@
 "use client";
 
 import { TrendingUp } from "lucide-react";
-import { Line, LineChart, CartesianGrid, XAxis, YAxis, ResponsiveContainer } from "recharts";
+import { Line, LineChart, CartesianGrid, XAxis, YAxis } from "recharts";
 import { useState } from "react";
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
 import {
   Select,
   SelectContent,
@@ -19,7 +10,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-
 import {
   ChartConfig,
   ChartContainer,
@@ -27,30 +17,128 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 import ChartCard from "@/components/card/charts-card";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
 
-// Sample data for different radio stations and weeks with daily ad counts
+// Data from previous conversation
 const dailyAdsData = {
   week16: [
-    { date: "Thu 16 May", day: "Thursday", mangofm: 52, redfm: 54, clubfm: 35, radiomirchi: 67 },
-    { date: "Fri 17 May", day: "Friday", mangofm: 58, redfm: 63, clubfm: 38, radiomirchi: 70 },
-    { date: "Sat 18 May", day: "Saturday", mangofm: 46, redfm: 50, clubfm: 45, radiomirchi: 56 },
-    { date: "Sun 19 May", day: "Sunday", mangofm: 42, redfm: 48, clubfm: 34, radiomirchi: 52 },
-    { date: "Mon 20 May", day: "Monday", mangofm: 47, redfm: 55, clubfm: 40, radiomirchi: 63 },
-    { date: "Tue 21 May", day: "Tuesday", mangofm: 45, redfm: 58, clubfm: 44, radiomirchi: 60 },
-    { date: "Wed 22 May", day: "Wednesday", mangofm: 50, redfm: 59, clubfm: 48, radiomirchi: 68 },
+    {
+      date: "Thu 17 Apr",
+      day: "Thursday",
+      mangofm: { count: 461, seconds: 10111 },
+      redfm: { count: 1112, seconds: 15172 },
+      clubfm: { count: 440, seconds: 8702 },
+      radiomirchi: { count: 347, seconds: 6472 },
+    },
+    {
+      date: "Fri 18 Apr",
+      day: "Friday",
+      mangofm: { count: 479, seconds: 10344 },
+      redfm: { count: 1011, seconds: 12686 },
+      clubfm: { count: 407, seconds: 8452 },
+      radiomirchi: { count: 355, seconds: 6162 },
+    },
+    {
+      date: "Sat 19 Apr",
+      day: "Saturday",
+      mangofm: { count: 353, seconds: 7151 },
+      redfm: { count: 929, seconds: 12163 },
+      clubfm: { count: 483, seconds: 11049 },
+      radiomirchi: { count: 351, seconds: 5767 },
+    },
+    {
+      date: "Sun 20 Apr",
+      day: "Sunday",
+      mangofm: { count: 293, seconds: 5698 },
+      redfm: { count: 813, seconds: 11136 },
+      clubfm: { count: 427, seconds: 7477 },
+      radiomirchi: { count: 220, seconds: 4948 },
+    },
+    {
+      date: "Mon 21 Apr",
+      day: "Monday",
+      mangofm: { count: 280, seconds: 6167 },
+      redfm: { count: 896, seconds: 11833 },
+      clubfm: { count: 281, seconds: 6556 },
+      radiomirchi: { count: 0, seconds: 0 },
+    },
+    {
+      date: "Tue 22 Apr",
+      day: "Tuesday",
+      mangofm: { count: 286, seconds: 6207 },
+      redfm: { count: 905, seconds: 11264 },
+      clubfm: { count: 262, seconds: 6004 },
+      radiomirchi: { count: 250, seconds: 4176 },
+    },
+    {
+      date: "Wed 23 Apr",
+      day: "Wednesday",
+      mangofm: { count: 353, seconds: 7110 },
+      redfm: { count: 956, seconds: 12611 },
+      clubfm: { count: 387, seconds: 8326 },
+      radiomirchi: { count: 287, seconds: 5060 },
+    },
   ],
   week17: [
-    { date: "Thu 23 May", day: "Thursday", mangofm: 53, redfm: 56, clubfm: 41, radiomirchi: 64 },
-    { date: "Fri 24 May", day: "Friday", mangofm: 60, redfm: 65, clubfm: 36, radiomirchi: 72 },
-    { date: "Sat 25 May", day: "Saturday", mangofm: 44, redfm: 52, clubfm: 47, radiomirchi: 54 },
-    { date: "Sun 26 May", day: "Sunday", mangofm: 39, redfm: 44, clubfm: 31, radiomirchi: 50 },
-    { date: "Mon 27 May", day: "Monday", mangofm: 49, redfm: 51, clubfm: 38, radiomirchi: 58 },
-    { date: "Tue 28 May", day: "Tuesday", mangofm: 54, redfm: 59, clubfm: 43, radiomirchi: 67 },
-    { date: "Wed 29 May", day: "Wednesday", mangofm: 57, redfm: 60, clubfm: 46, radiomirchi: 69 },
-    { date: "Thu 30 May", day: "Thursday", mangofm: 51, redfm: 57, clubfm: 39, radiomirchi: 61 },
-  ]
+    {
+      date: "Thu 24 Apr",
+      day: "Thursday",
+      mangofm: { count: 412, seconds: 8221 },
+      redfm: { count: 928, seconds: 11535 },
+      clubfm: { count: 383, seconds: 7090 },
+      radiomirchi: { count: 251, seconds: 3894 },
+    },
+    {
+      date: "Fri 25 Apr",
+      day: "Friday",
+      mangofm: { count: 299, seconds: 5658 },
+      redfm: { count: 767, seconds: 9612 },
+      clubfm: { count: 298, seconds: 6123 },
+      radiomirchi: { count: 242, seconds: 3741 },
+    },
+    {
+      date: "Sat 26 Apr",
+      day: "Saturday",
+      mangofm: { count: 271, seconds: 5050 },
+      redfm: { count: 737, seconds: 7603 },
+      clubfm: { count: 309, seconds: 6444 },
+      radiomirchi: { count: 213, seconds: 2851 },
+    },
+    {
+      date: "Sun 27 Apr",
+      day: "Sunday",
+      mangofm: { count: 192, seconds: 3501 },
+      redfm: { count: 531, seconds: 6662 },
+      clubfm: { count: 0, seconds: 0 },
+      radiomirchi: { count: 0, seconds: 0 },
+    },
+    {
+      date: "Mon 28 Apr",
+      day: "Monday",
+      mangofm: { count: 274, seconds: 4970 },
+      redfm: { count: 771, seconds: 8704 },
+      clubfm: { count: 282, seconds: 6076 },
+      radiomirchi: { count: 265, seconds: 4378 },
+    },
+    {
+      date: "Tue 29 Apr",
+      day: "Tuesday",
+      mangofm: { count: 300, seconds: 5884 },
+      redfm: { count: 843, seconds: 10893 },
+      clubfm: { count: 326, seconds: 7370 },
+      radiomirchi: { count: 0, seconds: 0 },
+    },
+    {
+      date: "Wed 30 Apr",
+      day: "Wednesday",
+      mangofm: { count: 316, seconds: 6386 },
+      redfm: { count: 891, seconds: 12039 },
+      clubfm: { count: 350, seconds: 8200 },
+      radiomirchi: { count: 0, seconds: 0 },
+    },
+  ],
 };
-
 
 const chartConfig = {
   mangofm: {
@@ -73,8 +161,16 @@ const chartConfig = {
 
 export default function DailyAdsLineChart() {
   const [selectedWeek, setSelectedWeek] = useState("week16");
+  const [showSeconds, setShowSeconds] = useState(false);
 
-  const chartData = dailyAdsData[selectedWeek];
+  const chartData = dailyAdsData[selectedWeek].map((item) => ({
+    date: item.date,
+    day: item.day,
+    mangofm: item.mangofm[showSeconds ? "seconds" : "count"],
+    redfm: item.redfm[showSeconds ? "seconds" : "count"],
+    clubfm: item.clubfm[showSeconds ? "seconds" : "count"],
+    radiomirchi: item.radiomirchi[showSeconds ? "seconds" : "count"],
+  }));
 
   const handleWeekChange = (value) => {
     setSelectedWeek(value);
@@ -106,13 +202,23 @@ export default function DailyAdsLineChart() {
     );
   };
 
+  const formatValue = (value) => {
+    return Math.round(value).toLocaleString() + (showSeconds ? "s" : "");
+  };
+
   return (
     <ChartCard
       icon={<TrendingUp className="w-6 h-6" />}
-      title="Daily Ad Count Trends"
-      description={`Weekly Performance Analysis - ${selectedWeek === "week16" ? "Week 16" : "Week 17"} 2024`}
+      title={showSeconds ? "Daily Ad Durationreceipt: Duration Trends" : "Daily Ad Count Trends"}
+      description={`${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Counts"} per Day - ${
+        selectedWeek === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"
+      } 2024`}
       action={
-        <div className="flex justify-end">
+        <div className="flex justify-end space-x-4 items-center">
+          <div className="flex items-center space-x-2">
+            <Switch id="unit-toggle" checked={showSeconds} onCheckedChange={setShowSeconds} />
+            <Label htmlFor="unit-toggle">{showSeconds ? "Seconds" : "Counts"}</Label>
+          </div>
           <Select onValueChange={handleWeekChange} defaultValue="week16">
             <SelectTrigger className="w-32">
               <SelectValue placeholder="Select week" />
@@ -137,8 +243,8 @@ export default function DailyAdsLineChart() {
             }}
             height={300}
           >
-            <CartesianGrid 
-              strokeDasharray="3 3" 
+            <CartesianGrid
+              strokeDasharray="3 3"
               stroke="hsl(var(--muted-foreground))"
               opacity={0.3}
             />
@@ -156,14 +262,14 @@ export default function DailyAdsLineChart() {
               axisLine={false}
               tickMargin={8}
               tickCount={6}
-              fontSize={12}
+              tickFormatter={formatValue}
             />
             <ChartTooltip
               content={
                 <ChartTooltipContent
                   labelFormatter={(value) => `${value}`}
                   formatter={(value, name) => [
-                    `${value} ads`,
+                    `${formatValue(value)} ${showSeconds ? "seconds" : "ads"}`,
                     chartConfig[name]?.label || name,
                   ]}
                 />
@@ -209,8 +315,8 @@ export default function DailyAdsLineChart() {
           <div className="flex flex-wrap gap-4 text-sm">
             {Object.entries(chartConfig).map(([key, config]) => (
               <div key={key} className="flex items-center gap-2">
-                <div 
-                  className="w-3 h-3 rounded-full" 
+                <div
+                  className="w-3 h-3 rounded-full"
                   style={{ backgroundColor: config.color }}
                 />
                 <span className="text-muted-foreground">{config.label}</span>
@@ -218,7 +324,8 @@ export default function DailyAdsLineChart() {
             ))}
           </div>
           <p className="text-sm text-gray-500">
-            Daily ad count trends for {selectedWeek === "week16" ? "Week 16 (May 13-19)" : "Week 17 (May 20-26)"} showing all radio stations
+            Daily ad {showSeconds ? "duration" : "count"} trends for{" "}
+            {selectedWeek === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"} showing all radio stations
           </p>
         </div>
       }

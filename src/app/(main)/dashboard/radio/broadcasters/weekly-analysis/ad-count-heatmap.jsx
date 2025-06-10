@@ -16,29 +16,68 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { week1, week2 } from "./heatmap-data.js";
+import { radio_mirchi, club_fm, radio_mango, red_fm } from "./heatmap-data.js";
 
 const RadioAdHeatmap = () => {
-  const [selectedWeek, setSelectedWeek] = useState("week_16");
+  const [selectedDate, setSelectedDate] = useState("2025-04-16");
   const [hoveredCell, setHoveredCell] = useState(null);
   const [hoveredRow, setHoveredRow] = useState(null);
 
-  const data = selectedWeek === "week_16" ? week1 : week2;
+  // Check if data is missing
+  if (!radio_mirchi || !club_fm || !radio_mango || !red_fm) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>Error</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p>Data for one or more stations is missing. Please check heatmap-data.js.</p>
+        </CardContent>
+      </Card>
+    );
+  }
 
-  const weeks = [
-    { value: "week_16", label: "Week 16 (Apr 17-23, 2025)" },
-    { value: "week_17", label: "Week 17 (Apr 24-30, 2025)" },
-  ];
+  const allData = {
+    radio_mirchi: radio_mirchi || {},
+    club_fm: club_fm || {},
+    radio_mango: radio_mango || {},
+    red_fm: red_fm || {},
+  };
 
-  const processData = (data) => {
-    const hours = Array.from({ length: 24 }, (_, i) => `${i}:00`);
+  const dates = [];
+  const startDate = new Date("2025-04-16");
+  const endDate = new Date("2025-04-30");
+  for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
+    dates.push({
+      value: d.toISOString().split("T")[0],
+      label: d.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      }),
+    });
+  }
+
+  const processData = (date) => {
+    const hours = Array.from({ length: 24 }, (_, i) => `${i}`);
     const stations = ["RED FM", "Club FM", "Mango", "Mirchi"];
+    const stationKeys = {
+      "RED FM": "red_fm",
+      "Club FM": "club_fm",
+      "Mango": "radio_mango",
+      "Mirchi": "radio_mirchi",
+    };
 
     const matrix = stations.map((station) => {
-      const stationData = { station };
+      const stationKey = stationKeys[station];
+      const stationData = { station, noData: false };
+      const dataForDate = (allData[stationKey] && allData[stationKey][date]) || null;
+      if (!dataForDate) {
+        stationData.noData = true;
+        return stationData;
+      }
       hours.forEach((hour) => {
-        const match = data.find((d) => d.hour === hour);
-        stationData[hour] = match ? match.stations[station]?.minutes || 0 : 0;
+        stationData[hour] = dataForDate[hour] || 0;
       });
       return stationData;
     });
@@ -46,18 +85,20 @@ const RadioAdHeatmap = () => {
     return matrix;
   };
 
-  const matrix = processData(data);
+  const matrix = processData(selectedDate);
 
-  const values = matrix.flatMap((row) =>
-    Object.values(row).filter((val) => typeof val === "number")
-  );
-  const min = Math.min(...values);
-  const max = Math.max(...values);
+  const values = matrix
+    .filter((row) => !row.noData)
+    .flatMap((row) =>
+      Object.values(row).filter((val) => typeof val === "number")
+    );
+  const min = values.length ? Math.min(...values) : 0;
+  const max = values.length ? Math.max(...values) : 0;
 
   const getColor = (value) => {
     if (!value) return "rgb(244, 245, 247)";
-    const normalizedValue = (value - min) / (max - min);
-    return `rgba(242, 100, 50, ${0.3 + normalizedValue * 0.6})`; // Adjusted opacity for better contrast
+    const normalizedValue = max === min ? 0.5 : (value - min) / (max - min);
+    return `rgba(242, 100, 50, ${0.3 + normalizedValue * 0.6})`;
   };
 
   const hours = Array.from({ length: 24 }, (_, i) => `${i}:00`);
@@ -68,6 +109,14 @@ const RadioAdHeatmap = () => {
     if (hourNum >= 12 && hourNum < 17) return "Afternoon (12:00–16:59)";
     if (hourNum >= 17 && hourNum < 21) return "Evening (17:00–20:59)";
     return "Night (21:00–4:59)";
+  };
+
+  const formatDate = (dateStr) => {
+    return new Date(dateStr).toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    });
   };
 
   return (
@@ -87,14 +136,14 @@ const RadioAdHeatmap = () => {
               </CardDescription>
             </div>
           </div>
-          <Select value={selectedWeek} onValueChange={setSelectedWeek}>
+          <Select value={selectedDate} onValueChange={setSelectedDate}>
             <SelectTrigger className="w-56 bg-white shadow-sm border-gray-200">
-              <SelectValue placeholder="Select Week" />
+              <SelectValue placeholder="Select Date" />
             </SelectTrigger>
             <SelectContent>
-              {weeks.map((week) => (
-                <SelectItem key={week.value} value={week.value}>
-                  {week.label}
+              {dates.map((date) => (
+                <SelectItem key={date.value} value={date.value}>
+                  {date.label}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -124,8 +173,10 @@ const RadioAdHeatmap = () => {
                   <div className="text-xs font-medium text-gray-600">
                     {hour}
                   </div>
-                  <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs py-1 px-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity z-10">
-                    {getTimeOfDay(hour)}
+                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-sm py-2 px-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity z-10 shadow-lg max-w-[200px]">
+                    <p className="font-semibold">{hour}</p>
+                    <p>{getTimeOfDay(hour.split(":")[0])}</p>
+                    <p className="text-xs text-gray-300">Date: {formatDate(selectedDate)}</p>
                   </div>
                 </div>
               ))}
@@ -148,24 +199,36 @@ const RadioAdHeatmap = () => {
                 >
                   {row.station}
                 </div>
-                {hours.map((hour) => (
+                {row.noData ? (
                   <div
-                    key={hour}
-                    className="relative group"
-                    style={{
-                      backgroundColor: getColor(row[hour]),
-                    }}
+                    className="col-span-24 h-12 flex items-center justify-center bg-gray-100 text-sm text-gray-500 italic"
+                    style={{ gridColumn: "2 / -1" }}
                   >
-                    <div className="h-12 flex items-center justify-center">
-                      <span className="text-xs font-medium text-gray-800">
-                        {row[hour].toFixed(1)}
-                      </span>
-                    </div>
-                    <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs py-1 px-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity z-10">
-                      {`${row.station}: ${row[hour].toFixed(1)} mins at ${hour}`}
-                    </div>
+                    No data for this date for {row.station}
                   </div>
-                ))}
+                ) : (
+                  hours.map((hour) => (
+                    <div
+                      key={hour}
+                      className="relative group"
+                      style={{
+                        backgroundColor: getColor(row[hour.split(":")[0]]),
+                      }}
+                    >
+                      <div className="h-12 flex items-center justify-center">
+                        <span className="text-xs font-medium text-gray-800">
+                          {row[hour.split(":")[0]].toFixed(1)}
+                        </span>
+                      </div>
+                      <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-sm py-2 px-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity z-10 shadow-lg max-w-[200px]">
+                        <p className="font-semibold">{row.station}</p>
+                        <p>Time: {hour}</p>
+                        <p>Duration: {row[hour.split(":")[0]].toFixed(1)} mins</p>
+                        <p className="text-xs text-gray-300">Date: {formatDate(selectedDate)}</p>
+                      </div>
+                    </div>
+                  ))
+                )}
               </div>
             ))}
           </div>
