@@ -3487,7 +3487,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "09:16:00",
@@ -3740,7 +3740,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "09:41:39",
@@ -4048,7 +4048,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "10:16:30",
@@ -4158,7 +4158,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "10:26:00",
@@ -4257,7 +4257,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "10:39:15",
@@ -4290,7 +4290,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "10:40:23",
@@ -4389,7 +4389,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "10:50:00",
@@ -4686,7 +4686,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "11:26:50",
@@ -4807,7 +4807,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "11:40:14",
@@ -4972,7 +4972,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "11:52:20",
@@ -5021,7 +5021,7 @@
     "date": "2025-04-21",
     "end": "12:00:00",
     "id": "ITEM-9DF05D74",
-    "program": "SONG: JOURNEY SONG, \nANUPAM ROY & SHREYA GHOSHAL, \nZEE USIC COMPANY, 2015,HINDI",
+    "program": "SONG: JOURNEY SONG, \nANUPAM ROY & SHREYA GHOSHAL, \nZEE MUSIC COMPANY, 2015,HINDI",
     "region": "kochi",
     "start": "11:57:06",
     "type": "song"
@@ -5032,7 +5032,7 @@
     "date": "2025-04-21",
     "end": "12:00:38",
     "id": "ITEM-86B5596E",
-    "program": "SONG: JOURNEY SONG, \nANUPAM ROY & SHREYA GHOSHAL, \nZEE USIC COMPANY, 2015,HINDI",
+    "program": "SONG: JOURNEY SONG, \nANUPAM ROY & SHREYA GHOSHAL, \nZEE MUSIC COMPANY, 2015,HINDI",
     "region": "kochi",
     "start": "12:00:00",
     "type": "song"
@@ -6622,7 +6622,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "15:15:20",
@@ -6820,7 +6820,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "15:35:37",
@@ -7689,7 +7689,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "17:23:22",
@@ -7909,7 +7909,7 @@
     "type": "jingle"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "17:44:05",
@@ -8272,7 +8272,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Daikin+Ac1.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "18:19:29",
@@ -9460,7 +9460,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "20:31:05",
@@ -9603,7 +9603,7 @@
     "type": "advertisement"
   },
   {
-    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joyalukkas+Gold+&+Diamonds.mp3",
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-21/Joya+Lukkas+Gold%26Diamonds.mp3",
     "channel": "club-fm",
     "date": "2025-04-21",
     "end": "20:45:42",

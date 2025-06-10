@@ -6115,6 +6115,17 @@
     "start": "13:25:50",
     "type": "advertisement"
   },
+    {
+    "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-20/Pittappillil+Agencies.mp3",
+    "channel": "club-fm",
+    "date": "2025-04-20",
+    "end": "13:26:13",
+    "id": "ITEM-CDC19FA9",
+    "program": "AD: PITTAPILLIL AGENCIES, HOME AND KITCHEN APPLIANCES, HOUSEHOLD PRODUCTS, HOME FURNISHING",
+    "region": "kochi",
+    "start": "13:26:00",
+    "type": "advertisement"
+  },
   {
     "audio": "https://radio-playback-files.s3.ap-south-1.amazonaws.com/kochi/club-fm/ads/2025-04-20/Road+Safety+is+Life+Safety.mp3",
     "channel": "club-fm",

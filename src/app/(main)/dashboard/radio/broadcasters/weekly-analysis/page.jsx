@@ -18,14 +18,7 @@ import DailyAdCount from './daily-ad-count'
 const RadioDashboard = () => {
   return (
     <div className='space-y-6'>
-      {/* <div className="flex justify-end">
-        <Link href="/dashboard/radio/broadcasters/weekly-analysis/table">
-          <Button variant="outline" className="flex items-center gap-2">
-            <Table className="w-4 h-4" />
-            See in Table View
-          </Button>
-        </Link>
-      </div> */}
+
       <StatCards />
       <RadioAdHeatmap />
       <RadioSectorAnalysis />
