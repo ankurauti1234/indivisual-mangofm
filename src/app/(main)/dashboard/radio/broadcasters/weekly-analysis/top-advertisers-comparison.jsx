@@ -199,7 +199,7 @@ export default function TopAdvertisersComparison() {
   );
 
   const formatCurrency = (value) => {
-    return `${value} Units`; // Adjust based on what the numbers represent
+    return `${value} Spots`; // Adjust based on what the numbers represent
   };
 
   const handleAdvertiserSelectChange = (value) => {
