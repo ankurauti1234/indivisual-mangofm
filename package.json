@@ -83,6 +83,7 @@
     "react-google-chart": "^0.1.2",
     "react-google-charts": "^5.2.1",
     "react-plotly.js": "^2.6.0",
+    "react-select": "^5.10.1",
     "react-vis": "^1.12.1",
     "react-xarrows": "^2.0.2",
     "recharts": "^2.15.0",

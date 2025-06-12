@@ -1,7 +1,7 @@
 "use client";
 
 import { TrendingUp } from "lucide-react";
-import { Line, LineChart, CartesianGrid, XAxis, YAxis } from "recharts";
+import { Line, LineChart, CartesianGrid, XAxis, YAxis, ReferenceLine } from "recharts";
 import { useState } from "react";
 import {
   Select,
@@ -19,6 +19,7 @@ import {
 import ChartCard from "@/components/card/charts-card";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox"; // Assuming you have a Checkbox component
 
 // Data from previous conversation
 const dailyAdsData = {
@@ -160,20 +161,44 @@ const chartConfig = {
 };
 
 export default function DailyAdsLineChart() {
-  const [selectedWeek, setSelectedWeek] = useState("week16");
+  const [selectedWeeks, setSelectedWeeks] = useState(["week16"]);
   const [showSeconds, setShowSeconds] = useState(false);
 
-  const chartData = dailyAdsData[selectedWeek].map((item) => ({
-    date: item.date,
-    day: item.day,
-    mangofm: item.mangofm[showSeconds ? "seconds" : "count"],
-    redfm: item.redfm[showSeconds ? "seconds" : "count"],
-    clubfm: item.clubfm[showSeconds ? "seconds" : "count"],
-    radiomirchi: item.radiomirchi[showSeconds ? "seconds" : "count"],
-  }));
+  // Combine data from selected weeks
+  const chartData = selectedWeeks
+    .flatMap((week) =>
+      dailyAdsData[week].map((item) => ({
+        date: item.date,
+        day: item.day,
+        week: week,
+        mangofm: item.mangofm[showSeconds ? "seconds" : "count"],
+        redfm: item.redfm[showSeconds ? "seconds" : "count"],
+        clubfm: item.clubfm[showSeconds ? "seconds" : "count"],
+        radiomirchi: item.radiomirchi[showSeconds ? "seconds" : "count"],
+      }))
+    )
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  const handleWeekChange = (value) => {
-    setSelectedWeek(value);
+  // Get boundary dates between weeks for visual separation
+  const weekBoundaries = chartData
+    .reduce((acc, item, index) => {
+      if (index > 0 && item.week !== chartData[index - 1].week) {
+        acc.push(chartData[index - 1].date);
+      }
+      return acc;
+    }, [])
+    .map((date) => ({ date }));
+
+  const handleWeekChange = (week) => {
+    setSelectedWeeks((prev) => {
+      if (prev.includes(week)) {
+        // Remove week if already selected, but ensure at least one week remains
+        const newWeeks = prev.filter((w) => w !== week);
+        return newWeeks.length > 0 ? newWeeks : prev;
+      }
+      // Add week if not selected
+      return [...prev, week];
+    });
   };
 
   const CustomDot = (props) => {
@@ -192,11 +217,11 @@ export default function DailyAdsLineChart() {
           x={cx}
           y={cy - 10}
           textAnchor="middle"
-          fontSize={10}
+          fontSize={14}
           fill={chartConfig[dataKey]?.color}
           fontWeight="600"
         >
-          {payload[dataKey]}
+ {payload[dataKey]}
         </text>
       </g>
     );
@@ -206,26 +231,53 @@ export default function DailyAdsLineChart() {
     return Math.round(value).toLocaleString() + (showSeconds ? "s" : "");
   };
 
+  // Generate description based on selected weeks
+  const getDescription = () => {
+    if (selectedWeeks.length === 1) {
+      return `${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Counts"} per Day - ${
+        selectedWeeks[0] === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"
+      } 2024`;
+    }
+    const weekNames = selectedWeeks.map((week) =>
+      week === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"
+    );
+    return `${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Counts"} per Day - ${weekNames.join(" and ")} 2024`;
+  };
+
   return (
     <ChartCard
       icon={<TrendingUp className="w-6 h-6" />}
-      title={showSeconds ? "Daily Ad Durationreceipt: Duration Trends" : "Daily Ad Count Trends"}
-      description={`${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Counts"} per Day - ${
-        selectedWeek === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"
-      } 2024`}
+      title={showSeconds ? "Daily Ad Duration Trends" : "Daily Ad Count Trends"}
+      description={getDescription()}
       action={
         <div className="flex justify-end space-x-4 items-center">
           <div className="flex items-center space-x-2">
             <Switch id="unit-toggle" checked={showSeconds} onCheckedChange={setShowSeconds} />
             <Label htmlFor="unit-toggle">{showSeconds ? "Seconds" : "Counts"}</Label>
           </div>
-          <Select onValueChange={handleWeekChange} defaultValue="week16">
-            <SelectTrigger className="w-32">
-              <SelectValue placeholder="Select week" />
+          <Select>
+            <SelectTrigger className="w-48">
+              <SelectValue placeholder={selectedWeeks.length > 0 ? `${selectedWeeks.length} week(s) selected` : "Select weeks"} />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="week16">Week 16</SelectItem>
-              <SelectItem value="week17">Week 17</SelectItem>
+              <div className="flex flex-col gap-2 p-2">
+                <div className="flex items-center gap-2">
+                  <Checkbox
+                    id="week16"
+                    checked={selectedWeeks.includes("week16")}
+                    onCheckedChange={() => handleWeekChange("week16")}
+                  />
+                  <Label htmlFor="week16">Week 16 (Apr 17-23)</Label>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Checkbox
+                    id="week17"
+                    checked={selectedWeeks.includes("week17")}
+                    onCheckedChange={() => handleWeekChange("week17")}
+                  />
+                  <Label htmlFor="week17">Week 17 (Apr 24-30)</Label>
+                </div>
+              </div>
             </SelectContent>
           </Select>
         </div>
@@ -275,6 +327,21 @@ export default function DailyAdsLineChart() {
                 />
               }
             />
+            {weekBoundaries.map((boundary, index) => (
+              <ReferenceLine
+                key={index}
+                x={boundary.date}
+                stroke="hsl(var(--muted-foreground))"
+                strokeDasharray="3 3"
+                strokeWidth={2}
+                label={{
+                  value: `End of ${selectedWeeks[index] === "week16" ? "Week 16" : "Week 17"}`,
+                  position: "top",
+                  fill: "hsl(var(--muted-foreground))",
+                  fontSize: 10,
+                }}
+              />
+            ))}
             <Line
               type="linear"
               dataKey="mangofm"
@@ -324,8 +391,9 @@ export default function DailyAdsLineChart() {
             ))}
           </div>
           <p className="text-sm text-gray-500">
-            Daily ad {showSeconds ? "duration" : "count"} trends for{" "}
-            {selectedWeek === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"} showing all radio stations
+            Daily ad {showSeconds ? "duration" : "count"} trends for {selectedWeeks
+              .map((week) => (week === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"))
+              .join(" and ")} showing all radio stations
           </p>
         </div>
       }

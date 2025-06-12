@@ -6,6 +6,18 @@ import { sectorSecondsData } from "./treemap-sector-seconds-data";
 import ChartCard from "@/components/card/charts-card";
 import { Button } from "@/components/ui/button";
 
+// Vibrant crayon-inspired colors with good visibility
+const COLORS = [
+  "#FF4B4B", // Red
+  "#4CAF50", // Green
+  "#2196F3", // Blue
+  "#FFC107", // Yellow
+  "#E91E63", // Pink
+  "#00BCD4", // Cyan
+  "#FF9800", // Orange
+  "#9C27B0", // Purple
+];
+
 const TVChannelTreemap = () => {
   const [selectedWeek, setSelectedWeek] = useState("week16");
   const [selectedStation, setSelectedStation] = useState("Radio Mango");
@@ -44,53 +56,45 @@ const TVChannelTreemap = () => {
     const mockData = dataType === "plays" ? sectorData : sectorSecondsData;
     const data = mockData[selectedWeek]?.[selectedStation] || {};
 
-    // Debug: Log the data being accessed
-    // console.log("getData:", { selectedWeek, selectedStation, selectedChannel, selectedCategory, data });
-
     if (selectedBrand) {
-      if (
+      const products =
         data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[
           selectedBrand
-        ]?.products
-      ) {
-        return data[selectedChannel].categories[selectedCategory].brands[
-          selectedBrand
-        ].products.map((product) => ({
-          name: product.name,
-          size: product.sum,
-          color: data[selectedChannel].categories[selectedCategory].color || "#cccccc",
-        }));
-      }
-      return [];
+        ]?.products || [];
+      const categoryColor =
+        data[selectedChannel]?.categories?.[selectedCategory]?.color ||
+        COLORS[0];
+      return products.map((product, index) => ({
+        name: product.name,
+        size: product.sum || 0,
+        color: categoryColor, // Use category color for products
+      }));
     }
     if (selectedCategory) {
-      if (data[selectedChannel]?.categories?.[selectedCategory]?.brands) {
-        return Object.entries(
-          data[selectedChannel].categories[selectedCategory].brands
-        ).map(([name, data]) => ({
-          name,
-          size: data.sum,
-          color: data[selectedChannel]?.categories?.[selectedCategory]?.color || "#cccccc",
-        }));
-      }
-      return [];
+      const brands =
+        data[selectedChannel]?.categories?.[selectedCategory]?.brands || {};
+      const categoryColor =
+        data[selectedChannel]?.categories?.[selectedCategory]?.color ||
+        COLORS[0];
+      return Object.entries(brands).map(([name, brandData], index) => ({
+        name,
+        size: brandData.sum || 0,
+        color: categoryColor, // Use category color for brands
+      }));
     }
     if (selectedChannel) {
-      if (data[selectedChannel]?.categories) {
-        return Object.entries(data[selectedChannel].categories).map(
-          ([name, data]) => ({
-            name,
-            size: data.sum,
-            color: data.color || "#cccccc",
-          })
-        );
-      }
-      return [];
+      const categories = data[selectedChannel]?.categories || {};
+      const channelColor = data[selectedChannel]?.color || COLORS[0];
+      return Object.entries(categories).map(([name, categoryData], index) => ({
+        name,
+        size: categoryData.sum || 0,
+        color: categoryData.color || channelColor, // Use channel color if category color is missing
+      }));
     }
-    return Object.entries(data).map(([name, data]) => ({
+    return Object.entries(data).map(([name, channelData], index) => ({
       name,
-      size: data.sum || 0,
-      color: data.color || "#cccccc",
+      size: channelData.sum || 0,
+      color: channelData.color || COLORS[index % COLORS.length], // Assign unique color per channel
     }));
   };
 
@@ -98,9 +102,6 @@ const TVChannelTreemap = () => {
     const level = getCurrentLevel();
     const mockData = dataType === "plays" ? sectorData : sectorSecondsData;
     const data = mockData[selectedWeek]?.[selectedStation] || {};
-
-    // Debug: Log click details
-    // console.log("handleClick:", { level, name, selectedChannel, selectedCategory });
 
     if (level === "channels" && data[name]?.categories) {
       setSelectedChannel(name);
@@ -111,7 +112,8 @@ const TVChannelTreemap = () => {
       setSelectedCategory(name);
     } else if (
       level === "brands" &&
-      data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[name]?.products
+      data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[name]
+        ?.products
     ) {
       setSelectedBrand(name);
     }
@@ -145,10 +147,8 @@ const TVChannelTreemap = () => {
           width={width}
           height={height}
           fill={color}
-          opacity={isHovered ? 0.8 : 1}
           style={{
             transition: "all 0.3s ease",
-            filter: isHovered ? "brightness(1.1)" : "none",
           }}
           rx={8}
           ry={8}
@@ -166,7 +166,6 @@ const TVChannelTreemap = () => {
               fontWeight: "500",
               textShadow: "0 1px 2px rgba(0,0,0,0.2)",
               transition: "all 0.3s ease",
-              opacity: isHovered ? 1 : 0.9,
             }}
           >
             <tspan x={x + width / 2} dy="-0.5em">

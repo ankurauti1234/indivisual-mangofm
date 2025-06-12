@@ -231,10 +231,7 @@ export default function TopAdvertisersComparison() {
       description={`Your Station vs. Competitors - ${selectedWeek === "week16" ? "Week 16" : "Week 17"} 2024`}
       action={
         <div className="flex gap-2 items-center justify-end">
-          <div className="flex items-center space-x-2">
-            <Switch id="view-toggle" checked={showTable} onCheckedChange={setShowTable} />
-            <Label htmlFor="view-toggle">{showTable ? "Table View" : "Chart View"}</Label>
-          </div>
+         
           <Select onValueChange={handleWeekSelectChange} defaultValue="week16">
             <SelectTrigger className="w-32">
               <SelectValue placeholder="Select week" />
@@ -244,33 +241,15 @@ export default function TopAdvertisersComparison() {
               <SelectItem value="week17">Week 17</SelectItem>
             </SelectContent>
           </Select>
-          {showTable ? (
-            <Input
+          <Input
               placeholder="Search advertisers..."
               value={searchTerm}
               onChange={handleSearchChange}
               className="w-48"
             />
-          ) : (
-            <Select onValueChange={handleAdvertiserSelectChange} defaultValue={topAdvertisers[0]}>
-              <SelectTrigger className="w-48">
-                <SelectValue placeholder="Select advertiser(s)" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Advertisers</SelectItem>
-                {topAdvertisers.map((adv) => (
-                  <SelectItem key={adv} value={adv}>
-                    {chartConfig[adv].label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          )}
         </div>
       }
-      chart={
-        showTable ? (
-          <div className="overflow-x-auto">
+      chart={<div className="overflow-x-auto">
             <Table>
               <TableHeader>
                 <TableRow>
@@ -294,66 +273,9 @@ export default function TopAdvertisersComparison() {
               </TableBody>
             </Table>
           </div>
-        ) : (
-          <ChartContainer config={chartConfig} className="h-96 w-full">
-            <BarChart
-              accessibilityLayer
-              data={chartData}
-              layout="vertical"
-              margin={{
-                top: 16,
-                right: 16,
-                bottom: 16,
-                left: 16,
-              }}
-              height={300}
-            >
-              <CartesianGrid horizontal={false} />
-              <YAxis
-                dataKey="station"
-                type="category"
-                tickLine={false}
-                tickMargin={10}
-                axisLine={false}
-                tickFormatter={(value) => chartConfig[value]?.label}
-              />
-              <XAxis
-                type="number"
-                tickLine={false}
-                axisLine={false}
-                tickMargin={8}
-                tickCount={8}
-                tickFormatter={formatCurrency}
-              />
-              <ChartTooltip
-                content={
-                  <ChartTooltipContent
-                    hideLabel
-                    valueFormatter={formatCurrency}
-                    formatter={(value, name) => [
-                      formatCurrency(value),
-                      `Advertiser: ${chartConfig[name]?.label || name}`,
-                    ]}
-                  />
-                }
-              />
-              <Legend />
-              {selectedAdvertisers.map((adv) => (
-                <Bar
-                  key={adv}
-                  dataKey={adv}
-                  stackId="a"
-                  fill={chartConfig[adv].color}
-                  radius={selectedAdvertisers.length === 1 ? 16 : [4, 0, 0, 4]}
-                />
-              ))}
-            </BarChart>
-          </ChartContainer>
-        )
       }
       footer={
-        showTable ? (
-          <div className="flex w-full justify-between items-center text-sm text-gray-500">
+        <div className="flex w-full justify-between items-center text-sm text-gray-500">
             <p>
               Showing {paginatedData.length} of {totalItems} advertisers for {selectedWeek === "week16" ? "Week 16" : "Week 17"}
             </p>
@@ -379,15 +301,6 @@ export default function TopAdvertisersComparison() {
               </Button>
             </div>
           </div>
-        ) : (
-          <p className="text-sm text-gray-500">
-            Showing ad spend distribution for{" "}
-            {selectedAdvertisers.length === topAdvertisers.length
-              ? "all advertisers"
-              : selectedAdvertisers.map((a) => chartConfig[a].label).join(", ")}{" "}
-            in {selectedWeek === "week16" ? "Week 16" : "Week 17"}
-          </p>
-        )
       }
     />
   );

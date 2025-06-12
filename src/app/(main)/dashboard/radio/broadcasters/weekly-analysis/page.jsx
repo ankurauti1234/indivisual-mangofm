@@ -14,11 +14,21 @@ import WhyUsBattleCards from './whu-us-battle-cards'
 import UntappedLeads from './untapped-leads'
 import DailyAdsLineChart from './daily-ads-line-chart'
 import DailyAdCount from './daily-ad-count'
+import { Table } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const RadioDashboard = () => {
   return (
     <div className='space-y-6'>
-
+      <div className="flex justify-end">
+        <Link href="/dashboard/radio/broadcasters/weekly-analysis/table">
+          <Button variant="outline" className="flex items-center gap-2">
+            <Table className="w-4 h-4" />
+            See in Table View
+          </Button>
+        </Link>
+      </div>
       <StatCards />
       <RadioAdHeatmap />
       <RadioSectorAnalysis />
@@ -29,7 +39,7 @@ const RadioDashboard = () => {
       <DailyAdsLineChart/>
       <TopAdvertisersComparison />
       <UntappedLeads />
-      <DailyAdCount/>
+      {/* <DailyAdCount/> */}
       {/* <AdDurationAnalysis /> */}
       <SharedAdvertisers />
       <NewAdvertisersAlerts />
