@@ -9,35 +9,51 @@ export const week16 = [
   },
   {
     "Brand": "GOVT OF KERALA",
-    "Club FM": 218,
-    "Mango FM": 203,
-    "Radio Mirchi": 154,
-    "Red FM": 268,
-    "Total": 843
+    "Club FM": 236,
+    "Mango FM": 225,
+    "Radio Mirchi": 177,
+    "Red FM": 291,
+    "Total": 929
   },
   {
     "Brand": "EURO GUARD",
-    "Club FM": 161,
-    "Mango FM": 156,
-    "Radio Mirchi": 129,
-    "Red FM": 147,
-    "Total": 593
+    "Club FM": 186,
+    "Mango FM": 185,
+    "Radio Mirchi": 155,
+    "Red FM": 172,
+    "Total": 698
   },
   {
     "Brand": "ANASWARA JEWELLERS",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 455,
-    "Total": 455
+    "Red FM": 535,
+    "Total": 535
   },
   {
     "Brand": "MALABAR GOLD & DIAMONDS",
-    "Club FM": 121,
-    "Mango FM": 107,
-    "Radio Mirchi": 100,
-    "Red FM": 120,
-    "Total": 448
+    "Club FM": 141,
+    "Mango FM": 125,
+    "Radio Mirchi": 120,
+    "Red FM": 140,
+    "Total": 526
+  },
+  {
+    "Brand": "PAVIZHAM",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 426,
+    "Total": 426
+  },
+  {
+    "Brand": "NAKSHATHRA GOLD & DIAMONDS JEWELLERY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 402,
+    "Total": 402
   },
   {
     "Brand": "GOPU NANDILATH G MART",
@@ -48,36 +64,52 @@ export const week16 = [
     "Total": 378
   },
   {
-    "Brand": "PAVIZHAM",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 356,
-    "Total": 356
-  },
-  {
-    "Brand": "NAKSHATHRA GOLD & DIAMONDS JEWELLERY",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 344,
-    "Total": 344
-  },
-  {
-    "Brand": "PITTAPILLIL AGENCIES",
-    "Club FM": 110,
-    "Mango FM": 0,
-    "Radio Mirchi": 49,
-    "Red FM": 140,
-    "Total": 299
-  },
-  {
     "Brand": "RED FM",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 270,
-    "Total": 270
+    "Red FM": 334,
+    "Total": 334
+  },
+  {
+    "Brand": "PITTAPILLIL AGENCIES",
+    "Club FM": 128,
+    "Mango FM": 0,
+    "Radio Mirchi": 58,
+    "Red FM": 122,
+    "Total": 308
+  },
+  {
+    "Brand": "SKODA",
+    "Club FM": 0,
+    "Mango FM": 100,
+    "Radio Mirchi": 80,
+    "Red FM": 100,
+    "Total": 280
+  },
+  {
+    "Brand": "MYG FUTURE",
+    "Club FM": 1,
+    "Mango FM": 69,
+    "Radio Mirchi": 0,
+    "Red FM": 201,
+    "Total": 271
+  },
+  {
+    "Brand": "CHETTINAD CONSTRUCTION",
+    "Club FM": 0,
+    "Mango FM": 126,
+    "Radio Mirchi": 0,
+    "Red FM": 132,
+    "Total": 258
+  },
+  {
+    "Brand": "SILVER STORM",
+    "Club FM": 0,
+    "Mango FM": 39,
+    "Radio Mirchi": 0,
+    "Red FM": 217,
+    "Total": 256
   },
   {
     "Brand": "JOSCO JEWELLERS",
@@ -88,212 +120,268 @@ export const week16 = [
     "Total": 254
   },
   {
-    "Brand": "MYG FUTURE",
-    "Club FM": 1,
-    "Mango FM": 55,
-    "Radio Mirchi": 0,
-    "Red FM": 176,
-    "Total": 232
-  },
-  {
-    "Brand": "CHETTINAD CONSTRUCTION",
-    "Club FM": 0,
-    "Mango FM": 108,
-    "Radio Mirchi": 0,
-    "Red FM": 114,
-    "Total": 222
-  },
-  {
-    "Brand": "SKODA",
-    "Club FM": 0,
-    "Mango FM": 80,
-    "Radio Mirchi": 60,
-    "Red FM": 80,
-    "Total": 220
-  },
-  {
-    "Brand": "SILVER STORM",
-    "Club FM": 0,
-    "Mango FM": 31,
-    "Radio Mirchi": 0,
-    "Red FM": 184,
-    "Total": 215
-  },
-  {
     "Brand": "INFORMATION&PUBLIC RELATION DEPARTMEMT",
     "Club FM": 72,
-    "Mango FM": 60,
-    "Radio Mirchi": 72,
+    "Mango FM": 75,
+    "Radio Mirchi": 73,
     "Red FM": 0,
-    "Total": 204
-  },
-  {
-    "Brand": "COTTON FAB",
-    "Club FM": 59,
-    "Mango FM": 45,
-    "Radio Mirchi": 0,
-    "Red FM": 93,
-    "Total": 197
+    "Total": 220
   },
   {
     "Brand": "K P PATHROSE VAIDYAN'S",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 184,
-    "Total": 184
+    "Red FM": 217,
+    "Total": 217
+  },
+  {
+    "Brand": "COTTON FAB",
+    "Club FM": 69,
+    "Mango FM": 54,
+    "Radio Mirchi": 0,
+    "Red FM": 93,
+    "Total": 216
   },
   {
     "Brand": "WELLWORTH",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 181,
-    "Total": 181
-  },
-  {
-    "Brand": "DAIKIN",
-    "Club FM": 169,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 169
+    "Red FM": 214,
+    "Total": 214
   },
   {
     "Brand": "CANARA BANK",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 75,
-    "Red FM": 94,
-    "Total": 169
+    "Radio Mirchi": 91,
+    "Red FM": 111,
+    "Total": 202
+  },
+  {
+    "Brand": "DAIKIN",
+    "Club FM": 197,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 197
   },
   {
     "Brand": "RAYZON SOLAR",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 76,
-    "Red FM": 90,
-    "Total": 166
+    "Radio Mirchi": 91,
+    "Red FM": 105,
+    "Total": 196
+  },
+  {
+    "Brand": "MG MOTOR INDIA",
+    "Club FM": 96,
+    "Mango FM": 96,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 192
   },
   {
     "Brand": "AMMINI TRADERS",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 146,
-    "Total": 146
-  },
-  {
-    "Brand": "MG MOTOR INDIA",
-    "Club FM": 63,
-    "Mango FM": 64,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 127
-  },
-  {
-    "Brand": "NAYARA ENERGY PETROL PUMP",
-    "Club FM": 0,
-    "Mango FM": 64,
-    "Radio Mirchi": 0,
-    "Red FM": 62,
-    "Total": 126
+    "Red FM": 170,
+    "Total": 170
   },
   {
     "Brand": "BHIM",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 52,
+    "Radio Mirchi": 64,
+    "Red FM": 90,
+    "Total": 154
+  },
+  {
+    "Brand": "NAYARA ENERGY PETROL PUMP",
+    "Club FM": 0,
+    "Mango FM": 72,
+    "Radio Mirchi": 0,
     "Red FM": 72,
-    "Total": 124
+    "Total": 144
+  },
+  {
+    "Brand": "SBI",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 66,
+    "Red FM": 73,
+    "Total": 139
   },
   {
     "Brand": "HONDA",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 117,
-    "Total": 117
-  },
-  {
-    "Brand": "NAKSHATHRA GOLD&DIAMONDS JEWELLRY",
-    "Club FM": 51,
-    "Mango FM": 0,
-    "Radio Mirchi": 60,
-    "Red FM": 0,
-    "Total": 111
+    "Red FM": 135,
+    "Total": 135
   },
   {
     "Brand": "JOYALUKKAS GOLD& DIAMONDS",
-    "Club FM": 60,
-    "Mango FM": 47,
+    "Club FM": 75,
+    "Mango FM": 59,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 107
+    "Total": 134
   },
   {
     "Brand": "BHIMA GOLD&DIAMONDS",
-    "Club FM": 47,
-    "Mango FM": 48,
-    "Radio Mirchi": 9,
+    "Club FM": 56,
+    "Mango FM": 57,
+    "Radio Mirchi": 18,
     "Red FM": 1,
-    "Total": 105
+    "Total": 132
+  },
+  {
+    "Brand": "NAKSHATHRA GOLD&DIAMONDS JEWELLRY",
+    "Club FM": 59,
+    "Mango FM": 0,
+    "Radio Mirchi": 71,
+    "Red FM": 0,
+    "Total": 130
   },
   {
     "Brand": "HEALTHY GROCER",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 102,
-    "Total": 102
+    "Red FM": 123,
+    "Total": 123
   },
   {
-    "Brand": "ASIANET",
-    "Club FM": 36,
-    "Mango FM": 55,
-    "Radio Mirchi": 5,
-    "Red FM": 0,
-    "Total": 96
+    "Brand": "HYUNDAI",
+    "Club FM": 0,
+    "Mango FM": 44,
+    "Radio Mirchi": 0,
+    "Red FM": 70,
+    "Total": 114
   },
   {
     "Brand": "FUNTURA",
     "Club FM": 0,
-    "Mango FM": 96,
+    "Mango FM": 112,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 96
-  },
-  {
-    "Brand": "VARSHA",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 94,
-    "Total": 94
+    "Total": 112
   },
   {
     "Brand": "UNIMONI",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 94,
-    "Total": 94
+    "Red FM": 111,
+    "Total": 111
   },
   {
     "Brand": "SAROJ DIAGNOSTIC LABORATORY",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 94,
-    "Total": 94
+    "Red FM": 111,
+    "Total": 111
   },
   {
-    "Brand": "SBI",
+    "Brand": "VARSHA",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 41,
-    "Red FM": 49,
-    "Total": 90
+    "Radio Mirchi": 0,
+    "Red FM": 111,
+    "Total": 111
+  },
+  {
+    "Brand": "RBI",
+    "Club FM": 25,
+    "Mango FM": 27,
+    "Radio Mirchi": 18,
+    "Red FM": 26,
+    "Total": 96
+  },
+  {
+    "Brand": "IMAGE MOBILES&COMPUTERS",
+    "Club FM": 96,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 96
+  },
+  {
+    "Brand": "KELVINATOR",
+    "Club FM": 23,
+    "Mango FM": 24,
+    "Radio Mirchi": 24,
+    "Red FM": 24,
+    "Total": 95
+  },
+  {
+    "Brand": "GOVT OF INDIA",
+    "Club FM": 62,
+    "Mango FM": 0,
+    "Radio Mirchi": 1,
+    "Red FM": 29,
+    "Total": 92
+  },
+  {
+    "Brand": "ASIANET",
+    "Club FM": 36,
+    "Mango FM": 56,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 92
+  },
+  {
+    "Brand": "ARABIAN GOLD&DIAMONDS JEWELRY",
+    "Club FM": 0,
+    "Mango FM": 89,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 89
+  },
+  {
+    "Brand": "MANGO FM",
+    "Club FM": 0,
+    "Mango FM": 88,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 88
+  },
+  {
+    "Brand": "BRIDA",
+    "Club FM": 84,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 84
+  },
+  {
+    "Brand": "UPES",
+    "Club FM": 0,
+    "Mango FM": 30,
+    "Radio Mirchi": 0,
+    "Red FM": 54,
+    "Total": 84
+  },
+  {
+    "Brand": "PANASONIC",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 32,
+    "Red FM": 51,
+    "Total": 83
+  },
+  {
+    "Brand": "BHARTHI CEMENT",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 81,
+    "Total": 81
   },
   {
     "Brand": "VARMA HOMES",
@@ -304,36 +392,20 @@ export const week16 = [
     "Total": 76
   },
   {
-    "Brand": "HYUNDAI",
-    "Club FM": 0,
-    "Mango FM": 36,
-    "Radio Mirchi": 0,
-    "Red FM": 40,
-    "Total": 76
-  },
-  {
-    "Brand": "GOVT OF INDIA",
-    "Club FM": 54,
-    "Mango FM": 0,
-    "Radio Mirchi": 1,
-    "Red FM": 21,
-    "Total": 76
-  },
-  {
-    "Brand": "ARABIAN GOLD&DIAMONDS JEWELRY",
-    "Club FM": 0,
-    "Mango FM": 74,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 74
-  },
-  {
     "Brand": "INFORMATION & PUBLIC RELATION DEPARTMENT",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 74,
     "Total": 74
+  },
+  {
+    "Brand": "LIC",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 73,
+    "Red FM": 0,
+    "Total": 73
   },
   {
     "Brand": "KAIRALI TOYOTA",
@@ -344,7 +416,15 @@ export const week16 = [
     "Total": 73
   },
   {
-    "Brand": "BRIDA",
+    "Brand": "GLOBAL TYRES",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 72,
+    "Total": 72
+  },
+  {
+    "Brand": "PULIMOOTTIL SILKS",
     "Club FM": 72,
     "Mango FM": 0,
     "Radio Mirchi": 0,
@@ -352,12 +432,12 @@ export const week16 = [
     "Total": 72
   },
   {
-    "Brand": "MANGO FM",
+    "Brand": "JK JEWELLERY",
     "Club FM": 0,
-    "Mango FM": 70,
+    "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 70
+    "Red FM": 69,
+    "Total": 69
   },
   {
     "Brand": "SIM & SAM'S",
@@ -368,68 +448,12 @@ export const week16 = [
     "Total": 69
   },
   {
-    "Brand": "BHARTHI CEMENT",
+    "Brand": "PARIMATCH",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 68,
-    "Total": 68
-  },
-  {
-    "Brand": "UPES",
-    "Club FM": 0,
-    "Mango FM": 30,
-    "Radio Mirchi": 0,
-    "Red FM": 36,
+    "Radio Mirchi": 66,
+    "Red FM": 0,
     "Total": 66
-  },
-  {
-    "Brand": "PANASONIC",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 24,
-    "Red FM": 41,
-    "Total": 65
-  },
-  {
-    "Brand": "RBI",
-    "Club FM": 17,
-    "Mango FM": 18,
-    "Radio Mirchi": 9,
-    "Red FM": 17,
-    "Total": 61
-  },
-  {
-    "Brand": "LIC",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 61,
-    "Red FM": 0,
-    "Total": 61
-  },
-  {
-    "Brand": "PULIMOOTTIL SILKS",
-    "Club FM": 60,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 60
-  },
-  {
-    "Brand": "GLOBAL TYRES",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 60,
-    "Total": 60
-  },
-  {
-    "Brand": "JK JEWELLERY",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 60,
-    "Total": 60
   },
   {
     "Brand": "HOTEL PRESIDENCY KOCHI",
@@ -440,12 +464,20 @@ export const week16 = [
     "Total": 59
   },
   {
-    "Brand": "PARIMATCH",
+    "Brand": "BPL",
+    "Club FM": 20,
+    "Mango FM": 20,
+    "Radio Mirchi": 0,
+    "Red FM": 19,
+    "Total": 59
+  },
+  {
+    "Brand": "BHIMA GOLD & DIAMONDS",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 55,
-    "Red FM": 0,
-    "Total": 55
+    "Radio Mirchi": 0,
+    "Red FM": 56,
+    "Total": 56
   },
   {
     "Brand": "TBZ ORIGINAL",
@@ -456,6 +488,46 @@ export const week16 = [
     "Total": 55
   },
   {
+    "Brand": "MURALYA DAIRY",
+    "Club FM": 54,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 54
+  },
+  {
+    "Brand": "LG",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 52,
+    "Red FM": 0,
+    "Total": 52
+  },
+  {
+    "Brand": "SUNACT CANCER INSTITUTE",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 50,
+    "Total": 50
+  },
+  {
+    "Brand": "AGD GOLD & DIAMONDS",
+    "Club FM": 50,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 50
+  },
+  {
+    "Brand": "BIG WHEELS",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 48,
+    "Total": 48
+  },
+  {
     "Brand": "KARTAR BATH FITTINGS",
     "Club FM": 0,
     "Mango FM": 0,
@@ -464,34 +536,58 @@ export const week16 = [
     "Total": 48
   },
   {
-    "Brand": "BHIMA GOLD & DIAMONDS",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 47,
-    "Total": 47
-  },
-  {
     "Brand": "ASTER MEDICITY",
     "Club FM": 40,
     "Mango FM": 0,
-    "Radio Mirchi": 6,
+    "Radio Mirchi": 7,
     "Red FM": 0,
-    "Total": 46
+    "Total": 47
   },
   {
-    "Brand": "MURALYA DAIRY",
-    "Club FM": 41,
+    "Brand": "DDRC AGILUS",
+    "Club FM": 45,
     "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 0,
+    "Total": 45
+  },
+  {
+    "Brand": "CHUNGATH JEWELLERY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 43,
+    "Total": 43
+  },
+  {
+    "Brand": "MANORAMA",
+    "Club FM": 0,
+    "Mango FM": 42,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 42
+  },
+  {
+    "Brand": "KARSHAKASREE",
+    "Club FM": 0,
+    "Mango FM": 42,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 42
+  },
+  {
+    "Brand": "PITTAPPILLIL AGENCIES",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 41,
     "Total": 41
   },
   {
-    "Brand": "LG",
-    "Club FM": 0,
+    "Brand": "CELEBRITY CRICKETERS FRATERNITY",
+    "Club FM": 40,
     "Mango FM": 0,
-    "Radio Mirchi": 40,
+    "Radio Mirchi": 0,
     "Red FM": 0,
     "Total": 40
   },
@@ -504,42 +600,26 @@ export const week16 = [
     "Total": 40
   },
   {
-    "Brand": "SUNACT CANCER INSTITUTE",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 40,
-    "Total": 40
-  },
-  {
-    "Brand": "BIG WHEELS",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 40,
-    "Total": 40
-  },
-  {
-    "Brand": "CELEBRITY CRICKETERS FRATERNITY",
-    "Club FM": 40,
-    "Mango FM": 0,
+    "Brand": "HINDUSTHAN INSTITUTE OF TECHONOLOGY",
+    "Club FM": 20,
+    "Mango FM": 18,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 40
+    "Total": 38
   },
   {
-    "Brand": "DDRC AGILUS",
-    "Club FM": 37,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 37
-  },
-  {
-    "Brand": "MANORAMA",
+    "Brand": "KIA",
     "Club FM": 0,
-    "Mango FM": 36,
-    "Radio Mirchi": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 38,
+    "Red FM": 0,
+    "Total": 38
+  },
+  {
+    "Brand": "SAIBON",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 36,
     "Red FM": 0,
     "Total": 36
   },
@@ -552,25 +632,17 @@ export const week16 = [
     "Total": 36
   },
   {
-    "Brand": "KARSHAKASREE",
+    "Brand": "VANITHA - MAGAZINE",
     "Club FM": 0,
-    "Mango FM": 36,
+    "Mango FM": 30,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 36
+    "Total": 30
   },
   {
-    "Brand": "KIA",
+    "Brand": "FOOD SAFETY DEPARTMENT KERALA",
     "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 32,
-    "Red FM": 0,
-    "Total": 32
-  },
-  {
-    "Brand": "AGD GOLD&DIAMONDS",
-    "Club FM": 30,
-    "Mango FM": 0,
+    "Mango FM": 30,
     "Radio Mirchi": 0,
     "Red FM": 0,
     "Total": 30
@@ -584,47 +656,31 @@ export const week16 = [
     "Total": 30
   },
   {
-    "Brand": "FOOD SAFETY DEPARTMENT KERALA",
-    "Club FM": 0,
-    "Mango FM": 30,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 30
-  },
-  {
-    "Brand": "VANITHA - MAGAZINE",
-    "Club FM": 0,
-    "Mango FM": 30,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 30
-  },
-  {
-    "Brand": "SAIBON",
+    "Brand": "EMMA MATTRESS",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 30,
-    "Red FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 30,
     "Total": 30
   },
   {
-    "Brand": "HINDUSTHAN INSTITUTE OF TECHONOLOGY",
-    "Club FM": 14,
-    "Mango FM": 12,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 26
-  },
-  {
-    "Brand": "IMAGE MOBILES&COMPUTERS",
-    "Club FM": 25,
+    "Brand": "MATHRUBHUMI BOOKS",
+    "Club FM": 29,
     "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 25
+    "Total": 29
   },
   {
-    "Brand": "CHUNGATH JEWELLERY",
+    "Brand": "CHITTILAPPILLY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 15,
+    "Red FM": 12,
+    "Total": 27
+  },
+  {
+    "Brand": "FORD INDIA",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
@@ -632,36 +688,20 @@ export const week16 = [
     "Total": 24
   },
   {
-    "Brand": "CHUNGATH JEWELLERS",
+    "Brand": "MALAYALA MANORAMA",
     "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 18,
-    "Red FM": 6,
-    "Total": 24
-  },
-  {
-    "Brand": "CHITTILAPPILLY",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 15,
-    "Red FM": 6,
-    "Total": 21
-  },
-  {
-    "Brand": "EMMA MATTRESS",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 20,
-    "Total": 20
-  },
-  {
-    "Brand": "MADRUBHOOMI BOOKS",
-    "Club FM": 19,
-    "Mango FM": 0,
+    "Mango FM": 22,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 19
+    "Total": 22
+  },
+  {
+    "Brand": "MSD PHARMACEUTICALS PVT LTD.",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 20,
+    "Red FM": 0,
+    "Total": 20
   },
   {
     "Brand": "WONDERLA",
@@ -672,12 +712,12 @@ export const week16 = [
     "Total": 18
   },
   {
-    "Brand": "VIETJET",
+    "Brand": "CHUNGATH JEWELLERS",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 16,
+    "Radio Mirchi": 18,
     "Red FM": 0,
-    "Total": 16
+    "Total": 18
   },
   {
     "Brand": "DR.AMBEDKAR INTERNATIONAL CENTRE",
@@ -685,6 +725,14 @@ export const week16 = [
     "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 8,
+    "Total": 16
+  },
+  {
+    "Brand": "VIETJET",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 16,
+    "Red FM": 0,
     "Total": 16
   },
   {
@@ -696,31 +744,31 @@ export const week16 = [
     "Total": 15
   },
   {
-    "Brand": "INFORMATION&PUBLIC RELATION DEPARTMEMT",
-    "Club FM": 0,
-    "Mango FM": 15,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 15
-  },
-  {
-    "Brand": "MSD PHARMACEUTICALS PVT LTD.",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 13,
-    "Red FM": 0,
-    "Total": 13
-  },
-  {
     "Brand": "FEDERAL BANK",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 12,
+    "Red FM": 15,
+    "Total": 15
+  },
+  {
+    "Brand": "CAKE STORY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 13,
+    "Total": 13
+  },
+  {
+    "Brand": "MIRCHI FM",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 12,
+    "Red FM": 0,
     "Total": 12
   },
   {
-    "Brand": "FORD INDIA",
+    "Brand": "DEVDARSHAN DHOOP",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
@@ -736,14 +784,6 @@ export const week16 = [
     "Total": 12
   },
   {
-    "Brand": "AGD GOLD & DIAMONDS",
-    "Club FM": 10,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 10
-  },
-  {
     "Brand": "APOLLO ATLAS HOSPITAL",
     "Club FM": 10,
     "Mango FM": 0,
@@ -752,7 +792,15 @@ export const week16 = [
     "Total": 10
   },
   {
-    "Brand": "DEVDARSHAN DHOOP",
+    "Brand": "KCG COLLEGE OF TECHONOLOGY",
+    "Club FM": 4,
+    "Mango FM": 6,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 10
+  },
+  {
+    "Brand": "VANITHA JEWELLERY",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
@@ -760,52 +808,12 @@ export const week16 = [
     "Total": 9
   },
   {
-    "Brand": "CHUNGAM JEWELLERS",
+    "Brand": "MUTHOOT FINANCE",
     "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 8,
-    "Total": 8
-  },
-  {
-    "Brand": "Radio Mirchi",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 8,
-    "Red FM": 0,
-    "Total": 8
-  },
-  {
-    "Brand": "MALAYALA MANORAMA",
-    "Club FM": 0,
-    "Mango FM": 8,
+    "Mango FM": 9,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 8
-  },
-  {
-    "Brand": "KCG COLLEGE OF TECHONOLOGY",
-    "Club FM": 2,
-    "Mango FM": 4,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 6
-  },
-  {
-    "Brand": "VANITHA JEWELLERY",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 6,
-    "Total": 6
-  },
-  {
-    "Brand": "KATHIKAN KUNJU",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 5,
-    "Red FM": 0,
-    "Total": 5
+    "Total": 9
   },
   {
     "Brand": "VA CHAT",
@@ -814,14 +822,6 @@ export const week16 = [
     "Radio Mirchi": 4,
     "Red FM": 0,
     "Total": 4
-  },
-  {
-    "Brand": "CAKE STORY",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 3,
-    "Total": 3
   },
   {
     "Brand": "CITY HOSPITAL",
@@ -867,212 +867,188 @@ export const week16 = [
 
 export const week17 = [
   {
-    "Brand": "EURO GUARD",
-    "Club FM": 177,
-    "Mango FM": 212,
-    "Radio Mirchi": 129,
-    "Red FM": 192,
-    "Total": 710
-  },
-  {
     "Brand": "MYG FUTURE",
     "Club FM": 38,
-    "Mango FM": 234,
+    "Mango FM": 220,
     "Radio Mirchi": 0,
-    "Red FM": 405,
-    "Total": 677
+    "Red FM": 380,
+    "Total": 638
+  },
+  {
+    "Brand": "EURO GUARD",
+    "Club FM": 153,
+    "Mango FM": 183,
+    "Radio Mirchi": 103,
+    "Red FM": 167,
+    "Total": 606
   },
   {
     "Brand": "ANASWARA JEWELLERS",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 628,
-    "Total": 628
+    "Red FM": 546,
+    "Total": 546
   },
   {
     "Brand": "MALABAR GOLD & DIAMONDS",
-    "Club FM": 136,
-    "Mango FM": 141,
-    "Radio Mirchi": 97,
-    "Red FM": 160,
-    "Total": 534
+    "Club FM": 116,
+    "Mango FM": 123,
+    "Radio Mirchi": 77,
+    "Red FM": 140,
+    "Total": 456
   },
   {
     "Brand": "IMAGE MOBILES&COMPUTERS",
-    "Club FM": 498,
+    "Club FM": 425,
     "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 498
+    "Total": 425
   },
   {
     "Brand": "PAVIZHAM",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 475,
-    "Total": 475
+    "Red FM": 404,
+    "Total": 404
   },
   {
     "Brand": "NAKSHATHRA GOLD & DIAMONDS JEWELLERY",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 450,
-    "Total": 450
+    "Red FM": 392,
+    "Total": 392
+  },
+  {
+    "Brand": "BHIMA GOLD&DIAMONDS",
+    "Club FM": 105,
+    "Mango FM": 100,
+    "Radio Mirchi": 67,
+    "Red FM": 45,
+    "Total": 317
   },
   {
     "Brand": "GOVT OF KERALA",
-    "Club FM": 165,
-    "Mango FM": 87,
-    "Radio Mirchi": 55,
-    "Red FM": 88,
-    "Total": 395
+    "Club FM": 147,
+    "Mango FM": 64,
+    "Radio Mirchi": 31,
+    "Red FM": 65,
+    "Total": 307
   },
   {
     "Brand": "RED FM",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 357,
-    "Total": 357
-  },
-  {
-    "Brand": "BHIMA GOLD&DIAMONDS",
-    "Club FM": 114,
-    "Mango FM": 109,
-    "Radio Mirchi": 76,
-    "Red FM": 45,
-    "Total": 344
+    "Red FM": 283,
+    "Total": 283
   },
   {
     "Brand": "CHETTINAD CONSTRUCTION",
     "Club FM": 0,
-    "Mango FM": 143,
+    "Mango FM": 125,
     "Radio Mirchi": 0,
-    "Red FM": 156,
-    "Total": 299
+    "Red FM": 138,
+    "Total": 263
   },
   {
     "Brand": "SILVER STORM",
     "Club FM": 0,
-    "Mango FM": 54,
+    "Mango FM": 46,
     "Radio Mirchi": 0,
-    "Red FM": 228,
-    "Total": 282
-  },
-  {
-    "Brand": "MG MOTOR INDIA",
-    "Club FM": 126,
-    "Mango FM": 124,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 250
+    "Red FM": 195,
+    "Total": 241
   },
   {
     "Brand": "HYUNDAI",
     "Club FM": 0,
-    "Mango FM": 108,
+    "Mango FM": 100,
     "Radio Mirchi": 0,
-    "Red FM": 135,
-    "Total": 243
-  },
-  {
-    "Brand": "PITTAPILLIL AGENCIES",
-    "Club FM": 82,
-    "Mango FM": 0,
-    "Radio Mirchi": 41,
-    "Red FM": 111,
-    "Total": 234
-  },
-  {
-    "Brand": "KELVINATOR",
-    "Club FM": 47,
-    "Mango FM": 48,
-    "Radio Mirchi": 89,
-    "Red FM": 49,
-    "Total": 233
-  },
-  {
-    "Brand": "SBI",
-    "Club FM": 3,
-    "Mango FM": 0,
-    "Radio Mirchi": 84,
-    "Red FM": 142,
-    "Total": 229
+    "Red FM": 105,
+    "Total": 205
   },
   {
     "Brand": "K P PATHROSE VAIDYAN'S",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 227,
-    "Total": 227
+    "Red FM": 193,
+    "Total": 193
   },
   {
     "Brand": "WELLWORTH",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 221,
-    "Total": 221
+    "Red FM": 188,
+    "Total": 188
+  },
+  {
+    "Brand": "MG MOTOR INDIA",
+    "Club FM": 93,
+    "Mango FM": 92,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 185
+  },
+  {
+    "Brand": "SBI",
+    "Club FM": 3,
+    "Mango FM": 0,
+    "Radio Mirchi": 59,
+    "Red FM": 118,
+    "Total": 180
+  },
+  {
+    "Brand": "JOYALUKKAS GOLD& DIAMONDS",
+    "Club FM": 89,
+    "Mango FM": 81,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 170
   },
   {
     "Brand": "CANARA BANK",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 74,
-    "Red FM": 125,
-    "Total": 199
+    "Radio Mirchi": 58,
+    "Red FM": 108,
+    "Total": 166
   },
   {
-    "Brand": "JOYALUKKAS GOLD& DIAMONDS",
-    "Club FM": 104,
-    "Mango FM": 93,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 197
+    "Brand": "PITTAPILLIL AGENCIES",
+    "Club FM": 65,
+    "Mango FM": 0,
+    "Radio Mirchi": 31,
+    "Red FM": 65,
+    "Total": 161
   },
   {
     "Brand": "RAYZON SOLAR",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 73,
-    "Red FM": 118,
-    "Total": 191
+    "Radio Mirchi": 58,
+    "Red FM": 103,
+    "Total": 161
   },
   {
     "Brand": "AMMINI TRADERS",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 182,
-    "Total": 182
+    "Red FM": 158,
+    "Total": 158
   },
   {
     "Brand": "ARABIAN GOLD&DIAMONDS JEWELRY",
     "Club FM": 0,
-    "Mango FM": 168,
+    "Mango FM": 153,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 168
-  },
-  {
-    "Brand": "BHIM",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 50,
-    "Red FM": 111,
-    "Total": 161
-  },
-  {
-    "Brand": "NAYARA ENERGY PETROL PUMP",
-    "Club FM": 0,
-    "Mango FM": 71,
-    "Radio Mirchi": 0,
-    "Red FM": 79,
-    "Total": 150
+    "Total": 153
   },
   {
     "Brand": "TBZ ORIGINAL",
@@ -1083,12 +1059,28 @@ export const week17 = [
     "Total": 147
   },
   {
-    "Brand": "HEALTHY GROCER",
+    "Brand": "KELVINATOR",
+    "Club FM": 24,
+    "Mango FM": 24,
+    "Radio Mirchi": 66,
+    "Red FM": 25,
+    "Total": 139
+  },
+  {
+    "Brand": "NAYARA ENERGY PETROL PUMP",
+    "Club FM": 0,
+    "Mango FM": 63,
+    "Radio Mirchi": 0,
+    "Red FM": 69,
+    "Total": 132
+  },
+  {
+    "Brand": "BHIM",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 137,
-    "Total": 137
+    "Radio Mirchi": 38,
+    "Red FM": 93,
+    "Total": 131
   },
   {
     "Brand": "AQUA STAR",
@@ -1103,123 +1095,67 @@ export const week17 = [
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 126,
-    "Total": 126
+    "Red FM": 118,
+    "Total": 118
+  },
+  {
+    "Brand": "HEALTHY GROCER",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 116,
+    "Total": 116
   },
   {
     "Brand": "UNIMONI",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 125,
-    "Total": 125
+    "Red FM": 108,
+    "Total": 108
   },
   {
     "Brand": "SAROJ DIAGNOSTIC LABORATORY",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 124,
-    "Total": 124
+    "Red FM": 107,
+    "Total": 107
   },
   {
     "Brand": "VARSHA",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 123,
-    "Total": 123
-  },
-  {
-    "Brand": "BPL",
-    "Club FM": 40,
-    "Mango FM": 40,
-    "Radio Mirchi": 0,
-    "Red FM": 39,
-    "Total": 119
+    "Red FM": 106,
+    "Total": 106
   },
   {
     "Brand": "NAKSHATHRA GOLD&DIAMONDS JEWELLRY",
-    "Club FM": 55,
+    "Club FM": 46,
     "Mango FM": 0,
-    "Radio Mirchi": 58,
+    "Radio Mirchi": 47,
     "Red FM": 0,
-    "Total": 113
+    "Total": 93
   },
   {
-    "Brand": "RBI",
-    "Club FM": 25,
-    "Mango FM": 21,
-    "Radio Mirchi": 26,
-    "Red FM": 27,
-    "Total": 99
+    "Brand": "FUNTURA",
+    "Club FM": 0,
+    "Mango FM": 77,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 77
   },
   {
     "Brand": "PANASONIC",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 30,
-    "Red FM": 64,
-    "Total": 94
-  },
-  {
-    "Brand": "FUNTURA",
-    "Club FM": 0,
-    "Mango FM": 93,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 93
+    "Radio Mirchi": 22,
+    "Red FM": 54,
+    "Total": 76
   },
   {
     "Brand": "BHARTHI CEMENT",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 89,
-    "Total": 89
-  },
-  {
-    "Brand": "DAIKIN",
-    "Club FM": 87,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 87
-  },
-  {
-    "Brand": "HINDUSTHAN INSTITUTE OF TECHONOLOGY",
-    "Club FM": 41,
-    "Mango FM": 46,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 87
-  },
-  {
-    "Brand": "BRIDA",
-    "Club FM": 85,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 85
-  },
-  {
-    "Brand": "PULIMOOTTIL SILKS",
-    "Club FM": 82,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 82
-  },
-  {
-    "Brand": "GLOBAL TYRES",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 81,
-    "Total": 81
-  },
-  {
-    "Brand": "JK JEWELLERY",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
@@ -1227,12 +1163,28 @@ export const week17 = [
     "Total": 76
   },
   {
-    "Brand": "FORD INDIA",
-    "Club FM": 0,
+    "Brand": "HINDUSTHAN INSTITUTE OF TECHONOLOGY",
+    "Club FM": 35,
+    "Mango FM": 40,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 75
+  },
+  {
+    "Brand": "BRIDA",
+    "Club FM": 72,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 72,
+    "Red FM": 0,
     "Total": 72
+  },
+  {
+    "Brand": "PULIMOOTTIL SILKS",
+    "Club FM": 70,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 70
   },
   {
     "Brand": "NOLTA",
@@ -1243,12 +1195,28 @@ export const week17 = [
     "Total": 70
   },
   {
-    "Brand": "UPES",
+    "Brand": "GLOBAL TYRES",
     "Club FM": 0,
-    "Mango FM": 31,
+    "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 34,
-    "Total": 65
+    "Red FM": 69,
+    "Total": 69
+  },
+  {
+    "Brand": "JK JEWELLERY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 67,
+    "Total": 67
+  },
+  {
+    "Brand": "RBI",
+    "Club FM": 17,
+    "Mango FM": 12,
+    "Radio Mirchi": 17,
+    "Red FM": 18,
+    "Total": 64
   },
   {
     "Brand": "KARTAR BATH FITTINGS",
@@ -1259,107 +1227,107 @@ export const week17 = [
     "Total": 64
   },
   {
-    "Brand": "CHUNGATH JEWELLERY",
+    "Brand": "MATHRUBHUMI BOOKS",
+    "Club FM": 60,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 60
+  },
+  {
+    "Brand": "FORD INDIA",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 64,
-    "Total": 64
+    "Red FM": 60,
+    "Total": 60
   },
   {
-    "Brand": "MANGO FM",
-    "Club FM": 0,
-    "Mango FM": 64,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 64
-  },
-  {
-    "Brand": "MALAYALA MANORAMA",
-    "Club FM": 0,
-    "Mango FM": 63,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 63
-  },
-  {
-    "Brand": "SKODA",
-    "Club FM": 0,
+    "Brand": "BPL",
+    "Club FM": 20,
     "Mango FM": 20,
-    "Radio Mirchi": 20,
+    "Radio Mirchi": 0,
     "Red FM": 20,
     "Total": 60
   },
   {
-    "Brand": "MUTHOOT FINANCE",
+    "Brand": "CHUNGATH JEWELLERY",
     "Club FM": 0,
-    "Mango FM": 59,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 59,
+    "Total": 59
+  },
+  {
+    "Brand": "DAIKIN",
+    "Club FM": 58,
+    "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 59
+    "Total": 58
   },
   {
     "Brand": "VANITHA JEWELLERY",
     "Club FM": 0,
     "Mango FM": 10,
     "Radio Mirchi": 0,
-    "Red FM": 49,
-    "Total": 59
+    "Red FM": 46,
+    "Total": 56
   },
   {
-    "Brand": "EMMA MATTRESS",
+    "Brand": "MUTHOOT FINANCE",
     "Club FM": 0,
+    "Mango FM": 50,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 50
+  },
+  {
+    "Brand": "AGD GOLD & DIAMONDS",
+    "Club FM": 49,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 58,
-    "Total": 58
+    "Red FM": 0,
+    "Total": 49
+  },
+  {
+    "Brand": "MALAYALA MANORAMA",
+    "Club FM": 0,
+    "Mango FM": 49,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
+    "Total": 49
   },
   {
     "Brand": "SUNACT CANCER INSTITUTE",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 58,
-    "Total": 58
-  },
-  {
-    "Brand": "LIC",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 56,
-    "Red FM": 0,
-    "Total": 56
-  },
-  {
-    "Brand": "PARIMATCH",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 49,
-    "Red FM": 0,
-    "Total": 49
-  },
-  {
-    "Brand": "AGD GOLD&DIAMONDS",
-    "Club FM": 48,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
+    "Red FM": 48,
     "Total": 48
   },
   {
-    "Brand": "DDRC AGILUS",
-    "Club FM": 48,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 48
-  },
-  {
-    "Brand": "CHITTILAPPILLY",
+    "Brand": "EMMA MATTRESS",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 46,
+    "Red FM": 48,
+    "Total": 48
+  },
+  {
+    "Brand": "UPES",
+    "Club FM": 0,
+    "Mango FM": 31,
+    "Radio Mirchi": 0,
+    "Red FM": 16,
+    "Total": 47
+  },
+  {
+    "Brand": "MANGO FM",
+    "Club FM": 0,
+    "Mango FM": 46,
+    "Radio Mirchi": 0,
+    "Red FM": 0,
     "Total": 46
   },
   {
@@ -1371,27 +1339,19 @@ export const week17 = [
     "Total": 46
   },
   {
-    "Brand": "FEDERAL BANK",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 45,
-    "Total": 45
-  },
-  {
-    "Brand": "COTTON FAB",
-    "Club FM": 20,
-    "Mango FM": 25,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 45
-  },
-  {
     "Brand": "RAJAGIRI HOSPITAL",
     "Club FM": 25,
     "Mango FM": 0,
     "Radio Mirchi": 10,
     "Red FM": 9,
+    "Total": 44
+  },
+  {
+    "Brand": "LIC",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 44,
+    "Red FM": 0,
     "Total": 44
   },
   {
@@ -1403,6 +1363,14 @@ export const week17 = [
     "Total": 43
   },
   {
+    "Brand": "FEDERAL BANK",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 42,
+    "Total": 42
+  },
+  {
     "Brand": "WELCARE HOSPITAL",
     "Club FM": 0,
     "Mango FM": 42,
@@ -1411,7 +1379,7 @@ export const week17 = [
     "Total": 42
   },
   {
-    "Brand": "MADRUBHOOMI BOOKS",
+    "Brand": "DDRC AGILUS",
     "Club FM": 40,
     "Mango FM": 0,
     "Radio Mirchi": 0,
@@ -1419,7 +1387,15 @@ export const week17 = [
     "Total": 40
   },
   {
-    "Brand": "SAIBON",
+    "Brand": "CHITTILAPPILLY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 40,
+    "Total": 40
+  },
+  {
+    "Brand": "PARIMATCH",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 38,
@@ -1443,14 +1419,6 @@ export const week17 = [
     "Total": 35
   },
   {
-    "Brand": "LG",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 35,
-    "Red FM": 0,
-    "Total": 35
-  },
-  {
     "Brand": "PALAT FOODS",
     "Club FM": 0,
     "Mango FM": 35,
@@ -1467,44 +1435,36 @@ export const week17 = [
     "Total": 34
   },
   {
-    "Brand": "MATHRUBHUMI BOOKS",
-    "Club FM": 30,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 30
-  },
-  {
-    "Brand": "BHIMA GOLD & DIAMONDS",
+    "Brand": "SAIBON",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 29,
-    "Total": 29
+    "Radio Mirchi": 32,
+    "Red FM": 0,
+    "Total": 32
   },
   {
-    "Brand": "MURALYA DAIRY",
-    "Club FM": 26,
-    "Mango FM": 0,
+    "Brand": "COTTON FAB",
+    "Club FM": 10,
+    "Mango FM": 16,
     "Radio Mirchi": 0,
     "Red FM": 0,
     "Total": 26
   },
   {
-    "Brand": "CAKE STORY",
+    "Brand": "PITTAPPILLIL AGENCIES",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 25,
-    "Total": 25
+    "Red FM": 24,
+    "Total": 24
   },
   {
-    "Brand": "MANORAMA",
+    "Brand": "LG",
     "Club FM": 0,
-    "Mango FM": 22,
-    "Radio Mirchi": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 23,
     "Red FM": 0,
-    "Total": 22
+    "Total": 23
   },
   {
     "Brand": "NISAU & EDROOTS",
@@ -1515,28 +1475,12 @@ export const week17 = [
     "Total": 20
   },
   {
-    "Brand": "KCG COLLEGE OF TECHONOLOGY",
-    "Club FM": 4,
-    "Mango FM": 16,
+    "Brand": "BHIMA GOLD & DIAMONDS",
+    "Club FM": 0,
+    "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 0,
+    "Red FM": 20,
     "Total": 20
-  },
-  {
-    "Brand": "HONDA",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 19,
-    "Total": 19
-  },
-  {
-    "Brand": "KIA",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 18,
-    "Red FM": 0,
-    "Total": 18
   },
   {
     "Brand": "CENTER SQURE MALL",
@@ -1547,20 +1491,28 @@ export const week17 = [
     "Total": 16
   },
   {
-    "Brand": "GOVT OF INDIA",
-    "Club FM": 8,
-    "Mango FM": 0,
+    "Brand": "KCG COLLEGE OF TECHONOLOGY",
+    "Club FM": 2,
+    "Mango FM": 14,
     "Radio Mirchi": 0,
-    "Red FM": 8,
+    "Red FM": 0,
     "Total": 16
   },
   {
-    "Brand": "KARSHAKASREE",
+    "Brand": "MANORAMA",
     "Club FM": 0,
     "Mango FM": 16,
     "Radio Mirchi": 0,
     "Red FM": 0,
     "Total": 16
+  },
+  {
+    "Brand": "CAKE STORY",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 0,
+    "Red FM": 15,
+    "Total": 15
   },
   {
     "Brand": "FUTUREACE HOSPITAL",
@@ -1571,11 +1523,19 @@ export const week17 = [
     "Total": 14
   },
   {
-    "Brand": "DEVDARSHAN DHOOP",
-    "Club FM": 0,
+    "Brand": "MURALYA DAIRY",
+    "Club FM": 13,
     "Mango FM": 0,
     "Radio Mirchi": 0,
-    "Red FM": 12,
+    "Red FM": 0,
+    "Total": 13
+  },
+  {
+    "Brand": "KIA",
+    "Club FM": 0,
+    "Mango FM": 0,
+    "Radio Mirchi": 12,
+    "Red FM": 0,
     "Total": 12
   },
   {
@@ -1587,12 +1547,12 @@ export const week17 = [
     "Total": 12
   },
   {
-    "Brand": "AGD GOLD & DIAMONDS",
-    "Club FM": 11,
-    "Mango FM": 0,
+    "Brand": "KARSHAKASREE",
+    "Club FM": 0,
+    "Mango FM": 10,
     "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 11
+    "Total": 10
   },
   {
     "Brand": "KCG COLLEGE OF TECHNOLOGY",
@@ -1603,20 +1563,12 @@ export const week17 = [
     "Total": 9
   },
   {
-    "Brand": "INTER SQUARE MALL",
-    "Club FM": 8,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 8
-  },
-  {
-    "Brand": "Radio Mirchi",
+    "Brand": "DEVDARSHAN DHOOP",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 8,
-    "Red FM": 0,
-    "Total": 8
+    "Radio Mirchi": 0,
+    "Red FM": 9,
+    "Total": 9
   },
   {
     "Brand": "WELLMAX",
@@ -1627,28 +1579,28 @@ export const week17 = [
     "Total": 8
   },
   {
-    "Brand": "MSD PHARMACEUTICALS PVT LTD.",
-    "Club FM": 0,
+    "Brand": "INTER SQUARE MALL",
+    "Club FM": 8,
     "Mango FM": 0,
-    "Radio Mirchi": 7,
+    "Radio Mirchi": 0,
     "Red FM": 0,
-    "Total": 7
+    "Total": 8
   },
   {
-    "Brand": "KATHIKAN KUNJU",
+    "Brand": "VIETJET",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 3,
+    "Radio Mirchi": 4,
     "Red FM": 0,
-    "Total": 3
+    "Total": 4
   },
   {
-    "Brand": "WHF",
+    "Brand": "MIRCHI FM",
     "Club FM": 0,
     "Mango FM": 0,
-    "Radio Mirchi": 2,
+    "Radio Mirchi": 4,
     "Red FM": 0,
-    "Total": 2
+    "Total": 4
   },
   {
     "Brand": "WONDERLA",
@@ -1659,27 +1611,11 @@ export const week17 = [
     "Total": 2
   },
   {
-    "Brand": "VIETJET",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 2,
-    "Red FM": 0,
-    "Total": 2
-  },
-  {
     "Brand": "FEDARAL BANK",
     "Club FM": 0,
     "Mango FM": 0,
     "Radio Mirchi": 0,
     "Red FM": 1,
-    "Total": 1
-  },
-  {
-    "Brand": "ASTER MEDICITY",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 1,
-    "Red FM": 0,
     "Total": 1
   },
   {
@@ -1696,22 +1632,6 @@ export const week17 = [
     "Mango FM": 0,
     "Radio Mirchi": 1,
     "Red FM": 0,
-    "Total": 1
-  },
-  {
-    "Brand": "Euro Guard",
-    "Club FM": 1,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 0,
-    "Total": 1
-  },
-  {
-    "Brand": "PITTAPPILLIL AGENCIES",
-    "Club FM": 0,
-    "Mango FM": 0,
-    "Radio Mirchi": 0,
-    "Red FM": 1,
     "Total": 1
   }
 ]

@@ -10,12 +10,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import {
-  ChartConfig,
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart";
 import ChartCard from "@/components/card/charts-card";
 import { week16, week17 } from "./top-ad-data"; // Import the JSON data
 import { Switch } from "@/components/ui/switch";

@@ -13,59 +13,59 @@ import {
 const StatCards = () => {
   const [selectedWeek, setSelectedWeek] = useState("week_16");
 
-  // Data for Week 16 (April 14-20, 2025)
+  // Data for Week 1
   const week16Data = {
     topAdvertisersByCount: [
       { name: "Ajmal Bismi", value: 1200 },
-      { name: "Govt. of Kerala", value: 843 },
-      { name: "Euro Gaurd", value: 593 },
-      { name: "Malabar Golds & Diamonds", value: 455 },
+      { name: "Govt of Kerala", value: 929 },
+      { name: "Euro Guard", value: 698 },
+      { name: "Anaswara Jewellers", value: 535 },
     ],
     topAdvertisersBySeconds: [
-      { name: "Govt. of Kerala", value: 21148 },
-      { name: "Ajmal Bismi", value: 17851 },
-      { name: "Info & Public Relations Dept.", value: 11601 },
-      { name: "Malabar Golds & Diamonds", value: 11218 },
+      { name: "Govt of Kerala", value: 24062 },
+      { name: "Ajmal Bismi", value: 17836 },
+      { name: "Malabar Gold & Diamonds", value: 13168 },
+      { name: "Information & Public Relation Department", value: 12471 },
     ],
     topStationsByCount: [
-      { name: "Red FM", value: 5666 },
-      { name: "Club FM", value: 2300 },
-      { name: "Mango", value: 2152 },
-      { name: "Mirchi", value: 1523 },
+      { name: "Red", value: 6620 },
+      { name: "Club", value: 2687 },
+      { name: "Mango", value: 2505 },
+      { name: "Mirchi", value: 1800 },
     ],
     topStationsBySeconds: [
-      { name: "Red FM", value: 74254 },
-      { name: "Club FM", value: 48240 },
-      { name: "Mango", value: 45678 },
-      { name: "Mirchi", value: 27525 },
+      { name: "Red", value: 86691 },
+      { name: "Club", value: 56491 },
+      { name: "Mango", value: 52784 },
+      { name: "Mirchi", value: 31838 },
     ],
   };
 
-  // Data for Week 17 (April 21-27, 2025)
+  // Data for Week 2
   const week17Data = {
     topAdvertisersByCount: [
-      { name: "MYG Future", value: 677 },
-      { name: "Euro Guard", value: 710 },
-      { name: "Anaswara Jewellers", value: 628 },
-      { name: "Nakshatra Gold & Diamonds", value: 534 },
+      { name: "MYG Future", value: 638 },
+      { name: "Euro Guard", value: 606 },
+      { name: "Anaswara Jewellers", value: 546 },
+      { name: "Malabar Gold & Diamonds", value: 456 },
     ],
     topAdvertisersBySeconds: [
-      { name: "Malabar Gold & Diamonds", value: 13350 }, // Converted to seconds
-      { name: "Govt. of Kerala", value: 16985 },
-      { name: "MYG Future", value: 10155 },
-      { name: "Image Mobiles & Computers", value: 9960 },
+      { name: "Image Mobiles & Computers", value: 12288 },
+      { name: "Malabar Gold & Diamonds", value: 11418 },
+      { name: "Govt of Kerala", value: 10684 },
+      { name: "Red FM", value: 7942 },
     ],
     topStationsByCount: [
-      { name: "Club FM", value: 2335 },
-      { name: "Mango", value: 2417 },
-      { name: "Mirchi", value: 1258 },
-      { name: "Red FM", value: 6424 },
+      { name: "Red", value: 5455 },
+      { name: "Mango", value: 2064 },
+      { name: "Club", value: 1944 },
+      { name: "Mirchi", value: 968 },
     ],
     topStationsBySeconds: [
-      { name: "Club FM", value: 49600 },
-      { name: "Mango", value: 46424 },
-      { name: "Mirchi", value: 19693 },
-      { name: "Red FM", value: 80425 },
+      { name: "Red", value: 65547 },
+      { name: "Mango", value: 39461 },
+      { name: "Club", value: 40821 },
+      { name: "Mirchi", value: 14685 },
     ],
   };
 
