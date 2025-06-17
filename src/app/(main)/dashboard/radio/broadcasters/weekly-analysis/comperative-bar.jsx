@@ -348,9 +348,9 @@ const RadioSectorAnalysis = () => {
   const stations = [
     { value: "all", label: "All Stations" },
     { value: "radio mango", label: "Radio Mango" },
+    { value: "radiomirchi", label: "Radio Mirchi" },
     { value: "redfm", label: "Red FM" },
     { value: "clubfm", label: "Club FM" },
-    { value: "radiomirchi", label: "Radio Mirchi" },
   ];
 
   const rawData = {
@@ -359,6 +359,16 @@ const RadioSectorAnalysis = () => {
       language: "malayalam",
       weekly: Object.fromEntries(
         MangoSectorData.map(({ week, seconds, plays }) => [
+          week,
+          { seconds, plays },
+        ])
+      ),
+    },
+        RadioMirchi: {
+      region: "Kochi",
+      language: "malayalam",
+      weekly: Object.fromEntries(
+        MirchiSectorData.map(({ week, seconds, plays }) => [
           week,
           { seconds, plays },
         ])
@@ -384,16 +394,7 @@ const RadioSectorAnalysis = () => {
         ])
       ),
     },
-    RadioMirchi: {
-      region: "Kochi",
-      language: "malayalam",
-      weekly: Object.fromEntries(
-        MirchiSectorData.map(({ week, seconds, plays }) => [
-          week,
-          { seconds, plays },
-        ])
-      ),
-    },
+
   };
 
   const flattenedData = Object.entries(rawData).map(([station, data]) => ({

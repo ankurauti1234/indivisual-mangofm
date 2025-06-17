@@ -19,7 +19,7 @@ import {
 import { radio_mirchi, club_fm, radio_mango, red_fm } from "./heatmap-data.js";
 
 const RadioAdHeatmap = () => {
-  const [selectedDate, setSelectedDate] = useState("2025-04-16");
+  const [selectedDate, setSelectedDate] = useState("2025-04-17");
   const [hoveredCell, setHoveredCell] = useState(null);
   const [hoveredRow, setHoveredRow] = useState(null);
 
@@ -45,7 +45,7 @@ const RadioAdHeatmap = () => {
   };
 
   const dates = [];
-  const startDate = new Date("2025-04-16");
+  const startDate = new Date("2025-04-17");
   const endDate = new Date("2025-04-30");
   for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
     dates.push({
@@ -60,12 +60,12 @@ const RadioAdHeatmap = () => {
 
   const processData = (date) => {
     const hours = Array.from({ length: 24 }, (_, i) => `${i}`);
-    const stations = ["RED FM", "Club FM", "Mango", "Mirchi"];
+    const stations = ["Radio Mango",  "Radio Mirchi", "Red FM", "Club FM"];
     const stationKeys = {
-      "RED FM": "red_fm",
+      "Radio Mango": "radio_mango",
+      "Red FM": "red_fm",
       "Club FM": "club_fm",
-      "Mango": "radio_mango",
-      "Mirchi": "radio_mirchi",
+      "Radio Mirchi": "radio_mirchi",
     };
 
     const matrix = stations.map((station) => {
