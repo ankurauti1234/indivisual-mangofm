@@ -1,12 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Treemap, ResponsiveContainer, Tooltip } from "recharts";
-import { ArrowLeft, Tv } from "lucide-react";
+import { Tv, Filter } from "lucide-react";
+import ChartCard from "@/components/card/charts-card";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { sectorData } from "./treemap-sector-data";
 import { sectorSecondsData } from "./treemap-sector-seconds-data";
-import ChartCard from "@/components/card/charts-card";
-import { Button } from "@/components/ui/button";
 
-// Vibrant crayon-inspired colors with good visibility
 const COLORS = [
   "#FF4B4B", // Red
   "#4CAF50", // Green
@@ -23,63 +29,40 @@ const TVChannelTreemap = () => {
   const [selectedStation, setSelectedStation] = useState("Radio Mango");
   const [selectedChannel, setSelectedChannel] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [selectedBrand, setSelectedBrand] = useState(null);
   const [hoveredItem, setHoveredItem] = useState(null);
-  const [dataType, setDataType] = useState("plays"); // Toggle between "plays" and "seconds"
+  const [dataType, setDataType] = useState("plays");
 
-  const weeks = ["week16", "week17"];
+  const weeks = [
+    { value: "week16", label: "Week 16 (Apr 17-23, 2025)" },
+    { value: "week17", label: "Week 17 (Apr 24-30, 2025)" },
+  ];
   const stations = ["Radio Mango", "Radio Mirchi", "Red FM", "Club FM"];
 
   const getCurrentLevel = () => {
-    if (selectedBrand) return "products";
-    if (selectedCategory) return "brands";
+    if (selectedCategory) return "categories";
     if (selectedChannel) return "categories";
     return "channels";
   };
 
   const getTitle = () => {
-    const weekDisplay = selectedWeek === "week16" ? "Week 16" : "Week 17";
+    const weekDisplay = weeks.find((w) => w.value === selectedWeek)?.label || selectedWeek;
     const metric = dataType === "plays" ? "Plays" : "Seconds";
-    if (selectedBrand) {
-      return `${selectedBrand} Products ${metric} (${weekDisplay} - ${selectedStation})`;
-    }
-    if (selectedCategory) {
-      return `${selectedCategory} Brands ${metric} (${weekDisplay} - ${selectedStation})`;
-    }
-    if (selectedChannel) {
-      return `${selectedChannel} Categories ${metric} (${weekDisplay} - ${selectedStation})`;
-    }
+    if (selectedCategory) return `${selectedCategory} ${metric} (${weekDisplay})`;
+    if (selectedChannel) return `${selectedChannel} Categories ${metric} (${weekDisplay})`;
     return `Market ${metric} by Sector (${weekDisplay} - ${selectedStation})`;
   };
 
-  const getData = () => {
+  const getData = useMemo(() => {
     const mockData = dataType === "plays" ? sectorData : sectorSecondsData;
     const data = mockData[selectedWeek]?.[selectedStation] || {};
 
-    if (selectedBrand) {
-      const products =
-        data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[
-          selectedBrand
-        ]?.products || [];
-      const categoryColor =
-        data[selectedChannel]?.categories?.[selectedCategory]?.color ||
-        COLORS[0];
-      return products.map((product, index) => ({
-        name: product.name,
-        size: product.sum || 0,
-        color: categoryColor, // Use category color for products
-      }));
-    }
     if (selectedCategory) {
-      const brands =
-        data[selectedChannel]?.categories?.[selectedCategory]?.brands || {};
-      const categoryColor =
-        data[selectedChannel]?.categories?.[selectedCategory]?.color ||
-        COLORS[0];
+      const brands = data[selectedChannel]?.categories?.[selectedCategory]?.brands || {};
+      const categoryColor = data[selectedChannel]?.categories?.[selectedCategory]?.color || COLORS[0];
       return Object.entries(brands).map(([name, brandData], index) => ({
         name,
         size: brandData.sum || 0,
-        color: categoryColor, // Use category color for brands
+        color: categoryColor,
       }));
     }
     if (selectedChannel) {
@@ -88,14 +71,34 @@ const TVChannelTreemap = () => {
       return Object.entries(categories).map(([name, categoryData], index) => ({
         name,
         size: categoryData.sum || 0,
-        color: categoryData.color || channelColor, // Use channel color if category color is missing
+        color: categoryData.color || channelColor,
       }));
     }
     return Object.entries(data).map(([name, channelData], index) => ({
       name,
       size: channelData.sum || 0,
-      color: channelData.color || COLORS[index % COLORS.length], // Assign unique color per channel
+      color: channelData.color || COLORS[index % COLORS.length],
     }));
+  }, [selectedWeek, selectedStation, selectedChannel, selectedCategory, dataType]);
+
+  const getInnerContent = (name) => {
+    const mockData = dataType === "plays" ? sectorData : sectorSecondsData;
+    const data = mockData[selectedWeek]?.[selectedStation] || {};
+    const level = getCurrentLevel();
+
+    if (level === "channels" && data[name]?.categories) {
+      return Object.entries(data[name].categories).map(([catName, catData]) => ({
+        name: catName,
+        size: catData.sum || 0,
+      }));
+    }
+    if (level === "categories" && !selectedCategory && data[selectedChannel]?.categories?.[name]?.brands) {
+      return Object.entries(data[selectedChannel].categories[name].brands).map(([brandName, brandData]) => ({
+        name: brandName,
+        size: brandData.sum || 0,
+      }));
+    }
+    return [];
   };
 
   const handleClick = (name) => {
@@ -105,55 +108,63 @@ const TVChannelTreemap = () => {
 
     if (level === "channels" && data[name]?.categories) {
       setSelectedChannel(name);
-    } else if (
-      level === "categories" &&
-      data[selectedChannel]?.categories?.[name]?.brands
-    ) {
+      setSelectedCategory(null);
+    } else if (level === "categories" && data[selectedChannel]?.categories?.[name]?.brands) {
       setSelectedCategory(name);
-    } else if (
-      level === "brands" &&
-      data[selectedChannel]?.categories?.[selectedCategory]?.brands?.[name]
-        ?.products
-    ) {
-      setSelectedBrand(name);
     }
   };
 
-  const handleBack = () => {
-    if (selectedBrand) {
-      setSelectedBrand(null);
-    } else if (selectedCategory) {
-      setSelectedCategory(null);
-    } else if (selectedChannel) {
+  const handleNavigation = (level) => {
+    if (level === "channels") {
       setSelectedChannel(null);
+      setSelectedCategory(null);
+    } else if (level === "categories") {
+      setSelectedCategory(null);
     }
+  };
+
+  const truncateText = (text, maxLength) => {
+    if (text.length <= maxLength) return text;
+    return `${text.slice(0, maxLength - 3)}...`;
   };
 
   const CustomizedContent = ({ x, y, width, height, name, size, color }) => {
     const isHovered = hoveredItem === name;
-    const display = width > 50 && height > 50;
+    const display = width > 30 && height > 30;
     const level = getCurrentLevel();
+    const fontSize = Math.min(width / 6, height / 5, 12);
+    const isClickable = level === "channels" || (level === "categories" && !selectedCategory);
+    const safeName = (name || "").replace(/\s/g, "-");
 
     return (
       <g
         onMouseEnter={() => setHoveredItem(name)}
         onMouseLeave={() => setHoveredItem(null)}
-        onClick={() => level !== "products" && handleClick(name)}
-        style={{ cursor: level !== "products" ? "pointer" : "default" }}
+        onClick={() => isClickable && handleClick(name)}
+        style={{ cursor: isClickable ? "pointer" : "default" }}
+        aria-label={`Treemap item: ${name || ""}, ${dataType === "plays" ? `${size} Plays` : `${size}s`}`}
       >
+        <defs>
+          <linearGradient id={`grad-${safeName}`} x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style={{ stopColor: color, stopOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: `${color}CC`, stopOpacity: 0.8 }} />
+          </linearGradient>
+        </defs>
         <rect
           x={x}
           y={y}
           width={width}
           height={height}
-          fill={color}
+          fill={`url(#grad-${safeName})`}
           style={{
-            transition: "all 0.3s ease",
+            transition: "all 0.3s ease-in-out",
+            transformOrigin: `${x + width / 2}px ${y + height / 2}px`,
+            boxShadow: isHovered ? "inset 0 0 8px rgba(0,0,0,0.3), 0 2px 4px rgba(0,0,0,0.2)" : "none",
           }}
-          rx={8}
-          ry={8}
+          rx={4}
+          ry={4}
           stroke="white"
-          strokeWidth={2}
+          strokeWidth={1}
         />
         {display && (
           <text
@@ -162,24 +173,24 @@ const TVChannelTreemap = () => {
             textAnchor="middle"
             fill="#FFFFFF"
             style={{
-              fontSize: width > 100 ? "16px" : "12px",
-              fontWeight: "500",
-              textShadow: "0 1px 2px rgba(0,0,0,0.2)",
-              transition: "all 0.3s ease",
+              fontSize: `${fontSize}px`,
+              fontWeight: "600",
+              textShadow: "0 1px 3px rgba(0,0,0,0.4)",
+              transition: "all 0.3s ease-in-out",
             }}
           >
-            <tspan x={x + width / 2} dy="-0.5em">
-              {name}
+            <tspan x={x + width / 2} dy="-0.6em">
+              {truncateText(name || "", Math.floor(width / (fontSize / 2)))}
             </tspan>
             <tspan
               x={x + width / 2}
-              dy="1.5em"
+              dy="1.3em"
               style={{
-                fontSize: width > 100 ? "14px" : "11px",
+                fontSize: `${fontSize * 0.85}px`,
                 fontWeight: "400",
               }}
             >
-              {dataType === "plays" ? `${size} Plays` : `${size}s`}
+              {/* {dataType === "plays" ? `${size} Plays` : `${size}s`} */}
             </tspan>
           </text>
         )}
@@ -190,172 +201,163 @@ const TVChannelTreemap = () => {
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
+      const innerContent = getInnerContent(data.name);
       return (
-        <div className="backdrop-blur-xl bg-white/90 p-4 rounded-2xl shadow-lg border border-gray-200">
-          <div className="flex items-center gap-2 mb-2">
-            <div
-              className="w-3 h-3 rounded-full"
-              style={{ backgroundColor: data.color }}
-            />
-            <h3 className="font-semibold text-lg">{data.name}</h3>
+        <div className="bg-popover p-3 rounded-md shadow-lg border border-border max-w-xs">
+          <div className="flex items-center gap-1.5 mb-2">
+            <div className="w-2 h-2 rounded-full" style={{ backgroundColor: data.color }} />
+            <h3 className="text-sm font-semibold text-foreground">{data.name}</h3>
           </div>
-          <div className="space-y-2">
-            <p className="text-sm text-gray-600">
-              {dataType === "plays" ? `Plays: ${data.size}` : `Duration: ${data.size}s`}
-            </p>
-          </div>
+          <p className="text-xs text-muted-foreground mb-2">
+            {dataType === "plays" ? `Plays: ${data.size}` : `Duration: ${data.size}s`}
+          </p>
+          {innerContent.length > 0 && (
+            <div className="border-t border-border pt-2">
+              <p className="text-xs font-medium text-foreground mb-1">
+                {getCurrentLevel() === "channels" ? "Categories" : "Brands"}:
+              </p>
+              <ul className="space-y-1 max-h-40 overflow-auto">
+                {innerContent.map((item, index) => (
+                  <li key={index} className="text-xs text-muted-foreground">
+                    {item.name}: {dataType === "plays" ? `${item.size} Plays` : `${item.size}s`}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       );
     }
     return null;
   };
 
-  const data = getData();
-
   return (
     <ChartCard
-      icon={<Tv className="w-6 h-6" />}
+      icon={<Tv className="w-6 h-6 text-primary" />}
       title={getTitle()}
-      description="View market share distribution across sectors, categories, brands, and products"
+      description="Explore market share distribution across sectors and categories"
       action={
-        <div className="flex w-full justify-between items-center">
-          <div className="flex gap-4 items-center">
-            <select
+        <div className="flex w-full justify-between items-center gap-4 flex-wrap">
+          <div className="flex gap-3 items-center flex-wrap">
+            <Filter className="h-5 w-5 text-muted-foreground" />
+            <Select
               value={selectedWeek}
-              onChange={(e) => {
-                setSelectedWeek(e.target.value);
+              onValueChange={(value) => {
+                setSelectedWeek(value);
                 setSelectedChannel(null);
                 setSelectedCategory(null);
-                setSelectedBrand(null);
               }}
-              className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             >
-              {weeks.map((week) => (
-                <option key={week} value={week}>
-                  {week === "week16" ? "Week 16" : "Week 17"}
-                </option>
-              ))}
-            </select>
-            <select
+              <SelectTrigger className="w-52 bg-popover shadow-sm border-border rounded-md">
+                <SelectValue placeholder="Select week" />
+              </SelectTrigger>
+              <SelectContent className="rounded-md shadow-lg bg-popover">
+                {weeks.map((week) => (
+                  <SelectItem key={week.value} value={week.value}>
+                    {week.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Select
               value={selectedStation}
-              onChange={(e) => {
-                setSelectedStation(e.target.value);
+              onValueChange={(value) => {
+                setSelectedStation(value);
                 setSelectedChannel(null);
                 setSelectedCategory(null);
-                setSelectedBrand(null);
               }}
-              className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
             >
-              {stations.map((station) => (
-                <option key={station} value={station}>
-                  {station}
-                </option>
-              ))}
-            </select>
-            <Button
-              onClick={() => {
-                setDataType(dataType === "plays" ? "seconds" : "plays");
-                setSelectedChannel(null);
-                setSelectedCategory(null);
-                setSelectedBrand(null);
+              <SelectTrigger className="w-52 bg-popover shadow-sm border-border rounded-md">
+                <SelectValue placeholder="Select station" />
+              </SelectTrigger>
+              <SelectContent className="rounded-md shadow-lg bg-popover">
+                {stations.map((station) => (
+                  <SelectItem key={station} value={station}>
+                    {station}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <ToggleGroup
+              type="single"
+              value={dataType}
+              onValueChange={(value) => {
+                if (value) {
+                  setDataType(value);
+                  setSelectedChannel(null);
+                  setSelectedCategory(null);
+                }
               }}
-              className="flex items-center gap-2"
+              className="flex gap-2"
             >
-              Switch to {dataType === "plays" ? "Seconds" : "Plays"}
-            </Button>
+              <ToggleGroupItem
+                value="plays"
+                className="bg-popover shadow-sm border-border px-4 py-2 rounded-md text-sm font-medium data-[state=on]:bg-primary data-[state=on]:text-primary-foreground hover:bg-muted"
+              >
+                Plays
+              </ToggleGroupItem>
+              <ToggleGroupItem
+                value="seconds"
+                className="bg-popover shadow-sm border-border px-4 py-2 rounded-md text-sm font-medium data-[state=on]:bg-primary data-[state=on]:text-primary-foreground hover:bg-muted"
+              >
+                Seconds
+              </ToggleGroupItem>
+            </ToggleGroup>
           </div>
-          {(selectedChannel || selectedCategory || selectedBrand) && (
-            <Button onClick={handleBack} className="flex items-center gap-2">
-              <ArrowLeft className="w-4 h-4" />
-              Back to{" "}
-              {selectedBrand
-                ? "Brands"
-                : selectedCategory
-                ? "Categories"
-                : "Sectors"}
-            </Button>
-          )}
         </div>
       }
       chart={
-        data.length === 0 ? (
-          <div className="flex items-center justify-center h-[600px] text-gray-500">
-            No data available for the selected {getCurrentLevel()}.
+        getData.length === 0 ? (
+          <div className="flex items-center justify-center h-[500px] text-muted-foreground">
+            No data available for the selected {getCurrentLevel()}. Try another week or station.
           </div>
         ) : (
-          <ResponsiveContainer width="100%" height={600}>
-            <Treemap
-              data={data}
-              dataKey="size"
-              aspectRatio={16 / 9}
-              stroke="#fff"
-              content={<CustomizedContent />}
-              animationEasing="ease-out"
-            >
-              <Tooltip
-                content={<CustomTooltip />}
-                cursor={{ stroke: "white", strokeWidth: 2 }}
-              />
-            </Treemap>
-          </ResponsiveContainer>
+          <>
+            <div className="flex items-center gap-2 mb-4 text-sm text-muted-foreground">
+              <span
+                className={`hover:text-primary cursor-pointer ${!selectedChannel ? "text-primary font-medium" : ""}`}
+                onClick={() => handleNavigation("channels")}
+                aria-label="Navigate to Sectors"
+              >
+                Sectors
+              </span>
+              {selectedChannel && (
+                <>
+                  <span>→</span>
+                  <span
+                    className={`hover:text-primary cursor-pointer ${selectedChannel && !selectedCategory ? "text-primary font-medium" : ""}`}
+                    onClick={() => handleNavigation("categories")}
+                    aria-label={`Navigate to ${selectedChannel}`}
+                  >
+                    {selectedChannel}
+                  </span>
+                </>
+              )}
+              {selectedCategory && (
+                <>
+                  <span>→</span>
+                  <span className="text-primary font-medium">{selectedCategory}</span>
+                </>
+              )}
+            </div>
+            <ResponsiveContainer width="100%" height={500}>
+              <Treemap
+                data={getData}
+                dataKey="size"
+                aspectRatio={4 / 3}
+                stroke="#fff"
+                content={<CustomizedContent />}
+                animationEasing="ease-in-out"
+                animationDuration={500}
+              >
+                <Tooltip
+                  content={<CustomTooltip />}
+                  cursor={{ stroke: "white", strokeWidth: 1 }}
+                />
+              </Treemap>
+            </ResponsiveContainer>
+          </>
         )
-      }
-      footer={
-        <div className="mt-4 flex items-center gap-2 text-sm text-gray-500">
-          <span
-            className={`hover:text-primary cursor-pointer ${
-              !selectedChannel ? "text-primary font-medium" : ""
-            }`}
-            onClick={() => {
-              setSelectedChannel(null);
-              setSelectedCategory(null);
-              setSelectedBrand(null);
-            }}
-          >
-            Sectors
-          </span>
-          {selectedChannel && (
-            <>
-              <span>→</span>
-              <span
-                className={`hover:text-primary cursor-pointer ${
-                  selectedChannel && !selectedCategory
-                    ? "text-primary font-medium"
-                    : ""
-                }`}
-                onClick={() => {
-                  setSelectedCategory(null);
-                  setSelectedBrand(null);
-                }}
-              >
-                {selectedChannel}
-              </span>
-            </>
-          )}
-          {selectedCategory && (
-            <>
-              <span>→</span>
-              <span
-                className={`hover:text-primary cursor-pointer ${
-                  selectedCategory && !selectedBrand
-                    ? "text-primary font-medium"
-                    : ""
-                }`}
-                onClick={() => {
-                  setSelectedBrand(null);
-                }}
-              >
-                {selectedCategory}
-              </span>
-            </>
-          )}
-          {selectedBrand && (
-            <>
-              <span>→</span>
-              <span className="text-primary font-medium">{selectedBrand}</span>
-            </>
-          )}
-        </div>
       }
     />
   );

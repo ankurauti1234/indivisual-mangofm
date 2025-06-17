@@ -347,14 +347,14 @@ const RadioSectorAnalysis = () => {
 
   const stations = [
     { value: "all", label: "All Stations" },
-    { value: "mangofm", label: "Radio Mango" },
+    { value: "radio mango", label: "Radio Mango" },
     { value: "redfm", label: "Red FM" },
     { value: "clubfm", label: "Club FM" },
     { value: "radiomirchi", label: "Radio Mirchi" },
   ];
 
   const rawData = {
-    MangoFM: {
+    "Radio Mango": {
       region: "Kochi",
       language: "malayalam",
       weekly: Object.fromEntries(
@@ -622,7 +622,7 @@ const RadioSectorAnalysis = () => {
                           <div className="relative h-10 w-full">
                             <div className="absolute inset-y-0 w-full bg-muted rounded-md shadow-inner" />
                             <div
-                              className="relative h-full rounded-md flex shadow-sm overflow-hidden"
+                              className="relative h-full rounded-md flex shadow-sm "
                               style={{ width: "100%" }}
                             >
                               {Object.entries(weekData.sectors)
