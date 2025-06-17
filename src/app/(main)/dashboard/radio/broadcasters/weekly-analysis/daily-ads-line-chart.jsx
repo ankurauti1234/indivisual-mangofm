@@ -143,7 +143,7 @@ const dailyAdsData = {
 
 const chartConfig = {
   mangofm: {
-    label: "Mango FM",
+    label: "Radio Mango",
     color: "hsl(var(--chart-1))",
   },
   redfm: {

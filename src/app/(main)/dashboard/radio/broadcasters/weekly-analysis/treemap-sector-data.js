@@ -6,7 +6,7 @@ export const sectorData = {
         "sum": 460,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 460,
             "brands": {
               "ARABIAN GOLD&DIAMONDS JEWELLERY": {
@@ -46,7 +46,7 @@ export const sectorData = {
         "sum": 280,
         "categories": {
           "AUTOMOBILE-CAR": {
-            "color": "#4ECDC4",
+           
             "sum": 280,
             "brands": {
               "HYUNDAI": {
@@ -74,7 +74,7 @@ export const sectorData = {
         "sum": 126,
         "categories": {
           "BUILDING MATERIALS": {
-            "color": "#4ECDC4",
+           
             "sum": 126,
             "brands": {
               "CHETTINAD CONSTRUCTION": {
@@ -90,7 +90,7 @@ export const sectorData = {
         "sum": 353,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 69,
             "brands": {
               "MYG FUTURE": {
@@ -100,7 +100,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 44,
             "brands": {
               "BPL": {
@@ -114,7 +114,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LAPTOPS": {
-            "color": "#4ECDC4",
+           
             "sum": 62,
             "brands": {
               "AJMAL BISMI": {
@@ -124,7 +124,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LED TV": {
-            "color": "#4ECDC4",
+           
             "sum": 60,
             "brands": {
               "AJMAL BISMI": {
@@ -134,7 +134,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-REFRIGERATOR": {
-            "color": "#4ECDC4",
+           
             "sum": 57,
             "brands": {
               "AJMAL BISMI": {
@@ -144,7 +144,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SMART PHONE": {
-            "color": "#4ECDC4",
+           
             "sum": 61,
             "brands": {
               "AJMAL BISMI": {
@@ -160,7 +160,7 @@ export const sectorData = {
         "sum": 54,
         "categories": {
           "EDUCATION": {
-            "color": "#4ECDC4",
+           
             "sum": 54,
             "brands": {
               "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
@@ -184,7 +184,7 @@ export const sectorData = {
         "sum": 447,
         "categories": {
           "CONTEST": {
-            "color": "#4ECDC4",
+           
             "sum": 20,
             "brands": {
               "GOVT OF KERALA": {
@@ -194,7 +194,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT": {
-            "color": "#4ECDC4",
+           
             "sum": 22,
             "brands": {
               "MALAYALA MANORAMA": {
@@ -204,7 +204,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-AMUSEMENT PARK": {
-            "color": "#4ECDC4",
+           
             "sum": 151,
             "brands": {
               "FUNTURA": {
@@ -218,7 +218,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-MOVIE": {
-            "color": "#4ECDC4",
+           
             "sum": 10,
             "brands": {
               "ALAPPUZHA GYMKHANA": {
@@ -228,17 +228,18 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-SPORTS": {
-            "color": "#4ECDC4",
+           
             "sum": 2,
             "brands": {
-              "MAHARAJA'S COLLEGE": {
+              "MAHARAJA COLLEGE": {
                 "sum": 2,
+                
                 "products": []
               }
             }
           },
           "LOTTERY TICKET": {
-            "color": "#4ECDC4",
+           
             "sum": 40,
             "brands": {
               "GOVT OF KERALA": {
@@ -248,7 +249,7 @@ export const sectorData = {
             }
           },
           "PUBLICATIONS": {
-            "color": "#4ECDC4",
+           
             "sum": 114,
             "brands": {
               "KARSHAKASREE": {
@@ -266,7 +267,7 @@ export const sectorData = {
             }
           },
           "RADIO": {
-            "color": "#4ECDC4",
+           
             "sum": 88,
             "brands": {
               "MANGO FM": {
@@ -282,7 +283,7 @@ export const sectorData = {
         "sum": 9,
         "categories": {
           "MICROFINANCE": {
-            "color": "#4ECDC4",
+           
             "sum": 9,
             "brands": {
               "MUTHOOT FINANCE": {
@@ -298,7 +299,7 @@ export const sectorData = {
         "sum": 36,
         "categories": {
           "FOOD&BEVERAGES": {
-            "color": "#4ECDC4",
+           
             "sum": 36,
             "brands": {
               "PALAT FOODS": {
@@ -314,7 +315,7 @@ export const sectorData = {
         "sum": 185,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 185,
             "brands": {
               "EURO GUARD": {
@@ -330,7 +331,7 @@ export const sectorData = {
         "sum": 56,
         "categories": {
           "CABLE SERVICE PROVIDER": {
-            "color": "#4ECDC4",
+           
             "sum": 56,
             "brands": {
               "ASIANET": {
@@ -350,7 +351,7 @@ export const sectorData = {
         "sum": 72,
         "categories": {
           "PETROLEUM PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 72,
             "brands": {
               "NAYARA ENERGY PETROL PUMP": {
@@ -366,7 +367,7 @@ export const sectorData = {
         "sum": 76,
         "categories": {
           "PROPERTY-HOUSING": {
-            "color": "#4ECDC4",
+           
             "sum": 76,
             "brands": {
               "VARMA HOMES": {
@@ -382,7 +383,7 @@ export const sectorData = {
         "sum": 297,
         "categories": {
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 297,
             "brands": {
               "FOOD SAFETY DEPARTMENT KERALA": {
@@ -410,7 +411,7 @@ export const sectorData = {
         "sum": 54,
         "categories": {
           "RETAIL GARMENTS": {
-            "color": "#4ECDC4",
+           
             "sum": 54,
             "brands": {
               "COTTON FAB": {
@@ -428,7 +429,7 @@ export const sectorData = {
         "sum": 290,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 290,
             "brands": {
               "BHIMA GOLD&DIAMONDS": {
@@ -464,7 +465,7 @@ export const sectorData = {
         "sum": 118,
         "categories": {
           "AUTOMOBILE-CAR": {
-            "color": "#4ECDC4",
+           
             "sum": 118,
             "brands": {
               "KIA": {
@@ -484,7 +485,7 @@ export const sectorData = {
         "sum": 497,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 1,
             "brands": {
               "AJMAL BISMI": {
@@ -494,7 +495,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 114,
             "brands": {
               "KELVINATOR": {
@@ -512,7 +513,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LAPTOP": {
-            "color": "#4ECDC4",
+           
             "sum": 58,
             "brands": {
               "AJMAL BISMI": {
@@ -522,7 +523,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LED TV": {
-            "color": "#4ECDC4",
+           
             "sum": 56,
             "brands": {
               "AJMAL BISMI": {
@@ -532,7 +533,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-REFRIGERATOR": {
-            "color": "#4ECDC4",
+           
             "sum": 109,
             "brands": {
               "AJMAL BISMI": {
@@ -546,7 +547,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SMART PHONE": {
-            "color": "#4ECDC4",
+           
             "sum": 68,
             "brands": {
               "AJMAL BISMI": {
@@ -556,7 +557,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SOLAR PANELS": {
-            "color": "#4ECDC4",
+           
             "sum": 91,
             "brands": {
               "RAYZON SOLAR": {
@@ -572,7 +573,7 @@ export const sectorData = {
         "sum": 125,
         "categories": {
           "CONTEST": {
-            "color": "#4ECDC4",
+           
             "sum": 10,
             "brands": {
               "GOVT OF KERALA": {
@@ -582,7 +583,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT": {
-            "color": "#4ECDC4",
+           
             "sum": 78,
             "brands": {
               "MIRCHI FM": {
@@ -596,7 +597,7 @@ export const sectorData = {
             }
           },
           "LOTTERY TICKET": {
-            "color": "#4ECDC4",
+           
             "sum": 37,
             "brands": {
               "GOVT OF KERALA": {
@@ -612,7 +613,7 @@ export const sectorData = {
         "sum": 233,
         "categories": {
           "BANKING AND FINANCIAL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 81,
             "brands": {
               "CANARA BANK": {
@@ -626,7 +627,7 @@ export const sectorData = {
             }
           },
           "FINANCE-APPLICATION": {
-            "color": "#4ECDC4",
+           
             "sum": 79,
             "brands": {
               "BHIM": {
@@ -640,7 +641,7 @@ export const sectorData = {
             }
           },
           "FINANCE-INSURANCE": {
-            "color": "#4ECDC4",
+           
             "sum": 73,
             "brands": {
               "LIC": {
@@ -656,7 +657,7 @@ export const sectorData = {
         "sum": 28,
         "categories": {
           "MEDICINE-PHARMACEUTICALS": {
-            "color": "#4ECDC4",
+           
             "sum": 21,
             "brands": {
               "MSD PHARMACEUTICALS PVT LTD.": {
@@ -670,7 +671,7 @@ export const sectorData = {
             }
           },
           "SERVICES-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 7,
             "brands": {
               "ASTER MEDICITY": {
@@ -686,7 +687,7 @@ export const sectorData = {
         "sum": 155,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 155,
             "brands": {
               "EURO GUARD": {
@@ -702,7 +703,7 @@ export const sectorData = {
         "sum": 36,
         "categories": {
           "SKINCARE": {
-            "color": "#4ECDC4",
+           
             "sum": 36,
             "brands": {
               "SAIBON": {
@@ -718,7 +719,7 @@ export const sectorData = {
         "sum": 15,
         "categories": {
           "PROPERTY-COMMERCIAL": {
-            "color": "#4ECDC4",
+           
             "sum": 15,
             "brands": {
               "CHITTILAPPILLY": {
@@ -734,7 +735,7 @@ export const sectorData = {
         "sum": 283,
         "categories": {
           "INFRASTRUCTURE DEVELOPMENT": {
-            "color": "#4ECDC4",
+           
             "sum": 18,
             "brands": {
               "GOVT OF KERALA": {
@@ -744,7 +745,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 265,
             "brands": {
               "GOVT OF INDIA": {
@@ -776,7 +777,7 @@ export const sectorData = {
         "sum": 4,
         "categories": {
           "TECHNOLOGY-APP": {
-            "color": "#4ECDC4",
+           
             "sum": 4,
             "brands": {
               "VA CHAT": {
@@ -792,7 +793,7 @@ export const sectorData = {
         "sum": 16,
         "categories": {
           "AIRLINES": {
-            "color": "#4ECDC4",
+           
             "sum": 16,
             "brands": {
               "VIETJET": {
@@ -810,7 +811,7 @@ export const sectorData = {
         "sum": 1315,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 1315,
             "brands": {
               "ANASWARA JEWELLERS": {
@@ -854,7 +855,7 @@ export const sectorData = {
         "sum": 522,
         "categories": {
           "AUTOMOBILE-ACCESSORIES": {
-            "color": "#4ECDC4",
+           
             "sum": 120,
             "brands": {
               "BIG WHEELS": {
@@ -868,7 +869,7 @@ export const sectorData = {
             }
           },
           "AUTOMOBILE-CAR": {
-            "color": "#4ECDC4",
+           
             "sum": 402,
             "brands": {
               "FORD INDIA": {
@@ -900,7 +901,7 @@ export const sectorData = {
         "sum": 213,
         "categories": {
           "BUILDING MATERIALS": {
-            "color": "#4ECDC4",
+           
             "sum": 36,
             "brands": {
               "CHETTINAD CONSTRUCTION": {
@@ -910,7 +911,7 @@ export const sectorData = {
             }
           },
           "BUILDING MATERIALS-CONSTRUCTIONS": {
-            "color": "#4ECDC4",
+           
             "sum": 177,
             "brands": {
               "BHARTHI CEMENT": {
@@ -930,7 +931,7 @@ export const sectorData = {
         "sum": 1120,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 201,
             "brands": {
               "MYG FUTURE": {
@@ -940,7 +941,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AC": {
-            "color": "#4ECDC4",
+           
             "sum": 199,
             "brands": {
               "GOPU NANDILATH G MART": {
@@ -950,7 +951,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 216,
             "brands": {
               "BPL": {
@@ -972,7 +973,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-HOME APPLIANCES&ELECTRONICS": {
-            "color": "#4ECDC4",
+           
             "sum": 2,
             "brands": {
               "AJMAL BISMI": {
@@ -982,7 +983,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LAPTOP": {
-            "color": "#4ECDC4",
+           
             "sum": 99,
             "brands": {
               "AJMAL BISMI": {
@@ -992,7 +993,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LED TV": {
-            "color": "#4ECDC4",
+           
             "sum": 99,
             "brands": {
               "AJMAL BISMI": {
@@ -1002,7 +1003,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-REFRIGERATOR": {
-            "color": "#4ECDC4",
+           
             "sum": 96,
             "brands": {
               "AJMAL BISMI": {
@@ -1012,7 +1013,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SMART PHONE": {
-            "color": "#4ECDC4",
+           
             "sum": 103,
             "brands": {
               "AJMAL BISMI": {
@@ -1022,7 +1023,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SOLAR PANELS": {
-            "color": "#4ECDC4",
+           
             "sum": 105,
             "brands": {
               "RAYZON SOLAR": {
@@ -1038,7 +1039,7 @@ export const sectorData = {
         "sum": 41,
         "categories": {
           "RETAIL CHAIN": {
-            "color": "#4ECDC4",
+           
             "sum": 41,
             "brands": {
               "PITTAPPILLIL AGENCIES": {
@@ -1054,7 +1055,7 @@ export const sectorData = {
         "sum": 62,
         "categories": {
           "EDUCATION": {
-            "color": "#4ECDC4",
+           
             "sum": 54,
             "brands": {
               "UPES": {
@@ -1064,7 +1065,7 @@ export const sectorData = {
             }
           },
           "EDUCATION-EVENT": {
-            "color": "#4ECDC4",
+           
             "sum": 8,
             "brands": {
               "DR.AMBEDKAR INTERNATIONAL CENTRE": {
@@ -1080,7 +1081,7 @@ export const sectorData = {
         "sum": 721,
         "categories": {
           "CONTEST-PHOTOGRAPHY": {
-            "color": "#4ECDC4",
+           
             "sum": 20,
             "brands": {
               "GOVT OF KERALA": {
@@ -1090,7 +1091,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-AMUSEMENT PARK": {
-            "color": "#4ECDC4",
+           
             "sum": 235,
             "brands": {
               "SILVER STORM": {
@@ -1104,7 +1105,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-MOVIE": {
-            "color": "#4ECDC4",
+           
             "sum": 23,
             "brands": {
               "ALAPPUZHA GYMKHANA": {
@@ -1118,17 +1119,17 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-PLAY AREAS": {
-            "color": "#4ECDC4",
+           
             "sum": 69,
             "brands": {
-              "SIM&SAM'S": {
+              "SIM&SAM": {
                 "sum": 69,
                 "products": []
               }
             }
           },
           "LOTTERY-TICKET": {
-            "color": "#4ECDC4",
+           
             "sum": 40,
             "brands": {
               "GOVT OF KERALA": {
@@ -1138,7 +1139,7 @@ export const sectorData = {
             }
           },
           "RADIO-SHOW": {
-            "color": "#4ECDC4",
+           
             "sum": 334,
             "brands": {
               "RED FM": {
@@ -1154,7 +1155,7 @@ export const sectorData = {
         "sum": 325,
         "categories": {
           "FINANCE-APPLICATION": {
-            "color": "#4ECDC4",
+           
             "sum": 90,
             "brands": {
               "BHIM": {
@@ -1164,7 +1165,7 @@ export const sectorData = {
             }
           },
           "FINANCE-BANKING": {
-            "color": "#4ECDC4",
+           
             "sum": 126,
             "brands": {
               "CANARA BANK": {
@@ -1178,7 +1179,7 @@ export const sectorData = {
             }
           },
           "FINANCIAL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 109,
             "brands": {
               "UNIMONI": {
@@ -1194,7 +1195,7 @@ export const sectorData = {
         "sum": 549,
         "categories": {
           "FMCG-FOOD PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 426,
             "brands": {
               "PAVIZHAM": {
@@ -1204,7 +1205,7 @@ export const sectorData = {
             }
           },
           "FMCG-FOOD&BEVERAGES": {
-            "color": "#4ECDC4",
+           
             "sum": 123,
             "brands": {
               "HEALTHY GROCER": {
@@ -1220,14 +1221,14 @@ export const sectorData = {
         "sum": 381,
         "categories": {
           "SERVICES-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 381,
             "brands": {
               "CITY HOSPITAL": {
                 "sum": 3,
                 "products": []
               },
-              "K P PATHROSE VAIDYAN'S": {
+              "K P PATHROSE VAIDYAN": {
                 "sum": 217,
                 "products": []
               },
@@ -1248,7 +1249,7 @@ export const sectorData = {
         "sum": 260,
         "categories": {
           "HOME FURNISHING-SANITARY FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 48,
             "brands": {
               "KARTAR BATH FITTINGS": {
@@ -1258,7 +1259,7 @@ export const sectorData = {
             }
           },
           "HOUSEHOLD PRODUCTS-HOME FURNISHING": {
-            "color": "#4ECDC4",
+           
             "sum": 170,
             "brands": {
               "AMMINI TRADERS": {
@@ -1268,7 +1269,7 @@ export const sectorData = {
             }
           },
           "HOUSEHOLD PRODUCTS-MATTRESS": {
-            "color": "#4ECDC4",
+           
             "sum": 30,
             "brands": {
               "EMMA MATTRESS": {
@@ -1278,7 +1279,7 @@ export const sectorData = {
             }
           },
           "SPIRITUALITY PRODUCTS-HOME FURNISHING": {
-            "color": "#4ECDC4",
+           
             "sum": 12,
             "brands": {
               "DEVDARSHAN DHOOP": {
@@ -1294,7 +1295,7 @@ export const sectorData = {
         "sum": 172,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 172,
             "brands": {
               "EURO GUARD": {
@@ -1310,7 +1311,7 @@ export const sectorData = {
         "sum": 327,
         "categories": {
           "MANUFACTURING-INDUSTRIAL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 327,
             "brands": {
               "VARSHA": {
@@ -1334,7 +1335,7 @@ export const sectorData = {
         "sum": 72,
         "categories": {
           "PETROLEUM PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 72,
             "brands": {
               "NAYARA ENERGY PETROL PUMP": {
@@ -1350,7 +1351,7 @@ export const sectorData = {
         "sum": 12,
         "categories": {
           "PROPERTY-COMMERCIAL": {
-            "color": "#4ECDC4",
+           
             "sum": 12,
             "brands": {
               "CHITTILAPPILLY": {
@@ -1366,7 +1367,7 @@ export const sectorData = {
         "sum": 433,
         "categories": {
           "AWARENESS": {
-            "color": "#4ECDC4",
+           
             "sum": 11,
             "brands": {
               "SBI": {
@@ -1376,7 +1377,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 13,
             "brands": {
               "GOVT OF KERALA": {
@@ -1390,7 +1391,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-BANKING": {
-            "color": "#4ECDC4",
+           
             "sum": 62,
             "brands": {
               "SBI": {
@@ -1400,7 +1401,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-DEVELOPMENT": {
-            "color": "#4ECDC4",
+           
             "sum": 75,
             "brands": {
               "GOVT OF KERALA": {
@@ -1410,7 +1411,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-EXPO": {
-            "color": "#4ECDC4",
+           
             "sum": 57,
             "brands": {
               "GOVT OF KERALA": {
@@ -1420,7 +1421,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-FINANCIAL AWARENESS": {
-            "color": "#4ECDC4",
+           
             "sum": 17,
             "brands": {
               "RBI": {
@@ -1430,7 +1431,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-FOOD": {
-            "color": "#4ECDC4",
+           
             "sum": 10,
             "brands": {
               "GOVT OF KERALA": {
@@ -1440,7 +1441,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-HEALTH": {
-            "color": "#4ECDC4",
+           
             "sum": 83,
             "brands": {
               "GOVT OF INDIA": {
@@ -1454,7 +1455,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-ROAD SAFETY": {
-            "color": "#4ECDC4",
+           
             "sum": 31,
             "brands": {
               "GOVT OF KERALA": {
@@ -1464,7 +1465,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-STATE CAMPAIGN": {
-            "color": "#4ECDC4",
+           
             "sum": 74,
             "brands": {
               "INFORMATION&PUBLIC RELATION DEPARTMENT": {
@@ -1480,7 +1481,7 @@ export const sectorData = {
         "sum": 93,
         "categories": {
           "RETAIL GARMENTS": {
-            "color": "#4ECDC4",
+           
             "sum": 16,
             "brands": {
               "COTTON FAB": {
@@ -1490,7 +1491,7 @@ export const sectorData = {
             }
           },
           "RETAIL-GARMENTS": {
-            "color": "#4ECDC4",
+           
             "sum": 77,
             "brands": {
               "COTTON FAB": {
@@ -1506,7 +1507,7 @@ export const sectorData = {
         "sum": 2,
         "categories": {
           "TRAVEL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 2,
             "brands": {
               "UNIMONI": {
@@ -1524,7 +1525,7 @@ export const sectorData = {
         "sum": 453,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 453,
             "brands": {
               "AGD GOLD&DIAMONDS": {
@@ -1560,7 +1561,7 @@ export const sectorData = {
         "sum": 96,
         "categories": {
           "AUTOMOBILE-DEALERS": {
-            "color": "#4ECDC4",
+           
             "sum": 96,
             "brands": {
               "MG MOTOR INDIA": {
@@ -1576,7 +1577,7 @@ export const sectorData = {
         "sum": 857,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 1,
             "brands": {
               "MYG FUTURE": {
@@ -1586,7 +1587,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 284,
             "brands": {
               "BPL": {
@@ -1608,7 +1609,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-ELECTRONICS": {
-            "color": "#4ECDC4",
+           
             "sum": 251,
             "brands": {
               "GOPU NANDILATH G MART": {
@@ -1622,7 +1623,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LAPTOP": {
-            "color": "#4ECDC4",
+           
             "sum": 143,
             "brands": {
               "AJMAL BISMI": {
@@ -1632,7 +1633,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-LED TV": {
-            "color": "#4ECDC4",
+           
             "sum": 59,
             "brands": {
               "AJMAL BISMI": {
@@ -1642,7 +1643,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-REFRIGERATOR": {
-            "color": "#4ECDC4",
+           
             "sum": 60,
             "brands": {
               "AJMAL BISMI": {
@@ -1652,7 +1653,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SMART PHONE": {
-            "color": "#4ECDC4",
+           
             "sum": 59,
             "brands": {
               "AJMAL BISMI": {
@@ -1668,7 +1669,7 @@ export const sectorData = {
         "sum": 29,
         "categories": {
           "ONLINE BOOK STORE": {
-            "color": "#4ECDC4",
+           
             "sum": 29,
             "brands": {
               "MATHRUBHUMI BOOKS": {
@@ -1684,7 +1685,7 @@ export const sectorData = {
         "sum": 32,
         "categories": {
           "EDUCATION": {
-            "color": "#4ECDC4",
+           
             "sum": 32,
             "brands": {
               "DR.AMBEDKAR INTERNATIONAL CENTRE": {
@@ -1708,7 +1709,7 @@ export const sectorData = {
         "sum": 155,
         "categories": {
           "CONTEST": {
-            "color": "#4ECDC4",
+           
             "sum": 54,
             "brands": {
               "GOVT OF KERALA": {
@@ -1722,7 +1723,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-CRICKET": {
-            "color": "#4ECDC4",
+           
             "sum": 40,
             "brands": {
               "CELEBRITY CRICKETERS FRATERNITY": {
@@ -1732,7 +1733,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-MOVIE": {
-            "color": "#4ECDC4",
+           
             "sum": 10,
             "brands": {
               "ALAPPUZHA GYMKHANA": {
@@ -1742,7 +1743,7 @@ export const sectorData = {
             }
           },
           "LOTTERY TICKET": {
-            "color": "#4ECDC4",
+           
             "sum": 39,
             "brands": {
               "GOVT OF KERALA": {
@@ -1752,7 +1753,7 @@ export const sectorData = {
             }
           },
           "PROGRAM": {
-            "color": "#4ECDC4",
+           
             "sum": 12,
             "brands": {
               "CLUB FM": {
@@ -1768,7 +1769,7 @@ export const sectorData = {
         "sum": 113,
         "categories": {
           "DAIRY PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 54,
             "brands": {
               "MURALYA DAIRY": {
@@ -1778,7 +1779,7 @@ export const sectorData = {
             }
           },
           "FOOD&BEVERAGES": {
-            "color": "#4ECDC4",
+           
             "sum": 59,
             "brands": {
               "HOTEL PRESIDENCY KOCHI": {
@@ -1794,7 +1795,7 @@ export const sectorData = {
         "sum": 95,
         "categories": {
           "MEDICAL EQUIPMENTS&SUPPLIES": {
-            "color": "#4ECDC4",
+           
             "sum": 45,
             "brands": {
               "DDRC AGILUS": {
@@ -1804,7 +1805,7 @@ export const sectorData = {
             }
           },
           "SERVICES-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 50,
             "brands": {
               "APOLLO ATLAS HOSPITAL": {
@@ -1824,7 +1825,7 @@ export const sectorData = {
         "sum": 84,
         "categories": {
           "HOUSEHOLD PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 84,
             "brands": {
               "PITTAPILLIL AGENCIES": {
@@ -1840,7 +1841,7 @@ export const sectorData = {
         "sum": 186,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 186,
             "brands": {
               "EURO GUARD": {
@@ -1856,7 +1857,7 @@ export const sectorData = {
         "sum": 36,
         "categories": {
           "CABLE SERVICE PROVIDER": {
-            "color": "#4ECDC4",
+           
             "sum": 36,
             "brands": {
               "ASIANET": {
@@ -1872,7 +1873,7 @@ export const sectorData = {
         "sum": 326,
         "categories": {
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 316,
             "brands": {
               "GOVT OF INDIA": {
@@ -1894,7 +1895,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICES-AD": {
-            "color": "#4ECDC4",
+           
             "sum": 1,
             "brands": {
               "GOVT OF KERALA": {
@@ -1904,7 +1905,7 @@ export const sectorData = {
             }
           },
           "SKILL DEVELOPMENT PROGRAMS": {
-            "color": "#4ECDC4",
+           
             "sum": 9,
             "brands": {
               "GOVT OF KERALA": {
@@ -1920,7 +1921,7 @@ export const sectorData = {
         "sum": 225,
         "categories": {
           "CLOTHING": {
-            "color": "#4ECDC4",
+           
             "sum": 72,
             "brands": {
               "PULIMOOTTIL SILKS": {
@@ -1930,7 +1931,7 @@ export const sectorData = {
             }
           },
           "RETAIL GARMENTS": {
-            "color": "#4ECDC4",
+           
             "sum": 69,
             "brands": {
               "COTTON FAB": {
@@ -1940,7 +1941,7 @@ export const sectorData = {
             }
           },
           "TEXTILES&APPARELS": {
-            "color": "#4ECDC4",
+           
             "sum": 84,
             "brands": {
               "BRIDA": {
@@ -1960,7 +1961,7 @@ export const sectorData = {
         "sum": 614,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 614,
             "brands": {
               "ARABIAN GOLD&DIAMONDS JEWELRY": {
@@ -1996,7 +1997,7 @@ export const sectorData = {
         "sum": 192,
         "categories": {
           "AUTOMOBILE-CAR": {
-            "color": "#4ECDC4",
+           
             "sum": 192,
             "brands": {
               "HYUNDAI": {
@@ -2016,7 +2017,7 @@ export const sectorData = {
         "sum": 125,
         "categories": {
           "BUILDING MATERIALS": {
-            "color": "#4ECDC4",
+           
             "sum": 125,
             "brands": {
               "CHETTINAD CONSTRUCTION": {
@@ -2032,7 +2033,7 @@ export const sectorData = {
         "sum": 264,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 180,
             "brands": {
               "MYG FUTURE": {
@@ -2042,7 +2043,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 44,
             "brands": {
               "BPL": {
@@ -2056,7 +2057,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SMART PHONE": {
-            "color": "#4ECDC4",
+           
             "sum": 40,
             "brands": {
               "MYG FUTURE": {
@@ -2072,7 +2073,7 @@ export const sectorData = {
         "sum": 95,
         "categories": {
           "EDUCATION": {
-            "color": "#4ECDC4",
+           
             "sum": 95,
             "brands": {
               "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
@@ -2100,7 +2101,7 @@ export const sectorData = {
         "sum": 249,
         "categories": {
           "ENTERTAINMENT": {
-            "color": "#4ECDC4",
+           
             "sum": 47,
             "brands": {
               "MALAYALA MANORAMA": {
@@ -2110,7 +2111,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-AMUSEMENT PARK": {
-            "color": "#4ECDC4",
+           
             "sum": 123,
             "brands": {
               "FUNTURA": {
@@ -2124,7 +2125,7 @@ export const sectorData = {
             }
           },
           "PUBLICATIONS": {
-            "color": "#4ECDC4",
+           
             "sum": 26,
             "brands": {
               "KARSHAKASREE": {
@@ -2138,7 +2139,7 @@ export const sectorData = {
             }
           },
           "RADIO": {
-            "color": "#4ECDC4",
+           
             "sum": 46,
             "brands": {
               "MANGO FM": {
@@ -2154,7 +2155,7 @@ export const sectorData = {
         "sum": 50,
         "categories": {
           "MICROFINANCE": {
-            "color": "#4ECDC4",
+           
             "sum": 50,
             "brands": {
               "MUTHOOT FINANCE": {
@@ -2170,7 +2171,7 @@ export const sectorData = {
         "sum": 35,
         "categories": {
           "FOOD&BEVERAGES": {
-            "color": "#4ECDC4",
+           
             "sum": 35,
             "brands": {
               "PALAT FOODS": {
@@ -2186,7 +2187,7 @@ export const sectorData = {
         "sum": 58,
         "categories": {
           "SERVICES-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 58,
             "brands": {
               "FUTUREACE HOSPITAL": {
@@ -2210,7 +2211,7 @@ export const sectorData = {
         "sum": 227,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 227,
             "brands": {
               "AQUA STAR": {
@@ -2230,7 +2231,7 @@ export const sectorData = {
         "sum": 63,
         "categories": {
           "PETROLEUM PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 63,
             "brands": {
               "NAYARA ENERGY PETROL PUMP": {
@@ -2246,7 +2247,7 @@ export const sectorData = {
         "sum": 76,
         "categories": {
           "AWARENESS": {
-            "color": "#4ECDC4",
+           
             "sum": 3,
             "brands": {
               "RBI": {
@@ -2256,7 +2257,7 @@ export const sectorData = {
             }
           },
           "INAUGURATION": {
-            "color": "#4ECDC4",
+           
             "sum": 30,
             "brands": {
               "GOVT OF KERALA": {
@@ -2266,7 +2267,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 43,
             "brands": {
               "GOVT OF KERALA": {
@@ -2286,7 +2287,7 @@ export const sectorData = {
         "sum": 16,
         "categories": {
           "RETAIL GARMENTS": {
-            "color": "#4ECDC4",
+           
             "sum": 16,
             "brands": {
               "COTTON FAB": {
@@ -2304,7 +2305,7 @@ export const sectorData = {
         "sum": 229,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 229,
             "brands": {
               "BHIMA GOLD&DIAMONDS": {
@@ -2336,7 +2337,7 @@ export const sectorData = {
         "sum": 12,
         "categories": {
           "AUTOMOBILE-CAR": {
-            "color": "#4ECDC4",
+           
             "sum": 12,
             "brands": {
               "KIA": {
@@ -2352,7 +2353,7 @@ export const sectorData = {
         "sum": 200,
         "categories": {
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 119,
             "brands": {
               "KELVINATOR": {
@@ -2370,7 +2371,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-REFRIGERATOR": {
-            "color": "#4ECDC4",
+           
             "sum": 23,
             "brands": {
               "LG": {
@@ -2380,7 +2381,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SOLAR PANELS": {
-            "color": "#4ECDC4",
+           
             "sum": 58,
             "brands": {
               "RAYZON SOLAR": {
@@ -2396,7 +2397,7 @@ export const sectorData = {
         "sum": 53,
         "categories": {
           "CONTEST": {
-            "color": "#4ECDC4",
+           
             "sum": 11,
             "brands": {
               "GOVT OF KERALA": {
@@ -2406,7 +2407,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT": {
-            "color": "#4ECDC4",
+           
             "sum": 42,
             "brands": {
               "MIRCHI FM": {
@@ -2426,7 +2427,7 @@ export const sectorData = {
         "sum": 140,
         "categories": {
           "BANKING AND FINANCIAL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 58,
             "brands": {
               "CANARA BANK": {
@@ -2436,7 +2437,7 @@ export const sectorData = {
             }
           },
           "FINANCE-APPLICATION": {
-            "color": "#4ECDC4",
+           
             "sum": 38,
             "brands": {
               "BHIM": {
@@ -2446,7 +2447,7 @@ export const sectorData = {
             }
           },
           "FINANCE-INSURANCE": {
-            "color": "#4ECDC4",
+           
             "sum": 44,
             "brands": {
               "LIC": {
@@ -2462,7 +2463,7 @@ export const sectorData = {
         "sum": 43,
         "categories": {
           "HEALTH DRINK": {
-            "color": "#4ECDC4",
+           
             "sum": 43,
             "brands": {
               "ORS": {
@@ -2478,7 +2479,7 @@ export const sectorData = {
         "sum": 10,
         "categories": {
           "SERVICES-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 10,
             "brands": {
               "RAJAGIRI HOSPITAL": {
@@ -2494,7 +2495,7 @@ export const sectorData = {
         "sum": 34,
         "categories": {
           "CLEANING PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 34,
             "brands": {
               "VETO": {
@@ -2510,7 +2511,7 @@ export const sectorData = {
         "sum": 103,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 103,
             "brands": {
               "EURO GUARD": {
@@ -2526,7 +2527,7 @@ export const sectorData = {
         "sum": 32,
         "categories": {
           "SKINCARE": {
-            "color": "#4ECDC4",
+           
             "sum": 32,
             "brands": {
               "SAIBON": {
@@ -2542,7 +2543,7 @@ export const sectorData = {
         "sum": 96,
         "categories": {
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 96,
             "brands": {
               "GOVT OF KERALA": {
@@ -2566,7 +2567,7 @@ export const sectorData = {
         "sum": 16,
         "categories": {
           "AIRLINES": {
-            "color": "#4ECDC4",
+           
             "sum": 4,
             "brands": {
               "VIETJET": {
@@ -2576,7 +2577,7 @@ export const sectorData = {
             }
           },
           "TRAVEL&TOURISM": {
-            "color": "#4ECDC4",
+           
             "sum": 12,
             "brands": {
               "GOVT OF UTTARAKHAND": {
@@ -2594,7 +2595,7 @@ export const sectorData = {
         "sum": 1315,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 1315,
             "brands": {
               "ANASWARA JEWELLERS": {
@@ -2634,7 +2635,7 @@ export const sectorData = {
         "sum": 352,
         "categories": {
           "AUTOMOBILE-ACCESSORIES": {
-            "color": "#4ECDC4",
+           
             "sum": 187,
             "brands": {
               "BIG WHEELS": {
@@ -2648,7 +2649,7 @@ export const sectorData = {
             }
           },
           "AUTOMOBILE-CAR": {
-            "color": "#4ECDC4",
+           
             "sum": 165,
             "brands": {
               "FORD INDIA": {
@@ -2668,7 +2669,7 @@ export const sectorData = {
         "sum": 214,
         "categories": {
           "BUILDING MATERIALS": {
-            "color": "#4ECDC4",
+           
             "sum": 154,
             "brands": {
               "BHARTHI CEMENT": {
@@ -2682,7 +2683,7 @@ export const sectorData = {
             }
           },
           "BUILDING MATERIALS-CONSTRUCTIONS": {
-            "color": "#4ECDC4",
+           
             "sum": 60,
             "brands": {
               "BHARTHI CEMENT": {
@@ -2702,7 +2703,7 @@ export const sectorData = {
         "sum": 647,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 373,
             "brands": {
               "MYG FUTURE": {
@@ -2712,7 +2713,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 164,
             "brands": {
               "BPL": {
@@ -2734,7 +2735,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SMART PHONE": {
-            "color": "#4ECDC4",
+           
             "sum": 7,
             "brands": {
               "MYG FUTURE": {
@@ -2744,7 +2745,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-SOLAR PANELS": {
-            "color": "#4ECDC4",
+           
             "sum": 103,
             "brands": {
               "RAYZON SOLAR": {
@@ -2760,7 +2761,7 @@ export const sectorData = {
         "sum": 24,
         "categories": {
           "RETAIL CHAIN": {
-            "color": "#4ECDC4",
+           
             "sum": 24,
             "brands": {
               "PITTAPPILLIL AGENCIES": {
@@ -2776,7 +2777,7 @@ export const sectorData = {
         "sum": 26,
         "categories": {
           "EDUCATION": {
-            "color": "#4ECDC4",
+           
             "sum": 26,
             "brands": {
               "NISAU&EDROOTS": {
@@ -2796,7 +2797,7 @@ export const sectorData = {
         "sum": 550,
         "categories": {
           "ENTERTAIMENT-TELEVISION": {
-            "color": "#4ECDC4",
+           
             "sum": 11,
             "brands": {
               "SURYA TV": {
@@ -2806,7 +2807,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-AMUSEMENT PARK": {
-            "color": "#4ECDC4",
+           
             "sum": 197,
             "brands": {
               "SILVER STORM": {
@@ -2820,7 +2821,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-MOVIE": {
-            "color": "#4ECDC4",
+           
             "sum": 15,
             "brands": {
               "CAKE STORY": {
@@ -2830,7 +2831,7 @@ export const sectorData = {
             }
           },
           "RADIO BROADCASTING": {
-            "color": "#4ECDC4",
+           
             "sum": 1,
             "brands": {
               "RED FM": {
@@ -2840,7 +2841,7 @@ export const sectorData = {
             }
           },
           "RADIO-SHOW": {
-            "color": "#4ECDC4",
+           
             "sum": 282,
             "brands": {
               "RED FM": {
@@ -2850,7 +2851,7 @@ export const sectorData = {
             }
           },
           "TELEVISION": {
-            "color": "#4ECDC4",
+           
             "sum": 35,
             "brands": {
               "SURYA TV": {
@@ -2866,7 +2867,7 @@ export const sectorData = {
         "sum": 332,
         "categories": {
           "FINANCE-APPLICATION": {
-            "color": "#4ECDC4",
+           
             "sum": 93,
             "brands": {
               "BHIM": {
@@ -2876,7 +2877,7 @@ export const sectorData = {
             }
           },
           "FINANCE-BANK": {
-            "color": "#4ECDC4",
+           
             "sum": 1,
             "brands": {
               "FEDERAL BANK": {
@@ -2886,7 +2887,7 @@ export const sectorData = {
             }
           },
           "FINANCE-BANKING": {
-            "color": "#4ECDC4",
+           
             "sum": 150,
             "brands": {
               "CANARA BANK": {
@@ -2900,7 +2901,7 @@ export const sectorData = {
             }
           },
           "FINANCIAL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 88,
             "brands": {
               "UNIMONI": {
@@ -2916,7 +2917,7 @@ export const sectorData = {
         "sum": 520,
         "categories": {
           "FMCG-FOOD PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 405,
             "brands": {
               "HEALTHY GROCER": {
@@ -2930,7 +2931,7 @@ export const sectorData = {
             }
           },
           "FMCG-FOOD&BEVERAGES": {
-            "color": "#4ECDC4",
+           
             "sum": 115,
             "brands": {
               "HEALTHY GROCER": {
@@ -2946,7 +2947,7 @@ export const sectorData = {
         "sum": 357,
         "categories": {
           "SERVICE-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 9,
             "brands": {
               "RAJAGIRI HOSPITAL": {
@@ -2956,10 +2957,10 @@ export const sectorData = {
             }
           },
           "SERVICES-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 348,
             "brands": {
-              "K P PATHROSE VAIDYAN'S": {
+              "K P PATHROSE VAIDYAN": {
                 "sum": 193,
                 "products": []
               },
@@ -2980,7 +2981,7 @@ export const sectorData = {
         "sum": 279,
         "categories": {
           "HOME FURNISHING-SANITARY FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 64,
             "brands": {
               "KARTAR BATH FITTINGS": {
@@ -2990,7 +2991,7 @@ export const sectorData = {
             }
           },
           "HOUSEHOLD PRODUCTS-HOME FURNISHING": {
-            "color": "#4ECDC4",
+           
             "sum": 158,
             "brands": {
               "AMMINI TRADERS": {
@@ -3000,7 +3001,7 @@ export const sectorData = {
             }
           },
           "HOUSEHOLD PRODUCTS-MATTRESS": {
-            "color": "#4ECDC4",
+           
             "sum": 48,
             "brands": {
               "EMMA MATTRESS": {
@@ -3010,7 +3011,7 @@ export const sectorData = {
             }
           },
           "SPIRITUALITY PRODUCTS-HOME FURNISHING": {
-            "color": "#4ECDC4",
+           
             "sum": 9,
             "brands": {
               "DEVDARSHAN DHOOP": {
@@ -3026,7 +3027,7 @@ export const sectorData = {
         "sum": 207,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 207,
             "brands": {
               "AQUA STAR": {
@@ -3046,7 +3047,7 @@ export const sectorData = {
         "sum": 302,
         "categories": {
           "MANUFACTURING-INDUSTRIAL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 302,
             "brands": {
               "VARSHA": {
@@ -3070,7 +3071,7 @@ export const sectorData = {
         "sum": 69,
         "categories": {
           "PETROLEUM PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 69,
             "brands": {
               "NAYARA ENERGY PETROL PUMP": {
@@ -3086,7 +3087,7 @@ export const sectorData = {
         "sum": 40,
         "categories": {
           "PROPERTY-COMMERCIAL": {
-            "color": "#4ECDC4",
+           
             "sum": 40,
             "brands": {
               "CHITTILAPPILLY": {
@@ -3102,7 +3103,7 @@ export const sectorData = {
         "sum": 201,
         "categories": {
           "AWARENESS": {
-            "color": "#4ECDC4",
+           
             "sum": 51,
             "brands": {
               "RBI": {
@@ -3116,7 +3117,7 @@ export const sectorData = {
             }
           },
           "INAUGURATION": {
-            "color": "#4ECDC4",
+           
             "sum": 30,
             "brands": {
               "GOVT OF KERALA": {
@@ -3126,7 +3127,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 36,
             "brands": {
               "GOVT OF KERALA": {
@@ -3140,7 +3141,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-BANKING": {
-            "color": "#4ECDC4",
+           
             "sum": 68,
             "brands": {
               "SBI": {
@@ -3150,7 +3151,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS-ROAD SAFETY": {
-            "color": "#4ECDC4",
+           
             "sum": 16,
             "brands": {
               "GOVT OF KERALA": {
@@ -3166,7 +3167,7 @@ export const sectorData = {
         "sum": 20,
         "categories": {
           "TRAVEL SERVICES": {
-            "color": "#4ECDC4",
+           
             "sum": 20,
             "brands": {
               "UNIMONI": {
@@ -3184,7 +3185,7 @@ export const sectorData = {
         "sum": 405,
         "categories": {
           "ACCESSORIES-JEWELLERY": {
-            "color": "#4ECDC4",
+           
             "sum": 405,
             "brands": {
               "AGD GOLD&DIAMONDS": {
@@ -3216,7 +3217,7 @@ export const sectorData = {
         "sum": 93,
         "categories": {
           "AUTOMOBILE-DEALERS": {
-            "color": "#4ECDC4",
+           
             "sum": 93,
             "brands": {
               "MG MOTOR INDIA": {
@@ -3232,7 +3233,7 @@ export const sectorData = {
         "sum": 576,
         "categories": {
           "CONSUMER DURABLES": {
-            "color": "#4ECDC4",
+           
             "sum": 38,
             "brands": {
               "MYG FUTURE": {
@@ -3242,7 +3243,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-AIR CONDITIONER": {
-            "color": "#4ECDC4",
+           
             "sum": 119,
             "brands": {
               "BPL": {
@@ -3264,7 +3265,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-ELECTRONICS": {
-            "color": "#4ECDC4",
+           
             "sum": 348,
             "brands": {
               "IMAGE MOBILES&COMPUTERS": {
@@ -3274,7 +3275,7 @@ export const sectorData = {
             }
           },
           "CONSUMER DURABLES-REFRIGERATOR": {
-            "color": "#4ECDC4",
+           
             "sum": 1,
             "brands": {
               "AJMAL BISMI": {
@@ -3284,7 +3285,7 @@ export const sectorData = {
             }
           },
           "HOUSEHOLD PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 70,
             "brands": {
               "NOLTA": {
@@ -3300,7 +3301,7 @@ export const sectorData = {
         "sum": 60,
         "categories": {
           "ONLINE BOOK STORE": {
-            "color": "#4ECDC4",
+           
             "sum": 60,
             "brands": {
               "MATHRUBHUMI BOOKS": {
@@ -3316,7 +3317,7 @@ export const sectorData = {
         "sum": 46,
         "categories": {
           "EDUCATION": {
-            "color": "#4ECDC4",
+           
             "sum": 46,
             "brands": {
               "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
@@ -3340,7 +3341,7 @@ export const sectorData = {
         "sum": 159,
         "categories": {
           "CONTEST": {
-            "color": "#4ECDC4",
+           
             "sum": 77,
             "brands": {
               "IMAGE MOBILES&COMPUTERS": {
@@ -3350,7 +3351,7 @@ export const sectorData = {
             }
           },
           "ENTERTAINMENT-AMUSEMENT PARK": {
-            "color": "#4ECDC4",
+           
             "sum": 8,
             "brands": {
               "INTER SQUARE MALL": {
@@ -3360,7 +3361,7 @@ export const sectorData = {
             }
           },
           "LOTTERY TICKET": {
-            "color": "#4ECDC4",
+           
             "sum": 74,
             "brands": {
               "GOVT OF KERALA": {
@@ -3376,7 +3377,7 @@ export const sectorData = {
         "sum": 13,
         "categories": {
           "DAIRY PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 13,
             "brands": {
               "MURALYA DAIRY": {
@@ -3392,7 +3393,7 @@ export const sectorData = {
         "sum": 65,
         "categories": {
           "MEDICAL EQUIPMENTS&SUPPLIES": {
-            "color": "#4ECDC4",
+           
             "sum": 40,
             "brands": {
               "DDRC AGILUS": {
@@ -3402,7 +3403,7 @@ export const sectorData = {
             }
           },
           "SERVICE-MEDICAL": {
-            "color": "#4ECDC4",
+           
             "sum": 25,
             "brands": {
               "RAJAGIRI HOSPITAL": {
@@ -3418,7 +3419,7 @@ export const sectorData = {
         "sum": 48,
         "categories": {
           "HOUSEHOLD PRODUCTS": {
-            "color": "#4ECDC4",
+           
             "sum": 48,
             "brands": {
               "PITTAPILLIL AGENCIES": {
@@ -3434,7 +3435,7 @@ export const sectorData = {
         "sum": 199,
         "categories": {
           "PIPE FITTINGS": {
-            "color": "#4ECDC4",
+           
             "sum": 199,
             "brands": {
               "AQUA STAR": {
@@ -3454,7 +3455,7 @@ export const sectorData = {
         "sum": 35,
         "categories": {
           "CABLE SERVICE PROVIDER": {
-            "color": "#4ECDC4",
+           
             "sum": 35,
             "brands": {
               "ASIANET": {
@@ -3470,7 +3471,7 @@ export const sectorData = {
         "sum": 93,
         "categories": {
           "INAUGURATION": {
-            "color": "#4ECDC4",
+           
             "sum": 30,
             "brands": {
               "GOVT OF KERALA": {
@@ -3480,7 +3481,7 @@ export const sectorData = {
             }
           },
           "PUBLIC SERVICE ADS": {
-            "color": "#4ECDC4",
+           
             "sum": 49,
             "brands": {
               "GOVT OF KERALA": {
@@ -3498,7 +3499,7 @@ export const sectorData = {
             }
           },
           "SKILL DEVELOPMENT PROGRAMS": {
-            "color": "#4ECDC4",
+           
             "sum": 14,
             "brands": {
               "GOVT OF KERALA": {
@@ -3514,7 +3515,7 @@ export const sectorData = {
         "sum": 152,
         "categories": {
           "CLOTHING": {
-            "color": "#4ECDC4",
+           
             "sum": 70,
             "brands": {
               "PULIMOOTTIL SILKS": {
@@ -3524,7 +3525,7 @@ export const sectorData = {
             }
           },
           "RETAIL GARMENTS": {
-            "color": "#4ECDC4",
+           
             "sum": 10,
             "brands": {
               "COTTON FAB": {
@@ -3534,7 +3535,7 @@ export const sectorData = {
             }
           },
           "TEXTILES&APPARELS": {
-            "color": "#4ECDC4",
+           
             "sum": 72,
             "brands": {
               "BRIDA": {
