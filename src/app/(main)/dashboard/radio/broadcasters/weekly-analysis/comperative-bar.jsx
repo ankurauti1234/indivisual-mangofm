@@ -315,30 +315,30 @@ const RadioSectorAnalysis = () => {
   const [highlightedSector, setHighlightedSector] = useState(null);
 
   const sectors = {
-  "ACCESSORIES": { name: "Accessories", color: "#34D399" },               // Emerald
-  "AUTOMOBILE": { name: "Automobile", color: "#F472B6" },                 // Pink
-  "CONSTRUCTIONS": { name: "Constructions", color: "#F59E0B" },           // Amber
-  "CONSUMER DURABLES": { name: "Consumer Durables", color: "#3B82F6" },   // Blue
-  "CONSUMER ELECTRONICS INDUSTRY": { name: "Consumer Electronics Industry", color: "#8B5CF6" }, // Violet
-  "E-COMMERCE": { name: "E-Commerce", color: "#EC4899" },                 // Fuchsia
-  "EDUCATION": { name: "Education", color: "#4ADE80" },                   // Green
-  "ENTERTAINMENT": { name: "Entertainment", color: "#F87171" },           // Red
-  "FINANCE": { name: "Finance", color: "#60A5FA" },                       // Light Blue
-  "FMCG": { name: "FMCG", color: "#A78BFA" },                             // Purple
-  "HEALTHCARE": { name: "Healthcare", color: "#10B981" },                // Teal
-  "HOME FURNISHING": { name: "Home Furnishing", color: "#E879F9" },       // Orchid
-  "HOUSEHOLD PRODUCTS": { name: "Household Products", color: "#FCD34D" }, // Yellow
-  "INFRASTRUCTURE": { name: "Infrastructure", color: "#FB923C" },         // Orange
-  "INTERNET SERVICES": { name: "Internet Services", color: "#22D3EE" },   // Cyan
-  "MANUFACTURING": { name: "Manufacturing", color: "#C084FC" },           // Light Purple
-  "PERSONAL CARE": { name: "Personal Care", color: "#F87171" },           // Light Red
-  "PETROLEUM PRODUCTS": { name: "Petroleum Products", color: "#6EE7B7" }, // Mint
-  "PROPERTY": { name: "Property", color: "#FBBF24" },                     // Golden
-  "PUBLIC INTEREST": { name: "Public Interest", color: "#93C5FD" },       // Sky Blue
-  "RETAIL": { name: "Retail", color: "#FCA5A5" },                         // Salmon
-  "TECHNOLOGY": { name: "Technology", color: "#818CF8" },                 // Indigo
-  "TRAVEL&TOURISM": { name: "Travel & Tourism", color: "#FDBA74" },       // Peach
-};
+    "ACCESSORIES": { name: "Accessories", color: "#34D399" },               // Emerald
+    "AUTOMOBILE": { name: "Automobile", color: "#F472B6" },                 // Pink
+    "CONSTRUCTIONS": { name: "Constructions", color: "#F59E0B" },           // Amber
+    "CONSUMER DURABLES": { name: "Consumer Durables", color: "#3B82F6" },   // Blue
+    "CONSUMER ELECTRONICS INDUSTRY": { name: "Consumer Electronics Industry", color: "#8B5CF6" }, // Violet
+    "E-COMMERCE": { name: "E-Commerce", color: "#EC4899" },                 // Fuchsia
+    "EDUCATION": { name: "Education", color: "#4ADE80" },                   // Green
+    "ENTERTAINMENT": { name: "Entertainment", color: "#F87171" },           // Red
+    "FINANCE": { name: "Finance", color: "#60A5FA" },                       // Light Blue
+    "FMCG": { name: "FMCG", color: "#A78BFA" },                             // Purple
+    "HEALTHCARE": { name: "Healthcare", color: "#10B981" },                // Teal
+    "HOME FURNISHING": { name: "Home Furnishing", color: "#E879F9" },       // Orchid
+    "HOUSEHOLD PRODUCTS": { name: "Household Products", color: "#FCD34D" }, // Yellow
+    "INFRASTRUCTURE": { name: "Infrastructure", color: "#FB923C" },         // Orange
+    "INTERNET SERVICES": { name: "Internet Services", color: "#22D3EE" },   // Cyan
+    "MANUFACTURING": { name: "Manufacturing", color: "#C084FC" },           // Light Purple
+    "PERSONAL CARE": { name: "Personal Care", color: "#F87171" },           // Light Red
+    "PETROLEUM PRODUCTS": { name: "Petroleum Products", color: "#6EE7B7" }, // Mint
+    "PROPERTY": { name: "Property", color: "#FBBF24" },                     // Golden
+    "PUBLIC INTEREST": { name: "Public Interest", color: "#93C5FD" },       // Sky Blue
+    "RETAIL": { name: "Retail", color: "#FCA5A5" },                         // Salmon
+    "TECHNOLOGY": { name: "Technology", color: "#818CF8" },                 // Indigo
+    "TRAVEL&TOURISM": { name: "Travel & Tourism", color: "#FDBA74" },       // Peach
+  };
 
   const weeks = [
     { value: "week_1", label: "Week 16 (Apr 17-23, 2025)", shortLabel: "Week 16" },
@@ -364,7 +364,7 @@ const RadioSectorAnalysis = () => {
         ])
       ),
     },
-        RadioMirchi: {
+    RadioMirchi: {
       region: "Kochi",
       language: "malayalam",
       weekly: Object.fromEntries(
@@ -394,7 +394,6 @@ const RadioSectorAnalysis = () => {
         ])
       ),
     },
-
   };
 
   const flattenedData = Object.entries(rawData).map(([station, data]) => ({
@@ -473,7 +472,7 @@ const RadioSectorAnalysis = () => {
 
   return (
     <Card className="w-full bg-card shadow-lg rounded-lg border border-border">
-      <CardHeader className=" p-6 border-b">
+      <CardHeader className="p-6 border-b">
         <div className="flex flex-col space-y-4">
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div className="flex items-center gap-3">
@@ -617,19 +616,26 @@ const RadioSectorAnalysis = () => {
                       }
                       return (
                         <div key={weekData.week} className="relative">
-                          <div className="text-xs font-medium text-foreground mb-2">
-                            {weeks.find((w) => w.value === weekData.week)?.label}
+                          <div className="flex justify-between items-center mb-2">
+                            <div className="text-xs font-medium text-foreground">
+                              {weeks.find((w) => w.value === weekData.week)?.label}
+                            </div>
+                            <div className="text-xs font-semibold text-foreground">
+                              Total: {formatValue(totalWeekValue)}
+                            </div>
                           </div>
                           <div className="relative h-10 w-full">
                             <div className="absolute inset-y-0 w-full bg-muted rounded-md shadow-inner" />
                             <div
-                              className="relative h-full rounded-md flex shadow-sm "
+                              className="relative h-full rounded-md flex shadow-sm"
                               style={{ width: "100%" }}
                             >
                               {Object.entries(weekData.sectors)
                                 .filter(([, value]) => value > 0)
+                                .sort(([, a], [, b]) => b - a) // Sort in descending order
                                 .map(([sectorKey, value]) => {
                                   const barWidth = (value / totalWeekValue) * 100;
+                                  const percentage = ((value / totalWeekValue) * 100).toFixed(1);
                                   const isHighlighted =
                                     highlightedSector === null || highlightedSector === sectorKey;
                                   return (
@@ -643,7 +649,7 @@ const RadioSectorAnalysis = () => {
                                         opacity: isHighlighted ? 1 : 0.1,
                                         transformOrigin: "center",
                                         boxShadow: isHighlighted
-                                          ? "inset 0 0 6px rgba(0,0,0,0.15) "
+                                          ? "inset 0 0 6px rgba(0,0,0,0.15)"
                                           : "none",
                                       }}
                                     >
@@ -651,8 +657,7 @@ const RadioSectorAnalysis = () => {
                                         {formatValue(value)}
                                       </div>
                                       <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 px-2.5 py-1 bg-background text-foreground text-xs rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-200 pointer-events-none z-10">
-                                        {sectors[sectorKey]?.name || sectorKey}:{" "}
-                                        {formatValue(value)}
+                                        {sectors[sectorKey]?.name || sectorKey}: {formatValue(value)} ({percentage}%)
                                       </div>
                                     </div>
                                   );
