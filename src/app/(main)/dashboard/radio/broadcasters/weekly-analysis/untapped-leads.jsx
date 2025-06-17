@@ -20,7 +20,7 @@ const stationDataByWeek = {
       name: "Radio Mango",
       advertisers: week16.map((item) => ({
         brand: item.Brand,
-        ads: item["Radio Mango"] || 0,
+        ads: item["Mango FM"] || 0,
       })).filter((item) => item.ads > 0),
     },
     redfm: {
@@ -47,10 +47,10 @@ const stationDataByWeek = {
   },
   week17: {
     mangofm: {
-      name: "Radio Mango",
+      name: "Mango FM",
       advertisers: week17.map((item) => ({
         brand: item.Brand,
-        ads: item["Radio Mango"] || 0,
+        ads: item["Mango FM"] || 0,
       })).filter((item) => item.ads > 0),
     },
     redfm: {

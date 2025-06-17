@@ -28,16 +28,16 @@ const StatCards = () => {
       { name: "Information & Public Relation Department", value: 12471 },
     ],
     topStationsByCount: [
-      { name: "Red", value: 6620 },
-      { name: "Club", value: 2687 },
-      { name: "Mango", value: 2505 },
-      { name: "Mirchi", value: 1800 },
+      { name: "Red FM", value: 6620 },
+      { name: "Club FM", value: 2687 },
+      { name: "Radio Mango", value: 2505 },
+      { name: "Radio Mirchi", value: 1800 },
     ],
     topStationsBySeconds: [
-      { name: "Red", value: 86691 },
-      { name: "Club", value: 56491 },
-      { name: "Mango", value: 52784 },
-      { name: "Mirchi", value: 31838 },
+      { name: "Red FM", value: 86691 },
+      { name: "Club FM", value: 56491 },
+      { name: "Radio Mango", value: 52784 },
+      { name: "Radio Mirchi", value: 31838 },
     ],
   };
 
@@ -56,16 +56,16 @@ const StatCards = () => {
       { name: "Red FM", value: 7942 },
     ],
     topStationsByCount: [
-      { name: "Red", value: 5455 },
-      { name: "Mango", value: 2064 },
-      { name: "Club", value: 1944 },
-      { name: "Mirchi", value: 968 },
+      { name: "Red FM", value: 5455 },
+      { name: "Radio Mango", value: 2064 },
+      { name: "Club FM", value: 1944 },
+      { name: "Radio Mirchi", value: 968 },
     ],
     topStationsBySeconds: [
-      { name: "Red", value: 65547 },
-      { name: "Mango", value: 39461 },
-      { name: "Club", value: 40821 },
-      { name: "Mirchi", value: 14685 },
+      { name: "Red FM", value: 65547 },
+      { name: "Radio Mango", value: 39461 },
+      { name: "Club FM", value: 40821 },
+      { name: "Radio Mirchi", value: 14685 },
     ],
   };
 
