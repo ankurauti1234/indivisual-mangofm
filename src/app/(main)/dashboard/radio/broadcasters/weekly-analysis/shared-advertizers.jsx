@@ -45,18 +45,19 @@ const deriveSharedAdvertiserData = (weekData) => {
       (station) => (brandData[station.key] || 0) > 0
     ).length;
 
-    if (activeStations >= 2 && totalSpend > 0) {
-      sharedData[brand] = {
-        name: brand,
-        data: stations.map((station) => ({
-          station: station.name,
-          percentage:
-            totalSpend > 0
-              ? Math.round(((brandData[station.key] || 0) / totalSpend) * 100)
-              : 0,
-        })),
-      };
-    }
+ if (activeStations >= 2 && totalSpend > 0) {
+  sharedData[brand] = {
+    name: brand,
+    data: stations.map((station) => ({
+      station: station.name,
+      percentage:
+        totalSpend > 0
+          ? Number(((brandData[station.key] || 0) / totalSpend * 100).toFixed(2))
+          : 0,
+    })),
+  };
+}
+
   });
 
   return sharedData;
@@ -75,7 +76,7 @@ const majorAdvertisers = Object.keys(sharedAdvertiserData.week16).filter(
 
 // Chart configuration with distinct colors for each station
 const chartConfig = {
-  mangofm: { label: "Mango FM", color: "hsl(var(--chart-1))" }, // Blue
+  mangofm: { label: "Radio Mango", color: "hsl(var(--chart-1))" }, // Blue
   redfm: { label: "Red FM", color: "hsl(var(--chart-2))" }, // Green
   clubfm: { label: "Club FM", color: "hsl(var(--chart-3))" }, // Yellow
   radiomirchi: { label: "Radio Mirchi", color: "hsl(var(--chart-4))" }, // Purple
@@ -125,13 +126,22 @@ export default function SharedAdvertisers() {
   };
 
   // Calculate dynamic bar size based on number of selected advertisers
-  const dynamicBarSize = Math.max(40, 600 / (chartData.length || 1));
+  const isAllSelected = selectedAdvertisers.length === majorAdvertisers.length;
+  const dynamicBarSize = isAllSelected
+    ? Math.max(60, 800 / (chartData.length || 1)) // Increase bar size when all selected
+    : Math.max(40, 600 / (chartData.length || 1));
 
   // Truncate and format Y-axis labels
   const truncateLabel = (value) => {
     const maxLength = 15; // Adjust as needed
     const label = sharedAdvertiserData[selectedWeek][value].name;
     return label.length > maxLength ? `${label.substring(0, maxLength)}...` : label;
+  };
+
+  // Custom tooltip formatter to hide stations with 0% share
+  const customTooltipFormatter = (value, name, props) => {
+    if (value === 0) return null; // Skip stations with 0% share
+    return [formatPercentage(value), `Station: ${chartConfig[name]?.label || name}`];
   };
 
   return (
@@ -154,7 +164,7 @@ export default function SharedAdvertisers() {
           </Select>
           <Select value="">
             <SelectTrigger className="w-48">
-              <SelectValue 
+              <SelectValue
                 placeholder={
                   selectedAdvertisers.length === majorAdvertisers.length
                     ? "All Advertisers"
@@ -166,13 +176,13 @@ export default function SharedAdvertisers() {
             </SelectTrigger>
             <SelectContent>
               <div className="flex justify-between px-2 py-1">
-                <button 
+                <button
                   className="text-sm text-blue-600 hover:underline"
                   onClick={handleSelectAll}
                 >
                   Select All
                 </button>
-                <button 
+                <button
                   className="text-sm text-blue-600 hover:underline"
                   onClick={handleClearAll}
                 >
@@ -196,7 +206,7 @@ export default function SharedAdvertisers() {
         </div>
       }
       chart={
-        <ChartContainer config={chartConfig} className="min-h-64 h-[600px] w-full">
+        <ChartContainer config={chartConfig} className="min-h-64 h-[800px] w-full">
           <BarChart
             accessibilityLayer
             data={chartData}
@@ -205,7 +215,7 @@ export default function SharedAdvertisers() {
               top: 16,
               right: 16,
               bottom: 16,
-              left: 100,
+              left: 16,
             }}
           >
             <CartesianGrid horizontal={false} />
@@ -217,7 +227,7 @@ export default function SharedAdvertisers() {
               axisLine={false}
               tickFormatter={truncateLabel}
               width={90}
-              tick={{ fontSize: 10 }} // Smaller font size
+              tick={{ fontSize: 10 }}
             />
             <XAxis
               type="number"
@@ -232,10 +242,8 @@ export default function SharedAdvertisers() {
               content={
                 <ChartTooltipContent
                   valueFormatter={formatPercentage}
-                  formatter={(value, name) => [
-                    formatPercentage(value),
-                    `Station: ${chartConfig[name]?.label || name}`,
-                  ]}
+                  formatter={customTooltipFormatter}
+                  filterNull={true} // Ensure null values are filtered out
                 />
               }
             />
@@ -248,9 +256,9 @@ export default function SharedAdvertisers() {
               barSize={dynamicBarSize}
               hide={chartData.every((data) => data.mangofm === 0)}
             >
-              <LabelList 
-                dataKey="mangofm" 
-                position="center" 
+              <LabelList
+                dataKey="mangofm"
+                position="center"
                 formatter={formatPercentage}
                 fill="#fff"
                 fontSize={12}
@@ -264,9 +272,9 @@ export default function SharedAdvertisers() {
               barSize={dynamicBarSize}
               hide={chartData.every((data) => data.redfm === 0)}
             >
-              <LabelList 
-                dataKey="redfm" 
-                position="center" 
+              <LabelList
+                dataKey="redfm"
+                position="center"
                 formatter={formatPercentage}
                 fill="#fff"
                 fontSize={12}
@@ -280,9 +288,9 @@ export default function SharedAdvertisers() {
               barSize={dynamicBarSize}
               hide={chartData.every((data) => data.clubfm === 0)}
             >
-              <LabelList 
-                dataKey="clubfm" 
-                position="center" 
+              <LabelList
+                dataKey="clubfm"
+                position="center"
                 formatter={formatPercentage}
                 fill="#fff"
                 fontSize={12}
@@ -296,9 +304,9 @@ export default function SharedAdvertisers() {
               barSize={dynamicBarSize}
               hide={chartData.every((data) => data.radiomirchi === 0)}
             >
-              <LabelList 
-                dataKey="radiomirchi" 
-                position="center" 
+              <LabelList
+                dataKey="radiomirchi"
+                position="center"
                 formatter={formatPercentage}
                 fill="#fff"
                 fontSize={12}
@@ -308,7 +316,7 @@ export default function SharedAdvertisers() {
         </ChartContainer>
       }
       footer={
-        <p className="text10sm text-gray-500">
+        <p className="text-sm text-gray-500">
           Showing ad spend distribution for{" "}
           {selectedAdvertisers.length === majorAdvertisers.length
             ? "all shared advertisers"

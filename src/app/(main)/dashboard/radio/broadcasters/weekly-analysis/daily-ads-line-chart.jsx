@@ -234,14 +234,14 @@ export default function DailyAdsLineChart() {
   // Generate description based on selected weeks
   const getDescription = () => {
     if (selectedWeeks.length === 1) {
-      return `${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Counts"} per Day - ${
+      return `${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Plays"} per Day - ${
         selectedWeeks[0] === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"
       } 2024`;
     }
     const weekNames = selectedWeeks.map((week) =>
       week === "week16" ? "Week 16 (Apr 17-23)" : "Week 17 (Apr 24-30)"
     );
-    return `${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Counts"} per Day - ${weekNames.join(" and ")} 2024`;
+    return `${showSeconds ? "Total Ad Duration (seconds)" : "Total Ad Plays"} per Day - ${weekNames.join(" and ")} 2024`;
   };
 
   return (
@@ -253,7 +253,7 @@ export default function DailyAdsLineChart() {
         <div className="flex justify-end space-x-4 items-center">
           <div className="flex items-center space-x-2">
             <Switch id="unit-toggle" checked={showSeconds} onCheckedChange={setShowSeconds} />
-            <Label htmlFor="unit-toggle">{showSeconds ? "Seconds" : "Counts"}</Label>
+            <Label htmlFor="unit-toggle">{showSeconds ? "Seconds" : "Plays"}</Label>
           </div>
           <Select>
             <SelectTrigger className="w-48">

@@ -31,7 +31,7 @@ const newAdvertiserData = {
     ]
   },
   mangofm: {
-    name: "Mango FM",
+    name: "Radio Mango",
     advertisers: [
       "AQUA STAR",
       "BPL",
@@ -74,7 +74,7 @@ const newAdvertiserData = {
 // Available stations
 const stationOptions = [
   { value: "clubfm", label: "Club FM" },
-  { value: "mangofm", label: "Mango FM" },
+  { value: "mangofm", label: "Radio Mango" },
   { value: "radiomirchi", label: "Radio Mirchi" },
   { value: "redfm", label: "Red FM" }
 ];

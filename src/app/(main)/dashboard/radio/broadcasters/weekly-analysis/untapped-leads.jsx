@@ -17,10 +17,10 @@ import { Button } from "@/components/ui/button";
 const stationDataByWeek = {
   week16: {
     mangofm: {
-      name: "Mango FM",
+      name: "Radio Mango",
       advertisers: week16.map((item) => ({
         brand: item.Brand,
-        ads: item["Mango FM"] || 0,
+        ads: item["Radio Mango"] || 0,
       })).filter((item) => item.ads > 0),
     },
     redfm: {
@@ -47,10 +47,10 @@ const stationDataByWeek = {
   },
   week17: {
     mangofm: {
-      name: "Mango FM",
+      name: "Radio Mango",
       advertisers: week17.map((item) => ({
         brand: item.Brand,
-        ads: item["Mango FM"] || 0,
+        ads: item["Radio Mango"] || 0,
       })).filter((item) => item.ads > 0),
     },
     redfm: {
@@ -79,7 +79,7 @@ const stationDataByWeek = {
 
 // List of stations
 const stationOptions = [
-  { value: "mangofm", label: "Mango FM" },
+  { value: "mangofm", label: "Radio Mango" },
   { value: "redfm", label: "Red FM" },
   { value: "clubfm", label: "Club FM" },
   { value: "radiomirchi", label: "Radio Mirchi" },
@@ -139,7 +139,7 @@ export default function UntappedLeads() {
   );
 
   const formatCurrency = (value) => {
-    return `${value} Spots`; // Adjust based on what the numbers represent
+    return `${value} Plays`; // Adjust based on what the numbers represent
   };
 
   const handleStationChange = (value) => {
@@ -195,7 +195,7 @@ export default function UntappedLeads() {
               <tr>
                 <th scope="col" className="px-6 py-3">Brand</th>
                 <th scope="col" className="px-6 py-3">Competitor Stations</th>
-                <th scope="col" className="px-6 py-3">Spots</th>
+                <th scope="col" className="px-6 py-3">Plays</th>
               </tr>
             </thead>
             <tbody>

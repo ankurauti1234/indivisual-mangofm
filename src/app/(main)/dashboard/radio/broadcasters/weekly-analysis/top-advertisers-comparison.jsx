@@ -193,7 +193,7 @@ export default function TopAdvertisersComparison() {
   );
 
   const formatCurrency = (value) => {
-    return `${value} Spots`; // Adjust based on what the numbers represent
+    return `${value} Plays`; // Adjust based on what the numbers represent
   };
 
   const handleAdvertiserSelectChange = (value) => {
@@ -248,7 +248,7 @@ export default function TopAdvertisersComparison() {
               <TableHeader>
                 <TableRow>
                   <TableHead>Advertiser</TableHead>
-                  <TableHead>Mango FM</TableHead>
+                  <TableHead>Radio Mango</TableHead>
                   <TableHead>Red FM</TableHead>
                   <TableHead>Club FM</TableHead>
                   <TableHead>Radio Mirchi</TableHead>
