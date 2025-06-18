@@ -19,12 +19,8 @@ const newAdvertiserData = {
     name: "Club FM",
     advertisers: [
       "AQUA STAR",
-      "BPL",
-      "Euro Guard",
       "INTER SQUARE MALL",
       "KCG COLLEGE OF TECHNOLOGY",
-      "KELVINATOR",
-      "MATHRUBHUMI BOOKS",
       "NOLTA",
       "RAJAGIRI HOSPITAL",
       "SBI"
@@ -34,12 +30,9 @@ const newAdvertiserData = {
     name: "Radio Mango",
     advertisers: [
       "AQUA STAR",
-      "BPL",
       "CENTER SQURE MALL",
       "FUTUREACE HOSPITAL",
-      "KELVINATOR",
       "MUTHOOT FINANCE",
-      "NISAU & EDROOTS",
       "VANITHA JEWELLERY",
       "WELCARE HOSPITAL"
     ]
@@ -48,23 +41,19 @@ const newAdvertiserData = {
     name: "Radio Mirchi",
     advertisers: [
       "GOVT OF UTTARAKHAND",
-      "KELVINATOR",
       "ORS",
       "RAJAGIRI HOSPITAL",
-      "VETO",
-      "WHF"
+      "VETO"
     ]
   },
   redfm: {
     name: "Red FM",
     advertisers: [
       "AQUA STAR",
-      "BPL",
       "CENTER SQURE MALL",
       "FEDARAL BANK",
       "KELVINATOR",
       "NISAU & EDROOTS",
-      "PITTAPPILLIL AGENCIES",
       "RAJAGIRI HOSPITAL",
       "SURYA TV"
     ]
