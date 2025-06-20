@@ -28,7 +28,7 @@ const deriveSharedAdvertiserData = (weekData) => {
   brands.forEach((brand) => {
     const brandData = weekData.find((item) => item.Brand === brand);
     const stations = [
-      { name: "Mango FM", key: "Mango FM" },
+      { name: "Radio Mango", key: "Radio Mango" },
       { name: "Red FM", key: "Red FM" },
       { name: "Club FM", key: "Club FM" },
       { name: "Radio Mirchi", key: "Radio Mirchi" },
@@ -76,7 +76,7 @@ const majorAdvertisers = Object.keys(sharedAdvertiserData.week16).filter(
 
 // Chart configuration with distinct colors for each station
 const chartConfig = {
-  mangofm: { label: "Radio Mango", color: "hsl(var(--chart-1))" }, // Blue
+  radiomango: { label: "Radio Mango", color: "hsl(var(--chart-1))" }, // Blue
   redfm: { label: "Red FM", color: "hsl(var(--chart-2))" }, // Green
   clubfm: { label: "Club FM", color: "hsl(var(--chart-3))" }, // Yellow
   radiomirchi: { label: "Radio Mirchi", color: "hsl(var(--chart-4))" }, // Purple
@@ -249,15 +249,15 @@ export default function SharedAdvertisers() {
             />
             <Legend />
             <Bar
-              dataKey="mangofm"
+              dataKey="radiomango"
               stackId="a"
-              fill={chartConfig.mangofm.color}
-              name={chartConfig.mangofm.label}
+              fill={chartConfig.radiomango.color}
+              name={chartConfig.radiomango.label}
               barSize={dynamicBarSize}
-              hide={chartData.every((data) => data.mangofm === 0)}
+              hide={chartData.every((data) => data.radiomango === 0)}
             >
               <LabelList
-                dataKey="mangofm"
+                dataKey="radiomango"
                 position="center"
                 formatter={formatPercentage}
                 fill="#fff"
