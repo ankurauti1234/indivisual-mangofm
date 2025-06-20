@@ -10,11 +10,7 @@ export const sectorData = {
             "sum": 460,
             "brands": {
               "ARABIAN GOLD&DIAMONDS JEWELLERY": {
-                "sum": 15,
-                "products": []
-              },
-              "ARABIAN GOLD&DIAMONDS JEWELRY": {
-                "sum": 89,
+                "sum": 105,
                 "products": []
               },
               "BHIMA GOLD&DIAMONDS": {
@@ -163,11 +159,11 @@ export const sectorData = {
            
             "sum": 54,
             "brands": {
-              "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
+              "HINDUSTHAN INSTITUTE OF TECHNOLOGY": {
                 "sum": 18,
                 "products": []
               },
-              "KCG COLLEGE OF TECHONOLOGY": {
+              "KCG COLLEGE OF TECHNOLOGY": {
                 "sum": 6,
                 "products": []
               },
@@ -517,7 +513,7 @@ export const sectorData = {
             "sum": 58,
             "brands": {
               "AJMAL BISMI": {
-                "sum": 58,
+                "sum": 59,
                 "products": []
               }
             }
@@ -617,7 +613,7 @@ export const sectorData = {
             "sum": 81,
             "brands": {
               "CANARA BANK": {
-                "sum": 76,
+                "sum": 91,
                 "products": []
               },
               "SBI": {
@@ -632,10 +628,6 @@ export const sectorData = {
             "brands": {
               "BHIM": {
                 "sum": 64,
-                "products": []
-              },
-              "CANARA BANK": {
-                "sum": 15,
                 "products": []
               }
             }
@@ -1378,102 +1370,30 @@ export const sectorData = {
           },
           "PUBLIC SERVICE ADS": {
            
-            "sum": 13,
+            "sum": 422,
             "brands": {
               "GOVT OF KERALA": {
-                "sum": 4,
+                "sum": 231,
                 "products": []
               },
               "RBI": {
-                "sum": 9,
+                "sum": 26,
                 "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-BANKING": {
-           
-            "sum": 62,
-            "brands": {
+              },
+               "INFORMATION&PUBLIC RELATION DEPARTMENT": {
+                "sum": 74,
+                "products": []
+              },
               "SBI": {
                 "sum": 62,
                 "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-DEVELOPMENT": {
-           
-            "sum": 75,
-            "brands": {
-              "GOVT OF KERALA": {
-                "sum": 75,
-                "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-EXPO": {
-           
-            "sum": 57,
-            "brands": {
-              "GOVT OF KERALA": {
-                "sum": 57,
-                "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-FINANCIAL AWARENESS": {
-           
-            "sum": 17,
-            "brands": {
-              "RBI": {
-                "sum": 17,
-                "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-FOOD": {
-           
-            "sum": 10,
-            "brands": {
-              "GOVT OF KERALA": {
-                "sum": 10,
-                "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-HEALTH": {
-           
-            "sum": 83,
-            "brands": {
+              },
               "GOVT OF INDIA": {
                 "sum": 29,
                 "products": []
               },
-              "GOVT OF KERALA": {
-                "sum": 54,
-                "products": []
-              }
             }
           },
-          "PUBLIC SERVICE ADS-ROAD SAFETY": {
-           
-            "sum": 31,
-            "brands": {
-              "GOVT OF KERALA": {
-                "sum": 31,
-                "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-STATE CAMPAIGN": {
-           
-            "sum": 74,
-            "brands": {
-              "INFORMATION&PUBLIC RELATION DEPARTMENT": {
-                "sum": 74,
-                "products": []
-              }
-            }
-          }
         }
       },
       "RETAIL": {
@@ -1692,11 +1612,11 @@ export const sectorData = {
                 "sum": 8,
                 "products": []
               },
-              "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
+              "HINDUSTHAN INSTITUTE OF TECHNOLOGY": {
                 "sum": 20,
                 "products": []
               },
-              "KCG COLLEGE OF TECHONOLOGY": {
+              "KCG COLLEGE OF TECHNOLOGY": {
                 "sum": 4,
                 "products": []
               }
@@ -1964,7 +1884,7 @@ export const sectorData = {
            
             "sum": 614,
             "brands": {
-              "ARABIAN GOLD&DIAMONDS JEWELRY": {
+              "ARABIAN GOLD&DIAMONDS JEWELLERY": {
                 "sum": 153,
                 "products": []
               },
@@ -2076,11 +1996,11 @@ export const sectorData = {
            
             "sum": 95,
             "brands": {
-              "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
+              "HINDUSTHAN INSTITUTE OF TECHNOLOGY": {
                 "sum": 40,
                 "products": []
               },
-              "KCG COLLEGE OF TECHONOLOGY": {
+              "KCG COLLEGE OF TECHNOLOGY": {
                 "sum": 14,
                 "products": []
               },
@@ -2670,32 +2590,18 @@ export const sectorData = {
         "categories": {
           "BUILDING MATERIALS": {
            
-            "sum": 154,
+            "sum": 214,
             "brands": {
               "BHARTHI CEMENT": {
-                "sum": 36,
+                "sum": 76,
                 "products": []
               },
               "CHETTINAD CONSTRUCTION": {
-                "sum": 118,
+                "sum": 138,
                 "products": []
               }
             }
           },
-          "BUILDING MATERIALS-CONSTRUCTIONS": {
-           
-            "sum": 60,
-            "brands": {
-              "BHARTHI CEMENT": {
-                "sum": 40,
-                "products": []
-              },
-              "CHETTINAD CONSTRUCTION": {
-                "sum": 20,
-                "products": []
-              }
-            }
-          }
         }
       },
       "CONSUMER DURABLES": {
@@ -3128,36 +3034,22 @@ export const sectorData = {
           },
           "PUBLIC SERVICE ADS": {
            
-            "sum": 36,
+            "sum": 120,
             "brands": {
               "GOVT OF KERALA": {
-                "sum": 19,
+                "sum": 35,
                 "products": []
               },
               "RBI": {
                 "sum": 17,
                 "products": []
-              }
-            }
-          },
-          "PUBLIC SERVICE ADS-BANKING": {
-           
-            "sum": 68,
-            "brands": {
+              },
+               
               "SBI": {
                 "sum": 68,
                 "products": []
               }
-            }
-          },
-          "PUBLIC SERVICE ADS-ROAD SAFETY": {
-           
-            "sum": 16,
-            "brands": {
-              "GOVT OF KERALA": {
-                "sum": 16,
-                "products": []
-              }
+            
             }
           }
         }
@@ -3237,7 +3129,7 @@ export const sectorData = {
             "sum": 38,
             "brands": {
               "MYG FUTURE": {
-                "sum": 38,
+                "sum": 39,
                 "products": []
               }
             }
@@ -3320,18 +3212,14 @@ export const sectorData = {
            
             "sum": 46,
             "brands": {
-              "HINDUSTHAN INSTITUTE OF TECHONOLOGY": {
+              "HINDUSTHAN INSTITUTE OF TECHNOLOGY": {
                 "sum": 35,
                 "products": []
               },
               "KCG COLLEGE OF TECHNOLOGY": {
-                "sum": 9,
+                "sum":11,
                 "products": []
               },
-              "KCG COLLEGE OF TECHONOLOGY": {
-                "sum": 2,
-                "products": []
-              }
             }
           }
         }
