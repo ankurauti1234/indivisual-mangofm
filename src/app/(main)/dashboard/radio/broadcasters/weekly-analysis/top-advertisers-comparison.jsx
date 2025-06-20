@@ -199,8 +199,10 @@ export default function TopAdvertisersComparison() {
   const handleAdvertiserSelectChange = (value) => {
     if (value === "all") {
       setSelectedAdvertisers(topAdvertisers);
+      setSearchTerm(""); // Clear search term when selecting "all"
     } else {
       setSelectedAdvertisers([value]);
+      setSearchTerm(""); // Clear search term when selecting a specific advertiser
     }
   };
 
@@ -225,7 +227,6 @@ export default function TopAdvertisersComparison() {
       description={`Your Station vs. Competitors - ${selectedWeek === "week16" ? "Week 16" : "Week 17"} 2024`}
       action={
         <div className="flex gap-2 items-center justify-end">
-         
           <Select onValueChange={handleWeekSelectChange} defaultValue="week16">
             <SelectTrigger className="w-32">
               <SelectValue placeholder="Select week" />
@@ -235,66 +236,84 @@ export default function TopAdvertisersComparison() {
               <SelectItem value="week17">Week 17</SelectItem>
             </SelectContent>
           </Select>
-          <Input
-              placeholder="Search advertisers..."
-              value={searchTerm}
-              onChange={handleSearchChange}
-              className="w-48"
-            />
+          <Select onValueChange={handleAdvertiserSelectChange}>
+            <SelectTrigger className="w-48">
+              <SelectValue placeholder="Select or search advertiser" />
+            </SelectTrigger>
+            <SelectContent>
+              <div className="p-2">
+                <Input
+                  placeholder="Search advertisers..."
+                  value={searchTerm}
+                  onChange={handleSearchChange}
+                  className="mb-2"
+                />
+              </div>
+              <SelectItem value="all">All Advertisers</SelectItem>
+              {topAdvertisers
+                .filter((adv) => adv.toLowerCase().includes(searchTerm.toLowerCase()))
+                .map((adv) => (
+                  <SelectItem key={adv} value={adv}>
+                    {adv}
+                  </SelectItem>
+                ))}
+            </SelectContent>
+          </Select>
         </div>
       }
-      chart={<div className="overflow-x-auto">
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Advertiser</TableHead>
-                  <TableHead>Radio Mango</TableHead>
-                  <TableHead>Red FM</TableHead>
-                  <TableHead>Club FM</TableHead>
-                  <TableHead>Radio Mirchi</TableHead>
+      chart={
+        <div className="overflow-x-auto">
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Advertiser</TableHead>
+                <TableHead>Radio Mango</TableHead>
+                <TableHead>Red FM</TableHead>
+                <TableHead>Club FM</TableHead>
+                <TableHead>Radio Mirchi</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {paginatedData.map((row) => (
+                <TableRow key={row.advertiser}>
+                  <TableCell>{row.advertiser}</TableCell>
+                  <TableCell>{formatCurrency(row.mangofm)}</TableCell>
+                  <TableCell>{formatCurrency(row.redfm)}</TableCell>
+                  <TableCell>{formatCurrency(row.clubfm)}</TableCell>
+                  <TableCell>{formatCurrency(row.radiomirchi)}</TableCell>
                 </TableRow>
-              </TableHeader>
-              <TableBody>
-                {  paginatedData.map((row) => (
-                  <TableRow key={row.advertiser}>
-                    <TableCell>{row.advertiser}</TableCell>
-                    <TableCell>{formatCurrency(row.mangofm)}</TableCell>
-                    <TableCell>{formatCurrency(row.redfm)}</TableCell>
-                    <TableCell>{formatCurrency(row.clubfm)}</TableCell>
-                    <TableCell>{formatCurrency(row.radiomirchi)}</TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </div>
+              ))}
+            </TableBody>
+          </Table>
+        </div>
       }
       footer={
         <div className="flex w-full justify-between items-center text-sm text-gray-500">
-            <p>
-              Showing {paginatedData.length} of {totalItems} advertisers for {selectedWeek === "week16" ? "Week 16" : "Week 17"}
-            </p>
-            <div className="flex gap-2">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-              >
-                Previous
-              </Button>
-              <span>
-                Page {currentPage} of {totalPages}
-              </span>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-              >
-                Next
-              </Button>
-            </div>
+          <p>
+            Showing {paginatedData.length} of {totalItems} advertisers for {selectedWeek === "week16" ? "Week 16" : "Week 17"}
+          </p>
+          <div className="flex gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => handlePageChange(currentPage - 1)}
+              disabled={currentPage === 1}
+            >
+              Previous
+            </Button>
+            <span>
+              Page {currentPage} of {totalPages}
+            </span>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => handlePageChange(currentPage + 1)}
+              disabled={currentPage === totalPages}
+            >
+              Next
+            </Button>
           </div>
+        </div>
       }
     />
   );
